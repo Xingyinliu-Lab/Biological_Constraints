@@ -1,0 +1,17 @@
+{
+  "artifact_id": "ST05_ASSAY_REFSET_RELEASE_v0.1.0_FROZEN_20261012",
+  "status": "FROZEN",
+  "constraint_id": "C-ST-05",
+  "counts": {
+    "base_objects": 60,
+    "transforms_per_base": 16,
+    "relations": 960,
+    "source_parents": 59,
+    "dependency_clusters": 59
+  },
+  "objects_sha256": "80080ce3bbb9c4835ca879fc92d36183244bf7429e2b12575c767eef533355c5",
+  "transforms_sha256": "03c5baac161c120b7f9cc62c45c8b375511302f24f5f57c64ad2383fa5feaf17",
+  "relations_sha256": "568a9fa695c5c76a3dc3d14401ef80d36181ed8484670a47e090b554c2c6b54e",
+  "dependency_sha256": "b04c60aeab5f79bf46c05a0c911055e1bd71e061a48a4962c858e3e69ae5c11d",
+  "release_contents": "formal ST05 objects, transforms, relations, dependency assignments, and attrition table"
+}

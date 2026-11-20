@@ -1,0 +1,61 @@
+{
+  "model_id": "rinalmo-giga",
+  "domain": "rna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/lbcb-sci/RiNALMo",
+  "upstream_revision": "2c2c5c14a5ae609d8c560a5d9ca32e51e0288955",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "cd93c3f21eb3e767373c9491192686b5846247bd1110693e453c1dd0f321c0db",
+      "source": "results/rna/RNA01-02/models/rinalmo-giga/provenance/cal1.npz.metrics.json",
+      "field": "weight_sha256"
+    },
+    {
+      "value": "cd93c3f21eb3e767373c9491192686b5846247bd1110693e453c1dd0f321c0db",
+      "source": "results/rna/RNA01-02/models/rinalmo-giga/provenance/cal2.npz.metrics.json",
+      "field": "weight_sha256"
+    },
+    {
+      "value": "cd93c3f21eb3e767373c9491192686b5846247bd1110693e453c1dd0f321c0db",
+      "source": "results/rna/RNA01-02/models/rinalmo-giga/provenance/rinalmo_official.npz.metrics.json",
+      "field": "weight_sha256"
+    },
+    {
+      "value": "cd93c3f21eb3e767373c9491192686b5846247bd1110693e453c1dd0f321c0db",
+      "source": "results/rna/RNA09/models/rinalmo-giga/provenance/rinalmo_official.npz.metrics.json",
+      "field": "weight_sha256"
+    },
+    {
+      "value": "cd93c3f21eb3e767373c9491192686b5846247bd1110693e453c1dd0f321c0db",
+      "source": "results/rna/RNA09/models/rinalmo-giga/provenance/rinalmo_official_repeat.npz.metrics.json",
+      "field": "weight_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "RiNALMo tokenizer/config are defined by the pinned executed repository revision and the recorded checkpoint file.",
+  "download": {
+    "source": "https://github.com/lbcb-sci/RiNALMo",
+    "method": "official rinalmo.pretrained.get_pretrained_model('giga-v1') loader populated ~/.cache/rinalmo_pretrained/giga-v1.pt; formal runs pinned repository commit 2c2c5c14a5ae609d8c560a5d9ca32e51e0288955"
+  },
+  "loading": "from rinalmo.pretrained import get_pretrained_model; model, alphabet = get_pretrained_model('giga-v1'); model.eval().to(device); exclude boundary tokens and reconstruct nucleotide coordinates before pooling",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/fd/m2_rna/jobs/rna09_closure_20261005/rinalmo_official/repo",
+    "/home/mik/.cache/rinalmo_pretrained/giga-v1.pt"
+  ],
+  "formal_evidence_files": [
+    "results/rna/RNA01-02/models/rinalmo-giga/cal1.npz.metrics.json",
+    "results/rna/RNA01-02/models/rinalmo-giga/cal2.npz.metrics.json",
+    "results/rna/RNA01-02/models/rinalmo-giga/provenance/cal1.npz.metrics.json",
+    "results/rna/RNA01-02/models/rinalmo-giga/provenance/cal2.npz.metrics.json",
+    "results/rna/RNA01-02/models/rinalmo-giga/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA01-02/models/rinalmo-giga/provenance/rinalmo_official.npz.metrics.json",
+    "results/rna/RNA04/models/rinalmo-giga/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA05/models/rinalmo-giga/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA06/models/rinalmo-giga/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/rinalmo-giga/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/rinalmo-giga/provenance/rinalmo_official.npz.metrics.json",
+    "results/rna/RNA09/models/rinalmo-giga/provenance/rinalmo_official_repeat.npz.metrics.json",
+    "results/rna/RNA09/models/rinalmo-giga/rinalmo_official.npz.metrics.json",
+    "results/rna/RNA09/models/rinalmo-giga/rinalmo_official_repeat.npz.metrics.json"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "constraint_id": "PS02A",
+  "constraint_release": "PS02A_v1.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/SCORE_SUMMARY.json",
+    "sha256": "2756b2f2ae64318dc6832d67f4ef74317d03bf8503ecb96f4c6ec5e1a2ad67ed"
+  },
+  "model_id": "prott5",
+  "numeric_differences": {
+    "F": 0.0,
+    "F_CI_high": 0.0,
+    "F_CI_low": 0.0
+  },
+  "output_manifest_sha256": "3eb35cb426aef089893f6a05d02f8bab18cee46d9fa80fcdaaea4c155335f16c",
+  "public_formal_scorer_sha256": "6be3f8404301f9f86dfe560d6fb86e9cadb60dfe55e382be70e772d45c10ed41",
+  "public_scorer": "constraints/protein_sequence/PS02A/scoring/score_ps02a.py",
+  "public_scorer_sha256": "8be206b3e7e89eb5c5de10cc6939f7fd95d1dd3ad8ea3839e0681008ad431125",
+  "status": "PASS"
+}

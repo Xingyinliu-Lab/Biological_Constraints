@@ -1,0 +1,21 @@
+{
+  "F": 0.5683341928829293,
+  "F_95_CI": [
+    0.5415162454873647,
+    0.5946364105208871
+  ],
+  "companion_id": "DNA06_RAW_CODON_RIDGE",
+  "constraint_id": "DNA06",
+  "feature_dimension": 139,
+  "forbidden_label_or_amino_acid_features": true,
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "DNA06_v0.1.3_F_ONLY",
+  "selected_lambda_by_outer_fold": {
+    "0": 10.0,
+    "1": 1.0,
+    "2": 100.0,
+    "3": 100.0,
+    "4": 100.0
+  },
+  "status": "REPORTED"
+}

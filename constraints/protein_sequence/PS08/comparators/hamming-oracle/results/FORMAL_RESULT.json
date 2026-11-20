@@ -1,0 +1,52 @@
+{
+  "kind": "EXACT_HAMMING_ORACLE",
+  "formal_result": true,
+  "F": 1.0,
+  "F_95_CI": [
+    1.0,
+    1.0
+  ],
+  "counts": {
+    "leaf": 4096,
+    "first_edit": 4096,
+    "source_parent": 4096,
+    "source_unit": 4096,
+    "overall": 1
+  },
+  "seed": 20261002,
+  "draws": 20000,
+  "delta_num": 0.0,
+  "bootstrap": "source_unit with replacement",
+  "leaf_ledger_sha256": "61151ccb264a05c648c1e999b3ffd9f6857a80046edc7c7d15798c6cfaf2544f",
+  "population_identity_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+  "population_validation": {
+    "population_file_sha256": "798373b003ba4af39fa13f8c292351154673272100d83d8102a07d83e9a4ebe9",
+    "registered_population_file_sha256": "798373b003ba4af39fa13f8c292351154673272100d83d8102a07d83e9a4ebe9",
+    "registered_population_bytes_match": true,
+    "declared_population_identity_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+    "registered_population_identity_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+    "declared_population_identity_match": true,
+    "registered_population_identity_match": true,
+    "semantic_population_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+    "leaf_count": 4096,
+    "object_count": 12288,
+    "sequence_validation": {
+      "endpoint_fasta_sha256": "d5d8f39575f5b071278a223875570e32e9b4e3a321b5abba416e28f074445ea4",
+      "endpoint_count": 12288,
+      "hamming_relation": "H(x0,x1)=1;H(x1,x2)=1;H(x0,x2)=2",
+      "status": "PASS"
+    }
+  },
+  "individual_scores": {
+    "path": "INDIVIDUAL_SCORES.tsv",
+    "sha256": "06f66d74a4d41e32f7865644e40ad7c9f29d88e1d1d7e9eb6c8672533d1f71d3",
+    "rows": 4096
+  },
+  "bootstrap_F_float64le_sha256": "c4d6b891e36e9ffc6f27915a86785de503d347aa165ec12b4ec410b5f74928cf",
+  "status": "FORMAL_COMPLETE",
+  "method": "EXACT_HAMMING_ORACLE",
+  "formal_leaf_sha256": "61151ccb264a05c648c1e999b3ffd9f6857a80046edc7c7d15798c6cfaf2544f",
+  "endpoint_fasta_sha256": "d5d8f39575f5b071278a223875570e32e9b4e3a321b5abba416e28f074445ea4",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS08_v0.1.2_F_ONLY"
+}

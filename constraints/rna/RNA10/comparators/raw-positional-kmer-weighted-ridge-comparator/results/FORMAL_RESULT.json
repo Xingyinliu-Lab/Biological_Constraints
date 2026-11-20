@@ -1,0 +1,33 @@
+{
+  "F": 0.33119648869648866,
+  "F_95_CI": [
+    0.15502284752284745,
+    0.5034084896584896
+  ],
+  "F_bootstrap_file": "F_BOOTSTRAP_DRAWS.json",
+  "F_bootstrap_sha256": "1fd6dea52dacde8800a98889535bac929de59dab336d29d53e8e1d373629ce0f",
+  "blocks": 60,
+  "constraint_id": "C-RNA-10",
+  "effective_evaluation_lineage": {
+    "numeric_method_sha256": "3e8a061f68e66a3d7c4340c315c4690fb0511eb17a035cfbb8d5e4d76f4d85eb",
+    "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+    "runplan_sha256": "70b4bc4edf9d2bea3d25df27644a0141f5ec3c25662c03cb85b311d1ea83b81f",
+    "split_release_sha256": "d8274f0efa97413b9a44c1685f8e094feb5caeb011cab1588fd6530c6613952c"
+  },
+  "evaluation_class": "FORMAL_PROTOCOL_EVALUATION",
+  "formal_interface": "F_ONLY",
+  "formal_scoring_protocol": true,
+  "measurement_ledger_sha256": "1feff47f3d046b3511310cc43d0555b2cdd0826e66329c6b45b8e6d72244866c",
+  "model_id": "raw_positional_kmer_weighted_ridge",
+  "registered_paper_result": false,
+  "score_transform_version": "RNA10_F_ONLY_v1",
+  "source_dependency_units": 60,
+  "status": "PASS",
+  "supplied_measurement_lineage": {
+    "numeric_method_sha256": "3e8a061f68e66a3d7c4340c315c4690fb0511eb17a035cfbb8d5e4d76f4d85eb",
+    "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+    "runplan_sha256": "70b4bc4edf9d2bea3d25df27644a0141f5ec3c25662c03cb85b311d1ea83b81f",
+    "split_release_sha256": "d8274f0efa97413b9a44c1685f8e094feb5caeb011cab1588fd6530c6613952c"
+  },
+  "uncertainty_dependency_clusters": 60
+}

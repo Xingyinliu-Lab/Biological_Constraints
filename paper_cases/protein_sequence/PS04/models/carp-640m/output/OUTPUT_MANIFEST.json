@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "AGGREGATION_TRACE.jsonl.gz",
+      "bytes": 165199,
+      "sha256": "8a5edbef90561b086babc3bc1d710bbdc46e324ca27874778739c8e0b1a8ab1b"
+    },
+    {
+      "path": "FORMAL_RESULT.json",
+      "bytes": 3096,
+      "sha256": "1f2bb00f8bfc01bf8e44cbfd46e01a4bea2a064875728cdccf1c637db0982a18"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "model_id": "rinalmo-giga",
+  "domain": "rna",
+  "evidence_status": "READ_ONLY_VERIFIED_ON_EXECUTION_HOST",
+  "verified_on": "kt",
+  "verified_date": "2026-10-16",
+  "executed_python": "/home/mik/fd/m2_rna/jobs/rna09_closure_20261005/rinalmo_official/venv/bin/python",
+  "python_version": "3.11.16",
+  "cuda_runtime_reported_by_torch": "12.1",
+  "installed_packages_used_or_relevant_to_the_forward": {
+    "numpy": "1.26.4",
+    "torch": "2.1.2"
+  },
+  "imports_observed_in_public_execution_assets": [
+    "numpy",
+    "rinalmo",
+    "torch"
+  ],
+  "checkpoint_identity": "checkpoint_identity.json",
+  "scope_note": "This records the extant environment used by the published forward. It is not a newly solved cross-model environment."
+}

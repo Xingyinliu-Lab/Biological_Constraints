@@ -1,0 +1,24 @@
+{
+  "F": 1.0,
+  "F_95_CI": null,
+  "artifact_id": "ST05_RIGID_GEOMETRY_WHITEBOX_F_ONLY_RESULT_v0.1.2",
+  "counts": {
+    "bases": 60,
+    "dependency_clusters": 59,
+    "relations": 960
+  },
+  "formal_interface": "F_ONLY",
+  "ledger_sha256": "100a7240c649ed836d2a750daddae465fd394fabd939b8d646644c6959854aca",
+  "normalized_residual_summary": {
+    "max": 0.5756899506768545,
+    "median": 3.094738774250351e-12,
+    "min": 0.0
+  },
+  "residual_summary": {
+    "max": 0.034175110624245525,
+    "median": 1.8371527882344932e-13,
+    "min": 0.0
+  },
+  "role": "LEVEL_0_ANALYTICAL_WHITEBOX_REFERENCE",
+  "status": "PASS"
+}

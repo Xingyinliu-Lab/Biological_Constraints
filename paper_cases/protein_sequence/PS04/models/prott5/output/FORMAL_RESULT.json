@@ -1,0 +1,73 @@
+{
+  "F": 0.28245588186372816,
+  "F_95_CI": [
+    0.17602586930141095,
+    0.39789201877907
+  ],
+  "artifact_id": "PS04_FORMAL_RESULT_v1.0.2_F_ONLY",
+  "binding_sha256": "28c7be52776ad31b32e3e1d3bad432c1804e0a779e7e186be7a3114f9be5f083",
+  "bootstrap_unit_count": 2728,
+  "code_sha256": {
+    "ps04_anchor_source_unit_bootstrap.py": "d127b6ca9163d0e10c6620e20aac6032c0df03207d474ec07547dd2aaf5fa4ab",
+    "ps04_formal_population_gate.py": "43e8cbc02b48513103c53213b663a909b36be1de801374c47fc6b8ca304047e6",
+    "ps04_scoring_core.py": "a3a564eb66e2bc3a958802fc208fe085fbbc39d0081cfd1cfb4dbe962515f773",
+    "score_ps04_formal.py": "ddcfdeb24489c74e0d89649efbe790ce7c4abe05b3cd6eb59175a6387846e43c"
+  },
+  "coverage": {
+    "formal_evaluation_units": 1750186,
+    "scored_evaluation_units": 1750186,
+    "status": "COMPLETE"
+  },
+  "delta_num": 0,
+  "draws": 20000,
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "input_refset_status": "REGISTERED_RELEASE_BYTES",
+  "model_id": "prott5",
+  "point_reconstruction_F": 0.28245588186372794,
+  "population_gate": {
+    "formal_relation_ledger_sha256": "293e77509218eb571f758d19186362bae514593bb01777364d26f07569b2616e",
+    "leaf_ledger_sha256": "f042b1e59d647e4ed8789a1b46198f52e14cbe69297677dade184087277782a1",
+    "relation_count": 1750186,
+    "status": "PASS"
+  },
+  "refset_input_identity": {
+    "endpoint_reuse_ledger_sha256": {
+      "actual_sha256": "a3815ba4971238954130359a5b2fed816a3cd6391e3a7930b8a493c172d2c2ba",
+      "registered_byte_identity": true,
+      "registered_sha256": "a3815ba4971238954130359a5b2fed816a3cd6391e3a7930b8a493c172d2c2ba"
+    },
+    "formal_relation_ledger_sha256": {
+      "actual_sha256": "293e77509218eb571f758d19186362bae514593bb01777364d26f07569b2616e",
+      "registered_byte_identity": true,
+      "registered_sha256": "293e77509218eb571f758d19186362bae514593bb01777364d26f07569b2616e"
+    },
+    "uncertainty_membership_sha256": {
+      "actual_sha256": "007c4a3806bba20a7fc6421b48c99ad01e00c5fa37749d22383006c8fbf473ce",
+      "registered_byte_identity": true,
+      "registered_sha256": "007c4a3806bba20a7fc6421b48c99ad01e00c5fa37749d22383006c8fbf473ce"
+    }
+  },
+  "refset_release_id": "PS04_ASSAY_REFSET_RELEASE_v1.0.1_L_4K_20261007",
+  "registered_refset_byte_identity": true,
+  "reuse_sensitivity": {
+    "F": 0.27781885707679455,
+    "bootstrap": "NOT_RUN_SENSITIVITY_POINT_ESTIMATE_ONLY",
+    "endpoint_reuse_ledger_sha256": "a3815ba4971238954130359a5b2fed816a3cd6391e3a7930b8a493c172d2c2ba",
+    "high_reuse_endpoint_count": 1137,
+    "high_reuse_endpoint_count_by_role": {
+      "negative": 677,
+      "positive": 460
+    },
+    "input_leaf_count": 1750186,
+    "kind": "LEAVE_HIGH_REUSE_ENDPOINT_OUT",
+    "retained_leaf_count": 213853,
+    "reuse_definition": "frozen_anchor_bundle_reuse_count",
+    "status": "COMPLETE",
+    "threshold": 100
+  },
+  "rng": "numpy.random.Generator(PCG64)",
+  "score_transform_version": "PS04_v1.0.2_F_ONLY",
+  "seed": 20261007,
+  "status": "FORMAL_EXECUTION_COMPLETE"
+}

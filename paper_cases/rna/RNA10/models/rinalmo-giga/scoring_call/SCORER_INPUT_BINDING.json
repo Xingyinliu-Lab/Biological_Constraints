@@ -1,0 +1,19 @@
+{
+  "assay_id": "C-RNA-10",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "66cf8dfc2bd0a86e66758cb35a5c72c973b0ace34b476d242925ed66fb7d5622"
+  },
+  "forward_output": {
+    "bytes": 2425106,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "fb157816caa05ae36597c2469536761db7421368b56465f4ca6b65fed3bb23f9"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "rinalmo-giga",
+  "public_scorer": "constraints/rna/RNA10/scoring/score_rna10.py",
+  "public_scorer_sha256": "667c0f4c5aec2a679fc334d43e262443a024446c8cecfb1518836448b35561e2",
+  "status": "PASS"
+}

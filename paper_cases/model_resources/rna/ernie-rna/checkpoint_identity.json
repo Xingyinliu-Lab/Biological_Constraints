@@ -1,0 +1,59 @@
+{
+  "model_id": "ernie-rna",
+  "domain": "rna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/Bruce-ywj/ERNIE-RNA",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "10de02fd6d0034cd2e6987abffb3abafad75ac0c7420697d0572c45c4fac1bfb",
+      "source": "results/rna/RNA01-02/models/ernie-rna/provenance/cal1.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "10de02fd6d0034cd2e6987abffb3abafad75ac0c7420697d0572c45c4fac1bfb",
+      "source": "results/rna/RNA01-02/models/ernie-rna/provenance/cal2.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "10de02fd6d0034cd2e6987abffb3abafad75ac0c7420697d0572c45c4fac1bfb",
+      "source": "results/rna/RNA01-02/models/ernie-rna/provenance/ernie_boundary_overlap.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "10de02fd6d0034cd2e6987abffb3abafad75ac0c7420697d0572c45c4fac1bfb",
+      "source": "results/rna/RNA01-02/models/ernie-rna/provenance/ernie_l16k.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "10de02fd6d0034cd2e6987abffb3abafad75ac0c7420697d0572c45c4fac1bfb",
+      "source": "results/rna/RNA09/models/ernie-rna/provenance/ernie_rna.npz.metrics.json",
+      "field": "weights_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "Tokenizer and remote-code-compatible config are contained in the executed ERNIE-RNA-HF directory; checkpoint file identity is recorded above.",
+  "download": {
+    "method": "formal execution reused the frozen ERNIE-RNA-HF compatibility directory",
+    "note": "The local directory contains the executed checkpoint plus remote-code-compatible tokenizer/model files."
+  },
+  "loading": "AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True); AutoModel.from_pretrained(model_dir, trust_remote_code=True, attn_implementation='eager').eval().to(device); exclude CLS/EOS/pad and pool nucleotide states",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/fd/m2_rna/models/ERNIE-RNA-HF",
+    "/home/mik/fd/m2_rna/models/ERNIE-RNA-HF/pytorch_model.bin"
+  ],
+  "formal_evidence_files": [
+    "results/rna/RNA01-02/models/ernie-rna/ernie_boundary_overlap.npz.metrics.json",
+    "results/rna/RNA01-02/models/ernie-rna/provenance/cal1.npz.metrics.json",
+    "results/rna/RNA01-02/models/ernie-rna/provenance/cal2.npz.metrics.json",
+    "results/rna/RNA01-02/models/ernie-rna/provenance/ernie_boundary_overlap.npz.metrics.json",
+    "results/rna/RNA01-02/models/ernie-rna/provenance/ernie_l16k.npz.metrics.json",
+    "results/rna/RNA01-02/models/ernie-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA04/models/ernie-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA05/models/ernie-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA06/models/ernie-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/ernie-rna/ernie_rna.npz.metrics.json",
+    "results/rna/RNA09/models/ernie-rna/provenance/ernie_rna.npz.metrics.json",
+    "results/rna/RNA09/models/ernie-rna/provenance/EXECUTION_BINDING.json"
+  ]
+}

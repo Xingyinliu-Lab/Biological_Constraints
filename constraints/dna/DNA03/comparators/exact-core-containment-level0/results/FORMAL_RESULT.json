@@ -1,0 +1,49 @@
+{
+  "F": 1.0,
+  "F_95_CI": [
+    1.0,
+    1.0
+  ],
+  "bootstrap": {
+    "ci": "PERCENTILE_95",
+    "draws": 20000,
+    "seed": 20261014,
+    "unit": "DEPENDENCY_CLUSTER"
+  },
+  "comparator_class": "LEVEL_0_GEOMETRIC_TRUTH",
+  "comparator_id": "EXACT_CORE_CONTAINMENT_LEVEL0",
+  "constraint_id": "C-DNA-03",
+  "counts": {
+    "dependency_clusters": 278,
+    "pairs": 35840,
+    "queries": 1120,
+    "transitions": 4
+  },
+  "coverage": {
+    "expected_pairs": 35840,
+    "scored_pairs": 35840,
+    "unscored_pairs": 0
+  },
+  "evaluation_class": "FORMAL_COMPARATOR_REFERENCE",
+  "formal_interface": "F_ONLY",
+  "formal_readout": "CORE_LOCAL_NUCLEOTIDE_COORDINATE",
+  "formal_scoring_protocol": true,
+  "input_sha256": {
+    "DNA03_FORWARD_VIEWS.fasta": "c5db0ea1abee422b66b0284476a94bcae2d61ca6db9a54a842ad7551fad97362",
+    "PRIMARY_NEGATIVE.tsv": "b38051c94ce140eebfe5bd7a25f3260451ec029646aebcd0a0aee00f36de62bb",
+    "PRIMARY_QUERY.tsv": "887f090d057740057dbdac6c5f47eb25d4bfd833dbfe2f7bfa1f58162379b185"
+  },
+  "score_transform_version": "DNA03_v0.2.6_F_ONLY",
+  "status": "PASS",
+  "transition_F": {
+    "core100_to_1000": 1.0,
+    "core100_to_2000": 1.0,
+    "core100_to_250": 1.0,
+    "core100_to_500": 1.0
+  },
+  "truth_checks": {
+    "all_pair_credits_one": true,
+    "negative_noncontainment_all": true,
+    "positive_containment_all": true
+  }
+}

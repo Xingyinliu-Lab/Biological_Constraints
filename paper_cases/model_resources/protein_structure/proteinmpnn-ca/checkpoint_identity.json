@@ -1,0 +1,64 @@
+{
+  "model_id": "proteinmpnn-ca",
+  "domain": "protein_structure",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/dauparas/ProteinMPNN",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a",
+      "source": "results/protein_structure/ST01/models/proteinmpnn-ca/provenance/EXECUTION_BINDING.json",
+      "field": "checkpoint.sha256"
+    },
+    {
+      "value": "f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a",
+      "source": "results/protein_structure/ST02/models/proteinmpnn-ca/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a",
+      "source": "results/protein_structure/ST02/models/proteinmpnn-ca/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a",
+      "source": "results/protein_structure/ST04/models/proteinmpnn-ca/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a",
+      "source": "results/protein_structure/ST04/models/proteinmpnn-ca/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a",
+      "source": "results/protein_structure/ST05/models/proteinmpnn-ca/provenance/FORWARD_LINEAGE.json",
+      "field": "files.2.sha256",
+      "asset_context": "/home/mik/u8t/ai_genome/third_models_20260914/ProteinMPNN/ca_model_weights/v_48_020.pt 6624011 f28f40170e21858c5ff31ef50b6e63414ff76dc331b19f85aa8586a12031744a"
+    }
+  ],
+  "tokenizer_config_identity": "ProteinMPNN-CA uses the executed repository code and checkpoint-defined architecture; no separate tokenizer artifact was used.",
+  "download": {
+    "source": "https://github.com/dauparas/ProteinMPNN",
+    "method": "official ProteinMPNN repository asset ca_model_weights/v_48_020.pt copied into the frozen third-model deployment"
+  },
+  "loading": "torch.load(weights, map_location=device); construct ProteinMPNN CA-only encoder with checkpoint hyperparameters; model.load_state_dict(checkpoint['model_state_dict']); sequence features disabled; encoder residue states pooled",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/third_models_20260914/ProteinMPNN",
+    "/home/mik/u8t/ai_genome/third_models_20260914/ProteinMPNN/ca_model_weights/v_48_020.pt"
+  ],
+  "formal_evidence_files": [
+    "results/protein_structure/ST01/models/proteinmpnn-ca/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/proteinmpnn-ca/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/proteinmpnn-ca/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST04/models/proteinmpnn-ca/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/proteinmpnn-ca/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST04/models/proteinmpnn-ca/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/proteinmpnn-ca/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST05/models/proteinmpnn-ca/provenance/FORWARD_LINEAGE.json",
+    "results/protein_structure/ST05/models/proteinmpnn-ca/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST05/models/proteinmpnn-ca/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST05/models/proteinmpnn-ca/provenance/MODEL_INTERFACE.json"
+  ]
+}

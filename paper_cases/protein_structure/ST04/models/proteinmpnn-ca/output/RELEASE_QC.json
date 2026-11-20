@@ -1,0 +1,36 @@
+{
+  "constant_representation": {
+    "pass": true,
+    "tests": [
+      {
+        "F": 0.0,
+        "cluster_count": 562,
+        "constant_value": 0.0,
+        "contrast_count": 152180,
+        "pass": true,
+        "query_count": 73568,
+        "tie_count": 152180
+      },
+      {
+        "F": 0.0,
+        "cluster_count": 562,
+        "constant_value": 3.14,
+        "contrast_count": 152180,
+        "pass": true,
+        "query_count": 73568,
+        "tie_count": 152180
+      }
+    ]
+  },
+  "coordinate_truth_oracle": {
+    "F": 1.0,
+    "relations_checked": 152180,
+    "violations": 0
+  },
+  "pair_symmetry": {
+    "directed_pair_features_checked": 304360,
+    "max_abs_difference": 0.0,
+    "violations": 0
+  },
+  "status": "PASS"
+}

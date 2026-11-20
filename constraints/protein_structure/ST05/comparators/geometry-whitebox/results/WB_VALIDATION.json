@@ -1,0 +1,10 @@
+{
+  "artifact_id": "ST05_RIGID_GEOMETRY_WHITEBOX_F_ONLY_VALIDATION_v0.1.2",
+  "complete_panel_checks": 60,
+  "coordinate_hash_checks": 1920,
+  "coordinate_scope_order_checks": 960,
+  "failed_relations": 0,
+  "nonfinite_values": 0,
+  "proper_rotation_checks": 960,
+  "status": "PASS"
+}

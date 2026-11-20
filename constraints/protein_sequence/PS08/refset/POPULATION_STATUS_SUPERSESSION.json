@@ -1,0 +1,8 @@
+{
+  "kind": "PS08_LIGHT_POPULATION_STATUS_SUPERSESSION",
+  "formal_authority_release_id": "PS08_ASSAY_REFSET_RELEASE_v1.0.0_20261008",
+  "formal_authority_release_archive_sha256": "6940c383e20cedcbfc165cd03f49816e417c5f268adb6422fee76d95485519c5",
+  "population_identity_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+  "legacy_manifest_status": "DEVELOPMENT_NOT_FORMAL_RELEASE",
+  "supersession_statement": "The packaged development manifest is byte-identical in membership and population identity to the manifest promoted under PS08 AssayRefSetRelease v1.0.0. Its embedded legacy status is superseded by the formal release authority; no member, sequence, or score is changed."
+}

@@ -1,0 +1,156 @@
+{
+  "F": 0.6308434852933174,
+  "F_95_CI": [
+    0.49248977387304294,
+    0.7647154530368712
+  ],
+  "comparator_id": "tango-2.3.1",
+  "constraint_id": "PS10",
+  "coverage": {
+    "folds": 22,
+    "heldout_prediction_rows": 1609,
+    "records": 2031
+  },
+  "formal_interface": "F_ONLY",
+  "ledger_sha256": "540761134a24c122533438ec68a77bb934085acbbb60be634b518c197518f4c7",
+  "numeric_method_sha256": "bf48dfb30f09ecacb43a42aa1262d4629267dd57a874ca8b7f494ded92e08adc",
+  "records_sha256": "c988e89f50d92ecdda8805ba82ae7f9f95483eea5bd342bdcedfd7e41c9a0dff",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "scores_sha256": "2600473e9e67527bd7cead552a834b5aa019fe0c8d22533ac84f2cb962d8c335",
+  "specification_sha256": "62d2bf96d7948a2847508dc5411e331c30a93ae10813018bd5b58acf000baf90",
+  "status": "PASS",
+  "fold_F": [
+    {
+      "fold_id": "STUDY-01",
+      "heldout_auc": "1.0",
+      "test_records": 5,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-02",
+      "heldout_auc": "0.75",
+      "test_records": 5,
+      "fold_F": "0.5"
+    },
+    {
+      "fold_id": "STUDY-03",
+      "heldout_auc": "1.0",
+      "test_records": 20,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-04",
+      "heldout_auc": "0.5",
+      "test_records": 5,
+      "fold_F": "0.0"
+    },
+    {
+      "fold_id": "STUDY-05",
+      "heldout_auc": "0.75",
+      "test_records": 6,
+      "fold_F": "0.5"
+    },
+    {
+      "fold_id": "STUDY-06",
+      "heldout_auc": "0.9083333333333333",
+      "test_records": 16,
+      "fold_F": "0.8166666666666667"
+    },
+    {
+      "fold_id": "STUDY-07",
+      "heldout_auc": "0.8555555555555555",
+      "test_records": 72,
+      "fold_F": "0.711111111111111"
+    },
+    {
+      "fold_id": "STUDY-08",
+      "heldout_auc": "0.6396895787139689",
+      "test_records": 244,
+      "fold_F": "0.27937915742793784"
+    },
+    {
+      "fold_id": "STUDY-09",
+      "heldout_auc": "0.75",
+      "test_records": 6,
+      "fold_F": "0.5"
+    },
+    {
+      "fold_id": "STUDY-10",
+      "heldout_auc": "0.5",
+      "test_records": 13,
+      "fold_F": "0.0"
+    },
+    {
+      "fold_id": "STUDY-11",
+      "heldout_auc": "0.5876623376623378",
+      "test_records": 179,
+      "fold_F": "0.17532467532467555"
+    },
+    {
+      "fold_id": "STUDY-12",
+      "heldout_auc": "1.0",
+      "test_records": 3,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-13",
+      "heldout_auc": "0.7727272727272727",
+      "test_records": 12,
+      "fold_F": "0.5454545454545454"
+    },
+    {
+      "fold_id": "STUDY-14",
+      "heldout_auc": "0.7416666666666667",
+      "test_records": 17,
+      "fold_F": "0.4833333333333334"
+    },
+    {
+      "fold_id": "STUDY-15",
+      "heldout_auc": "0.7307692307692308",
+      "test_records": 16,
+      "fold_F": "0.4615384615384617"
+    },
+    {
+      "fold_id": "STUDY-16",
+      "heldout_auc": "1.0",
+      "test_records": 7,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-17",
+      "heldout_auc": "1.0",
+      "test_records": 3,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-18",
+      "heldout_auc": "0.9005847953216375",
+      "test_records": 28,
+      "fold_F": "0.801169590643275"
+    },
+    {
+      "fold_id": "STUDY-19",
+      "heldout_auc": "1.0",
+      "test_records": 18,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-20",
+      "heldout_auc": "1.0",
+      "test_records": 8,
+      "fold_F": "1.0"
+    },
+    {
+      "fold_id": "STUDY-21",
+      "heldout_auc": "0.8571428571428572",
+      "test_records": 10,
+      "fold_F": "0.7142857142857144"
+    },
+    {
+      "fold_id": "STUDY-22",
+      "heldout_auc": "0.6951467103336262",
+      "test_records": 916,
+      "fold_F": "0.39029342066725237"
+    }
+  ]
+}

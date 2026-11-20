@@ -1,0 +1,15 @@
+{
+  "artifact_id": "PS04_L_4K_CANDIDATE_LINEAGE_v1.0.0_20261007",
+  "candidate_manifest_sha256": "2db3359b13f680bb305848ced71dc03846868cec536803664072154cd8cf6ead",
+  "candidate_path": "/home/mik/u8t/ai_genome/biological_constraints/rs_ps04_assay_refset_s_l_v0.1.0_20261001/L_4K",
+  "candidate_payload_sha256": {
+    "COMPLETE_BUNDLE_LEDGER.tsv.gz": "5f7e69ca43128fe4f44a37a1f9e2bf64a9b2e9ca00256e5a162488fd1243567e",
+    "INPUT_PINS.json": "fcd776436baf7523e59d6d77ac0e6883d0429d7c77cebf53218a541a35b549ab",
+    "LEAF_RELATION_LEDGER.tsv.gz": "293e77509218eb571f758d19186362bae514593bb01777364d26f07569b2616e",
+    "MANIFEST.json": "2db3359b13f680bb305848ced71dc03846868cec536803664072154cd8cf6ead",
+    "MATERIALIZATION_REPORT.json": "1dd1ee924890318592ab7393d2a283ccc06ce385ea8a7356be17c4b63a852960",
+    "OBJECT_LEDGER.tsv.gz": "26ec9af40998b3a340b82e5f6cb34098faf79ee4682efed62fee9329b673e0ab",
+    "SOURCE_DEPENDENCY_MEMBERSHIP.tsv.gz": "89e858c678b83c1266fdae98a2a2a0f5313aa759fce59cd4ed99bafbd6caa2ab"
+  },
+  "formalization": "candidate payloads copied without membership alteration; formal point and uncertainty membership added from frozen authority"
+}

@@ -1,0 +1,20 @@
+{
+  "artifact_type": "RNA09_NUMERIC_METHOD",
+  "method_id": "RNA09_INTRINSIC_SAFE_COSINE_F_ONLY_v0.1.3",
+  "formal_interface": "F_ONLY",
+  "measurement": {
+    "similarity": "safe cosine; nonfinite rejected; zero norm returns 0.0",
+    "contrast": "cos(anchor,positive)-cos(anchor,negative)",
+    "F_credit": "1 if contrast>0; 0 if contrast==0; -1 if contrast<0",
+    "tau_h": 0.0
+  },
+  "aggregation": "negative -> positive -> anchor -> source parent -> source dependency unit -> one structure relation group -> F; equal immediate child mean",
+  "planned_population_identity_sha256": "5d7b4584f47aa3dc3f4589380bc0d5ec41ed0ccbdd1f0c4d5a7fe98f139c9c33",
+  "runtime_population_shrink": false,
+  "uncertainty": {
+    "unit": "anchor-side source_dependency_unit_id",
+    "seed": 20261004,
+    "draws": 20000,
+    "interval": "two-sided percentile 95%"
+  }
+}

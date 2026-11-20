@@ -1,0 +1,20 @@
+{
+  "constraint_id": "PS02A",
+  "constraint_release": "PS02A_v1.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/SCORE_SUMMARY.json",
+    "sha256": "bd29aaf3040a4e1243581976412c2c4a32c9ddc8a1e0995e78961a997e912ada"
+  },
+  "model_id": "carp-640m",
+  "numeric_differences": {
+    "F": 0.0,
+    "F_CI_high": 0.0,
+    "F_CI_low": 0.0
+  },
+  "output_manifest_sha256": "9558866b426f12d5a8c7de71e500bc51b6d641e5912bfbca437ca68ef08c2b19",
+  "public_formal_scorer_sha256": "6be3f8404301f9f86dfe560d6fb86e9cadb60dfe55e382be70e772d45c10ed41",
+  "public_scorer": "constraints/protein_sequence/PS02A/scoring/score_ps02a.py",
+  "public_scorer_sha256": "8be206b3e7e89eb5c5de10cc6939f7fd95d1dd3ad8ea3839e0681008ad431125",
+  "status": "PASS"
+}

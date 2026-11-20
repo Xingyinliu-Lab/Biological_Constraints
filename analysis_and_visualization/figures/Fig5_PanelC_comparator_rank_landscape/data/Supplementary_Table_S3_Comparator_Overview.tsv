@@ -1,0 +1,23 @@
+Constraint	Short_name	Comparator	Measured_relation
+DNA01	Reverse Complement	4-mer RC permutation	4-mer frequency geometry under reverse complementation
+DNA02-02	DNA Edit Adjacency	Hamming Level-0	Exact 1/1/2 edit-distance ordering
+DNA03	Context Extension	Exact core containment Level-0	Identity of the shared core across contexts
+DNA06	Codon Consequence	Standard genetic code (Table 1)	Synonymous versus missense consequence
+RNA01-02	RNA Edit Adjacency	Exact Hamming	Exact 1/1/2 RNA-edit ordering
+RNA04	RNA Coding Consequence	Raw CDS genetic code	Synonymous versus missense CDS variants
+RNA05	Pairing State	ViennaRNA pairing propensity	Paired versus unpaired nucleotide propensity
+RNA06	Partner Specificity	ViennaRNA partner probability	True partner versus matched nonpartner probability
+RNA09	Remote RNA Structure	RNApaln	Sequence/structure-aware RNA similarity ordering
+RNA10	Exon Recognition	Positional k-mer ridge	Disrupting versus preserving exon-recognition variants
+PS01	Family Identity	NW+BLOSUM62	Same-family versus different-family similarity
+PS02A	Clan Homology	NW+BLOSUM62	Same-clan versus cross-clan similarity
+PS02B	Remote Homology	NW+BLOSUM62	Remote-homology similarity ordering
+PS04	Topology Relation	NW+BLOSUM62	Protein topology relation
+PS05	Structural Resemblance	NW+BLOSUM62	Structural resemblance ordering
+PS08	Protein Edit Adjacency	Hamming oracle	Exact amino-acid edit-distance ordering
+PS09	Order-Disorder	IUPred2A	Disorder versus order propensity
+PS10	Amyloid Propensity	TANGO 2.3.1	Amyloid aggregation propensity
+ST01	Global Fold Similarity	Geometry white-box	Global structural similarity ordering
+ST02	Structural Neighborhood	TM-align	Structural-neighborhood ordering
+ST04	Long-Range Contacts	Geometry white-box	Long-range spatial contact ordering
+ST05	Rigid-Body Invariance	Geometry white-box	Rigid-body invariance

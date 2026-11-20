@@ -1,0 +1,107 @@
+{
+  "model_id": "sslm",
+  "domain": "protein_structure",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/wr1102/CPE-Pro",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST01/models/sslm/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST02/models/sslm/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST02/models/sslm/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST02/models/sslm/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST04/models/sslm/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST04/models/sslm/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST05/models/sslm/provenance/FORWARD_LINEAGE.json",
+      "field": "files.4.sha256",
+      "asset_context": "/home/mik/u8t/ai_genome/results/ST01_FORMAL_20261010/models/sslm/model/pytorch_model.bin 102806330 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST01/models/sslm/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256",
+      "asset_context": "PASS 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198 63 3.6319196224212646 640 2111076a5bd10784a10a0de44c0320e6b4a217eafce2be04a87aba947f09ab43 28 Foldseek_3Di_only 57 SSLM_3DI_v1.0.0_20261010 247678c698889beeba393c768ca3e6a3eb20a76f2561fee47f183970b5c5d2fd unweighted_3Di_token_mean_excluding_special_tokens pretrained_SSLM_sequential_encoder_last_hidden_state PASS"
+    },
+    {
+      "value": "2111076a5bd10784a10a0de44c0320e6b4a217eafce2be04a87aba947f09ab43",
+      "source": "results/protein_structure/ST01/models/sslm/FORWARD_REPORT.json",
+      "field": "input_3di_fasta_sha256",
+      "asset_context": "PASS 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198 63 3.6319196224212646 640 2111076a5bd10784a10a0de44c0320e6b4a217eafce2be04a87aba947f09ab43 28 Foldseek_3Di_only 57 SSLM_3DI_v1.0.0_20261010 247678c698889beeba393c768ca3e6a3eb20a76f2561fee47f183970b5c5d2fd unweighted_3Di_token_mean_excluding_special_tokens pretrained_SSLM_sequential_encoder_last_hidden_state PASS"
+    },
+    {
+      "value": "247678c698889beeba393c768ca3e6a3eb20a76f2561fee47f183970b5c5d2fd",
+      "source": "results/protein_structure/ST01/models/sslm/FORWARD_REPORT.json",
+      "field": "output_sha256",
+      "asset_context": "PASS 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198 63 3.6319196224212646 640 2111076a5bd10784a10a0de44c0320e6b4a217eafce2be04a87aba947f09ab43 28 Foldseek_3Di_only 57 SSLM_3DI_v1.0.0_20261010 247678c698889beeba393c768ca3e6a3eb20a76f2561fee47f183970b5c5d2fd unweighted_3Di_token_mean_excluding_special_tokens pretrained_SSLM_sequential_encoder_last_hidden_state PASS"
+    },
+    {
+      "value": "1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198",
+      "source": "results/protein_structure/ST02/models/sslm/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256",
+      "asset_context": "PASS 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198 63 5.119639873504639 640 f7728932927d8f8b8e568cb32a103cf620f0e0b8c3cc3b986e9edb053e7b9180 509 Foldseek_3Di_only 57 SSLM_3DI_v1.0.0_20261010 38b5b3705d3810d1ad1d81123782220e7a5b554dbf2b414e242887c6513ce82b unweighted_3Di_token_mean_excluding_special_tokens pretrained_SSLM_sequential_encoder_last_hidden_state PASS"
+    },
+    {
+      "value": "f7728932927d8f8b8e568cb32a103cf620f0e0b8c3cc3b986e9edb053e7b9180",
+      "source": "results/protein_structure/ST02/models/sslm/provenance/FORWARD_REPORT.json",
+      "field": "input_3di_fasta_sha256",
+      "asset_context": "PASS 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198 63 5.119639873504639 640 f7728932927d8f8b8e568cb32a103cf620f0e0b8c3cc3b986e9edb053e7b9180 509 Foldseek_3Di_only 57 SSLM_3DI_v1.0.0_20261010 38b5b3705d3810d1ad1d81123782220e7a5b554dbf2b414e242887c6513ce82b unweighted_3Di_token_mean_excluding_special_tokens pretrained_SSLM_sequential_encoder_last_hidden_state PASS"
+    },
+    {
+      "value": "38b5b3705d3810d1ad1d81123782220e7a5b554dbf2b414e242887c6513ce82b",
+      "source": "results/protein_structure/ST02/models/sslm/provenance/FORWARD_REPORT.json",
+      "field": "output_sha256",
+      "asset_context": "PASS 1daf10751fa0469e1ab24481a04b8a1e6809c32d05b219156247cb880d54c198 63 5.119639873504639 640 f7728932927d8f8b8e568cb32a103cf620f0e0b8c3cc3b986e9edb053e7b9180 509 Foldseek_3Di_only 57 SSLM_3DI_v1.0.0_20261010 38b5b3705d3810d1ad1d81123782220e7a5b554dbf2b414e242887c6513ce82b unweighted_3Di_token_mean_excluding_special_tokens pretrained_SSLM_sequential_encoder_last_hidden_state PASS"
+    }
+  ],
+  "download": {
+    "method": "formal execution reused the frozen SSLM Hugging Face-compatible model directory materialized during ST01",
+    "note": "Its input Foldseek 3Di strings were generated locally; no checkpoint redownload occurred in later constraints."
+  },
+  "loading": "EsmTokenizer.from_pretrained(model_dir); EsmConfig.from_pretrained(model_dir); EsmModel(config); torch.load(model_dir/'pytorch_model.bin'); load the sequential encoder state dict with checkpoint-closure checks; mean pool valid 3Di token states",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/results/ST01_FORMAL_20261010/models/sslm/model",
+    "/home/mik/u8t/ai_genome/results/ST01_FORMAL_20261010/models/sslm/model/pytorch_model.bin"
+  ],
+  "formal_evidence_files": [
+    "results/protein_structure/ST01/models/sslm/FORWARD_REPORT.json",
+    "results/protein_structure/ST02/models/sslm/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST02/models/sslm/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/sslm/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST04/models/sslm/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/sslm/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST04/models/sslm/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/sslm/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST05/models/sslm/provenance/FORWARD_LINEAGE.json",
+    "results/protein_structure/ST05/models/sslm/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST05/models/sslm/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST05/models/sslm/provenance/MODEL_INTERFACE.json"
+  ]
+}

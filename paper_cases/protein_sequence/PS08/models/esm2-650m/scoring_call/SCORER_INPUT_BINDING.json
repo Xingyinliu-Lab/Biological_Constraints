@@ -1,0 +1,9 @@
+{
+  "constraint_id": "PS08",
+  "constraint_release": "PS08_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "esm2-650m",
+  "formal_result": "paper_cases/protein_sequence/PS08/models/esm2-650m/output/FORMAL_RESULT.json",
+  "formal_result_sha256": "cf8de59bf93d2ff1a0eb0adfe0a3029610e45bb43769bc241c24640a048c6cbf",
+  "status": "PASS"
+}

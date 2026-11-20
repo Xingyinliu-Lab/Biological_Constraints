@@ -1,0 +1,28 @@
+{
+  "constraint_id": "PS10",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "model_id": "esm2-650m",
+  "outputs": [
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 128161,
+      "sha256": "f2a22e54ae9924d549f41a3a892fb4f787270763d7292d2950240a96fba195af"
+    },
+    {
+      "path": "FOLD_SCORES.tsv",
+      "bytes": 981,
+      "sha256": "c4242750c1e35b3447335360e07e7a3cf0aa89954b88f5d98aeb305fad77c1c1"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1083,
+      "sha256": "e24ff378a35fffce2ae5bc787ed1df21207ce170dd80fd30a54dc3ebd6888f7a"
+    },
+    {
+      "path": "BOOTSTRAP_DRAWS.float64le.bin",
+      "bytes": 160000,
+      "sha256": "ae1a3d81e8660df5548b398eb0ee0961fe4ee77789c68497903d80d709c6bb2b"
+    }
+  ]
+}

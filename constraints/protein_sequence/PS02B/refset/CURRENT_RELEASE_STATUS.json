@@ -1,0 +1,6 @@
+{
+  "constraint_id": "PS02B",
+  "status": "CLOSED_RELEASE_READY",
+  "supersedes_embedded_materialization_status": "NOT_EXECUTED",
+  "note": "Release closure on 2026-10-20 confirmed the public scorer, NW+BLOSUM62 comparator, five paper cases and current documentation path. The retained validation file records the earlier RefSet-materialization stage. Formal model cases are published under paper_cases/protein_sequence/PS02B/; comparator execution and results are published under constraints/protein_sequence/PS02B/comparators/."
+}

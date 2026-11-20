@@ -1,0 +1,9 @@
+{
+  "artifact_id": "ST01_NUMERIC_INPUT_BINDING_v0.1.2_F_ONLY",
+  "status": "FROZEN",
+  "formal_interface": "F_ONLY",
+  "numeric_method_sha256": "48949a9a8e692fc0e13fe081362bfa9d5b566dd0c682cbfe7ae241af357cf6ac",
+  "relation_table_sha256": "f3a1f2599adc3d15dca29164dc167b22820815ea66045ca75a012e615208078e",
+  "objects_table_sha256": "6bc3344fbd0c3454b4a977b58b941f375c06067a218a373bd2149399eeaf02c7",
+  "pair_evidence_table_sha256": "4f026892cd7212989be3db047a111913a406097827749ce6967f9e344c5e7e44"
+}

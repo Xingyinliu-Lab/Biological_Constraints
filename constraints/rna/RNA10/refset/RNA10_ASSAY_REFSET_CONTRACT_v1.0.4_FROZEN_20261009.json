@@ -1,0 +1,324 @@
+{
+  "artifact_type": "AssayRefSetContract",
+  "schema_version": "v1.0.4",
+  "status": "FROZEN",
+  "publication_status": "RELEASED",
+  "constraint_id": "C-RNA-10",
+  "parent_bindings": {
+    "scientific_word": {
+      "release_id": "C_RNA10_SCIENTIFIC_WORD_v1.0.2_FROZEN_20261009",
+      "artifact_id": "C_RNA10_SCIENTIFIC_WORD_DOCX",
+      "semantic_content_hash": "003597f8f2859ac50ba42833e7ec6eeafd8828fea958b18ee77e8e7166a81fd6",
+      "schema_id": "ScientificWord",
+      "schema_version": "v1.0.2",
+      "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\output\\word\\C_RNA_10_single_SNV_exon_recognition_consequence_SCIENTIFIC_WORD_v1.0.2_FROZEN_20261009.docx"
+    },
+    "interface_contract": {
+      "release_id": "INTERFACE_CONTRACT_v1.2.5_FROZEN_20260927",
+      "artifact_id": "INTERFACE_CONTRACT_MANIFEST",
+      "semantic_content_hash": "1c1a604fedc55e14ea3ac8b978d53916d2c51093cd764d5cdf5c8b5e686c4efe",
+      "schema_id": "InterfaceContract",
+      "schema_version": "v1.2.5",
+      "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\designs\\interface_contract_v1.2.5_FROZEN_20260927\\INTERFACE_CONTRACT_MANIFEST.json"
+    },
+    "assay_spec": {
+      "release_id": "RNA10_ASSAYSPEC_RELEASE_v1.0.4_FROZEN_20261009",
+      "artifact_id": "RNA10_ASSAYSPEC_RELEASE_JSON",
+      "semantic_content_hash": "03f707bde914def1776e8e704b5ee5f57a0246a0621814ecdfae8bab2927349c",
+      "schema_id": "AssaySpecRelease",
+      "schema_version": "v1.0.4",
+      "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_ASSAYSPEC_RELEASE_v1.0.4_FROZEN_20261009.json"
+    }
+  },
+  "truth_semantics": {
+    "source_only_before_model_execution": true,
+    "disrupting_delta_inclusion_lte": -0.5,
+    "preserving_absolute_delta_inclusion_lte": 0.1,
+    "gray_or_out_of_primary": "all remaining quantitatively valid outcomes among source-QC-admitted, successfully reconstructed single-SNV relations",
+    "source_qc_or_reconstruction_failure": "INELIGIBLE_ATTRITION",
+    "non_single_snv": "INELIGIBLE_ATTRITION"
+  },
+  "reference_population": {
+    "primary_source": "MFASS natural-SNV reporter experiment",
+    "input_object": "exact assayed WT insert and exact single-SNV mutant",
+    "eligibility": "equal length, canonical RNA after adapter, exactly one mismatch, source-QC admitted",
+    "complete_block": "same exact WT insert, construct, source condition and truth-rule version; both DISRUPTING and PRESERVING classes nonempty; retain all admitted DISRUPTING and PRESERVING relations",
+    "canonical_site_policy": "retained in primary",
+    "external_validation": "Vex-seq is separate and never merged into MFASS primary",
+    "unresolved_gene_policy": "formal materialization admitted only complete blocks with a unique resolved canonical gene; unresolved or ambiguous complete blocks were excluded before the formal population (39 excluded; 60 reference-eligible blocks retained)."
+  },
+  "source_dependency_ledger": {
+    "node": "complete WT reporter-background block",
+    "edge_if_any": [
+      "same resolved canonical gene",
+      "exact WT insert duplicate",
+      "duplicate or repeated construct or source instance"
+    ],
+    "no_family_homology_or_genomic_neighborhood_closure": true,
+    "unit": "connected component",
+    "purpose": "reference dependency evidence and ledger only"
+  },
+  "source_qc_gate": {
+    "authority_release": {
+      "release_id": "RNA10_MFASS_DEVELOPMENT_MATERIALIZATION_v0.1.1_20261005",
+      "artifact_id": "RNA10_MFASS_MATERIALIZATION_MANIFEST",
+      "semantic_content_hash": "d825a0214af21d36850bc7ff57e564b13a46005af60cf99d7457f7955fae1805",
+      "schema_id": "MaterializationRelease",
+      "schema_version": "v0.1.1",
+      "locator": "kt:/home/mik/fd/m2_rna/results/rna10/RNA10_MFASS_DEVELOPMENT_MATERIALIZATION_v0.1.1_20261005/MANIFEST.json"
+    },
+    "near_neutral_resolution_evidence": {
+      "artifact_id": "RNA10_MFASS_NEAR_NEUTRAL_AUDIT",
+      "semantic_hash": "88da88e44c86cca2a1d61bdd147ea944fdd0430e5f5bc0cd210b59fed261090d",
+      "byte_hash": "88da88e44c86cca2a1d61bdd147ea944fdd0430e5f5bc0cd210b59fed261090d",
+      "payload_key": "near_neutral_band_resolution_audit.json",
+      "media_type": "application/json",
+      "serialization_contract_ref": {
+        "release_id": "RNA10_JSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+        "artifact_id": "RNA10_JSON_SERIALIZATION_CONTRACT",
+        "semantic_content_hash": "41c79efff053cb3018861ecb8f7ef7de61e80d4a6fc2a415f2d9ff24691cc716",
+        "schema_id": "ContractRelease",
+        "schema_version": "v1.0.0",
+        "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_JSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+      }
+    },
+    "source_qc_precondition": "abs(V1_delta_I_MFASS-V2_delta_I_MFASS)<=0.20",
+    "binding": "Released materialization is the actual source-QC authority used by formal execution."
+  },
+  "lifecycle_bindings": {
+    "reference_design_release_ref": {
+      "release_id": "RNA10_REFERENCE_DESIGN_RELEASE_v1.0.1_RETROACTIVE_20261009",
+      "artifact_id": "RNA10_REFERENCE_DESIGN_RELEASE_JSON",
+      "semantic_content_hash": "577ff6c50e633ef805ce93a976aa411d49d94ce8fa4ce7915e127b62575f9cca",
+      "schema_id": "ReferenceDesignRelease",
+      "schema_version": "v1.0.1",
+      "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_REFERENCE_DESIGN_RELEASE_v1.0.1_RETROACTIVE_20261009.json"
+    },
+    "assay_refset_candidate_ref": {
+      "release_id": "RNA10_ASSAY_REFSET_RELEASE_v1.0.0_RETROACTIVE_20261009",
+      "artifact_id": "RNA10_ASSAY_REFSET_CANDIDATE",
+      "semantic_content_hash": "e7be2d2e2ee917cce89b768492bfc56c52bcd50d41849feae58f57daa2c64a11",
+      "schema_id": "AssayRefSetCandidate",
+      "schema_version": "v1.0.0",
+      "locator": "kt:/home/mik/fd/m2_rna/releases/RNA10_ASSAY_REFSET_RELEASE_v1.0.0_RETROACTIVE_20261009/assay_refset_candidate.json"
+    },
+    "candidate_semantic_content_hash": "e7be2d2e2ee917cce89b768492bfc56c52bcd50d41849feae58f57daa2c64a11",
+    "reference_eligibility_payload_artifact_ref": {
+      "artifact_id": "RNA10_REFERENCE_ELIGIBILITY_PAYLOAD",
+      "semantic_hash": "443da07f4bbcf8ba96fb0b8a41226be18d81cba40ad1153850a7b304e6435a93",
+      "byte_hash": "443da07f4bbcf8ba96fb0b8a41226be18d81cba40ad1153850a7b304e6435a93",
+      "payload_key": "reference_eligibility_payload.json",
+      "media_type": "application/json",
+      "serialization_contract_ref": {
+        "release_id": "RNA10_JSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+        "artifact_id": "RNA10_JSON_SERIALIZATION_CONTRACT",
+        "semantic_content_hash": "41c79efff053cb3018861ecb8f7ef7de61e80d4a6fc2a415f2d9ff24691cc716",
+        "schema_id": "ContractRelease",
+        "schema_version": "v1.0.0",
+        "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_JSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+      }
+    },
+    "eligibility_ledger_hash": "b7b36c6fab2dedd182032c1bb5109ce74222b99f2db709091c03edf969ce8bbf",
+    "reference_audit_report_release_ref": {
+      "release_id": "RNA10_ASSAY_REFSET_RELEASE_v1.0.0_RETROACTIVE_20261009",
+      "artifact_id": "RNA10_REFERENCE_AUDIT_REPORT",
+      "semantic_content_hash": "8a65d2d2e05fc58b928fdff788b86908f0e3d657a1d1f0241918d0f5755e6838",
+      "schema_id": "ReferenceAuditReport",
+      "schema_version": "v1.0.0",
+      "locator": "kt:/home/mik/fd/m2_rna/releases/RNA10_ASSAY_REFSET_RELEASE_v1.0.0_RETROACTIVE_20261009/reference_audit_report.json"
+    },
+    "assay_refset_release_ref": {
+      "release_id": "RNA10_ASSAY_REFSET_RELEASE_v1.0.2_RETROACTIVE_20261009",
+      "artifact_id": "RNA10_ASSAY_REFSET_RELEASE_JSON",
+      "semantic_content_hash": "fb1a9f630909b515b376ba04fd8b70ddccad405b293963bbb0dd54721bc89692",
+      "schema_id": "AssayRefSetRelease",
+      "schema_version": "v1.0.2",
+      "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_ASSAY_REFSET_RELEASE_v1.0.2_RETROACTIVE_20261009.json"
+    },
+    "assay_spec_release_ref": {
+      "release_id": "RNA10_ASSAYSPEC_RELEASE_v1.0.4_FROZEN_20261009",
+      "artifact_id": "RNA10_ASSAYSPEC_RELEASE_JSON",
+      "semantic_content_hash": "03f707bde914def1776e8e704b5ee5f57a0246a0621814ecdfae8bab2927349c",
+      "schema_id": "AssaySpecRelease",
+      "schema_version": "v1.0.4",
+      "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_ASSAYSPEC_RELEASE_v1.0.4_FROZEN_20261009.json"
+    },
+    "assay_spec_compatibility_hash": "03f707bde914def1776e8e704b5ee5f57a0246a0621814ecdfae8bab2927349c",
+    "eligible_bundle_ids_hash": "585f59709c442ad4fe00434d86543ec27e3ff517daa7a64027efccff7c1d609e",
+    "release_outputs": {
+      "accepted_objects": [
+        {
+          "artifact_id": "RNA10_MFASS_OBJECTS_WT",
+          "semantic_hash": "b6802f6b751ecdf1f34913a237d1b53024f1c23c46704e9873cfdbfc26da30b8",
+          "byte_hash": "b6802f6b751ecdf1f34913a237d1b53024f1c23c46704e9873cfdbfc26da30b8",
+          "payload_key": "objects_wt.jsonl",
+          "media_type": "application/x-ndjson",
+          "serialization_contract_ref": {
+            "release_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+            "artifact_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT",
+            "semantic_content_hash": "8cf4da833b69e2c6cfe687e5b0e6a0adedd6bf1b0ee31b29953a56f1763fe570",
+            "schema_id": "ContractRelease",
+            "schema_version": "v1.0.0",
+            "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_NDJSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+          }
+        },
+        {
+          "artifact_id": "RNA10_MFASS_OBJECTS_MUTANT",
+          "semantic_hash": "f83abe38a9e786cf4bdf3d8bf9b896aedba8190e9562d7d5093897c70706bd0a",
+          "byte_hash": "f83abe38a9e786cf4bdf3d8bf9b896aedba8190e9562d7d5093897c70706bd0a",
+          "payload_key": "objects_mutant.jsonl",
+          "media_type": "application/x-ndjson",
+          "serialization_contract_ref": {
+            "release_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+            "artifact_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT",
+            "semantic_content_hash": "8cf4da833b69e2c6cfe687e5b0e6a0adedd6bf1b0ee31b29953a56f1763fe570",
+            "schema_id": "ContractRelease",
+            "schema_version": "v1.0.0",
+            "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_NDJSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+          }
+        }
+      ],
+      "complete_bundle_ledger": {
+        "artifact_id": "RNA10_COMPLETE_BUNDLE_LEDGER",
+        "semantic_hash": "25d438b1cca534a0b221bed9a88e58cc2509cc83dece434735a9f5202ee4c628",
+        "byte_hash": "25d438b1cca534a0b221bed9a88e58cc2509cc83dece434735a9f5202ee4c628",
+        "payload_key": "complete_bundle_ledger.jsonl",
+        "media_type": "application/x-ndjson",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "8cf4da833b69e2c6cfe687e5b0e6a0adedd6bf1b0ee31b29953a56f1763fe570",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_NDJSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      },
+      "contrast_definition_ledger": {
+        "artifact_id": "RNA10_CONTRAST_DEFINITION_LEDGER",
+        "semantic_hash": "3cd022416ede95b106be368fbd46184427e722426355fa51121e896e773dcea8",
+        "byte_hash": "3cd022416ede95b106be368fbd46184427e722426355fa51121e896e773dcea8",
+        "payload_key": "contrast_definition_ledger.json",
+        "media_type": "application/json",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_JSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_JSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "41c79efff053cb3018861ecb8f7ef7de61e80d4a6fc2a415f2d9ff24691cc716",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_JSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      },
+      "dependency_unit_ledger": {
+        "artifact_id": "RNA10_MFASS_SOURCE_DEPENDENCY_UNITS",
+        "semantic_hash": "a3021aa38ababca06cb84bd8e067ca59c411c0f8b149a70281e14c5e23f1981b",
+        "byte_hash": "a3021aa38ababca06cb84bd8e067ca59c411c0f8b149a70281e14c5e23f1981b",
+        "payload_key": "source_dependency_units.jsonl",
+        "media_type": "application/x-ndjson",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "8cf4da833b69e2c6cfe687e5b0e6a0adedd6bf1b0ee31b29953a56f1763fe570",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_NDJSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      },
+      "uncertainty_cluster_ledger": {
+        "artifact_id": "RNA10_MFASS_UNCERTAINTY_CLUSTERS",
+        "semantic_hash": "17205ad3b93ea898f9806076a453e71ed10df2030e65d8704965e7a25751e597",
+        "byte_hash": "17205ad3b93ea898f9806076a453e71ed10df2030e65d8704965e7a25751e597",
+        "payload_key": "uncertainty_dependency_clusters.jsonl",
+        "media_type": "application/x-ndjson",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "8cf4da833b69e2c6cfe687e5b0e6a0adedd6bf1b0ee31b29953a56f1763fe570",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_NDJSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      },
+      "attrition_ledger": {
+        "artifact_id": "RNA10_MFASS_SOURCE_ATTRITION",
+        "semantic_hash": "b7b36c6fab2dedd182032c1bb5109ce74222b99f2db709091c03edf969ce8bbf",
+        "byte_hash": "b7b36c6fab2dedd182032c1bb5109ce74222b99f2db709091c03edf969ce8bbf",
+        "payload_key": "source_attrition_ledger.jsonl",
+        "media_type": "application/x-ndjson",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_NDJSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "8cf4da833b69e2c6cfe687e5b0e6a0adedd6bf1b0ee31b29953a56f1763fe570",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_NDJSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      },
+      "reference_coverage_manifest": {
+        "artifact_id": "RNA10_MFASS_COVERAGE_MANIFEST",
+        "semantic_hash": "e15b6951b6c16ff83fdbf49870e8de55dfa90409368b862c06dca394d7426895",
+        "byte_hash": "e15b6951b6c16ff83fdbf49870e8de55dfa90409368b862c06dca394d7426895",
+        "payload_key": "coverage_manifest.json",
+        "media_type": "application/json",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_JSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_JSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "41c79efff053cb3018861ecb8f7ef7de61e80d4a6fc2a415f2d9ff24691cc716",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_JSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      }
+    },
+    "execution_parity": {
+      "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+      "gene_mapping_audit": {
+        "artifact_id": "RNA10_MFASS_GENE_MAPPING_AUDIT",
+        "semantic_hash": "6b9868d2ae22724382016e17c54d12abf43ece097131c7aa8d0cfbaf811756f7",
+        "byte_hash": "6b9868d2ae22724382016e17c54d12abf43ece097131c7aa8d0cfbaf811756f7",
+        "payload_key": "gene_mapping_audit.json",
+        "media_type": "application/json",
+        "serialization_contract_ref": {
+          "release_id": "RNA10_JSON_SERIALIZATION_CONTRACT_v1.0.0_RETROACTIVE_20261009",
+          "artifact_id": "RNA10_JSON_SERIALIZATION_CONTRACT",
+          "semantic_content_hash": "41c79efff053cb3018861ecb8f7ef7de61e80d4a6fc2a415f2d9ff24691cc716",
+          "schema_id": "ContractRelease",
+          "schema_version": "v1.0.0",
+          "locator": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\biological-constraints\\contracts\\RNA10\\RNA10_JSON_SERIALIZATION_CONTRACT_RELEASE_v1.0.0_RETROACTIVE_20261009.json"
+        }
+      }
+    }
+  },
+  "comparator_boundary": {
+    "intrinsic_primary_comparator": "raw assayed sequence only with deterministic or training-fold-fitted features",
+    "predictor_outputs": "cannot enter truth, membership, or primary measurement"
+  },
+  "deferred_to_numeric_method": [
+    "training/test partition",
+    "outer folds",
+    "bootstrap algorithm",
+    "training weights",
+    "tolerance",
+    "regularization",
+    "runtime failure disposition"
+  ],
+  "release_gate": {
+    "requires": [
+      "released materialization provenance",
+      "ReferenceEligibilityPayload",
+      "ReferenceAuditReport",
+      "dependency-unit ledger",
+      "uncertainty-cluster ledger",
+      "attrition ledger",
+      "coverage manifest",
+      "all parent hashes"
+    ],
+    "invariant": "execution, model output, comparator output, and runtime failure cannot alter frozen candidate membership"
+  },
+  "prohibitions": [
+    "model-informed source selection",
+    "model scores in truth or membership",
+    "source predictors in truth or primary measurement",
+    "runtime relation-level shrinkage",
+    "reference-assisted predictor labelled intrinsic primary comparator"
+  ]
+}

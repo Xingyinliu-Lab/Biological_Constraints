@@ -1,0 +1,25 @@
+{
+  "constraint_id": "PS05",
+  "release_id": "PS05_ASSAY_REFSET_RELEASE_v1.0.1_20261008",
+  "validation_date": "2026-10-19",
+  "status": "PASS_WITH_EXTERNAL_TOOL_EXECUTION_REUSED",
+  "checks": {
+    "public_python_syntax_files": 9,
+    "public_cli_help_entries": 7,
+    "public_json_files_parsed": 22,
+    "markdown_relative_links_broken": 0,
+    "official_relation_semantic_count": 1628,
+    "official_relation_registered_bytes_match": true,
+    "compatible_relation_byte_mismatch_accepted_after_semantic_validation": true,
+    "canonical_comparator_archives_with_1628_individual_scores": 4,
+    "canonical_comparator_numeric_aggregation_parity": 4,
+    "paper_case_result_and_manifest_bindings": 5
+  },
+  "external_tool_availability_on_validation_host": {
+    "EMBOSS_needle": "NOT_FOUND",
+    "Rscript_DECIPHER": "NOT_FOUND"
+  },
+  "external_execution_evidence": "Canonical comparator results and ID-level outputs are retained from the validated formal executions. This validation did not rerun EMBOSS or DECIPHER on the local host.",
+  "numeric_method_changed": false,
+  "registered_foundation_model_results_recomputed": false
+}

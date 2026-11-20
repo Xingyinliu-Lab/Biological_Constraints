@@ -1,0 +1,29 @@
+{
+  "model_id": "proteinmpnn-ca",
+  "domain": "protein_structure",
+  "evidence_status": "READ_ONLY_VERIFIED_ON_EXECUTION_HOST",
+  "verified_on": "kt",
+  "verified_date": "2026-10-16",
+  "executed_python": "/media/datau28t/mik/ai_genome/envs/esm3-sm-open-v1/bin/python3.10",
+  "python_version": "3.10.22",
+  "cuda_runtime_reported_by_torch": "12.4",
+  "installed_packages_used_or_relevant_to_the_forward": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.7.2",
+    "safetensors": "0.8.0",
+    "torch": "2.5.1+cu124",
+    "transformers": "4.47.1",
+    "huggingface-hub": "0.36.2",
+    "biopython": "1.88",
+    "biotite": "0.41.2"
+  },
+  "imports_observed_in_public_execution_assets": [
+    "numpy",
+    "protein_mpnn_utils",
+    "torch"
+  ],
+  "checkpoint_identity": "checkpoint_identity.json",
+  "scope_note": "This records the extant environment used by the published forward. It is not a newly solved cross-model environment."
+}

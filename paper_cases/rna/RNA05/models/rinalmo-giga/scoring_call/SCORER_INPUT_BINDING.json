@@ -1,0 +1,18 @@
+{
+  "assay_id": "C-RNA-05",
+  "constraint_release": "RNA05_v0.1.3_F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "56240bab23cc36657dcbec29380ab5ca39332db398a70fb27a6fe7be4a5e4c59"
+  },
+  "forward_output": {
+    "bytes": 46645706,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "b0e5346ecf26a76ca18411248072d3c805c98dcef3eb8724b2fed5dedc30ccf6"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "rinalmo-giga",
+  "public_scorer": "constraints/rna/RNA05/scoring/score_rna05.py",
+  "public_scorer_sha256": "deee1a2e53ee9e3c25604d3440372b5df46d10750ac8070dcf2c98dd843921fa",
+  "status": "PASS"
+}

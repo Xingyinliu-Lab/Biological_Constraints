@@ -1,0 +1,40 @@
+{
+  "artifact_id": "ST04_FORMAL_ENDPOINT_TOKEN_MAP_v0.1.0_20261019",
+  "models": {
+    "ESM-IF1": {
+      "rows": 48279,
+      "scope": "MODEL_INPUT_LIMITATION"
+    },
+    "ESM3-STRUCT": {
+      "rows": 48279,
+      "scope": "MODEL_INPUT_LIMITATION"
+    },
+    "ProToken": {
+      "rows": 48282,
+      "scope": "FULL_PUBLIC_REFSET"
+    },
+    "ProteinMPNN-CA": {
+      "rows": 48282,
+      "scope": "FULL_PUBLIC_REFSET"
+    },
+    "SSLM": {
+      "rows": 48282,
+      "scope": "FULL_PUBLIC_REFSET"
+    }
+  },
+  "released": {
+    "bytes": 7859430,
+    "filename": "FORMAL_ENDPOINT_TOKEN_MAP.tsv",
+    "rows": 241404,
+    "sha256": "0d2402cffa6ba83f7a956f128b51de24a4857c8ce1c03f23c12483a5dd1c5e5c"
+  },
+  "removed_non_endpoint_rows": 193631,
+  "scientific_effect": "none; only rows not referenced by the model's frozen formal relation scope were omitted",
+  "source": {
+    "bytes": 14135711,
+    "filename": "ENDPOINT_TOKEN_MAP_v0.1.1.tsv",
+    "rows": 435035,
+    "sha256": "9d7697649b0d826cd1aa9bf836d62c5bd4302a80aabf156f99cadf37c0c51d8c"
+  },
+  "status": "PASS_MINIMAL_ENDPOINT_CLOSURE"
+}

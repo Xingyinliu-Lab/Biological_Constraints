@@ -1,0 +1,54 @@
+{
+  "constraint_id": "PS09",
+  "model_id": "esm3-seq",
+  "public_entry": "score_ps09.py",
+  "representations": {
+    "bytes": 98199224,
+    "sha256": "398982b30e1c034f49dcb5d408dd2c11a3bd03dd790a5186b80c770888fcf533"
+  },
+  "outputs": [
+    {
+      "path": "HELDOUT_ENDPOINT_SCORES.tsv",
+      "bytes": 988500,
+      "sha256": "a206daf137e7c4a18a638483cee556fe43bdec8bac89ee5611ef9449feb7f3ea"
+    },
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 1785157,
+      "sha256": "e53100043a2fd75986dd9d035e2c3374c8f7601bc19bf4cd6bcae5526320a2c5"
+    },
+    {
+      "path": "PAIR_CREDIT_LEDGER.tsv.gz",
+      "bytes": 987993,
+      "sha256": "7823f187c4189c30d64fca5862bf6373ac77a74923af9678312efb41228d03e8"
+    },
+    {
+      "path": "BLOCK_SCORES.tsv",
+      "bytes": 46432,
+      "sha256": "b697229f35b827497aa10a51417804a92478be6b4425ff8e5e9fbd569c5ec88a"
+    },
+    {
+      "path": "CLUSTER_SCORES.tsv",
+      "bytes": 2521,
+      "sha256": "25d6089c6efe1b8a5b28d518ac6babb9e655e9e076c6a2ac35c4d8328947226d"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1314,
+      "sha256": "77754f8aee7a7532bc8521bd602fe7d91cf0fdc718ffc1ddcc52110042186b06"
+    },
+    {
+      "path": "SCORE_SUMMARY.json.bootstrap.float64le.bin",
+      "bytes": 160000,
+      "sha256": "0751d6b74450552d2fb1b7867c1818a72d52d35c4eb3db7c7ee11fcd6f43f44e"
+    }
+  ],
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS09_v0.1.2_F_ONLY",
+  "refset_closure": {
+    "proteins": 81,
+    "endpoints": 15708,
+    "blocks": 1030,
+    "homology_clusters": 78
+  }
+}

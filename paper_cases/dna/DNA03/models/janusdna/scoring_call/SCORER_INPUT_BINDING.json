@@ -1,0 +1,10 @@
+{
+  "constraint_release": "DNA03_v0.2.6_f_only",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "806e756d932330e166f3ab4ff708205d6aa382e66fc30077192cd29b3102cab0",
+  "model_id": "janusdna",
+  "output_manifest_sha256": "80da5bf0acb6a405e9a38921109b62e4c60e938165198241ddfea7de9537fcc6",
+  "public_scorer": "constraints/dna/DNA03/scoring/score_dna03.py",
+  "public_scorer_sha256": "bef92ff2753f89bccb17d029af762af0043a1e3c6a09a33cfae4633ee141dcc9",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "calibration_ladders": 128,
+  "complete_shared_endpoint_contrast_deviations": 256,
+  "deterministic": true,
+  "model_id": "ERNIE-RNA",
+  "policy": "maximum absolute difference between repeat complete-ladder contrasts",
+  "status": "PASS",
+  "tau_delta": 0.0
+}

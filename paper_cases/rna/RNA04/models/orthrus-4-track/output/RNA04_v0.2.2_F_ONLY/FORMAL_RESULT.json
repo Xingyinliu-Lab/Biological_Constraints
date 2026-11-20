@@ -1,0 +1,66 @@
+{
+  "F": 0.1910778751933988,
+  "F_95_CI": [
+    0.1650335224342443,
+    0.2173800928313565
+  ],
+  "assay_id": "C-RNA-04",
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20261002,
+  "bootstrap_unit": "outer_cluster",
+  "class_weight": "none",
+  "fasta_sha256": "1bca9be51dd7cc329a64e151de4c820773f8843526f7f14c52155fc165d93327",
+  "feature": "whole-CDS vector delta (ALT minus WT)",
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "ledger_sha256": "eab2f85ac3c68adf70b2475ec6d11ad5a33738fd25e32eac33596e8b7188eec8",
+  "model_id": "orthrus-4-track",
+  "outer_clusters": 554,
+  "outer_fold_C": [
+    {
+      "C": 100,
+      "inner_hierarchical_F": 0.19308529308529288,
+      "outer_fold": 1,
+      "test_clusters": 111,
+      "test_rows": 2285
+    },
+    {
+      "C": 100,
+      "inner_hierarchical_F": 0.16989001989001973,
+      "outer_fold": 2,
+      "test_clusters": 111,
+      "test_rows": 2301
+    },
+    {
+      "C": 100,
+      "inner_hierarchical_F": 0.1711711711711712,
+      "outer_fold": 3,
+      "test_clusters": 111,
+      "test_rows": 2284
+    },
+    {
+      "C": 100,
+      "inner_hierarchical_F": 0.17158359658359656,
+      "outer_fold": 4,
+      "test_clusters": 111,
+      "test_rows": 2278
+    },
+    {
+      "C": 100,
+      "inner_hierarchical_F": 0.2010939510939509,
+      "outer_fold": 5,
+      "test_clusters": 110,
+      "test_rows": 2358
+    }
+  ],
+  "parents": 560,
+  "population_identity_sha256": "940cd7c0b7aa04a52a15a8731fa1fc43a52ece690fadf8f86c8d5fdccae58c54",
+  "readout": "outer-CV L2 logistic ridge; inner hierarchical site-parent-cluster F selection",
+  "registered_reference_population": true,
+  "rows": 11506,
+  "score_transform_version": "RNA04_v0.2.2_F_ONLY",
+  "sites": 3920,
+  "status": "PASS",
+  "training_weights": "equal outer cluster -> parent -> site -> class -> variant",
+  "vectors_sha256": "ed5b2d8307afd65385d0c6e8c8bc5e7bd8c878706b4c452149f79a13073f28e2"
+}

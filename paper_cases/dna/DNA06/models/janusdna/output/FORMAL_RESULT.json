@@ -1,0 +1,40 @@
+{
+  "F": 0.8063434760185663,
+  "F_95_CI": [
+    0.7867457452294997,
+    0.8251676121712223
+  ],
+  "constraint_id": "DNA06",
+  "coverage": {
+    "failed_sites": 0,
+    "failed_variants": 0,
+    "planned_sites": 3920,
+    "planned_variants": 11506,
+    "scored_sites": 3920,
+    "scored_variants": 11506
+  },
+  "embedding_sha256": "15fe5eb26926b90ef2fda7605790ee9c376695b401875bcec9139d51b541b10c",
+  "evaluation_scope": "FORMAL_PROTOCOL_EVALUATION",
+  "formal_interface": "F_ONLY",
+  "formal_readout": "CODON_LOCAL_NUCLEOTIDE_COORDINATE",
+  "formal_scoring_protocol": true,
+  "method_version": "0.1.1",
+  "model_id": "janusdna",
+  "population": {
+    "clusters": 554,
+    "parents": 560,
+    "sites": 3920,
+    "variants": 11506
+  },
+  "registered_paper_result": false,
+  "representation_status": "HELD_OUT_L2_LOGISTIC_RIDGE_CHARACTERIZATION",
+  "score_status": "REPORTED",
+  "score_transform_version": "DNA06_v0.1.3_F_ONLY",
+  "selected_lambda_by_outer_fold": {
+    "0": 10.0,
+    "1": 1.0,
+    "2": 0.01,
+    "3": 10.0,
+    "4": 10.0
+  }
+}

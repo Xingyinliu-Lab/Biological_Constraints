@@ -1,0 +1,16 @@
+{
+  "constraint_id": "ST02",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "protoken",
+  "public_rescore_output": {
+    "path": "output/public_rescore/SCORE_SUMMARY.json",
+    "sha256": "728adecb7f54471f3f8ec9eb8e09f3c9a3db0f0671ac350c90e85032c8a28c32"
+  },
+  "public_scorer_sha256": "cb07f116cbc588baa8efc18da1980a4b14068231e7be28174741c351b12cfb8e",
+  "registered_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "033b65e1cf618baf0c704b9fecfe701fdb848f45cc30275ee5377456dca68d5e"
+  },
+  "status": "PASS"
+}

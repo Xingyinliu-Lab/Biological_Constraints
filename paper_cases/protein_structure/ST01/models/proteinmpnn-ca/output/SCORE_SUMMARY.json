@@ -1,0 +1,26 @@
+{
+  "F": 0.7971014492753621,
+  "F_95_CI": [
+    0.5797101449275359,
+    0.9710144927536231
+  ],
+  "counts": {
+    "anchors": 23,
+    "directed_contrasts": 32,
+    "endpoint_challenges": 32,
+    "source_dependency_clusters": 23
+  },
+  "formal_interface": "F_ONLY",
+  "forward_input": {
+    "input_type": "embeddings_npz",
+    "path": null,
+    "reason": "The formal embedding artifact and its historical digest are not included in the public F-only release.",
+    "sha256": null,
+    "status": "UNVERIFIABLE_NOT_RELEASED"
+  },
+  "input_binding_sha256": "450c3d40c7d73bd09bdb286f286c4a372581a4e85939812f951d4fa298f25616",
+  "numeric_method_sha256": "48949a9a8e692fc0e13fe081362bfa9d5b566dd0c682cbfe7ae241af357cf6ac",
+  "relation_table_sha256": "f3a1f2599adc3d15dca29164dc167b22820815ea66045ca75a012e615208078e",
+  "score_transform_version": "ST01_v0.1.2_F_ONLY",
+  "scorer_id": "ST01_DIRECT_INTRINSIC_RANKING_SCORER_v0.1.1"
+}

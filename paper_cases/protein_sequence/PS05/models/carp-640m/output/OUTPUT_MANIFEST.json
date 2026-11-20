@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "AGGREGATION_TRACE.jsonl",
+      "bytes": 2219841,
+      "sha256": "2576694d5e586c35d19adeeb26173aa3ed9822d490c0fe309bc401ec708c0905"
+    },
+    {
+      "path": "INDIVIDUAL_SCORES.tsv.gz",
+      "bytes": 113129,
+      "sha256": "6f7e0e97bb078ea40f4c2145b9db9a4e0b17d6b030b25068b536a8b1c50d2abc"
+    },
+    {
+      "path": "RAW_MEASUREMENTS.tsv",
+      "bytes": 435205,
+      "sha256": "59ac5946bd9bba23da26f42888108fbb8fa2506aa74a2392ed2b5a26b81d821b"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 2224,
+      "sha256": "6e8ca201b18db8ca50c48af4c0236cbc3d51aeffe12f71f0ead27471abe50a14"
+    }
+  ]
+}

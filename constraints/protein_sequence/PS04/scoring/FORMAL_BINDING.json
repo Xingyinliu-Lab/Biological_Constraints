@@ -1,0 +1,35 @@
+{
+  "artifact_id": "PS04_F_ONLY_SCORING_BINDING_v1.0.2",
+  "status": "CURRENT",
+  "refset_release_id": "PS04_ASSAY_REFSET_RELEASE_v1.0.1_L_4K_20261007",
+  "formal_bundle_ledger_sha256": "5f7e69ca43128fe4f44a37a1f9e2bf64a9b2e9ca00256e5a162488fd1243567e",
+  "formal_relation_ledger_sha256": "293e77509218eb571f758d19186362bae514593bb01777364d26f07569b2616e",
+  "formal_object_ledger_sha256": "26ec9af40998b3a340b82e5f6cb34098faf79ee4682efed62fee9329b673e0ab",
+  "formal_endpoint_fasta_sha256": "f4e03248388de226071b95f09d93f487a9693985aa5fb708664451910297078b",
+  "point_membership_sha256": "fb6fb86fbebe055c044a4dc26463f6adcd4248e02a8f93a0545ae18306375ef2",
+  "uncertainty_membership_sha256": "007c4a3806bba20a7fc6421b48c99ad01e00c5fa37749d22383006c8fbf473ce",
+  "representation_similarity_operator": "PS04_EXECUTED_WHOLE_DOMAIN_COSINE_FLOAT64_v1",
+  "representation_similarity_definition": "cast stored representations to float64; compute float64 L2 normalization; zero-norm representation maps to the all-zero vector; compute float64 dot product",
+  "formal_scoring_kernel_sha256": "a3a564eb66e2bc3a958802fc208fe085fbbc39d0081cfd1cfb4dbe962515f773",
+  "formal_population_gate_sha256": "ea303d387772809098eab3e6f0e687eba6f2cfd05d0897f1e991060dd59b37ea",
+  "formal_bootstrap_implementation_sha256": "d127b6ca9163d0e10c6620e20aac6032c0df03207d474ec07547dd2aaf5fa4ab",
+  "formal_execution_driver_sha256": "ddcfdeb24489c74e0d89649efbe790ce7c4abe05b3cd6eb59175a6387846e43c",
+  "delta_num": 0,
+  "delta_num_status": "PREFLIGHT_PASS",
+  "primary_bootstrap": {
+    "rng": "numpy.random.Generator(PCG64)",
+    "seed": 20261007,
+    "draws": 20000,
+    "unit": "anchor_source_unit_bootstrap_unit",
+    "units": 2728,
+    "interval": "percentile_95"
+  },
+  "reuse_sensitivity": {
+    "method": "leave-high-frozen-anchor-bundle-reuse-endpoint-out",
+    "threshold": 100,
+    "criterion": "frozen endpoint reuse ledger: anchor_bundle_reuse_count > 100",
+    "primary": "false",
+    "bootstrap": "point_estimate_only"
+  },
+  "endpoint_reuse_ledger_sha256": "a3815ba4971238954130359a5b2fed816a3cd6391e3a7930b8a493c172d2c2ba"
+}

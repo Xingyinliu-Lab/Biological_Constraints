@@ -1,0 +1,18 @@
+{
+  "constraint_id": "DNA03",
+  "constraint_release": "DNA03_v0.2.6_f_only",
+  "current_model_output_release": "DNA03_v0.2.6_f_only",
+  "formal_interface": "F_ONLY",
+  "formal_observable": "core-local nucleotide-coordinate representation",
+  "public_scorer": "constraints/dna/DNA03/scoring/score_dna03.py",
+  "public_scorer_sha256": "bef92ff2753f89bccb17d029af762af0043a1e3c6a09a33cfae4633ee141dcc9",
+  "registered_model_cases": [
+    "caduceus-ps",
+    "crossdna-8m",
+    "dnabert-2",
+    "janusdna",
+    "nt-v2"
+  ],
+  "release_basis": "Five registered paper cases use the core-local representation interface and the F-only public scoring contract.",
+  "status": "CLOSED_RELEASE_READY"
+}

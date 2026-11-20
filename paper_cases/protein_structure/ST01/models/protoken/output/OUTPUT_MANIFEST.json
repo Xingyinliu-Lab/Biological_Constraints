@@ -1,0 +1,29 @@
+{
+  "files": {
+    "ANCHOR_SCORES.tsv": {
+      "bytes": 1001,
+      "sha256": "b58d7b6e4eb956c8d54c9e4c942ed7f8aee1fdc552ac57e2333db5c5e1173c08"
+    },
+    "CLUSTER_SCORES.tsv": {
+      "bytes": 684,
+      "sha256": "9056a530fc8d31eef8dabc781274da83807aee726087cccf1d27707793a1fe26"
+    },
+    "ENDPOINT_SCORES.tsv": {
+      "bytes": 2090,
+      "sha256": "4d42776a85b9d10840b080de745600fa1b54b78edf8eee72b2e09fac16c77c13"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "1a547c54c588a8340a13e63cf4737a482ba20e1e1f100c0ba09a957fdc842b33"
+    },
+    "INDIVIDUAL_SCORES.tsv": {
+      "bytes": 5691,
+      "sha256": "3bb931bd2fbb66d8d54ac6810691a92dbe7a1dbbd9753042b3f833bad1ba7d85"
+    },
+    "SCORE_SUMMARY.json": {
+      "bytes": 954,
+      "sha256": "b812e0596718a9c3a40d1ecb2c5e036bede57298310f1273431c28e21b31dcfb"
+    }
+  },
+  "formal_interface": "F_ONLY"
+}

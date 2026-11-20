@@ -1,0 +1,43 @@
+{
+  "aggregation_contract_sha256": "faed7a7b9bb99541451a52948171a9125a36944fe2b38d8e84963f2538b506b1",
+  "assay_refset_release_id": "RNA10_ASSAY_REFSET_RELEASE_v1.0.2_RETROACTIVE_20261009",
+  "assay_refset_release_sha256": "fb1a9f630909b515b376ba04fd8b70ddccad405b293963bbb0dd54721bc89692",
+  "binding_release_id": "RNA10_FORMAL_SCORING_BINDING_v0.1.3_F_ONLY",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 10010,
+  "constraint_id": "C-RNA-10",
+  "contract_sha256": "faed7a7b9bb99541451a52948171a9125a36944fe2b38d8e84963f2538b506b1",
+  "formal_interface": "F_ONLY",
+  "measurement_artifact_requirements": [
+    "measurement_artifact_release_id",
+    "runplan_sha256",
+    "population_identity_sha256",
+    "numeric_method_sha256",
+    "split_release_sha256"
+  ],
+  "numeric_method_release_id": "RNA10_NUMERIC_METHOD_v0.1.3_F_ONLY",
+  "numeric_method_sha256": "3e8a061f68e66a3d7c4340c315c4690fb0511eb17a035cfbb8d5e4d76f4d85eb",
+  "planned_hierarchy_hash": "bae72a1ed74a9c0e60bb84cbc7d9a94752bcdd88bc3f5d8c0aae4764081ca0c1",
+  "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+  "required_fields": [
+    "artifact_type",
+    "constraint_id",
+    "population_identity_sha256",
+    "numeric_method_release_id",
+    "numeric_method_sha256",
+    "split_release_sha256",
+    "planned_leaf_set_hash",
+    "tie_tolerance",
+    "bootstrap_draws",
+    "bootstrap_seed"
+  ],
+  "scorer_id": "RNA10_FORMAL_SCORER_v0.1.5",
+  "scorer_source_semantics": "RNA10_FORMAL_SCORER_v0.1.5 final-RefSet lineage correction only",
+  "source_materialization_manifest_sha256": "d825a0214af21d36850bc7ff57e564b13a46005af60cf99d7457f7955fae1805",
+  "source_materialization_release_id": "RNA10_MFASS_DEVELOPMENT_MATERIALIZATION_v0.1.1_20261005",
+  "split_release_id": "RNA10_SOURCE_UNIT_LOO_SPLIT_RELEASE",
+  "split_release_sha256": "d8274f0efa97413b9a44c1685f8e094feb5caeb011cab1588fd6530c6613952c",
+  "status": "FROZEN",
+  "tie_tolerance": 0.0,
+  "v1_uncertainty_membership": "EXACTLY_ONE_SOURCE_UNIT_PER_UNCERTAINTY_CLUSTER"
+}

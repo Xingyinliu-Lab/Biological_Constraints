@@ -1,0 +1,61 @@
+{
+  "F": 0.9023999550359714,
+  "F_95_CI": [
+    0.8788219424460433,
+    0.9243768266636692
+  ],
+  "constraint_id": "C-DNA-03",
+  "counts": {
+    "clusters": 278,
+    "pairs": 35840,
+    "queries": 1120,
+    "transitions": 4
+  },
+  "coverage": {
+    "expected_pairs": 35840,
+    "expected_queries": 1120,
+    "expected_views": 1400,
+    "scored_pairs": 35840,
+    "scored_queries": 1120,
+    "scored_views": 1400,
+    "unscored_pairs": 0
+  },
+  "evaluation_class": "FORMAL_PROTOCOL_EVALUATION",
+  "formal_interface": "F_ONLY",
+  "formal_readout": "CORE_LOCAL_NUCLEOTIDE_COORDINATE",
+  "formal_scoring_protocol": true,
+  "input_sha256": {
+    "PRIMARY_NEGATIVE.tsv": "b38051c94ce140eebfe5bd7a25f3260451ec029646aebcd0a0aee00f36de62bb",
+    "PRIMARY_QUERY.tsv": "887f090d057740057dbdac6c5f47eb25d4bfd833dbfe2f7bfa1f58162379b185",
+    "controls": "b4796050907949028a7e571bc03cc3f9a1a1695370f3831a592f9b346b4188eb",
+    "embeddings": "494a83fd1f721522fea0314ba2324af9f16fb2f06a61e2662a128cabeabbe2b4",
+    "repeat_embeddings": "494a83fd1f721522fea0314ba2324af9f16fb2f06a61e2662a128cabeabbe2b4"
+  },
+  "model_id": "crossdna-8m",
+  "numeric_method": {
+    "aggregation": "pair_to_query_to_dependency_cluster_transition_to_transition_macro",
+    "bootstrap": {
+      "draws": 20000,
+      "interval": "percentile_95",
+      "seed": 20261014,
+      "unit": "dependency_cluster"
+    },
+    "distance": "1-cosine_similarity",
+    "tau_rule": "frozen_stratified_repeat_calibration_v0.2.5"
+  },
+  "registered_paper_result": false,
+  "repeat_validation": {
+    "controls": 128,
+    "maximum_abs_repeat_contrast_delta": 0.0,
+    "status": "PASS"
+  },
+  "score_transform_version": "DNA03_v0.2.6_F_ONLY",
+  "status": "PASS",
+  "tau": 1e-08,
+  "transition_F": {
+    "core100_to_1000": 0.8729766187050361,
+    "core100_to_2000": 0.8886016187050361,
+    "core100_to_250": 0.9395233812949639,
+    "core100_to_500": 0.908498201438849
+  }
+}

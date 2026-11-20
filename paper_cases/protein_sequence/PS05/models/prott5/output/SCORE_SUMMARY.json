@@ -1,0 +1,59 @@
+{
+  "kind": "PS05_FORMAL_RESULT",
+  "status": "FORMAL_COMPLETE",
+  "formal_result": true,
+  "measurement_ledger_sha256": "8f52537e1e6d98852fef4b998d50c5a9a94cf2b6eb9801d72629bde68777a1fc",
+  "planned_scoreable_population_sha256": "d45119edbe70304dc1b33361e2a012360a2e4ad7276b2d0bf7f9dd6142da8489",
+  "scoreable_population_identity_sha256": "6b3502916bfb4cc8c7fd14528d1c2c9c9fd24bcac3a581017a1f8a06a5d42825",
+  "planned_leaf_count": 1628,
+  "delta_num": 0.0,
+  "leaf_count": 1628,
+  "coverage": {
+    "planned": 1628,
+    "scored": 1628,
+    "fraction": 1.0
+  },
+  "level_counts": {
+    "NEGATIVE_ENDPOINT": 1628,
+    "NEGATIVE_HSF": 1408,
+    "POSITIVE_ENDPOINT": 567,
+    "POSITIVE_HSF": 475,
+    "ANCHOR": 172,
+    "SOURCE_PARENT": 170,
+    "ANCHOR_HSF": 120,
+    "ANCHOR_TOPOLOGY": 21,
+    "ANCHOR_ARCHITECTURE": 11,
+    "OVERALL": 1
+  },
+  "F": 0.5242987174345566,
+  "bootstrap": {
+    "rng": "PCG64",
+    "seed": 20261008,
+    "draws": 20000
+  },
+  "reuse_sensitivity": {
+    "rule": "reuse_count > 100",
+    "kept_leaf_count": 1426,
+    "F": 0.5242287249987465
+  },
+  "individual_scores": {
+    "path": "D:\\codex_workspace\\ai_genome\\work_scripts\\ps05_reconstruction_20261019\\public_rescore\\prott5\\INDIVIDUAL_SCORES.tsv.gz",
+    "sha256": "fd85ca723c2ab914c4c4d240ceca956f3ecbdd5769ff2b06c8f67f3c755414b3"
+  },
+  "contract_binding": {
+    "contract_binding_sha256": "5a69ca0e8c93389472a94ca41d2d760c9856f6f8a1b762d8eac3ca22a7bd158a",
+    "contract_manifest_sha256": null,
+    "metric_registry_sha256": "87234c87015760f8766ac27b8c20f06f4bcc3c04052bb84a698a25d5062fc66d",
+    "aggregation_graph_sha256": "46ec1093d5acefa1f45c548bdbcc0963aae09f857706e0f4cd4015f2129c6bdb",
+    "result_contract_sha256": "eebe8fbb8ec8e16a94ce0ca94085486b5e4fa90da6be004c80ecf0b159ee8cc8"
+  },
+  "model_id": "prott5",
+  "representation_sha256": "077c1d4cd65430b6a6229d12afec487e3539a5b801d4460f45d8f608e53ca503",
+  "representation_index_sha256": "86bedb075142f19756a55c3c33251332ef512b280856a9852515879afb45f603",
+  "F_95_CI": [
+    0.40863925615301877,
+    0.6339850150813695
+  ],
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS05_v1.0.2_F_ONLY"
+}

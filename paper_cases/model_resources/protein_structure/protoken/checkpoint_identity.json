@@ -1,0 +1,106 @@
+{
+  "model_id": "protoken",
+  "domain": "protein_structure",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/issacAzazel/ProToken",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "checkpoint.sha256"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST02/models/protoken/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST02/models/protoken/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST04/models/protoken/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST04/models/protoken/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST05/models/protoken/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "/home/mik/u8t/ai_genome/m4_encoder_audit/repos/ProToken/PROTOKEN/config/encoder.yaml",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "configuration_files.0.locator"
+    },
+    {
+      "value": "b4c453e4e3716df5e3bcb5327c07de7e9d2e1693a7f108f3cef8d405f669f122",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "configuration_files.0.sha256"
+    },
+    {
+      "value": "/home/mik/u8t/ai_genome/m4_encoder_audit/repos/ProToken/PROTOKEN/config/decoder.yaml",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "configuration_files.1.locator"
+    },
+    {
+      "value": "cc4da23e6d03bc42220000e64cddb01d8c3d60b1cb1e43499970c2be99177c71",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "configuration_files.1.sha256"
+    },
+    {
+      "value": "/home/mik/u8t/ai_genome/m4_encoder_audit/repos/ProToken/PROTOKEN/config/vq.yaml",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "configuration_files.2.locator"
+    },
+    {
+      "value": "43ae7aa950f1766963a0adbd55446d5a6b90251419a3329a29cb2aae763d16c1",
+      "source": "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+      "field": "configuration_files.2.sha256"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST02/models/protoken/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256",
+      "asset_context": "PROTOKEN_ST01_FROZEN_STRUCTURE_INTERFACE /home/mik/u8t/ai_genome/m4_encoder_audit/models/protoken/protoken_params_100000.pkl 4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef VQ tokenizer and frozen codebook checkpoint; unweighted codebook-token mean ST01 ST02 FROZEN_MODEL_INTERFACE"
+    },
+    {
+      "value": "4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef",
+      "source": "results/protein_structure/ST04/models/protoken/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256",
+      "asset_context": "PROTOKEN_ST01_FROZEN_STRUCTURE_INTERFACE /home/mik/u8t/ai_genome/m4_encoder_audit/models/protoken/protoken_params_100000.pkl 4fed4b27d615fbea77373c2f02fa22dd0cc9351d24802d260f0e2a9781a6ffef VQ tokenizer and frozen codebook checkpoint; unweighted codebook-token mean ST01 ST02 FROZEN_MODEL_INTERFACE"
+    }
+  ],
+  "download": {
+    "method": "formal execution reused the frozen ProToken repository plus protoken_params_100000.pkl checkpoint",
+    "note": "Repository/config/checkpoint locators are preserved because the executed release used a local deployment rather than an in-run downloader."
+  },
+  "loading": "Run the frozen ProToken stage-1 inference with encoder.yaml, decoder.yaml, vq.yaml and --load_ckpt_path protoken_params_100000.pkl; map token IDs through the frozen VQ codebook and mean pool codebook vectors",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/m4_encoder_audit/repos/ProToken",
+    "/home/mik/u8t/ai_genome/m4_encoder_audit/models/protoken/protoken_params_100000.pkl"
+  ],
+  "formal_evidence_files": [
+    "results/protein_structure/ST01/models/protoken/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/protoken/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/protoken/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST04/models/protoken/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/protoken/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST04/models/protoken/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/protoken/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST05/models/protoken/provenance/FORWARD_LINEAGE.json",
+    "results/protein_structure/ST05/models/protoken/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST05/models/protoken/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST05/models/protoken/provenance/MODEL_INTERFACE.json"
+  ]
+}

@@ -1,0 +1,7 @@
+Constraint	Short_name	Model	F	F_95_CI	rank	row	pair_label
+RNA01-02	RNA Edit Adjacency	RiNALMo-Giga	0.896374	[0.890878, 0.901746]	4	1	B
+RNA01-02	RNA Edit Adjacency	RNA-FM	0.925585	[0.921006, 0.930162]	1	1	A
+RNA06	Partner Specificity	RiNALMo-Giga	0.542399	[0.469746, 0.617450]	2	2	B
+RNA06	Partner Specificity	RNA-FM	0.152726	[0.059172, 0.232450]	4	2	A
+RNA09	Remote RNA Structure	RiNALMo-Giga	0.969697	[0.909090, 1.000000]	1	3	B
+RNA09	Remote RNA Structure	RNA-FM	0.409091	[0.000000, 0.772728]	4	3	A

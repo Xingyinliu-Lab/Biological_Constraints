@@ -1,0 +1,22 @@
+{
+  "contract": {
+    "delta_num": 0.0,
+    "primary_metrics": [
+      "F_PS05"
+    ],
+    "reuse_sensitivity": {
+      "definition": "exclude every relation containing any endpoint with reuse_count > 100",
+      "threshold_rule": "strictly greater than 100"
+    },
+    "uncertainty": {
+      "ci95": "percentile [Q0.025,Q0.975], numpy.quantile(method=linear)",
+      "draws": 20000,
+      "method": "fixed topology strata; HSF then nested source-parent bootstrap",
+      "rng": "PCG64",
+      "seed": 20261008
+    }
+  },
+  "schema_id": "ps05.ResultContract",
+  "schema_version": "1.0.0",
+  "status": "FROZEN"
+}

@@ -1,0 +1,12 @@
+{
+  "artifact": "DNA03_COMPARATOR_SPEC",
+  "class": "LEVEL_0_GEOMETRIC_TRUTH",
+  "comparator_id": "EXACT_CORE_CONTAINMENT_LEVEL0",
+  "constraint_id": "C-DNA-03",
+  "dissimilarity": "0 iff core or reverse-complement(core) is an exact substring of gallery; else 1",
+  "publication_gate": "all 1120 positives contained, all 35840 negatives noncontained, all pair credits one, exact input hashes and population",
+  "same_frozen_relation_universe": true,
+  "status": "FROZEN",
+  "training": "NONE",
+  "version": "0.1.1"
+}

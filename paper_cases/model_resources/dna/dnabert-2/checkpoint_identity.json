@@ -1,0 +1,80 @@
+{
+  "model_id": "dnabert-2",
+  "domain": "dna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://huggingface.co/zhihan1996/DNABERT-2-117M",
+  "upstream_revision": [
+    {
+      "value": "7bce263b15377fc15361f52cfab88f8b586abda0",
+      "source": "results/dna/DNA02-02/models/dnabert-2/provenance/MODEL_INTERFACE.json",
+      "field": "model_revision"
+    }
+  ],
+  "executed_checkpoint_hashes": [
+    {
+      "value": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.7.sha256",
+      "asset_context": "468354983 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--zhihan1996--DNABERT-2-117M\\snapshots\\7bce263b15377fc15361f52cfab88f8b586abda0\\pytorch_model.bin checkpoint_or_model_file 7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba"
+    },
+    {
+      "value": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.5.sha256",
+      "asset_context": "468354983 pytorch_model.bin 7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.4.sha256",
+      "asset_context": "904 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--zhihan1996--DNABERT-2-117M\\snapshots\\7bce263b15377fc15361f52cfab88f8b586abda0\\config.json checkpoint_or_model_file ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd"
+    },
+    {
+      "value": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.8.sha256",
+      "asset_context": "167908 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--zhihan1996--DNABERT-2-117M\\snapshots\\7bce263b15377fc15361f52cfab88f8b586abda0\\tokenizer.json checkpoint_or_model_file 5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3"
+    },
+    {
+      "value": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.9.sha256",
+      "asset_context": "158 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--zhihan1996--DNABERT-2-117M\\snapshots\\7bce263b15377fc15361f52cfab88f8b586abda0\\tokenizer_config.json checkpoint_or_model_file f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769"
+    },
+    {
+      "value": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.2.sha256",
+      "asset_context": "904 config.json ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd"
+    },
+    {
+      "value": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.6.sha256",
+      "asset_context": "167908 tokenizer.json 5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3"
+    },
+    {
+      "value": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769",
+      "source": "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.7.sha256",
+      "asset_context": "158 tokenizer_config.json f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769"
+    }
+  ],
+  "download": {
+    "source": "https://huggingface.co/zhihan1996/DNABERT-2-117M",
+    "method": "huggingface_hub snapshot download",
+    "pinned_revision": "7bce263b15377fc15361f52cfab88f8b586abda0"
+  },
+  "loading": "AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, local_files_only=True); AutoModel.from_pretrained(model_path, trust_remote_code=True, local_files_only=True).eval()",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0"
+  ],
+  "formal_evidence_files": [
+    "results/dna/DNA01/models/dnabert-2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+    "results/dna/DNA02-02/models/dnabert-2/provenance/EXECUTION_BINDING.json",
+    "results/dna/DNA02-02/models/dnabert-2/provenance/MODEL_INTERFACE.json"
+  ]
+}

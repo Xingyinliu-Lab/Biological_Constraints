@@ -1,0 +1,50 @@
+{
+  "archived_embeddings_sha256": "8d07737648e0523f97ae4afc81df9cf99a78fe596d5fdbfcc3a8697530f7ad11",
+  "artifact": "DNA02_02_PAPER_CASE_SCORING_REGISTRATION",
+  "constraint_release": "DNA02-02_v0.1.5_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "941a3c99f31fba409621514104cfd2272be8847162a050c4af80b61d09048b50",
+  "model_forward_rerun": false,
+  "model_id": "janusdna",
+  "output_directory": "paper_cases/dna/DNA02-02/models/janusdna/output/DNA02-02_v0.1.5_f_only",
+  "output_files": {
+    "CLUSTER_SCORE_LEDGER.tsv": {
+      "bytes": 11083,
+      "sha256": "4527947a6c25e6f0dd00e98d28c96e49fb3c317a4d6334d0c0e5f07f258113a7"
+    },
+    "FORMAL_RESULT.json": {
+      "bytes": 1707,
+      "sha256": "941a3c99f31fba409621514104cfd2272be8847162a050c4af80b61d09048b50"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "d93c8eca21c0e66c25bae1fbceb161e43f127a0d0b7d7a31186169e763354bc4"
+    },
+    "LOCUS_SCORE_LEDGER.tsv": {
+      "bytes": 19867,
+      "sha256": "817233c0949dc0d42f18e399a8d1817453d259869a4318e35bee678aae737c3a"
+    },
+    "OUTPUT_MANIFEST.json": {
+      "bytes": 1158,
+      "sha256": "34d01ace036c862e61c6cc17d9b593bac5260e5e7cc8e87562105847966fd14b"
+    },
+    "QUERY_SCORE_LEDGER.tsv": {
+      "bytes": 567784,
+      "sha256": "ca802177fe40b79bd7dd79edf12bdcceecf7409c5b0db33df0324438fdc12172"
+    },
+    "RUN_COMPLETE": {
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    },
+    "TAU_EVIDENCE.json": {
+      "bytes": 1137,
+      "sha256": "934df90ffffac33572d7d492082f2ab93d5122d1a61396d07f6777d8659b5666"
+    }
+  },
+  "output_manifest_sha256": "34d01ace036c862e61c6cc17d9b593bac5260e5e7cc8e87562105847966fd14b",
+  "public_scorer_sha256": "496e64b1ccc86c70be7d036437b5a59424c8005785fbff4cdb35da428f4eba6e",
+  "repeat_embeddings_sha256": "8d07737648e0523f97ae4afc81df9cf99a78fe596d5fdbfcc3a8697530f7ad11",
+  "result_directory": "output/DNA02-02_v0.1.5_f_only",
+  "source_model_key": "janusdna",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

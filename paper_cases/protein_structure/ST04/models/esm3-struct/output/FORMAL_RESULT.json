@@ -1,0 +1,21 @@
+{
+  "F": 0.663320891998751,
+  "F_95_CI": [
+    0.6418203648923175,
+    0.684202682376434
+  ],
+  "artifact_id": "ST04_FORMAL_RESULT_v0.1.4_F_ONLY",
+  "constraint_id": "C-ST-04",
+  "counts": {
+    "dependency_clusters": 562,
+    "directed_queries": 73565,
+    "embedding_dimension": 1536,
+    "relations": 152173,
+    "required_residue_endpoints": 48279
+  },
+  "formal_interface": "F_ONLY",
+  "model_id": "ESM3-STRUCT",
+  "release_qc_status": "PASS",
+  "score_transform_version": "ST04_v0.1.4_F_ONLY",
+  "status": "PASS"
+}

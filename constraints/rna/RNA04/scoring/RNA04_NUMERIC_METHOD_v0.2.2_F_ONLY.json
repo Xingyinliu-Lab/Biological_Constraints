@@ -1,0 +1,25 @@
+{
+  "aggregation_hierarchy": [
+    "variant-pair F credits to equal-weight site F",
+    "unique-site F to equal-weight parent F",
+    "parent F to outer-cluster F",
+    "outer-cluster F to formal F"
+  ],
+  "assay_id": "C-RNA-04",
+  "bootstrap": {
+    "draws": 20000,
+    "interval": "percentile 95% F interval",
+    "seed": 20261002,
+    "unit": "outer_cluster F"
+  },
+  "feature": "whole-CDS vector delta (ALT minus WT)",
+  "formal_interface": "F_ONLY",
+  "held_out_credit": "F_credit = 1 if missense score exceeds synonymous score; 0 if tied; -1 otherwise",
+  "inner_selection_folds": 4,
+  "outer_crossfit_folds": 5,
+  "readout": "L2 logistic ridge",
+  "regularization_C_candidates": [0.0001, 0.001, 0.01, 0.1, 1, 10, 100],
+  "release": "v0.2.2-F-only",
+  "training_weight_hierarchy": ["outer_cluster", "parent", "site", "class", "variant"],
+  "user_overridable_formal_parameters": []
+}

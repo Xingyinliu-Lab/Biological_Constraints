@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "F": 0.6805491564126565,
+      "F_95_CI": [
+        0.6615868705197012,
+        0.6990479363319264
+      ],
+      "case_path": "models/esm-if1",
+      "model_id": "esm-if1",
+      "status": "PASS"
+    },
+    {
+      "F": 0.663320891998751,
+      "F_95_CI": [
+        0.6418203648923175,
+        0.684202682376434
+      ],
+      "case_path": "models/esm3-struct",
+      "model_id": "esm3-struct",
+      "status": "PASS"
+    },
+    {
+      "F": 0.5695357138717998,
+      "F_95_CI": [
+        0.5468016377123381,
+        0.5916894107520014
+      ],
+      "case_path": "models/proteinmpnn-ca",
+      "model_id": "proteinmpnn-ca",
+      "status": "PASS"
+    },
+    {
+      "F": 0.1416079202900049,
+      "F_95_CI": [
+        0.11658034810780804,
+        0.16732726427244482
+      ],
+      "case_path": "models/protoken",
+      "model_id": "protoken",
+      "status": "PASS"
+    },
+    {
+      "F": 0.3363489915061397,
+      "F_95_CI": [
+        0.3108178104455568,
+        0.3610192526922793
+      ],
+      "case_path": "models/sslm",
+      "model_id": "sslm",
+      "status": "PASS"
+    }
+  ],
+  "constraint": "ST04",
+  "constraint_release": "v0.1.4_F_ONLY",
+  "formal_interface": "F_ONLY"
+}

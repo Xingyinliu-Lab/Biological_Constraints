@@ -1,0 +1,63 @@
+{
+  "constraint_id": "PS05",
+  "release": "PS05_v1.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "status": "PASS",
+  "cases": [
+    {
+      "model_id": "carp-640m",
+      "status": "PASS",
+      "F": 0.25778006528122877,
+      "F_95_CI": [
+        0.13926254176662178,
+        0.37302521558554314
+      ],
+      "result": "paper_cases/protein_sequence/PS05/models/carp-640m/output/SCORE_SUMMARY.json",
+      "result_sha256": "6e8ca201b18db8ca50c48af4c0236cbc3d51aeffe12f71f0ead27471abe50a14"
+    },
+    {
+      "model_id": "esm2-650m",
+      "status": "PASS",
+      "F": 0.29240009497532626,
+      "F_95_CI": [
+        0.16607441086255714,
+        0.4184904685078292
+      ],
+      "result": "paper_cases/protein_sequence/PS05/models/esm2-650m/output/SCORE_SUMMARY.json",
+      "result_sha256": "632fc702972d7a5bf2a02549c105aeeb81a274272fbf62328d63f7a4bfc9e3fc"
+    },
+    {
+      "model_id": "esm3-seq",
+      "status": "PASS",
+      "F": 0.3748170015059895,
+      "F_95_CI": [
+        0.2636083863894574,
+        0.48038584011025987
+      ],
+      "result": "paper_cases/protein_sequence/PS05/models/esm3-seq/output/SCORE_SUMMARY.json",
+      "result_sha256": "b63a4cfeacc51f401b4937a99baa83904e51f9524866c6451941fa9789440955"
+    },
+    {
+      "model_id": "esmc-600m",
+      "status": "PASS",
+      "F": 0.32168728163574944,
+      "F_95_CI": [
+        0.20648295148021645,
+        0.43563170542877305
+      ],
+      "result": "paper_cases/protein_sequence/PS05/models/esmc-600m/output/SCORE_SUMMARY.json",
+      "result_sha256": "c5d061d3f9ac08007798a70eec3ba2e3fcb31e8adeac8d6ff2d59462f5fb0aae"
+    },
+    {
+      "model_id": "prott5",
+      "status": "PASS",
+      "F": 0.5242987174345566,
+      "F_95_CI": [
+        0.40863925615301877,
+        0.6339850150813695
+      ],
+      "result": "paper_cases/protein_sequence/PS05/models/prott5/output/SCORE_SUMMARY.json",
+      "result_sha256": "aa7661ed068ef63671468b17d64668f421a462b5ca876e61bc258a48a5990574"
+    }
+  ]
+}

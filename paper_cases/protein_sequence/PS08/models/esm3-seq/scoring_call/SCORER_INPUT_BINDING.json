@@ -1,0 +1,9 @@
+{
+  "constraint_id": "PS08",
+  "constraint_release": "PS08_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "esm3-seq",
+  "formal_result": "paper_cases/protein_sequence/PS08/models/esm3-seq/output/SCORE_SUMMARY.json",
+  "formal_result_sha256": "539916e94cd9d6f5620ac56f96f2614bab73e77a4a8bad8f10d7940d3561d5ed",
+  "status": "PASS"
+}

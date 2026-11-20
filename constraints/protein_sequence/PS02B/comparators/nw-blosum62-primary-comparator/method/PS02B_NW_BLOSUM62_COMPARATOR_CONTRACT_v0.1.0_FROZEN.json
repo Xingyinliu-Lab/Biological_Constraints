@@ -1,0 +1,72 @@
+{
+  "artifact_type": "ComparatorMethodContract",
+  "comparator_method_id": "PS02B_NW_BLOSUM62_RAW_GLOBAL_COMPARATOR_v0.1.0",
+  "status": "FROZEN",
+  "method_level": "LEVEL_1_FIXED_PRIOR_RAW_SEQUENCE",
+  "role": "primary_raw_sequence_explanatory_reference",
+  "assay": "C-PS-02B",
+  "reference_population": {
+    "release_id": "PS02B_ASSAY_REFSET_RELEASE_v1.0.0_L_20261006",
+    "relation_count": 8208,
+    "relation_ledger_sha256": "a217d9709da4add917c046238baed4b163766d0e5b4bef648c731296175710ce",
+    "membership_policy": "immutable; no comparator-driven filtering, rematching, or relation deletion"
+  },
+  "input_contract": {
+    "modality": "PROTEIN",
+    "source": "RAW_DOMAIN_SEQUENCE_ONLY",
+    "allowed": [
+      "anchor sequence",
+      "positive sequence",
+      "negative sequence"
+    ],
+    "prohibited": [
+      "HSF or topology labels in similarity",
+      "MSA",
+      "profile",
+      "HMM",
+      "BLAST or retrieval",
+      "taxonomy",
+      "structure",
+      "embedding",
+      "pretrained representation"
+    ],
+    "query_time_external_reference_lookup": "FORBIDDEN"
+  },
+  "method": {
+    "tool": "EMBOSS needle",
+    "tool_version": "6.6.0.0",
+    "binary": "/home/mik/u8t/ai_genome/bc_v1_reference_build/tools/ps01_emboss_6.6.0.0/bin/needle",
+    "algorithm": "Needleman-Wunsch global alignment",
+    "matrix": "EBLOSUM62",
+    "gap_open": 10.0,
+    "gap_extend": 0.5,
+    "terminal_gaps_penalized": true,
+    "end_open": 10.0,
+    "end_extend": 0.5,
+    "fixed_method_prior": "EBLOSUM62 substitution matrix"
+  },
+  "score_semantics": {
+    "pair_similarity": "2*s(x,y)/(s(x,x)+s(y,y))",
+    "contrast": "S(anchor,positive)-S(anchor,negative)",
+    "higher_means": "same-HSF positive is ranked above same-topology different-HSF negative",
+    "tie_policy": "exact IEEE-754 float64 equality; F_credit 0 (win 1; loss -1)"
+  },
+  "evaluation": {
+    "score_ledger": "one score_anchor_positive and score_anchor_negative per frozen relation",
+    "evaluator": "PS02B_NUMERIC_METHOD_AND_SCORER_v0.1.1_FROZEN_20261006",
+    "bootstrap_units": "frozen 351 groups",
+    "evaluation_truth_use": "Frozen relation roles may identify prespecified anchor-positive and anchor-negative pairs and support downstream aggregation; they must not alter alignment scoring, parameters, filtering, or method selection."
+  },
+  "failure_policy": "pre-execution tool and input preflight; any in-scope runtime failure fails the execution and does not shrink the population",
+  "diagnostic_separation": "identity and coverage are matching-variable diagnostics only and are not part of this primary comparator",
+  "frozen_execution_bindings": {
+    "formal_relation_ledger_sha256": "a217d9709da4add917c046238baed4b163766d0e5b4bef648c731296175710ce",
+    "formal_object_ledger_sha256": "13426c74b87677826d2ba22461e313d4cb1e76559e55e18a407edf0b4d507489",
+    "point_membership_sha256": "3fdf89737e5267d4bde26f5408c164d1f0806f15bfa3f3ab2afcce72c8a654f5",
+    "uncertainty_membership_sha256": "38f134aae0af11b9c09c8c1c17a4444e1c79a2726971409a53b130f0935f7ef0",
+    "endpoint_fasta_sha256": "de90bfda8d31a50260c38f96c8475ee62130d9fce4b2261ff3053aa210ce18a4",
+    "needle_sha256": "d369c810d4c60532638db7c3c51903cd5f37a75405a3e26174ee2a4f5d380590",
+    "comparator_code_sha256": "761a3af0c138ebe2c28e0861171493492e2f608554037e39f7824b7c60bce148",
+    "formal_scorer_sha256": "4cfcbe33c100cfd99202a4a4054ea36e7b1d5133cab0b392fb76a5be554bff19"
+  }
+}

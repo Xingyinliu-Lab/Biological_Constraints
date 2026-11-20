@@ -1,0 +1,4 @@
+domain	Constraint	label	model_a	model_b	F_a	F_b	delta_F	conservative_lower	conservative_upper
+DNA	DNA01	Reverse complement	Caduceus-PS	DNABERT-2	0.979844	0.564916	0.414928	0.409937	0.419818
+DNA	DNA02-02	Edit adjacency	Caduceus-PS	DNABERT-2	0.624056	0.948739	-0.324683	-0.337078	-0.312228
+DNA	DNA06	Codon consequence	Caduceus-PS	DNABERT-2	0.994069	0.253481	0.740588	0.711964	0.768696

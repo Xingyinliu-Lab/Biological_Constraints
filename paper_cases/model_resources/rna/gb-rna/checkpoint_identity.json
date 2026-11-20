@@ -1,0 +1,51 @@
+{
+  "model_id": "gb-rna",
+  "domain": "rna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://huggingface.co/genbio-ai/GB.RNA-650M",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "c1a6c7bd3bcc88bfe307451c2f8b5aa49989472d6e55f664985dffd36c453349",
+      "source": "results/rna/RNA01-02/models/gb-rna/provenance/cal1.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "c1a6c7bd3bcc88bfe307451c2f8b5aa49989472d6e55f664985dffd36c453349",
+      "source": "results/rna/RNA01-02/models/gb-rna/provenance/cal2.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "c1a6c7bd3bcc88bfe307451c2f8b5aa49989472d6e55f664985dffd36c453349",
+      "source": "results/rna/RNA01-02/models/gb-rna/provenance/gb_rna_l16k.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "c1a6c7bd3bcc88bfe307451c2f8b5aa49989472d6e55f664985dffd36c453349",
+      "source": "results/rna/RNA09/models/gb-rna/provenance/gb_rna.npz.metrics.json",
+      "field": "weights_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "Tokenizer/config are loaded from the executed GB.RNA-650M snapshot; checkpoint file identity is recorded above.",
+  "download": {
+    "method": "formal execution reused the frozen AIDO/GB.RNA-650M Hugging Face-compatible directory"
+  },
+  "loading": "RNABertTokenizer(get_vocab_filepath(), version='v2'); RNABertModel.from_pretrained(model_dir).to(device).to(torch.bfloat16).eval(); valid A/G/C/T/U/N token states pooled",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/fd/m2_rna/models/GB.RNA-650M",
+    "/home/mik/fd/m2_rna/models/GB.RNA-650M/model.safetensors"
+  ],
+  "formal_evidence_files": [
+    "results/rna/RNA01-02/models/gb-rna/provenance/cal1.npz.metrics.json",
+    "results/rna/RNA01-02/models/gb-rna/provenance/cal2.npz.metrics.json",
+    "results/rna/RNA01-02/models/gb-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA01-02/models/gb-rna/provenance/gb_rna_l16k.npz.metrics.json",
+    "results/rna/RNA04/models/gb-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA05/models/gb-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA06/models/gb-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/gb-rna/gb_rna.npz.metrics.json",
+    "results/rna/RNA09/models/gb-rna/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/gb-rna/provenance/gb_rna.npz.metrics.json"
+  ]
+}

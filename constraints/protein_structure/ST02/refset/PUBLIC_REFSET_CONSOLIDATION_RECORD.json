@@ -1,0 +1,15 @@
+{
+  "artifact_id": "ST02_PUBLIC_REFSET_CONSOLIDATION_20261019",
+  "formal_coordinate_count": 509,
+  "formal_object_count": 509,
+  "old_objects_sha256": "05babe3e9c0deb268ba55077face2a385cd13f249d2042979e59e6c4dc13ed25",
+  "private_snapshot": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\refset_builder\\protein_structure\\ST02\\source\\materialization_2k_snapshot",
+  "public_objects_sha256": "062f25746d4ddb0de2d8651401ff176561e18a86d1256cee549dce7399a16bed",
+  "relations_sha256": "4f62e74e6cf94bfb5fdd4cbae23cc1ac4d5d5bc6113b7cb69bc14aed1b6e47fa",
+  "removed_source_only_coordinate_count": 1491,
+  "rule": "The public RefSet contains exactly the objects referenced by the frozen formal relations. The unmodified 2K materialization snapshot remains private.",
+  "scientific_change": "NONE_UNUSED_SOURCE_ROWS_AND_COORDINATES_REMOVED",
+  "source_coordinate_count": 2000,
+  "source_object_count": 572,
+  "status": "PASS"
+}

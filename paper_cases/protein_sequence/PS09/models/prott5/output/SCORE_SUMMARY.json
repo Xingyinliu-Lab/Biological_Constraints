@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "formal_result": true,
+  "constraint_id": "PS09",
+  "F": 0.7497120663486565,
+  "coverage": {
+    "endpoints_scored": 15708,
+    "endpoints_expected": 15708,
+    "blocks_scored": 1030,
+    "clusters_scored": 78
+  },
+  "bootstrap": {
+    "draws": 20000,
+    "bit_generator": "PCG64",
+    "seed": 20261008,
+    "unit": "homology_cluster_id",
+    "quantile_method": "linear"
+  },
+  "input_identity": {
+    "membership": "9eb6a7fe56ad68d12242ed92d6b9ccbc804224383856395840c8b04fdf32b9a2",
+    "blocks": "f219f881652540907069d40a3f3823f685129c32735d0f9fc7511211303b9e6e",
+    "clusters": "292531efc681502fb615554f183501cf7f4036acce3a096303f50f8fc0790645",
+    "fasta": "a5a27d56a50827f7142031694f831448a08010eed83276251e6940307d2292f2",
+    "fold_assignment": "036256641aadc69aa42a164418d928b4404d72b8880640ed7ac8bdac970235b6",
+    "leaf_scores": "a95b39a692bb8ccde1de96889e39a533b0f76b7b39114d365c7cd0ddf8dd6e4c"
+  },
+  "formal_refset_identity_match": true,
+  "refset_closure": {
+    "proteins": 81,
+    "endpoints": 15708,
+    "blocks": 1030,
+    "homology_clusters": 78
+  },
+  "model_id": "prott5",
+  "F_95_CI": [
+    0.6612969123178538,
+    0.8298884483536937
+  ],
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS09_v0.1.2_F_ONLY"
+}

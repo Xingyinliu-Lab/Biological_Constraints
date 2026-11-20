@@ -1,0 +1,28 @@
+{
+  "constraint_id": "PS10",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "model_id": "esm3-seq",
+  "outputs": [
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 128264,
+      "sha256": "e7ecc4bdd80049e7a5d4007e3e4652d326f4bc4b1bedb94ec464b7ad73a6e9a7"
+    },
+    {
+      "path": "FOLD_SCORES.tsv",
+      "bytes": 1003,
+      "sha256": "8dbd03a79d60f04219445000732ce0c7c102c38ebbd80ec6096e658d5b48f83e"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1083,
+      "sha256": "b5c18f6e5ca7a96bca59e3396d8a0b16bee7af61baa270ed5aeb7dbfab5c015c"
+    },
+    {
+      "path": "BOOTSTRAP_DRAWS.float64le.bin",
+      "bytes": 160000,
+      "sha256": "a236eef99df442b9c4379cb873f534c8d5ea480f9f5573e079b092ba63657c81"
+    }
+  ]
+}

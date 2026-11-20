@@ -1,0 +1,21 @@
+{
+  "contract": {
+    "levels": [
+      "NEGATIVE_ENDPOINT",
+      "NEGATIVE_HSF",
+      "POSITIVE_ENDPOINT",
+      "POSITIVE_HSF",
+      "ANCHOR",
+      "SOURCE_PARENT",
+      "ANCHOR_HSF",
+      "ANCHOR_TOPOLOGY",
+      "ANCHOR_ARCHITECTURE",
+      "OVERALL"
+    ],
+    "operator": "equal immediate-child mean",
+    "removed_redundant_level": "SOURCE_UNIT_WITHIN_ANCHOR_HSF_TOPOLOGY"
+  },
+  "schema_id": "ps05.AggregationGraph",
+  "schema_version": "1.0.0",
+  "status": "FROZEN"
+}

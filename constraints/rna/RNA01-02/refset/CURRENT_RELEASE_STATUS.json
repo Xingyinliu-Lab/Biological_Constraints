@@ -1,0 +1,6 @@
+{
+  "constraint_id": "RNA01-02",
+  "status": "FORMAL_RELEASE",
+  "formal_population": "L16K",
+  "note": "The packaged L16K large population is the sole formal public RefSet used by the published F results."
+}

@@ -1,0 +1,11 @@
+{
+  "artifact": "DNA03_FORWARD_VIEW_MANIFEST",
+  "constraint_id": "C-DNA-03",
+  "fasta": "DNA03_FORWARD_VIEWS.fasta",
+  "fasta_bytes": 1135680,
+  "fasta_sha256": "c5db0ea1abee422b66b0284476a94bcae2d61ca6db9a54a842ad7551fad97362",
+  "forward_view_count": 1400,
+  "membership_sha256": "661b779d38cd69a93bfe52601b58d5e0d593f7689926ccb08a36db84859e0d3c",
+  "status": "FROZEN",
+  "view_id_source": "CORE_VIEW_MEMBERSHIP.tsv:view_id"
+}

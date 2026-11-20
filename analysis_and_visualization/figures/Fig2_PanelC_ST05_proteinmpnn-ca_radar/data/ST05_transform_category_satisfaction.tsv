@@ -1,0 +1,26 @@
+category	F_satisfaction_fraction	model	n_relations
+Rotation 45	0.00555555555555556	ESM-IF1	180
+Rotation 90	0.988888888888889	ESM-IF1	180
+Rotation 180	1	ESM-IF1	180
+Translation	0	ESM-IF1	180
+General combined	0	ESM-IF1	180
+Rotation 45	0	ESM3-struct	180
+Rotation 90	0.161111111111111	ESM3-struct	180
+Rotation 180	1	ESM3-struct	180
+Translation	0	ESM3-struct	180
+General combined	0	ESM3-struct	180
+Rotation 45	0.05	ProToken	180
+Rotation 90	0.0611111111111111	ProToken	180
+Rotation 180	0.0722222222222222	ProToken	180
+Translation	0.0611111111111111	ProToken	180
+General combined	0.05	ProToken	180
+Rotation 45	0.972222222222222	ProteinMPNN-CA	180
+Rotation 90	0.527777777777778	ProteinMPNN-CA	180
+Rotation 180	0.233333333333333	ProteinMPNN-CA	180
+Translation	0.638888888888889	ProteinMPNN-CA	180
+General combined	0.266666666666667	ProteinMPNN-CA	180
+Rotation 45	0.888888888888889	SSLM	180
+Rotation 90	1	SSLM	180
+Rotation 180	1	SSLM	180
+Translation	1	SSLM	180
+General combined	0.872222222222222	SSLM	180

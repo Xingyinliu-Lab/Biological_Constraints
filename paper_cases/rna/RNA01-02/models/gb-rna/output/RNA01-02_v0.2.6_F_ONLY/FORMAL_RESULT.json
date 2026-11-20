@@ -1,0 +1,35 @@
+{
+  "F": 0.9026005738355412,
+  "F_95_CI": [
+    0.8972590195958732,
+    0.9079421280752091
+  ],
+  "assay_id": "C-RNA-01-02",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 1656386345650460997,
+  "bootstrap_unit": "outer_cluster",
+  "coverage": {
+    "required": 49149,
+    "scored": 49149
+  },
+  "evaluation_leaves": 16384,
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "input_identities": {
+    "calibration_repeat_1": "4c9a1050c225edadc690124b601a77d01085522d78658497a7769a2ca711c1cf",
+    "calibration_repeat_2": "4c9a1050c225edadc690124b601a77d01085522d78658497a7769a2ca711c1cf",
+    "edit_ladder_ledger": "a9ba70a80756f979d318ecf254bf79d17b18e7ffdeaae19773fc2469db8de8f5",
+    "object_ledger": "5c99126f5e81fae4e84d08b0157da8f45aed98147c721351f4123586e5338154",
+    "population_manifest": "46e9917b1bcdfbf1b8e25ddbdabeec397a5f2f327881d5a85b908ab30394f6f3",
+    "vectors": "967a8e7306ec1cb567f05654f0c6a3c7fce140278decd2296c5bcb03573ddab3"
+  },
+  "metric": "F_RNA01-02",
+  "model_id": "AIDO-GB.RNA-650M",
+  "outer_clusters": 16381,
+  "population": "L16K",
+  "reference_population_identity_sha256": "686a035451271f480783291f316862bd4932506735c4d24d8f60aef69ab8b558",
+  "registered_reference_population": true,
+  "score_transform_version": "RNA01-02_v0.2.6_F_ONLY_DIRECT_CREDITS",
+  "status": "PASS",
+  "tau_delta": 0.0
+}

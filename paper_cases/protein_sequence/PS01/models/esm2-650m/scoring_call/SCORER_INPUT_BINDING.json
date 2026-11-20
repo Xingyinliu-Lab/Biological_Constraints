@@ -1,0 +1,20 @@
+{
+  "constraint_id": "PS01",
+  "constraint_release": "PS01_v2.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "forward_output": {
+    "bytes": 12050536,
+    "historical_locator": "/home/mik/u8t/ai_genome/bc_v1_reference_build/ps01_model_forward_development_20260929/esm2/embeddings.safetensors",
+    "sha256": "0d02c386c81fc124415b228cff613ee5b59f06e7d9b441245f1572f074d940cd"
+  },
+  "forward_output_not_redistributed": true,
+  "individual_scores_sha256": "616b4ef9b399ffd8b4c90347d1ebc9bb447edde1322271eb68fc9a23bb683f78",
+  "model_id": "esm2-650m",
+  "output_manifest_sha256": "defa470a95a71988b68919042f2b7aca245168d383b7c778439d1316d45d7ced",
+  "parity": "F_ONLY_DETERMINISTIC_MATERIALIZATION",
+  "public_result_sha256": "a3fabd2a26513cc0e4a8cb6c95ef6cfb92d4ab3e133aba640cd1c88b03024b2b",
+  "public_scorer": "constraints/protein_sequence/PS01/scoring/score_ps01.py",
+  "public_scorer_sha256": "f3d2bccce17ea7efe16e9b080e229ea5ddf0d9d3ca8c8609ad2e6929bc20bc4d",
+  "public_scoring_core_sha256": "1bd15ecc38f06b54792e9160abb1cf4325d89ec3e1d691d618b8e062e425f231",
+  "representation_index_sha256": "eeb75890a898c38c5939193a14cfffca8c2fad2144dcc5027acf4d576d6e97db"
+}

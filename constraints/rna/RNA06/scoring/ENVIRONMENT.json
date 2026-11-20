@@ -1,0 +1,11 @@
+{
+  "constraint": "RNA06",
+  "interface": "released_position_or_sequence_matrix_npz",
+  "numpy": "1.26.4",
+  "python": "3.10",
+  "scipy": "1.11.4",
+  "torch": {
+    "required_for_released_npz_interface": false,
+    "version_for_historical_pt_compatibility": "2.5.1"
+  }
+}

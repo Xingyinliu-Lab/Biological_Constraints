@@ -1,0 +1,33 @@
+{
+  "F": -0.0290506253006253,
+  "F_95_CI": [
+    -0.21230820105820114,
+    0.15967051467051485
+  ],
+  "F_bootstrap_file": "F_BOOTSTRAP_DRAWS.json",
+  "F_bootstrap_sha256": "26b94efdbe2c5c636f4ff2a48e5a071e2aa973d31b5b5de10bd08eaa483da942",
+  "blocks": 60,
+  "constraint_id": "C-RNA-10",
+  "effective_evaluation_lineage": {
+    "numeric_method_sha256": "3e8a061f68e66a3d7c4340c315c4690fb0511eb17a035cfbb8d5e4d76f4d85eb",
+    "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+    "runplan_sha256": "18cde37d6b0023ecfc2d2c3590a22040bedd9399bf7e6b22933b2827b42ce0a4",
+    "split_release_sha256": "d8274f0efa97413b9a44c1685f8e094feb5caeb011cab1588fd6530c6613952c"
+  },
+  "evaluation_class": "FORMAL_PROTOCOL_EVALUATION",
+  "formal_interface": "F_ONLY",
+  "formal_scoring_protocol": true,
+  "measurement_ledger_sha256": "6ca34d93d2f10ca13813ea3fd155b7dcf7ffa16fa497355468f0d46c6eb81b15",
+  "model_id": "ernie-rna",
+  "registered_paper_result": false,
+  "score_transform_version": "RNA10_F_ONLY_v1",
+  "source_dependency_units": 60,
+  "status": "PASS",
+  "supplied_measurement_lineage": {
+    "numeric_method_sha256": "3e8a061f68e66a3d7c4340c315c4690fb0511eb17a035cfbb8d5e4d76f4d85eb",
+    "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+    "runplan_sha256": "52756c5d949a9c48c5ab8b512ca5a18a301574ff19931472a1122dbcb6efa5a5",
+    "split_release_sha256": "d8274f0efa97413b9a44c1685f8e094feb5caeb011cab1588fd6530c6613952c"
+  },
+  "uncertainty_dependency_clusters": 60
+}

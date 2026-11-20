@@ -1,0 +1,9 @@
+{
+  "constraint_id": "PS08",
+  "constraint_release": "PS08_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "carp-640m",
+  "formal_result": "paper_cases/protein_sequence/PS08/models/carp-640m/output/FORMAL_RESULT.json",
+  "formal_result_sha256": "4533de0cfe315e6e68deb101ccf3f0de1a2f63ba8cb572615239c222393e8286",
+  "status": "PASS"
+}

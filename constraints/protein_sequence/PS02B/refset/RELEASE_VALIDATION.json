@@ -1,0 +1,14 @@
+{
+  "release": "PS02B_ASSAY_REFSET_RELEASE_v1.0.0_L_20261006",
+  "manifest_entries_before_finalization": 8,
+  "manifest_errors_before_finalization": [],
+  "formal_ledger": "FORMAL_RELATION_LEDGER.tsv.gz",
+  "formal_relation_or_bundle_count": 8208,
+  "group_counts": {
+    "POINT_DEPENDENCY_MEMBERSHIP.tsv.gz": 351,
+    "UNCERTAINTY_GROUP_MEMBERSHIP.tsv.gz": 351
+  },
+  "formal_status": "FROZEN",
+  "scoring_status": "NOT_EXECUTED",
+  "note": "A single uncertainty group, when present, is an observed consequence of its frozen closure rule; no model score is released."
+}

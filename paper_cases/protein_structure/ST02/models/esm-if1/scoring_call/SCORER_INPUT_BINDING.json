@@ -1,0 +1,16 @@
+{
+  "constraint_id": "ST02",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "esm-if1",
+  "public_rescore_output": {
+    "path": "output/public_rescore/SCORE_SUMMARY.json",
+    "sha256": "a05aeec8736d6eb2bf552a432426586f052211966bad51195d37b6a3ac889b23"
+  },
+  "public_scorer_sha256": "cb07f116cbc588baa8efc18da1980a4b14068231e7be28174741c351b12cfb8e",
+  "registered_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "0a5bb54e8e44535a2f02b80d9d98248488e4ae97df4fb1a33464d54a23e26056"
+  },
+  "status": "PASS"
+}

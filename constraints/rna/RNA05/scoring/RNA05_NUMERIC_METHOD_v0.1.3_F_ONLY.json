@@ -1,0 +1,11 @@
+{
+  "assay_id": "C-RNA-05",
+  "method_id": "RNA05-Numeric-Method-v0.1.3-F-Only",
+  "formal_reporting_score": "F",
+  "evaluation_credit": {"win": 1, "tie": 0, "loss": -1},
+  "aggregation": "equal block -> parent -> outer dependency cluster macro",
+  "uncertainty": {"unit": "outer dependency cluster", "bootstrap_replicates": 20000, "bootstrap_seed": 20261003, "reported_interval": "F_95_CI"},
+  "readout": "L2 ridge logistic regression with fixed leave-one-outer-cluster-out evaluation and four-fold inner lambda selection",
+  "formal_population": {"endpoints": 6206, "blocks": 1514, "parents": 103, "outer_dependency_clusters": 20},
+  "status": "CURRENT_F_ONLY"
+}

@@ -1,0 +1,26 @@
+model	category	F_satisfaction_fraction
+SSLM	Rotation 45	0.888888888888889
+ProteinMPNN-CA	Rotation 45	0.972222222222222
+ESM-IF1	Rotation 45	0.00555555555555556
+ESM3-struct	Rotation 45	0
+ProToken	Rotation 45	0.05
+SSLM	Rotation 90	1
+ProteinMPNN-CA	Rotation 90	0.527777777777778
+ESM-IF1	Rotation 90	0.988888888888889
+ESM3-struct	Rotation 90	0.161111111111111
+ProToken	Rotation 90	0.0611111111111111
+SSLM	Rotation 180	1
+ProteinMPNN-CA	Rotation 180	0.233333333333333
+ESM-IF1	Rotation 180	1
+ESM3-struct	Rotation 180	1
+ProToken	Rotation 180	0.0722222222222222
+SSLM	Translation	1
+ProteinMPNN-CA	Translation	0.638888888888889
+ESM-IF1	Translation	0
+ESM3-struct	Translation	0
+ProToken	Translation	0.0611111111111111
+SSLM	General combined	0.872222222222222
+ProteinMPNN-CA	General combined	0.266666666666667
+ESM-IF1	General combined	0
+ESM3-struct	General combined	0
+ProToken	General combined	0.05

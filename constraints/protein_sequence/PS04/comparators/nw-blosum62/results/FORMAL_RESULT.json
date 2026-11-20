@@ -1,0 +1,50 @@
+{
+  "F": 0.2377236438995749,
+  "F_95_CI": [
+    0.09665504952846327,
+    0.32552098971571186
+  ],
+  "artifact_id": "PS04_FORMAL_RESULT_v1.0.2_F_ONLY",
+  "binding_sha256": "28c7be52776ad31b32e3e1d3bad432c1804e0a779e7e186be7a3114f9be5f083",
+  "bootstrap_unit_count": 2728,
+  "code_sha256": {
+    "bc_safe_cosine_total_float32_v1.py": "67f38275fec35525038619c1819d57f5f02602dbbbce670d908d95e3a0e18b28",
+    "ps04_anchor_source_unit_bootstrap.py": "d127b6ca9163d0e10c6620e20aac6032c0df03207d474ec07547dd2aaf5fa4ab",
+    "ps04_formal_population_gate.py": "43e8cbc02b48513103c53213b663a909b36be1de801374c47fc6b8ca304047e6",
+    "ps04_scoring_core.py": "a3a564eb66e2bc3a958802fc208fe085fbbc39d0081cfd1cfb4dbe962515f773",
+    "ps04_scoring_kernel.py": "74b8986ababd5390f92fd1ca3ee469b61d615d5a282e4febcb6d0c75c90dfec8",
+    "run_ps04_formal.py": "bca589ea31707653794de60ab0e870c25209968902b548f2363e9c96b9587c43",
+    "score_ps04_formal.py": "ddcfdeb24489c74e0d89649efbe790ce7c4abe05b3cd6eb59175a6387846e43c"
+  },
+  "delta_num": 0,
+  "draws": 20000,
+  "formal_interface": "F_ONLY",
+  "point_reconstruction_F": 0.23772364389957512,
+  "population_gate": {
+    "formal_relation_ledger_sha256": "293e77509218eb571f758d19186362bae514593bb01777364d26f07569b2616e",
+    "leaf_ledger_sha256": "4d3cd66e3dda09f76f3ecdb07562d29dce869adeec8734a1a18873973e70e4c5",
+    "relation_count": 1750186,
+    "status": "PASS"
+  },
+  "refset_release_id": "PS04_ASSAY_REFSET_RELEASE_v1.0.1_L_4K_20261007",
+  "reuse_sensitivity": {
+    "F": 0.2381509415157237,
+    "bootstrap": "NOT_RUN_SENSITIVITY_POINT_ESTIMATE_ONLY",
+    "endpoint_reuse_ledger_sha256": "a3815ba4971238954130359a5b2fed816a3cd6391e3a7930b8a493c172d2c2ba",
+    "high_reuse_endpoint_count": 1137,
+    "high_reuse_endpoint_count_by_role": {
+      "negative": 677,
+      "positive": 460
+    },
+    "input_leaf_count": 1750186,
+    "kind": "LEAVE_HIGH_REUSE_ENDPOINT_OUT",
+    "retained_leaf_count": 213853,
+    "reuse_definition": "frozen_anchor_bundle_reuse_count",
+    "status": "COMPLETE",
+    "threshold": 100
+  },
+  "rng": "numpy.random.Generator(PCG64)",
+  "score_transform_version": "PS04_v1.0.2_F_ONLY",
+  "seed": 20261007,
+  "status": "FORMAL_EXECUTION_COMPLETE"
+}

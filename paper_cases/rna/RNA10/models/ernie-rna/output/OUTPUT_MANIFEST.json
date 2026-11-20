@@ -1,0 +1,33 @@
+{
+  "constraint_id": "C-RNA-10",
+  "formal_interface": "F_ONLY",
+  "model_id": "ernie-rna",
+  "outputs": [
+    {
+      "bytes": 5339,
+      "path": "AGGREGATION_SCORES.json",
+      "sha256": "59b10ece758c2898074fe70db045104ded0294ce6aa33d5888edd37e22a256d9"
+    },
+    {
+      "bytes": 435304,
+      "path": "F_BOOTSTRAP_DRAWS.json",
+      "sha256": "26b94efdbe2c5c636f4ff2a48e5a071e2aa973d31b5b5de10bd08eaa483da942"
+    },
+    {
+      "bytes": 1594,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "8fb537a7707e9b10c1bcf890aaf9ade476aab5069bf797f49cc7093f9fd909f2"
+    },
+    {
+      "bytes": 188590,
+      "path": "INDIVIDUAL_SCORES.json",
+      "sha256": "ca001ef9757087dba256f6d29e304d87718c1664be17e0449af5cc06b74497da"
+    },
+    {
+      "bytes": 263723,
+      "path": "MEASUREMENT_LEDGER.json",
+      "sha256": "6ca34d93d2f10ca13813ea3fd155b7dcf7ffa16fa497355468f0d46c6eb81b15"
+    }
+  ],
+  "public_entry": "score_rna10.py"
+}

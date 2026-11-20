@@ -1,0 +1,10 @@
+x	title	symbol	question
+1	Knowledge
+accessibility	K(k)	Do Constraints
+differ?
+2	Overall model
+standing	M(m)	Is model order
+shared?
+3	Knowledge-specific
+advantage	I(m,k)	Does advantage depend
+on knowledge?

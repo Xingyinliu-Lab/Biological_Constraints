@@ -1,0 +1,34 @@
+{
+  "constraint_id": "C-ST-01",
+  "counts": {
+    "anchors": 23,
+    "directed_contrasts": 32,
+    "endpoint_challenges": 32,
+    "formal_objects": 28,
+    "positive_edges": 16,
+    "required_unordered_pairs": 38,
+    "source_dependency_clusters": 23
+  },
+  "minimum_geometry_margin": 0.11871000000000004,
+  "reference_role": "DEFINITIONAL_WHITE_BOX_REFERENCE",
+  "reference_tier": "LEVEL_0_DETERMINISTIC_RAW_INPUT_GEOMETRY",
+  "score_quantity": "FROZEN_MIN_BIDIRECTIONAL_LENGTH_NORMALIZED_TM_SCORE",
+  "status": "FROZEN_RESULT",
+  "F": 1.0,
+  "uncertainty": {
+    "reason": "All formal contrasts are deterministically separated by the frozen truth thresholds; this is not an empirical comparator estimate.",
+    "status": "NOT_APPLICABLE_DEFINITIONAL_REFERENCE",
+    "F_95_CI": null
+  },
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "ST01_v0.1.2_F_ONLY",
+  "input_identity": {
+    "numeric_method_sha256": "48949a9a8e692fc0e13fe081362bfa9d5b566dd0c682cbfe7ae241af357cf6ac",
+    "objects_tsv_sha256": "6bc3344fbd0c3454b4a977b58b941f375c06067a218a373bd2149399eeaf02c7",
+    "pair_evidence_method_sha256": "d10777655bb0528dde46c0fe84bc66cc323421d1f34e9d2de34057e855a4f12b",
+    "pair_evidence_tsv_sha256": "4f026892cd7212989be3db047a111913a406097827749ce6967f9e344c5e7e44",
+    "relations_tsv_sha256": "f3a1f2599adc3d15dca29164dc167b22820815ea66045ca75a012e615208078e",
+    "relation_table_sha256": "f3a1f2599adc3d15dca29164dc167b22820815ea66045ca75a012e615208078e",
+    "input_binding_sha256": "450c3d40c7d73bd09bdb286f286c4a372581a4e85939812f951d4fa298f25616"
+  }
+}

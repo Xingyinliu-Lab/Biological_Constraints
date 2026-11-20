@@ -1,0 +1,12 @@
+{
+  "release_id": "PS02A_ASSAY_REFSET_RELEASE_v1.0.1_16K_20261006",
+  "formal_status": "FROZEN",
+  "formal_refset_release": true,
+  "source_membership_validation": "PASS",
+  "formal_relation_or_bundle_count": 10072,
+  "anchor_clan_bootstrap_units": 158,
+  "point_membership": "retained from independently revalidated source release",
+  "withdrawn_rule_artifact": "not included as current uncertainty membership",
+  "model_output_consumed": false,
+  "model_scoring_status": "NOT_EXECUTED_NUMERIC_METHOD_REQUIRED"
+}

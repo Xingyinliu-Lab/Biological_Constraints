@@ -1,0 +1,10 @@
+{
+  "F": 1.0,
+  "F_95_CI": null,
+  "artifact_id": "ST04_GEOMETRY_WHITEBOX_F_ONLY_RESULT",
+  "constraint_id": "C-ST-04",
+  "formal_interface": "F_ONLY",
+  "reference_role": "DEFINITIONAL_WHITE_BOX_REFERENCE",
+  "reference_tier": "LEVEL_0_DETERMINISTIC_RAW_INPUT_GEOMETRY",
+  "status": "PASS"
+}

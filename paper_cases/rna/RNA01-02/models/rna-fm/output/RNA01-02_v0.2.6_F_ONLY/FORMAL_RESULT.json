@@ -1,0 +1,35 @@
+{
+  "F": 0.9255845186496552,
+  "F_95_CI": [
+    0.9210060435870826,
+    0.9301629937122275
+  ],
+  "assay_id": "C-RNA-01-02",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 14480779428930232442,
+  "bootstrap_unit": "outer_cluster",
+  "coverage": {
+    "required": 49149,
+    "scored": 49149
+  },
+  "evaluation_leaves": 16384,
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "input_identities": {
+    "calibration_repeat_1": "9e8614c44cfccb69d684ca5a4c6df1ae3a958c76dd5ce8a030ac276bf9b34707",
+    "calibration_repeat_2": "9e8614c44cfccb69d684ca5a4c6df1ae3a958c76dd5ce8a030ac276bf9b34707",
+    "edit_ladder_ledger": "a9ba70a80756f979d318ecf254bf79d17b18e7ffdeaae19773fc2469db8de8f5",
+    "object_ledger": "5c99126f5e81fae4e84d08b0157da8f45aed98147c721351f4123586e5338154",
+    "population_manifest": "46e9917b1bcdfbf1b8e25ddbdabeec397a5f2f327881d5a85b908ab30394f6f3",
+    "vectors": "ddc8aa5b8a31dc8e5bbaf4cd2e4535f8e615860677a5f346536008fe4b8d43b8"
+  },
+  "metric": "F_RNA01-02",
+  "model_id": "RNA-FM",
+  "outer_clusters": 16381,
+  "population": "L16K",
+  "reference_population_identity_sha256": "686a035451271f480783291f316862bd4932506735c4d24d8f60aef69ab8b558",
+  "registered_reference_population": true,
+  "score_transform_version": "RNA01-02_v0.2.6_F_ONLY_DIRECT_CREDITS",
+  "status": "PASS",
+  "tau_delta": 0.0
+}

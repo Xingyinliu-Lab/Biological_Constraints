@@ -1,0 +1,32 @@
+{
+  "artifact_type": "RNA10_NUMERIC_METHOD",
+  "release_id": "RNA10_NUMERIC_METHOD_v0.1.3_F_ONLY",
+  "constraint_id": "C-RNA-10",
+  "formal_interface": "F_ONLY",
+  "measurement": {
+    "feature": "signed delta_z=z_mut-z_WT",
+    "standardization": "train-only, hierarchical-weighted mean and weighted population SD; zero SD set to 1",
+    "probe": "L2 logistic regression, unpenalized intercept",
+    "solver": "SciPy scipy.optimize.minimize, L-BFGS-B; maxiter=2000; default ftol/gtol; unsuccessful minimize result abort",
+    "decision_score": "linear decision score"
+  },
+  "training": {
+    "lambda_parameterization": "direct L2 penalty coefficient lambda",
+    "lambda_grid": [0.0001, 0.001, 0.01, 0.1, 1, 10, 100],
+    "weights": "hierarchical equal source -> block -> truth class -> relation mass; helper weights are mean-normalized, then normalized to sum=1 before weighted standardization and logistic-loss fitting",
+    "inner_split": "SHA256(source_dependency_unit_id) first 8 hex -> integer mod 5",
+    "inner_objective": "source-macro mean block-level D x P F credit",
+    "tie_break": "smallest lambda",
+    "objective": "weighted mean logistic loss + 0.5 * lambda * L2(beta)^2; intercept unpenalized"
+  },
+  "scoring": {
+    "F_credit": "1 when held-out disrupting score exceeds preserving score by more than tie_tolerance; 0 within tolerance; -1 otherwise",
+    "tie_tolerance": 0.0,
+    "outer_split": "leave-one-source-dependency-unit-out",
+    "bootstrap_rng": "Python random.Random",
+    "bootstrap_seed": 10010,
+    "bootstrap_draws": 20000,
+    "ci": "sorted order statistics at int(0.025*(n-1)) and int(0.975*(n-1))",
+    "resampling_unit": "uncertainty_dependency_cluster"
+  }
+}

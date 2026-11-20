@@ -1,0 +1,147 @@
+{
+  "model_id": "crossdna-8m",
+  "domain": "dna",
+  "status": "EXECUTED_MULTI_FILE_CHECKPOINT_IDENTITY_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/LuoGroup2023/CrossDNA",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.4.sha256",
+      "asset_context": "64417904 \\home\\mik\\u8t\\ai_genome\\crossdna_8m\\CrossDNA\\crossdna_inference\\model.safetensors checkpoint_or_model_file 886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63"
+    },
+    {
+      "value": "9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.6.sha256",
+      "asset_context": "64629522 \\home\\mik\\u8t\\ai_genome\\crossdna_8m\\CrossDNA\\crossdna_inference\\pytorch_model.bin checkpoint_or_model_file 9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250"
+    },
+    {
+      "value": "886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.2.sha256",
+      "asset_context": "64417904 model.safetensors 886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63"
+    },
+    {
+      "value": "9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.4.sha256",
+      "asset_context": "64629522 pytorch_model.bin 9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250"
+    },
+    {
+      "value": "886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "external_assets.4.sha256",
+      "asset_context": "64417904 /home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/model.safetensors checkpoint_or_model_file 886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63"
+    },
+    {
+      "value": "9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "external_assets.6.sha256",
+      "asset_context": "64629522 /home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/pytorch_model.bin checkpoint_or_model_file 9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250"
+    },
+    {
+      "value": "886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "runtime_and_model_identity.artifact_files.2.sha256",
+      "asset_context": "64417904 model.safetensors 886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63"
+    },
+    {
+      "value": "9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "runtime_and_model_identity.artifact_files.4.sha256",
+      "asset_context": "64629522 pytorch_model.bin 9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.2.sha256",
+      "asset_context": "1587 \\home\\mik\\u8t\\ai_genome\\crossdna_8m\\CrossDNA\\crossdna_inference\\config.json checkpoint_or_model_file 7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778"
+    },
+    {
+      "value": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.7.sha256",
+      "asset_context": "173 \\home\\mik\\u8t\\ai_genome\\crossdna_8m\\CrossDNA\\crossdna_inference\\special_tokens_map.json checkpoint_or_model_file 5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "value": "19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.9.sha256",
+      "asset_context": "1251 \\home\\mik\\u8t\\ai_genome\\crossdna_8m\\CrossDNA\\crossdna_inference\\tokenizer_config.json checkpoint_or_model_file 19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71"
+    },
+    {
+      "value": "7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.0.sha256",
+      "asset_context": "1587 config.json 7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778"
+    },
+    {
+      "value": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.5.sha256",
+      "asset_context": "173 special_tokens_map.json 5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "value": "19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71",
+      "source": "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.7.sha256",
+      "asset_context": "1251 tokenizer_config.json 19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71"
+    },
+    {
+      "value": "7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "external_assets.2.sha256",
+      "asset_context": "1587 /home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/config.json checkpoint_or_model_file 7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778"
+    },
+    {
+      "value": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "external_assets.7.sha256",
+      "asset_context": "173 /home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/special_tokens_map.json checkpoint_or_model_file 5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "value": "19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "external_assets.9.sha256",
+      "asset_context": "1251 /home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/tokenizer_config.json checkpoint_or_model_file 19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71"
+    },
+    {
+      "value": "7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "runtime_and_model_identity.artifact_files.0.sha256",
+      "asset_context": "1587 config.json 7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778"
+    },
+    {
+      "value": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "runtime_and_model_identity.artifact_files.5.sha256",
+      "asset_context": "173 special_tokens_map.json 5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "value": "19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71",
+      "source": "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+      "field": "runtime_and_model_identity.artifact_files.7.sha256",
+      "asset_context": "1251 tokenizer_config.json 19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71"
+    }
+  ],
+  "download": {
+    "method": "formal execution reused the previously materialized CrossDNA inference directory",
+    "note": "No network download was performed by the formal forward; the immutable local directory and its constituent file identities are the executed asset."
+  },
+  "loading": "AutoTokenizer.from_pretrained(model_dir, trust_remote_code=True, local_files_only=True); AutoModelForMaskedLM.from_pretrained(model_dir, trust_remote_code=True, local_files_only=True).eval().half().cuda()",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference",
+    "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA"
+  ],
+  "formal_evidence_files": [
+    "results/dna/DNA01/models/crossdna-8m/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+    "results/dna/DNA02-02/models/crossdna-8m/provenance/CROSSDNA_IMMUTABLE_ASSET_IDENTITY.json",
+    "results/dna/DNA02-02/models/crossdna-8m/provenance/EXECUTION_BINDING.json",
+    "results/dna/DNA02-02/models/crossdna-8m/provenance/MODEL_INTERFACE.json"
+  ]
+}

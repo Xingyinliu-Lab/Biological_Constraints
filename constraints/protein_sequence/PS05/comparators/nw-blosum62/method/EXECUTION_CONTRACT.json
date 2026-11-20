@@ -1,0 +1,41 @@
+{
+  "artifact_id": "PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008",
+  "status": "FROZEN_PRE_EXECUTION",
+  "method": "Needle 6.6.0.0 global alignment, EBLOSUM62, gap-open 10, gap-extension 0.5, terminal gaps penalized; self-normalized 2s/(sxx+syy)",
+  "population": "PS05 frozen 1628 relations / 321 endpoints",
+  "scoring": "frozen PS05 scorer and vectorized 20k PCG64 bootstrap",
+  "inputs": {
+    "relations": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/input/FORMAL_RELATION_LEDGER.tsv",
+      "sha256": "e52accceaf40c7a23e5f6a1ffe253554ec5cc5f091fdd78e2930905a589c9b2f"
+    },
+    "fasta": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/input/FORMAL_ENDPOINTS.faa",
+      "sha256": "7decb22f1f3e73a10d58c8e3bbdc8f8326edf6953d267f4cec56bd65490fdbb4"
+    },
+    "plan": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/input/PLANNED_SCOREABLE_POPULATION.json",
+      "sha256": "d45119edbe70304dc1b33361e2a012360a2e4ad7276b2d0bf7f9dd6142da8489"
+    },
+    "reuse": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/input/ENDPOINT_REUSE_LEDGER.tsv",
+      "sha256": "463e18c7c5939d655d1a371e85e3e7ddb417506ce6da833e4e5d76230583708e"
+    },
+    "needle": {
+      "path": "/home/mik/u8t/ai_genome/bc_v1_reference_build/tools/ps01_emboss_6.6.0.0/bin/needle",
+      "sha256": "d369c810d4c60532638db7c3c51903cd5f37a75405a3e26174ee2a4f5d380590"
+    },
+    "comparator": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/code/produce_ps05_nw_blosum62.py",
+      "sha256": "1b3809eeb3dccbf1077553879856943b9f9a43211e7455523d5111873335b6c3"
+    },
+    "formal_scorer": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/code/score_ps05_formal.py",
+      "sha256": "f27b7cc5b3b0361764ead62d48d69608db0b58e82a99c8843461f964882e1246"
+    },
+    "bootstrap": {
+      "path": "/home/mik/u8t/ai_genome/biological_constraints/comparators/PS05/PS05_NW_BLOSUM62_FORMAL_v1.0.0_20261008/code/bootstrap_ps05_hsf_nested.py",
+      "sha256": "67c296ecaa2f9c9f9289d363f6c4f2d093b748b08416b547f4626b6e14a2b75c"
+    }
+  }
+}

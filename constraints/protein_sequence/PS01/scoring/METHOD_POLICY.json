@@ -1,0 +1,29 @@
+{
+  "constraint": "PS01",
+  "release_id": "PS01_ASSAY_REFSET_RELEASE_v2.0.0_BROAD_16K_20261006",
+  "status": "FORMAL_PRIMARY_ASSAY_REFSET_RELEASE",
+  "estimand": "PS01-Broad: source-prefix broad-coverage same-family versus same-clan different-family relation",
+  "supersedes_as_primary": "PS01_ASSAY_REFSET_RELEASE_v1.0.0_20261005 (balanced core retained as controlled sensitivity)",
+  "source_frame": "canonical eligible source-only expansion order <= 16000; source order frozen before pair matching and all model outputs",
+  "biological_relation": {
+    "positive": "same Pfam family, different parent",
+    "negative": "same clan, different family"
+  },
+  "sequence_applicability": {
+    "paired_nongap_identity_max": 0.4,
+    "bilateral_coverage_min": 0.8
+  },
+  "common_support_matching": {
+    "identity_policy": "I1",
+    "coverage_caliper": 0.05
+  },
+  "allocation": "historical frozen DEVELOPMENT_ALLOCATED_CELLS_I1_C005 membership retained exactly; one selected negative endpoint per cell",
+  "dependency_policy": "connected components over formal objects using same parent_protein_id or exact sequence_sha256 duplicate only",
+  "retired_not_in_primary": [
+    "length matching",
+    "taxonomy matching",
+    "composition/low-complexity matching",
+    "second nuisance filter"
+  ],
+  "model_outputs_used_in_refset_construction": false
+}

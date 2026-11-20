@@ -1,0 +1,14 @@
+{
+  "codon_site.tsv": {
+    "bytes": 628022,
+    "sha256": "5cd646ed1a64e164e9b02ffe1c97eba6085428330bd5079723ed0948f0a47b00"
+  },
+  "parent_cds.tsv": {
+    "bytes": 265588,
+    "sha256": "722fd1951d5f2dcadd3bd5eb847c26ae1eb31b09d50f70c87459ae250e72a282"
+  },
+  "variant_endpoint.tsv": {
+    "bytes": 2684662,
+    "sha256": "a300bbc994cd85408352a48f32a89f1187d1b83533f31a32ccd436e093223e70"
+  }
+}

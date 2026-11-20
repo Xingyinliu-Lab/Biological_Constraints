@@ -1,0 +1,113 @@
+{
+  "candidate_selection": {
+    "M_min": "MUST_BE_FROZEN_IN_SOURCE_PROCESSING_RULE",
+    "candidate_cap": "MUST_BE_FROZEN_IN_SOURCE_PROCESSING_RULE",
+    "insufficient_candidates": "MODEL_INDEPENDENT_INELIGIBLE_NO_RUNTIME_RELAXATION",
+    "match_relative_to": "GALLERY_TRUE_MATE",
+    "rng_seed": "MUST_BE_FROZEN_IN_SOURCE_PROCESSING_RULE",
+    "stable_tie_break": "LEXICOGRAPHIC_STABLE_ID"
+  },
+  "constraint_id": "C-DNA-03",
+  "dependency_closure": {
+    "cluster_id_required_on_core_view_memberships_queries_and_dependency_inventory": true,
+    "genome_scale_percolation_must_be_audited": true,
+    "near_duplicate_edges": "SOURCE_PROCESSING_RULE_MAY_ADD_FOR_DEPENDENCY_ISOLATION_WITHOUT_AUTOMATIC_DELETION",
+    "required_edges": [
+      "overlap_or_shared_source_under_maximum_primary_context",
+      "dense_window_or_common_derived_source",
+      "exact_or_rc_exact_core_sequence_equivalence"
+    ],
+    "transitive_closure": true,
+    "unit": "SOURCE_CORE_NEIGHBORHOOD"
+  },
+  "materialization_status": "FORMAL_RELEASE",
+  "negative_eligibility": {
+    "hard_requirements": [
+      "same_gallery_target_context_level",
+      "different_core_sequence_equivalence_id",
+      "negative_gallery_does_not_cover_query_core",
+      "negative_gallery_does_not_contain_exact_or_rc_exact_query_core_copy"
+    ],
+    "near_duplicates": "RETAIN_AS_HARD_NEGATIVES_UNLESS_TRUTH_CONTAMINATED",
+    "optional_strata_not_hard_filters": [
+      "same_genome_or_assembly",
+      "same_core_length_or_length_bin",
+      "GC_OR_COMPOSITION_BIN_IF_PREREGISTERED_AND_FEASIBLE",
+      "annotation_class",
+      "repeat_type",
+      "gene_class",
+      "complex_kmer_profile"
+    ],
+    "prohibited_extra_biological_filters": [
+      "model_supported_length",
+      "tokenizer_support",
+      "embedding_success",
+      "model_distance_or_rank",
+      "result-adaptive_hard_negative_selection"
+    ],
+    "same_dependency_cluster_alone_excludes_negative": false
+  },
+  "object_model": {
+    "canonical_sequence_object": {
+      "contains_only_intrinsic_sequence_properties": true,
+      "identity": "object_id derived from normalized complete-view sequence SHA256",
+      "must_not_store_core_or_transition_role": true
+    },
+    "core_view_membership": {
+      "core_subsequence_identity_required": true,
+      "role": "binds a source core, a context level, and a canonical sequence object"
+    },
+    "source_core": {
+      "identity": "coordinate-defined locus on a frozen assembly",
+      "provenance_preserved_when_sequences_are_equivalent": true
+    }
+  },
+  "permissions": {
+    "must_not_define": [
+      "model-specific scope",
+      "model token-to-core mapping",
+      "model readout or pooling",
+      "runtime crop or tiling",
+      "numeric tie tolerance",
+      "model result-dependent membership"
+    ]
+  },
+  "relation_universe": {
+    "candidate_ids_frozen_before_model_encoding": true,
+    "model_output_consumed": false,
+    "one_true_mate_per_query": true,
+    "planned_transition_ids": "MUST_BE_FROZEN_IN_SOURCE_PROCESSING_RULE",
+    "primary": "CORE_ONLY_QUERY_TO_EXTENDED_GALLERY"
+  },
+  "release_gates": {
+    "all_candidates_satisfy_hard_requirements": true,
+    "all_hashes_and_foreign_keys_valid": true,
+    "all_views_preserve_exact_core_subsequence": true,
+    "candidate_count_at_least_frozen_M_min": true,
+    "dependency_closure_complete": true,
+    "model_scoring_authorized": true,
+    "source_coverage_audit_required": true
+  },
+  "release_id": "DNA03_REFSET_CONTRACT_v0.2.5_FROZEN_20261020",
+  "required_tables": {
+    "attrition.tsv": "tables/ATTRITION_HEADER.tsv",
+    "context_transition.tsv": "tables/CONTEXT_TRANSITION_HEADER.tsv",
+    "core_view_membership.tsv": "tables/CORE_VIEW_MEMBERSHIP_HEADER.tsv",
+    "dependency_cluster.tsv": "tables/DEPENDENCY_CLUSTER_HEADER.tsv",
+    "dependency_edge.tsv": "tables/DEPENDENCY_EDGE_HEADER.tsv",
+    "primary_negative.tsv": "tables/PRIMARY_NEGATIVE_HEADER.tsv",
+    "primary_query.tsv": "tables/PRIMARY_QUERY_HEADER.tsv",
+    "sequence_object.tsv": "tables/SEQUENCE_OBJECT_HEADER.tsv",
+    "source_core.tsv": "tables/SOURCE_CORE_HEADER.tsv"
+  },
+  "schema_id": "dna03.refset_contract",
+  "schema_version": "0.2.5",
+  "status": "FROZEN",
+  "view_construction": {
+    "alphabet_and_ambiguous_base_policy": "MUST_BE_FROZEN_IN_SOURCE_PROCESSING_RULE",
+    "contig_edge_behavior": "MODEL_INDEPENDENT_INELIGIBLE_NO_TRUNCATED_PRIMARY",
+    "core_sequence_sha256_identical_across_views": true,
+    "deterministic_symmetric_or_declared_flank_rule": true,
+    "same_frozen_assembly_for_core_and_flanks": true
+  }
+}

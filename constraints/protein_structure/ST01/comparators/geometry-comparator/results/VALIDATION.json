@@ -1,0 +1,26 @@
+{
+  "aggregation_hierarchy": "contrast -> endpoint -> anchor -> source dependency cluster -> unweighted cluster macro",
+  "coordinate_hash_closure": {
+    "checked": 28,
+    "failures": 0
+  },
+  "counts": {
+    "anchors": 23,
+    "directed_contrasts": 32,
+    "endpoint_challenges": 32,
+    "formal_objects": 28,
+    "positive_edges": 16,
+    "required_unordered_pairs": 38,
+    "source_dependency_clusters": 23
+  },
+  "formal_relation_evidence_closure": "PASS",
+  "geometry_threshold_and_margin_closure": "PASS",
+  "pair_symmetrization_failure_count": 0,
+  "result": {
+    "F": 1.0
+  },
+  "sequence_eligibility_closure": "PASS",
+  "status": "PASS",
+  "strict_edge_bundle_closure": "PASS",
+  "truth_integrity_failure_count": 0
+}

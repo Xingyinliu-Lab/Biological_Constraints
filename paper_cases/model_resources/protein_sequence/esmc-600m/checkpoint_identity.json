@@ -1,0 +1,46 @@
+{
+  "model_id": "esmc-600m",
+  "domain": "protein_sequence",
+  "status": "VERIFIED_SINGLE_CHECKPOINT_MULTIPLE_DIGEST_SCHEMES",
+  "official_source": "https://huggingface.co/biohub/ESMC-600M",
+  "upstream_revision": "a7e82012c83126b9eedb055fea9fa84b6c02f094",
+  "model_code_source": "https://github.com/Biohub/esm",
+  "model_code_commit": "bf343ba264b650dff7a073643725f9aaa1fdbe8d",
+  "executed_checkpoint_files": [
+    {"filename": "model.safetensors", "size_bytes": 2300205696, "sha256": "e4232c30fd35fe2f57051ec88a703996ac94520580b4b836894207a3d45d9ff8"}
+  ],
+  "historical_digest_interpretation": [
+    {"value": "e4232c30fd35fe2f57051ec88a703996ac94520580b4b836894207a3d45d9ff8", "meaning": "SHA256 of model.safetensors only", "used_by": ["PS01", "PS02B", "PS04", "PS05"]},
+    {"value": "f79120fd17a98d3180d713d4a2daa8ff3ce662db74cb0eb19fccd584fe792d0b", "meaning": "directory digest: relative path plus binary file digest, no separator", "used_by": ["PS08"]},
+    {"value": "718d43a2ed7d1742519651736969737be058160e8bd817fdd90dc35de56b67a0", "meaning": "directory digest: relative path plus NUL plus binary file digest", "used_by": ["PS09"]},
+    {"value": "9bb97e37684bb50ff0fe6f9af53dbbfb5706b2c6b115acb2c0dcdcbe7148abf1", "meaning": "directory digest: relative path plus NUL plus ASCII hex file digest plus newline", "used_by": ["PS10"]}
+  ],
+  "tokenizer_config_identity": {
+    "config.json_sha256": "d7472be972ebd9f6d3afa659ca35a8080c8e4462813dd9801827329659ee9c43",
+    "tokenizer.json_sha256": "8d3447b278176e65fb3ef0224472927bf5fee3be46ea2bd77fad0111423cee1f",
+    "tokenizer_config.json_sha256": "e8d8e40c9f92b334f0272e80bb65ed4043cb9836523cbae899e9859e8cbb8833",
+    "special_tokens_map.json_sha256": "0b7245ec86c8c3aeaf61523ba70dfa79be137e6283f127bd651adc30b4f15c74"
+  },
+  "download": {
+    "executed_method": "huggingface_hub.snapshot_download('biohub/ESMC-600M', local_dir=<MODEL_DIR>)",
+    "pinned_reproduction": "snapshot_download(repo_id='biohub/ESMC-600M', revision='a7e82012c83126b9eedb055fea9fa84b6c02f094', local_dir='<MODEL_DIR>')"
+  },
+  "loading": "EsmcTokenizer(); EsmcForMaskedLM.from_pretrained(<MODEL_DIR>, local_files_only=True).cuda().eval() using Biohub/esm commit bf343ba264b650dff7a073643725f9aaa1fdbe8d",
+  "license": {
+    "model_repository_metadata": ["mit", "other"],
+    "note": "The upstream model card exposes both MIT and other tags; follow the weight-specific upstream terms in addition to the MIT code license.",
+    "source": "https://huggingface.co/biohub/ESMC-600M"
+  },
+  "executed_local_paths_for_filename_context": ["/home/mik/u8t/ai_genome/third_models_20260914/models/biohub_ESMC-600M"],
+  "verification": {
+    "verified_on_host": "kt",
+    "verified_date": "2026-10-16",
+    "conclusion": "All four recorded hashes were reproduced from the same extant directory and same model.safetensors bytes; only digest subject/serialization differed."
+  },
+  "formal_evidence_files": [
+    "results/protein_sequence/PS01/models/esmc-600m/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS08/models/esmc-600m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS09/models/esmc-600m/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS10/models/esmc-600m/provenance/FORWARD_REPORT.json"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "model_id": "gb-rna",
+  "domain": "rna",
+  "evidence_status": "READ_ONLY_VERIFIED_ON_EXECUTION_HOST",
+  "verified_on": "kt",
+  "verified_date": "2026-10-16",
+  "executed_python": "/home/mik/fd/m2_rna/envs/gb_rna_650m/bin/python",
+  "python_version": "3.11.16",
+  "cuda_runtime_reported_by_torch": "11.8",
+  "installed_packages_used_or_relevant_to_the_forward": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.5",
+    "safetensors": "0.8.0",
+    "torch": "2.1.2+cu118",
+    "transformers": "4.38.2",
+    "huggingface-hub": "0.36.2"
+  },
+  "imports_observed_in_public_execution_assets": [
+    "gb_rna",
+    "numpy",
+    "torch"
+  ],
+  "checkpoint_identity": "checkpoint_identity.json",
+  "scope_note": "This records the extant environment used by the published forward. It is not a newly solved cross-model environment."
+}

@@ -1,0 +1,9 @@
+{
+  "constraint_id": "PS08",
+  "constraint_release": "PS08_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "prott5",
+  "formal_result": "paper_cases/protein_sequence/PS08/models/prott5/output/FORMAL_RESULT.json",
+  "formal_result_sha256": "175ec6da23a34deb4c85f39840090b8c42f86442d9b96f7d5b334498b69c7a3f",
+  "status": "PASS"
+}

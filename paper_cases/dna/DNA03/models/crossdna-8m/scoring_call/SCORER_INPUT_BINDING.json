@@ -1,0 +1,10 @@
+{
+  "constraint_release": "DNA03_v0.2.6_f_only",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "1b26c0901c8a37759cf05f59b5dca8a205740e526e19515383dddb4770b61171",
+  "model_id": "crossdna-8m",
+  "output_manifest_sha256": "066ccb54dba8de2735db4ed534d9cb0a5e7f84afbe71cd4d6ca90ac5faebd9ae",
+  "public_scorer": "constraints/dna/DNA03/scoring/score_dna03.py",
+  "public_scorer_sha256": "bef92ff2753f89bccb17d029af762af0043a1e3c6a09a33cfae4633ee141dcc9",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

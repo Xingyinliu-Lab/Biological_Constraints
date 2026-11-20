@@ -1,0 +1,57 @@
+{
+  "constraint_id": "ST05",
+  "constraint_release": "ST05_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "forward_reexecuted": false,
+  "models": [
+    {
+      "F": 0.4364406779661017,
+      "F_95_CI": [
+        0.4311440677966102,
+        0.4406779661016949
+      ],
+      "model_id": "esm-if1",
+      "parity": "EXACT"
+    },
+    {
+      "F": 0.2801906779661017,
+      "F_95_CI": [
+        0.2722457627118644,
+        0.288135593220339
+      ],
+      "model_id": "esm3-struct",
+      "parity": "EXACT"
+    },
+    {
+      "F": 0.5540254237288136,
+      "F_95_CI": [
+        0.5074152542372882,
+        0.6016949152542372
+      ],
+      "model_id": "proteinmpnn-ca",
+      "parity": "EXACT"
+    },
+    {
+      "F": 0.11864406779661017,
+      "F_95_CI": [
+        0.0858050847457627,
+        0.16101694915254236
+      ],
+      "model_id": "protoken",
+      "parity": "EXACT"
+    },
+    {
+      "F": 0.954978813559322,
+      "F_95_CI": [
+        0.9322033898305084,
+        0.9751059322033898
+      ],
+      "model_id": "sslm",
+      "parity": "EXACT"
+    }
+  ],
+  "scientific_method_changed": false,
+  "scoring_reexecuted": true,
+  "status": "PASS",
+  "validation_date": "2026-10-19"
+}

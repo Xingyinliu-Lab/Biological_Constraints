@@ -1,0 +1,13 @@
+{
+  "comparator_id": "CMP-RNA09-RNAPALN-RAWSEQ-v0.1.0",
+  "rnapaln_version": "RNApaln 2.4.17",
+  "base_parameters": [
+    "RNApaln",
+    "--mode=p"
+  ],
+  "required_execution_flag": "--printAlignment",
+  "parser": "first full-line numeric score; alignment text ignored",
+  "pair_count": 164,
+  "sequence_count": 36,
+  "score_sha256": "bd87f969e09f655179d2e6c78bb768b56eba95048b4f3ada70aab72a5ccd20d7"
+}

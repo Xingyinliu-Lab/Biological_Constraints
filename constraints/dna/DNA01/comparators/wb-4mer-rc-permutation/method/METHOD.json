@@ -1,0 +1,33 @@
+{
+  "artifact": "DNA01_WHITEBOX_COMPARATOR_METHOD",
+  "claim_boundary": "Constructive realization of the known RC symmetry; not an independently learned predictor.",
+  "comparator_id": "DNA01_WB_4MER_RC_PERMUTATION",
+  "constraint_id": "C-DNA-01",
+  "expected": {
+    "F": 1.0,
+    "F_95_CI": [
+      1.0,
+      1.0
+    ]
+  },
+  "input": {
+    "alphabet": "ACGT",
+    "ambiguous_base_policy": "FAIL_CLOSED",
+    "minimum_length_bp": 4
+  },
+  "operator": {
+    "definition": "fixed channel permutation k to reverse_complement(k)",
+    "fit_required": false,
+    "involution": "exact permutation identity P_RC squared equals I"
+  },
+  "representation": {
+    "channel_order": "lexicographic product of A,C,G,T",
+    "definition": "overlapping 4-mer counts divided by L-3",
+    "dimension": 256,
+    "dtype": "IEEE-754 float64"
+  },
+  "role": "ANALYTIC_WHITE_BOX_REFERENCE",
+  "scoring": "shared DNA01 v0.5.4 F-only validation, F_credit=a/(a+e), hierarchical aggregation and dependency-cluster bootstrap",
+  "status": "FROZEN",
+  "version": "0.5.4"
+}

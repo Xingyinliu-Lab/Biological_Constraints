@@ -1,0 +1,23 @@
+{
+  "constraint_id": "PS01",
+  "constraint_release": "PS01_v2.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "forward_output": {
+    "bytes": 12050568,
+    "executed_locator": "/home/mik/u8t/ai_genome/work/ps01_carp640_correct_pooling_20261019/carp/embeddings.safetensors",
+    "sha256": "43d802e185b85f4fbf19c0d35764e9abdfc022ba0c2367ab92405094825300c5"
+  },
+  "forward_output_not_redistributed": true,
+  "forward_script_sha256": "0d21d7df82a89b1215c265380a33f40c91bd97db04f38ad988ac7b2f93013a71",
+  "individual_scores_sha256": "690ebdaa88d859fd85c6115e7e60b896941d53e2bd2f8d137d291e2def056e13",
+  "model_id": "carp-640m",
+  "output_manifest_sha256": "2b0a093763c5e0b3030dc335b1d0d10772571131a27480a2e5c8d48e880c345b",
+  "parity": "F_ONLY_DETERMINISTIC_MATERIALIZATION",
+  "public_result_sha256": "29c04f489f72850568ed3cc0357b7c9131075a250ea8f39e5e2afe2c40097ecb",
+  "public_scorer": "constraints/protein_sequence/PS01/scoring/score_ps01.py",
+  "public_scorer_sha256": "f3d2bccce17ea7efe16e9b080e229ea5ddf0d9d3ca8c8609ad2e6929bc20bc4d",
+  "public_scoring_core_sha256": "1bd15ecc38f06b54792e9160abb1cf4325d89ec3e1d691d618b8e062e425f231",
+  "representation_index_sha256": "bfd542d080587196e50bd3532eb128f41bcfe5bf56827f4f35e3d5bba59644b7",
+  "status": "CORRECTED_FORWARD_AND_RESCORED",
+  "supersedes_prior_registered_value": true
+}

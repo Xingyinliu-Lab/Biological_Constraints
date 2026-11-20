@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bytes": 1045,
+      "path": "COMPARATOR_LEDGER_SUMMARY.json",
+      "sha256": "0952fba9eef6c20e72336d9accf0c626e98412b2920561a643e7e07fab9b1572"
+    },
+    {
+      "bytes": 292978,
+      "path": "CONTRAST_SCORE_LEDGER.tsv.gz",
+      "sha256": "de86cee8542fb2b982041c4419d90eaf9ea5f3d5a30403b981acb93975d73df2"
+    },
+    {
+      "bytes": 192382,
+      "path": "FORMAL_LEAF_SCORES.tsv.gz",
+      "sha256": "e26ec1a86ad70d68d95f82338d3ab97437b802456bd82346409524844da553f0"
+    },
+    {
+      "bytes": 877335,
+      "path": "INDIVIDUAL_SCORES.tsv.gz",
+      "sha256": "695ff39b0ed8ed32a27c71e0096d5477c290f83a05b89be69ec9a9007e01eabb"
+    },
+    {
+      "bytes": 803292,
+      "path": "PAIR_SCORE_CACHE.tsv.gz",
+      "sha256": "83b13ab7fd1982640619173b9dced6e408a4cf56c0ee27c0331caed9d62c4f60"
+    },
+    {
+      "bytes": 627441,
+      "path": "SCORE_SUMMARY.json",
+      "sha256": "de0406f0c48e7218c26b83e17be8b6b6562f7b26731ea38416abad2a319b1835"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "constraint_id": "ST02",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "proteinmpnn-ca",
+  "public_rescore_output": {
+    "path": "output/public_rescore/SCORE_SUMMARY.json",
+    "sha256": "29d408802d3c58190d285098dc46e9597420d7a5443c11185840046a7a92670a"
+  },
+  "public_scorer_sha256": "cb07f116cbc588baa8efc18da1980a4b14068231e7be28174741c351b12cfb8e",
+  "registered_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "6415e32dc4b60d89e95c36bdbb460d054fd505bbf147ad8fc0cad6820e1c6272"
+  },
+  "status": "PASS"
+}

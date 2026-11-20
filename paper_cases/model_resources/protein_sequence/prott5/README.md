@@ -1,0 +1,51 @@
+# prott5
+
+This directory owns the model identity and executed-environment record for `prott5`. Constraint-specific input construction, forward execution, coordinate handling and representation export belong to the corresponding implementation case. Formal scoring belongs to the selected constraint.
+
+## Environment and checkpoint
+
+| File | Purpose |
+|---|---|
+| [`ENVIRONMENT.md`](ENVIRONMENT.md) | Human-readable record of the environment used for the formal runs |
+| [`ENVIRONMENT.json`](ENVIRONMENT.json) | Machine-readable executed package inventory |
+| [`checkpoint_identity.json`](checkpoint_identity.json) | Official source, checkpoint/revision identities, SHA256 evidence, download and loading method |
+
+Recorded model identity:
+
+- Official source: https://huggingface.co/Rostlab/prot_t5_xl_half_uniref50-enc
+- Evidence status: `VERIFIED_SINGLE_CHECKPOINT_MULTIPLE_DIGEST_SCHEMES`
+- Upstream revision: `94a6abc029ae13029317b140b7424e012bf8dfbf`
+- Executed checkpoint SHA256: `7f51ba885541c7dc569d46b796af57cc7a2ba7945107dced4f19d1b5ec091157`
+- Loading interface: `T5Tokenizer.from_pretrained(<MODEL_DIR>, do_lower_case=False, legacy=True, local_files_only=True); T5EncoderModel.from_pretrained(<MODEL_DIR>, torch_dtype=torch.float16, local_files_only=True).cuda().eval(); residues are space-separated and U/Z/O/B map to X`
+
+Use the exact checkpoint and configuration identity recorded above when reproducing a paper result. A newer checkpoint, tokenizer, representation layer or pooling rule is a different execution and must not be presented as reproduction of a registered result. Historical local paths in the identity record are provenance only; users do not need to reproduce the author's directory layout.
+
+## Constraint-specific forward manuals
+
+Select the constraint you want to run, then follow its execution manual. The manual—not this model index—is authoritative for RefSet inputs, command-line arguments, representation extraction and the file handed to the scorer.
+
+| Constraint | Forward manual |
+|---|---|
+| PS01 | [`paper_cases/protein_sequence/PS01/models/prott5/forward/IMPLEMENTATION.md`](../../../protein_sequence/PS01/models/prott5/forward/IMPLEMENTATION.md) |
+| PS02A | [`paper_cases/protein_sequence/PS02A/models/prott5/README.md`](../../../protein_sequence/PS02A/models/prott5/README.md) |
+| PS02B | [`paper_cases/protein_sequence/PS02B/models/prott5/README.md`](../../../protein_sequence/PS02B/models/prott5/README.md) |
+| PS04 | [`paper_cases/protein_sequence/PS04/models/prott5/README.md`](../../../protein_sequence/PS04/models/prott5/README.md) |
+| PS05 | [`paper_cases/protein_sequence/PS05/models/prott5/README.md`](../../../protein_sequence/PS05/models/prott5/README.md) |
+| PS08 | [`paper_cases/protein_sequence/PS08/models/prott5/README.md`](../../../protein_sequence/PS08/models/prott5/README.md) |
+| PS09 | [`paper_cases/protein_sequence/PS09/models/prott5/README.md`](../../../protein_sequence/PS09/models/prott5/README.md) |
+| PS10 | [`paper_cases/protein_sequence/PS10/models/prott5/README.md`](../../../protein_sequence/PS10/models/prott5/README.md) |
+
+If a manual identifies an executed historical script without a portable CLI, treat that limitation as authoritative. Do not infer a new command or silently change its model interface.
+
+## Forward-output handoff
+
+For every constraint, the execution manual must identify:
+
+1. the released RefSet files consumed by the forward path;
+2. the actual forward/extraction entry point and required parameters;
+3. the generated representation or other scorer-input file;
+4. the constraint scorer and argument that consume that file.
+
+The exact handoff differs by constraint and may be an embedding archive, position-level representation, distance/feature table or another frozen interface. Do not infer the handoff from a formal result JSON. After the forward step completes, use the scorer documented under the selected constraint's `scoring/` directory.
+
+Formal paper outputs are indexed under `paper_cases/`; they are not forward outputs and are intentionally not duplicated here.

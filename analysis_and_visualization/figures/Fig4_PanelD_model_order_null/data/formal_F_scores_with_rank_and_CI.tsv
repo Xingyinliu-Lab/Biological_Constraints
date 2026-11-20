@@ -1,0 +1,111 @@
+Constraint	Short_name	Model	F	F_95_CI	Coverage	Coverage_unit	domain	F_ci_lower	F_ci_upper	rank
+DNA01	Reverse Complement	Caduceus-PS	0.979844	[0.978684, 0.980927]	1460/1460	reverse-complement relation	DNA	0.978684	0.980927	1
+DNA01	Reverse Complement	CrossDNA-8M	0.865395	[0.861148, 0.869542]	1460/1460	reverse-complement relation	DNA	0.861148	0.869542	2
+DNA01	Reverse Complement	DNABERT-2	0.564916	[0.561109, 0.568747]	1460/1460	reverse-complement relation	DNA	0.561109	0.568747	5
+DNA01	Reverse Complement	JanusDNA	0.798362	[0.793657, 0.803060]	1460/1460	reverse-complement relation	DNA	0.793657	0.80306	3
+DNA01	Reverse Complement	NT-v2	0.639591	[0.636437, 0.642732]	1460/1460	reverse-complement relation	DNA	0.636437	0.642732	4
+DNA02-02	DNA Edit Adjacency	Caduceus-PS	0.624056	[0.615786, 0.632240]	46720/46720	edit ladder	DNA	0.615786	0.63224	5
+DNA02-02	DNA Edit Adjacency	CrossDNA-8M	0.718998	[0.710970, 0.726858]	46720/46720	edit ladder	DNA	0.71097	0.726858	4
+DNA02-02	DNA Edit Adjacency	DNABERT-2	0.948739	[0.944468, 0.952864]	46720/46720	edit ladder	DNA	0.944468	0.952864	1
+DNA02-02	DNA Edit Adjacency	JanusDNA	0.733659	[0.727882, 0.739468]	46720/46720	edit ladder	DNA	0.727882	0.739468	3
+DNA02-02	DNA Edit Adjacency	NT-v2	0.826656	[0.820160, 0.833046]	46720/46720	edit ladder	DNA	0.82016	0.833046	2
+DNA03	Context Extension	Caduceus-PS	0.914849	[0.884554, 0.940816]	35840/35840	query-negative comparison	DNA	0.884554	0.940816	2
+DNA03	Context Extension	CrossDNA-8M	0.9024	[0.878822, 0.924376]	35840/35840	query-negative comparison	DNA	0.878822	0.924376	3
+DNA03	Context Extension	DNABERT-2	0.937275	[0.912208, 0.958464]	35840/35840	query-negative comparison	DNA	0.912208	0.958464	1
+DNA03	Context Extension	JanusDNA	0.573657	[0.538272, 0.608420]	35840/35840	query-negative comparison	DNA	0.538272	0.60842	5
+DNA03	Context Extension	NT-v2	0.796791	[0.766468, 0.826160]	35840/35840	query-negative comparison	DNA	0.766468	0.82616	4
+DNA06	Codon Consequence	Caduceus-PS	0.994069	[0.990974, 0.996648]	11506/11506	single-nucleotide variant	DNA	0.990974	0.996648	1
+DNA06	Codon Consequence	CrossDNA-8M	0.955905	[0.947138, 0.963898]	11506/11506	single-nucleotide variant	DNA	0.947138	0.963898	2
+DNA06	Codon Consequence	DNABERT-2	0.253481	[0.227952, 0.279010]	11506/11506	single-nucleotide variant	DNA	0.227952	0.27901	5
+DNA06	Codon Consequence	JanusDNA	0.806343	[0.786746, 0.825168]	11506/11506	single-nucleotide variant	DNA	0.786746	0.825168	3
+DNA06	Codon Consequence	NT-v2	0.751418	[0.732072, 0.770242]	11506/11506	single-nucleotide variant	DNA	0.732072	0.770242	4
+RNA01-02	RNA Edit Adjacency	ERNIE-RNA	0.903333	[0.898266, 0.908552]	16384/16384	edit ladder	RNA	0.898266	0.908552	2
+RNA01-02	RNA Edit Adjacency	GB-RNA	0.902601	[0.897260, 0.907942]	16384/16384	edit ladder	RNA	0.89726	0.907942	3
+RNA01-02	RNA Edit Adjacency	Orthrus-4-track	0.880807	[0.875282, 0.886270]	16384/16384	edit ladder	RNA	0.875282	0.88627	5
+RNA01-02	RNA Edit Adjacency	RiNALMo-Giga	0.896374	[0.890878, 0.901746]	16384/16384	edit ladder	RNA	0.890878	0.901746	4
+RNA01-02	RNA Edit Adjacency	RNA-FM	0.925585	[0.921006, 0.930162]	16384/16384	edit ladder	RNA	0.921006	0.930162	1
+RNA04	RNA Coding Consequence	ERNIE-RNA	0.502063	[0.478082, 0.526302]	11506/11506	single-nucleotide variant	RNA	0.478082	0.526302	3
+RNA04	RNA Coding Consequence	GB-RNA	0.509283	[0.484528, 0.533522]	11506/11506	single-nucleotide variant	RNA	0.484528	0.533522	2
+RNA04	RNA Coding Consequence	Orthrus-4-track	0.191078	[0.165034, 0.217380]	11506/11506	single-nucleotide variant	RNA	0.165034	0.21738	5
+RNA04	RNA Coding Consequence	RiNALMo-Giga	0.52656	[0.501032, 0.551830]	11506/11506	single-nucleotide variant	RNA	0.501032	0.55183	1
+RNA04	RNA Coding Consequence	RNA-FM	0.440175	[0.414904, 0.465188]	11506/11506	single-nucleotide variant	RNA	0.414904	0.465188	4
+RNA05	Pairing State	ERNIE-RNA	0.576179	[0.401132, 0.726636]	1514/1514	matched state block	RNA	0.401132	0.726636	2
+RNA05	Pairing State	GB-RNA	0.609359	[0.420424, 0.772446]	1514/1514	matched state block	RNA	0.420424	0.772446	1
+RNA05	Pairing State	Orthrus-4-track	0.094356	[-0.014134, 0.215066]	1514/1514	matched state block	RNA	-0.014134	0.215066	5
+RNA05	Pairing State	RiNALMo-Giga	0.570119	[0.398744, 0.727880]	1514/1514	matched state block	RNA	0.398744	0.72788	3
+RNA05	Pairing State	RNA-FM	0.417611	[0.272984, 0.540486]	1514/1514	matched state block	RNA	0.272984	0.540486	4
+RNA06	Partner Specificity	ERNIE-RNA	0.356728	[0.287458, 0.429870]	14948/14948	candidate comparison	RNA	0.287458	0.42987	3
+RNA06	Partner Specificity	GB-RNA	0.596871	[0.495422, 0.692296]	14948/14948	candidate comparison	RNA	0.495422	0.692296	1
+RNA06	Partner Specificity	Orthrus-4-track	-0.012071	[-0.054300, 0.030476]	14948/14948	candidate comparison	RNA	-0.0543	0.030476	5
+RNA06	Partner Specificity	RiNALMo-Giga	0.542399	[0.469746, 0.617450]	14948/14948	candidate comparison	RNA	0.469746	0.61745	2
+RNA06	Partner Specificity	RNA-FM	0.152726	[0.059172, 0.232450]	14948/14948	candidate comparison	RNA	0.059172	0.23245	4
+RNA09	Remote RNA Structure	ERNIE-RNA	0.424242	[0.060606, 0.787878]	48/48	structural contrast	RNA	0.060606	0.787878	3
+RNA09	Remote RNA Structure	GB-RNA	0.621212	[0.303030, 0.909090]	48/48	structural contrast	RNA	0.30303	0.90909	2
+RNA09	Remote RNA Structure	Orthrus-4-track	0.02904	[-0.340910, 0.402810]	48/48	structural contrast	RNA	-0.34091	0.40281	5
+RNA09	Remote RNA Structure	RiNALMo-Giga	0.969697	[0.909090, 1.000000]	48/48	structural contrast	RNA	0.90909	1	1
+RNA09	Remote RNA Structure	RNA-FM	0.409091	[0.000000, 0.772728]	48/48	structural contrast	RNA	0	0.772728	4
+RNA10	Exon Recognition	ERNIE-RNA	-0.029051	[-0.212308, 0.159670]	391/391	truth-labelled variant	RNA	-0.212308	0.15967	4
+RNA10	Exon Recognition	GB-RNA	0.122683	[-0.053048, 0.301738]	391/391	truth-labelled variant	RNA	-0.053048	0.301738	2
+RNA10	Exon Recognition	Orthrus-4-track	0.022162	[-0.173840, 0.217104]	391/391	truth-labelled variant	RNA	-0.17384	0.217104	3
+RNA10	Exon Recognition	RiNALMo-Giga	0.380446	[0.211560, 0.544152]	391/391	truth-labelled variant	RNA	0.21156	0.544152	1
+RNA10	Exon Recognition	RNA-FM	-0.036952	[-0.235356, 0.159884]	391/391	truth-labelled variant	RNA	-0.235356	0.159884	5
+PS01	Family Identity	CARP-640M	0.415959	[0.318872, 0.510514]	1256/1256	domain contrast	Protein sequence	0.318872	0.510514	3
+PS01	Family Identity	ESM-2-650M	0.344656	[0.239250, 0.445964]	1256/1256	domain contrast	Protein sequence	0.23925	0.445964	4
+PS01	Family Identity	ESM3-seq	0.625704	[0.543324, 0.701826]	1256/1256	domain contrast	Protein sequence	0.543324	0.701826	2
+PS01	Family Identity	ESM-C-600M	0.256691	[0.156902, 0.356346]	1256/1256	domain contrast	Protein sequence	0.156902	0.356346	5
+PS01	Family Identity	ProtT5	0.631669	[0.542632, 0.714044]	1256/1256	domain contrast	Protein sequence	0.542632	0.714044	1
+PS02A	Clan Homology	CARP-640M	0.561201	[0.513178, 0.608090]	10072/10072	relation bundle	Protein sequence	0.513178	0.60809	3
+PS02A	Clan Homology	ESM-2-650M	0.387891	[0.338258, 0.435500]	10072/10072	relation bundle	Protein sequence	0.338258	0.4355	4
+PS02A	Clan Homology	ESM3-seq	0.64575	[0.599836, 0.689412]	10072/10072	relation bundle	Protein sequence	0.599836	0.689412	2
+PS02A	Clan Homology	ESM-C-600M	0.283849	[0.239056, 0.327658]	10072/10072	relation bundle	Protein sequence	0.239056	0.327658	5
+PS02A	Clan Homology	ProtT5	0.710473	[0.663870, 0.754218]	10072/10072	relation bundle	Protein sequence	0.66387	0.754218	1
+PS02B	Remote Homology	CARP-640M	0.342913	[0.207564, 0.471542]	8208/8208	relation bundle	Protein sequence	0.207564	0.471542	4
+PS02B	Remote Homology	ESM-2-650M	0.368772	[0.226316, 0.499794]	8208/8208	relation bundle	Protein sequence	0.226316	0.499794	3
+PS02B	Remote Homology	ESM3-seq	0.508282	[0.391532, 0.634854]	8208/8208	relation bundle	Protein sequence	0.391532	0.634854	2
+PS02B	Remote Homology	ESM-C-600M	0.191164	[0.058444, 0.316620]	8208/8208	relation bundle	Protein sequence	0.058444	0.31662	5
+PS02B	Remote Homology	ProtT5	0.590948	[0.468582, 0.679364]	8208/8208	relation bundle	Protein sequence	0.468582	0.679364	1
+PS04	Topology Relation	CARP-640M	0.290671	[0.153904, 0.364644]	1750186/1750186	relation contrast	Protein sequence	0.153904	0.364644	1
+PS04	Topology Relation	ESM-2-650M	0.222386	[0.132406, 0.344332]	1750186/1750186	relation contrast	Protein sequence	0.132406	0.344332	4
+PS04	Topology Relation	ESM3-seq	0.269906	[0.154724, 0.387534]	1750186/1750186	relation contrast	Protein sequence	0.154724	0.387534	3
+PS04	Topology Relation	ESM-C-600M	0.098978	[-0.015550, 0.235210]	1750186/1750186	relation contrast	Protein sequence	-0.01555	0.23521	5
+PS04	Topology Relation	ProtT5	0.282456	[0.176026, 0.397892]	1750186/1750186	relation contrast	Protein sequence	0.176026	0.397892	2
+PS05	Structural Resemblance	CARP-640M	0.25778	[0.139262, 0.373026]	1628/1628	relation bundle	Protein sequence	0.139262	0.373026	5
+PS05	Structural Resemblance	ESM-2-650M	0.2924	[0.166074, 0.418490]	1628/1628	relation bundle	Protein sequence	0.166074	0.41849	4
+PS05	Structural Resemblance	ESM3-seq	0.374817	[0.263608, 0.480386]	1628/1628	relation bundle	Protein sequence	0.263608	0.480386	2
+PS05	Structural Resemblance	ESM-C-600M	0.321687	[0.206482, 0.435632]	1628/1628	relation bundle	Protein sequence	0.206482	0.435632	3
+PS05	Structural Resemblance	ProtT5	0.524299	[0.408640, 0.633986]	1628/1628	relation bundle	Protein sequence	0.40864	0.633986	1
+PS08	Protein Edit Adjacency	CARP-640M	0.877686	[0.866694, 0.888672]	4096/4096	edit ladder	Protein sequence	0.866694	0.888672	4
+PS08	Protein Edit Adjacency	ESM-2-650M	0.922363	[0.913330, 0.931396]	4096/4096	edit ladder	Protein sequence	0.91333	0.931396	2
+PS08	Protein Edit Adjacency	ESM3-seq	0.867676	[0.855958, 0.879150]	4096/4096	edit ladder	Protein sequence	0.855958	0.87915	5
+PS08	Protein Edit Adjacency	ESM-C-600M	0.896729	[0.886474, 0.906738]	4096/4096	edit ladder	Protein sequence	0.886474	0.906738	3
+PS08	Protein Edit Adjacency	ProtT5	0.935059	[0.927246, 0.942626]	4096/4096	edit ladder	Protein sequence	0.927246	0.942626	1
+PS09	Order-Disorder	CARP-640M	0.77059	[0.685058, 0.845004]	1030/1030	matched residue block	Protein sequence	0.685058	0.845004	2
+PS09	Order-Disorder	ESM-2-650M	0.763609	[0.688464, 0.832310]	1030/1030	matched residue block	Protein sequence	0.688464	0.83231	3
+PS09	Order-Disorder	ESM3-seq	0.814256	[0.744924, 0.876180]	1030/1030	matched residue block	Protein sequence	0.744924	0.87618	1
+PS09	Order-Disorder	ESM-C-600M	0.752586	[0.677256, 0.821466]	1030/1030	matched residue block	Protein sequence	0.677256	0.821466	4
+PS09	Order-Disorder	ProtT5	0.749712	[0.661296, 0.829888]	1030/1030	matched residue block	Protein sequence	0.661296	0.829888	5
+PS10	Amyloid Propensity	CARP-640M	0.381945	[0.129396, 0.602690]	1609/2031	held-out labelled peptide	Protein sequence	0.129396	0.60269	5
+PS10	Amyloid Propensity	ESM-2-650M	0.503885	[0.252132, 0.716268]	1609/2031	held-out labelled peptide	Protein sequence	0.252132	0.716268	3
+PS10	Amyloid Propensity	ESM3-seq	0.614442	[0.481116, 0.741834]	1609/2031	held-out labelled peptide	Protein sequence	0.481116	0.741834	1
+PS10	Amyloid Propensity	ESM-C-600M	0.478059	[0.296452, 0.635938]	1609/2031	held-out labelled peptide	Protein sequence	0.296452	0.635938	4
+PS10	Amyloid Propensity	ProtT5	0.593969	[0.447808, 0.730630]	1609/2031	held-out labelled peptide	Protein sequence	0.447808	0.73063	2
+ST01	Global Fold Similarity	ESM-IF1	0.884058	[0.753624, 1.000000]	32/32	directed contrast	Protein structure	0.753624	1	1
+ST01	Global Fold Similarity	ESM3-struct	0.521739	[0.188406, 0.826086]	32/32	directed contrast	Protein structure	0.188406	0.826086	4
+ST01	Global Fold Similarity	ProteinMPNN-CA	0.797101	[0.579710, 0.971014]	32/32	directed contrast	Protein structure	0.57971	0.971014	2.5
+ST01	Global Fold Similarity	ProToken	-0.043478	[-0.434782, 0.347826]	32/32	directed contrast	Protein structure	-0.434782	0.347826	5
+ST01	Global Fold Similarity	SSLM	0.797101	[0.536232, 1.000000]	32/32	directed contrast	Protein structure	0.536232	1	2.5
+ST02	Structural Neighborhood	ESM-IF1	0.114679	[0.105864, 0.123282]	4584/4584	relation contrast	Protein structure	0.105864	0.123282	4
+ST02	Structural Neighborhood	ESM3-struct	0.23911	[0.228450, 0.249324]	4584/4584	relation contrast	Protein structure	0.22845	0.249324	1
+ST02	Structural Neighborhood	ProteinMPNN-CA	0.081501	[0.071604, 0.091690]	4584/4584	relation contrast	Protein structure	0.071604	0.09169	5
+ST02	Structural Neighborhood	ProToken	0.127371	[0.116958, 0.138260]	4584/4584	relation contrast	Protein structure	0.116958	0.13826	3
+ST02	Structural Neighborhood	SSLM	0.15959	[0.144766, 0.174522]	4584/4584	relation contrast	Protein structure	0.144766	0.174522	2
+ST04	Long-Range Contacts	ESM-IF1	0.680549	[0.661586, 0.699048]	152173/152180	residue contrast	Protein structure	0.661586	0.699048	1
+ST04	Long-Range Contacts	ESM3-struct	0.663321	[0.641820, 0.684202]	152173/152180	residue contrast	Protein structure	0.64182	0.684202	2
+ST04	Long-Range Contacts	ProteinMPNN-CA	0.569536	[0.546802, 0.591690]	152180/152180	residue contrast	Protein structure	0.546802	0.59169	3
+ST04	Long-Range Contacts	ProToken	0.141608	[0.116580, 0.167328]	152180/152180	residue contrast	Protein structure	0.11658	0.167328	5
+ST04	Long-Range Contacts	SSLM	0.336349	[0.310818, 0.361020]	152180/152180	residue contrast	Protein structure	0.310818	0.36102	4
+ST05	Rigid-Body Invariance	ESM-IF1	0.436441	[0.431144, 0.440678]	960/960	transformation test	Protein structure	0.431144	0.440678	3
+ST05	Rigid-Body Invariance	ESM3-struct	0.280191	[0.272246, 0.288136]	960/960	transformation test	Protein structure	0.272246	0.288136	4
+ST05	Rigid-Body Invariance	ProteinMPNN-CA	0.554025	[0.507415, 0.601695]	960/960	transformation test	Protein structure	0.507415	0.601695	2
+ST05	Rigid-Body Invariance	ProToken	0.118644	[0.085805, 0.161017]	960/960	transformation test	Protein structure	0.085805	0.161017	5
+ST05	Rigid-Body Invariance	SSLM	0.954979	[0.932203, 0.975106]	960/960	transformation test	Protein structure	0.932203	0.975106	1

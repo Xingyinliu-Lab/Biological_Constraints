@@ -1,0 +1,75 @@
+{
+  "artifact_id": "ST04_MATERIALIZATION_MANIFEST_v0.1.3_20261012",
+  "constants": {
+    "candidate_order": "ascending absolute separation discrepancy, then canonical negative position, then stable residue ID",
+    "d_minus_angstrom": 12.0,
+    "d_plus_angstrom": 8.0,
+    "delta_seq": 24,
+    "global_candidate_reuse_cap": null,
+    "k_max": 4,
+    "k_min": 1,
+    "matching": "exact target amino-acid identity; same signed N/C direction; same frozen absolute-separation bin; same frozen coordinate segment",
+    "random_sampling": false,
+    "separation_bins": [
+      {
+        "id": "SEP_24_47",
+        "max_inclusive": 47,
+        "min_inclusive": 24
+      },
+      {
+        "id": "SEP_48_95",
+        "max_inclusive": 95,
+        "min_inclusive": 48
+      },
+      {
+        "id": "SEP_96_191",
+        "max_inclusive": 191,
+        "min_inclusive": 96
+      },
+      {
+        "id": "SEP_192_PLUS",
+        "max_inclusive": null,
+        "min_inclusive": 192
+      }
+    ]
+  },
+  "counts": {
+    "admitted_directed_queries": 73568,
+    "attrition_directed_queries": 42352,
+    "attrition_residues": 4550,
+    "dependency_clusters": 562,
+    "objects": 700,
+    "positive_edges": 48700,
+    "precap_negative_candidates": 182911,
+    "relations": 152180,
+    "residues": 98209
+  },
+  "files": {
+    "attrition.tsv": {
+      "bytes": 3784641,
+      "sha256": "c582eafd8eca9c5d8cf0a5c5a64ede6ec17dcebe6bed0c781a9b282eb10d25cd"
+    },
+    "dependency.tsv": {
+      "bytes": 39234,
+      "sha256": "f99373e61bcba8275f44573698aef8a91161cef23ffbdbb2936b0b72fe836320"
+    },
+    "objects.tsv": {
+      "bytes": 199899,
+      "sha256": "7d77e25cee1e0d0f8e062fab2835658ac7c614426002a1ac876a9069280e4952"
+    },
+    "pair_evidence.tsv": {
+      "bytes": 39802256,
+      "sha256": "654e9eb10e1bc27a9b3c7ba51293aced33b8131f8f849991b39af8bb8fcd31ea"
+    },
+    "relations.tsv": {
+      "bytes": 57544808,
+      "sha256": "1e459363ba095315124586860ee17890669c28554cd63ec14522338525dc1321"
+    },
+    "residue_evidence.tsv": {
+      "bytes": 7012192,
+      "sha256": "e0d1c4fa106959fa4ee1c142f0ec18576b806fcb8c7cf45f4a35df300e653c05"
+    }
+  },
+  "source_processing_rule_id": "ST04_SOURCE_PROCESSING_RULE_v0.1.3_FROZEN_20261012",
+  "status": "REVIEW_FOR_FREEZE"
+}

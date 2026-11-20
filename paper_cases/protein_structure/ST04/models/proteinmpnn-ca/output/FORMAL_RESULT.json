@@ -1,0 +1,21 @@
+{
+  "F": 0.5695357138717998,
+  "F_95_CI": [
+    0.5468016377123381,
+    0.5916894107520014
+  ],
+  "artifact_id": "ST04_FORMAL_RESULT_v0.1.4_F_ONLY",
+  "constraint_id": "C-ST-04",
+  "counts": {
+    "dependency_clusters": 562,
+    "directed_queries": 73568,
+    "embedding_dimension": 128,
+    "relations": 152180,
+    "required_residue_endpoints": 48282
+  },
+  "formal_interface": "F_ONLY",
+  "model_id": "ProteinMPNN-CA",
+  "release_qc_status": "PASS",
+  "score_transform_version": "ST04_v0.1.4_F_ONLY",
+  "status": "PASS"
+}

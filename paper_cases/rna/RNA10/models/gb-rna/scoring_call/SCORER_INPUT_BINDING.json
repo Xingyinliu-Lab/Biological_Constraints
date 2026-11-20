@@ -1,0 +1,19 @@
+{
+  "assay_id": "C-RNA-10",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "640d2c211e2ac3dad8c09c037f4e5d6982f0cb57ca2e94cdcee663cf7dc3a9e8"
+  },
+  "forward_output": {
+    "bytes": 2425106,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "609474a324d011dd72ceb7d0c42da4e894d95064c5181abafa7908b77221de86"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "gb-rna",
+  "public_scorer": "constraints/rna/RNA10/scoring/score_rna10.py",
+  "public_scorer_sha256": "667c0f4c5aec2a679fc334d43e262443a024446c8cecfb1518836448b35561e2",
+  "status": "PASS"
+}

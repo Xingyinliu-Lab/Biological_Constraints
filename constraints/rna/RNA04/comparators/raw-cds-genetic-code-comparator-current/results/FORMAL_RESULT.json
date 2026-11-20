@@ -1,0 +1,21 @@
+{
+  "F": 1.0,
+  "F_95_CI": [
+    1.0,
+    1.0
+  ],
+  "assay_id": "C-RNA-04",
+  "ci_method": "degenerate exact cluster-level interval",
+  "comparator_id": "CMP-RNA04-RAW-CDS-GENETIC-CODE",
+  "fasta_sha256": "1bca9be51dd7cc329a64e151de4c820773f8843526f7f14c52155fc165d93327",
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "ledger_sha256": "eab2f85ac3c68adf70b2475ec6d11ad5a33738fd25e32eac33596e8b7188eec8",
+  "outer_clusters": 554,
+  "parents": 560,
+  "population_identity_sha256": "940cd7c0b7aa04a52a15a8731fa1fc43a52ece690fadf8f86c8d5fdccae58c54",
+  "rows": 11506,
+  "score_transform_version": "RNA04_v0.2.2_F_ONLY",
+  "sites": 3920,
+  "status": "PASS"
+}

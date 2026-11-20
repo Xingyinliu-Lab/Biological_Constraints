@@ -1,0 +1,53 @@
+{
+  "affine_refit": false,
+  "artifact": "DNA01_PAPER_CASE_F_ONLY_MIGRATION_VALIDATION",
+  "authority_validation": "constraints/dna/DNA01/authority/DNA01_PUBLIC_RELEASE_VALIDATION_v0.5.4.json",
+  "constraint_release": "DNA01_v0.5.4",
+  "forward_rerun": false,
+  "id_level_output": "Each INDIVIDUAL_SCORES.tsv retains raw measurements and reports F_credit; parent, dependency-cluster and bootstrap F ledgers are included.",
+  "migration": "Deterministic F-only rematerialization from the retained complete individual ledgers; formal values and confidence intervals are numerically unchanged.",
+  "results": {
+    "caduceus-ps": {
+      "F": 0.9798443242607459,
+      "F_95_CI": [
+        0.9786836303818005,
+        0.980926532355083
+      ],
+      "result_sha256": "5fa61aab9c819783ddaf9a8a70b4cbf7fd000d08648778b62b672ac1cf8deb4c"
+    },
+    "crossdna-8m": {
+      "F": 0.8653950700880412,
+      "F_95_CI": [
+        0.8611484042481197,
+        0.8695417331739937
+      ],
+      "result_sha256": "f87bc63de4a317864c340e714cd3abbf62eef170ca445bf2ad81cf47c12f2c56"
+    },
+    "dnabert-2": {
+      "F": 0.5649162505506284,
+      "F_95_CI": [
+        0.5611085758632336,
+        0.5687470225833642
+      ],
+      "result_sha256": "085f9683cf619ab4b12dc0783135af67b77632a5d60f463f74ab46dcbfe7a73a"
+    },
+    "janusdna": {
+      "F": 0.7983617870547217,
+      "F_95_CI": [
+        0.7936570419088079,
+        0.8030601139904553
+      ],
+      "result_sha256": "375240244e2a05050e278806175ead0724f6ef0ccca6fc42f6845c51742b2060"
+    },
+    "nt-v2": {
+      "F": 0.639590840744765,
+      "F_95_CI": [
+        0.6364369046664062,
+        0.6427315260263508
+      ],
+      "result_sha256": "7db740a41f182f34ceb3aec58dbb797e9719527d787f7463825ff1dfdb00c0a9"
+    }
+  },
+  "scientific_change": false,
+  "status": "PASS"
+}

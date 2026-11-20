@@ -1,0 +1,20 @@
+{
+  "assay_id": "C-RNA-01-02",
+  "release": "v0.2.6_F_ONLY",
+  "status": "FROZEN_PUBLIC_EXECUTED_METHOD",
+  "formal_population": "L16K",
+  "representation": "whole-sequence vector",
+  "distance": "safe cosine distance; distance=1 when either norm is zero",
+  "contrasts": ["d02-d01", "d02-d12"],
+  "calibration": {
+    "panel_ladders": 128,
+    "repeat_forwards": 2,
+    "tau_delta": "maximum absolute difference between matched repeat complete-ladder contrasts",
+    "user_override": false
+  },
+  "F_credit": {"win": 1.0, "tie": 0.0, "loss": -1.0},
+  "individual_F": "mean of left and right endpoint F credits",
+  "aggregation": "unweighted mean within dependency-closed outer cluster, then unweighted mean across clusters",
+  "bootstrap": {"unit": "outer_cluster F", "draws": 20000, "rng": "numpy.default_rng/PCG64", "ci": [0.025, 0.975]},
+  "formal_output": {"metric": "F", "definition": "F is aggregated directly from endpoint F credits; no second public score is reported"}
+}

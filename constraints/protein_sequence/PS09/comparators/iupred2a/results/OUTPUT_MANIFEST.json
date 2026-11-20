@@ -1,0 +1,54 @@
+{
+  "constraint_id": "PS09",
+  "comparator": "IUPred2A",
+  "formal_interface": "F_ONLY",
+  "outputs": [
+    {
+      "path": "BLOCK_SCORES.tsv",
+      "bytes": 47634,
+      "sha256": "a340fff4b38aef8fed305a1e3f016d17f9be2d2f2a9484497ee9828ed86b32f1"
+    },
+    {
+      "path": "CLUSTER_SCORES.tsv",
+      "bytes": 2690,
+      "sha256": "6225b54e7e6cf1660ab00f901a4c4533a6203fa384951d917557db363fcdc14c"
+    },
+    {
+      "path": "FORMAL_LEAF_SCORES.tsv",
+      "bytes": 749141,
+      "sha256": "7205c6a1e1148489abea56da19c5427a777855797d9ad842e695415bc835799d"
+    },
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 1561511,
+      "sha256": "9665b787296523ad3c6bd5bb3f9302c9031abff401fa8fe8840c7fc63979ea1b"
+    },
+    {
+      "path": "IUPRED2A_LONG_PROFILE.tsv.gz",
+      "bytes": 533157,
+      "sha256": "e8ecc1ea644cbf356addb7702d1ecb04962fe150d53363a128b4ee16661b8a12"
+    },
+    {
+      "path": "PAIR_CREDIT_LEDGER.tsv.gz",
+      "bytes": 502429,
+      "sha256": "b4f0def7308cd58f3b45198490ae3260d958c51daa4dbaf7284cb97519d42e25"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1288,
+      "sha256": "4236fa10009fc5af4d9f3151b55b6335ac1bfab13584db6988693e4492327015"
+    },
+    {
+      "path": "SCORE_SUMMARY.json.bootstrap.float64le.bin",
+      "bytes": 160000,
+      "sha256": "c2c06c2ad89800d9bac84b4442e84a540583e656b63ee7b81170484a9a0b100f"
+    }
+  ],
+  "score_transform_version": "PS09_v0.1.2_F_ONLY",
+  "refset_closure": {
+    "proteins": 81,
+    "endpoints": 15708,
+    "blocks": 1030,
+    "homology_clusters": 78
+  }
+}

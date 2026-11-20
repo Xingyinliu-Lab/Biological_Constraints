@@ -1,0 +1,19 @@
+{
+  "F": 1.0,
+  "F_95_CI": [
+    1.0,
+    1.0
+  ],
+  "comparator_class": "ANALYTIC_BIOLOGICAL_KNOWLEDGE_REFERENCE",
+  "comparator_id": "DNA06_STANDARD_GENETIC_CODE_TABLE1",
+  "constraint_id": "DNA06",
+  "dependency_clusters": 554,
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "method_version": "0.1.3",
+  "prediction_source": "independent raw WT/ALT sequence translation; stored consequence and amino-acid fields not used for prediction",
+  "score_status": "REPORTED",
+  "score_transform_version": "DNA06_v0.1.3_F_ONLY",
+  "sites": 3920,
+  "variants": 11506
+}

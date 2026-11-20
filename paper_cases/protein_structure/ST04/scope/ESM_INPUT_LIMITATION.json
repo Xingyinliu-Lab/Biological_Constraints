@@ -1,0 +1,33 @@
+{
+  "applies_to": ["ESM-IF1", "ESM3-STRUCT"],
+  "constraint_id": "ST04",
+  "exclusion_reason": "Two required residue endpoints cannot be represented under the shared ESM N/CA/C-complete structural parser: 2gu9A01:6 lacks a backbone N atom, and 1sxwA00:153 has its backbone C only in alternate location B. Query-complete exclusion also removes 2gu9A01:9 from the scoring input.",
+  "excluded_endpoint_residue_ids": {
+    "parser_ineligible": ["2gu9A01:6", "1sxwA00:153"],
+    "query_closure_only": ["2gu9A01:9"]
+  },
+  "excluded_query_ids": [
+    "Q_714b335869cf49651587c289",
+    "Q_95fa2c2edd65ea1164e6f75e",
+    "Q_026f56b6d6d04f9d2f8ece2b"
+  ],
+  "excluded_relation_ids": [
+    "R_ffe31555c13995ec0fa9e951",
+    "R_ec5ad80f55f48c66ea19263f",
+    "R_0f2b36cbaf02c6ec00f69698",
+    "R_54a84743d142770597179ea4",
+    "R_cad343b7d801728d78ee259e",
+    "R_19bef24dddf9866935dfbb7b",
+    "R_f109f38abb14529b4afb28d1"
+  ],
+  "relation_table": {
+    "dependency_clusters": 562,
+    "directed_queries": 73565,
+    "filename": "ESM_INPUT_LIMITED_RELATIONS.tsv",
+    "relations": 152173,
+    "residue_endpoints": 48279,
+    "sha256": "40e9b15601d3e2b69682539b90aa6b176d06d8110c446c9bdf2c36fa41991fc4"
+  },
+  "scope_kind": "MODEL_INPUT_LIMITATION",
+  "status": "CURRENT"
+}

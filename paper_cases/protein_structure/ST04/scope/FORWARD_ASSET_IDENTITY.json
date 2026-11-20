@@ -1,0 +1,22 @@
+{
+  "artifact_id": "ST04_PAPER_CASE_FORWARD_ASSET_IDENTITY_v0.1.0_20261019",
+  "constraint_id": "ST04",
+  "assets": {
+    "endpoint_token_map": {
+      "path": "paper_cases/protein_structure/ST04/scope/FORMAL_ENDPOINT_TOKEN_MAP.tsv",
+      "bytes": 7859430,
+      "data_rows": 241404,
+      "sha256": "0d2402cffa6ba83f7a956f128b51de24a4857c8ce1c03f23c12483a5dd1c5e5c",
+      "source_identity_record": "paper_cases/protein_structure/ST04/scope/FORMAL_ENDPOINT_TOKEN_MAP_IDENTITY.json",
+      "role": "minimal registered model residue-token index to formal ST04 endpoint mapping"
+    },
+    "residue_evidence": {
+      "path": "constraints/protein_structure/ST04/refset/residue_evidence.tsv",
+      "bytes": 7012192,
+      "data_rows": 98209,
+      "sha256": "e0d1c4fa106959fa4ee1c142f0ec18576b806fcb8c7cf45f4a35df300e653c05",
+      "role": "frozen coordinate residue to canonical polymer position mapping"
+    }
+  },
+  "status": "PASS"
+}

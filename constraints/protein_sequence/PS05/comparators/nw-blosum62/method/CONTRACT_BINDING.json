@@ -1,0 +1,18 @@
+{
+  "constraint_id": "C-PS-05",
+  "contract_manifest_sha256": "5861255923fcc62a3ab8675a17501f44bc5da33c0ac7569c4677dda2b19317ca",
+  "contract_refs": {
+    "AggregationGraph": {
+      "sha256": "46ec1093d5acefa1f45c548bdbcc0963aae09f857706e0f4cd4015f2129c6bdb"
+    },
+    "MetricRegistry": {
+      "sha256": "2afd73a77d75917fe87b0855ddcbb524e1324a8ef5011fc3750ff345f06cfeab"
+    },
+    "ResultContract": {
+      "sha256": "7289f54e92883ef9bbaee7799d522c9477624f61e3971f9cd1fdc60100d12080"
+    }
+  },
+  "delta_num": 0.0,
+  "refset_relation_ledger_sha256": "e52accceaf40c7a23e5f6a1ffe253554ec5cc5f091fdd78e2930905a589c9b2f",
+  "refset_release_id": "PS05_ASSAY_REFSET_RELEASE_v1.0.1_20261008"
+}

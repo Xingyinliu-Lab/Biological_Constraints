@@ -1,0 +1,18 @@
+{
+  "binding_kind": "PS05_PUBLIC_FLAT_REFSET_BINDING",
+  "constraint_id": "C-PS-05",
+  "contract_refs": {
+    "AggregationGraph": {
+      "sha256": "46ec1093d5acefa1f45c548bdbcc0963aae09f857706e0f4cd4015f2129c6bdb"
+    },
+    "MetricRegistry": {
+      "sha256": "87234c87015760f8766ac27b8c20f06f4bcc3c04052bb84a698a25d5062fc66d"
+    },
+    "ResultContract": {
+      "sha256": "eebe8fbb8ec8e16a94ce0ca94085486b5e4fa90da6be004c80ecf0b159ee8cc8"
+    }
+  },
+  "delta_num": 0.0,
+  "refset_relation_ledger_sha256": "e52accceaf40c7a23e5f6a1ffe253554ec5cc5f091fdd78e2930905a589c9b2f",
+  "refset_release_id": "PS05_ASSAY_REFSET_RELEASE_v1.0.1_20261008"
+}

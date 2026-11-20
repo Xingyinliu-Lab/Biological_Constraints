@@ -1,0 +1,42 @@
+{
+  "comparator_id": "CMP-RNA06-VIENNA-PARTITION-PARTNER-PROBABILITY",
+  "engine": {
+    "chemical_reactivity": "FORBIDDEN",
+    "constraints": "FORBIDDEN",
+    "dangles": 2,
+    "name": "ViennaRNA Python bindings",
+    "partition_function": true,
+    "temperature_c": 37.0,
+    "thermodynamic_parameter_artifact_sha256": "76e480add7df590bf13b69147a63f1db32222bbca0f4d65b5c4ee9fc5fc45f74",
+    "thermodynamic_parameter_set": "RNA_Turner2004",
+    "version": "2.4.17"
+  },
+  "execution_identity": {
+    "comparator_code_sha256": "dead521c4b8ba83d3691c155c226c57b709288a4066b7a13bf53ee545e2057b7",
+    "observable_code_sha256": "884b40438c57c6fa7b75092d6495ab8ce1d5ed7628d61bd2a42bb3c3981d602b",
+    "public_scorer": "constraints/rna/RNA06/scoring/score_rna06.py",
+    "public_scorer_sha256": "d7adcdd9d9aa0c459eacb1573faaadec233ab4062cd89b01274f713f4a49741d"
+  },
+  "formal_interface": "RNA06_F_ONLY_v0.1.3",
+  "population": {
+    "compatible_edge_count": 1274,
+    "compatible_population_identity_sha256": "7746dacc4802e05fa47e8e34ee200fc6963018e45606ac5450ff219794504db9",
+    "formal_edge_count": 1588,
+    "oos_edge_count": 314,
+    "scored_candidate_contrasts": 12182,
+    "scored_directed_endpoint_count": 2548,
+    "scored_outer_cluster_count": 20,
+    "scored_parent_count": 103
+  },
+  "result": {
+    "F": 0.9473389148952038,
+    "F_95_CI": [
+      0.8801192942859608,
+      0.995117952436146
+    ],
+    "bootstrap_replicates": 20000,
+    "bootstrap_seed": 20261004,
+    "bootstrap_unit": "outer_dependency_cluster_F"
+  },
+  "score_transform_version": "direct_F_credit_v1"
+}

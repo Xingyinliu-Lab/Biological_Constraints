@@ -1,0 +1,13 @@
+{
+  "artifact": "DNA01_PAPER_CASE_CONSTRAINT_RELEASE_BINDING",
+  "constraint_id": "C-DNA-01",
+  "constraint_release": "DNA01_v0.5.4",
+  "constraint_release_file": "constraints/dna/DNA01/authority/DNA01_PUBLIC_RELEASE_v0.5.4.json",
+  "constraint_release_sha256": "4f0d8b33e72aa847d9e787af429978271fcb2f1aabc130e4bf63b26840b0acc7",
+  "formal_interface": "F_ONLY",
+  "public_scorer": "constraints/dna/DNA01/scoring/score_dna01.py",
+  "public_scorer_sha256": "7b530824c8a3c0af925ac92fbf4deed7590144edd0b108533e201c47bd0bf845",
+  "shared_core": "constraints/dna/DNA01/scoring/dna01_core.py",
+  "shared_core_sha256": "7600c5132a3b4b0d2a1edc3aee6a73ea83fecbaa8c9aa79dcec34168218aa48b",
+  "status": "PASS"
+}

@@ -1,0 +1,71 @@
+{
+  "artifact_type": "ComparatorMethodContract",
+  "comparator_method_id": "PS02A_NW_BLOSUM62_RAW_GLOBAL_COMPARATOR_v0.1.1",
+  "status": "FROZEN",
+  "method_level": "LEVEL_1_FIXED_PRIOR_RAW_SEQUENCE",
+  "role": "primary_raw_sequence_explanatory_reference",
+  "assay": "C-PS-02A",
+  "reference_population": {
+    "release_id": "PS02A_ASSAY_REFSET_RELEASE_v1.0.1_16K_20261006",
+    "bundle_count": 10072,
+    "bundle_ledger_sha256": "51156fa6d1b6bf48553d26054e28d6699b0a1c23f6450f0b94a7c0a4d6c30f79",
+    "membership_policy": "immutable; no comparator-driven filtering, rematching, or bundle deletion"
+  },
+  "input_contract": {
+    "modality": "PROTEIN",
+    "source": "RAW_DOMAIN_SEQUENCE_ONLY",
+    "allowed": [
+      "anchor sequence",
+      "positive sequence",
+      "negative sequence"
+    ],
+    "prohibited": [
+      "family or clan labels in similarity",
+      "Pfam HMM",
+      "MSA",
+      "profile",
+      "BLAST or retrieval",
+      "taxonomy",
+      "structure",
+      "embedding",
+      "pretrained representation"
+    ],
+    "query_time_external_reference_lookup": "FORBIDDEN"
+  },
+  "method": {
+    "tool": "EMBOSS needle",
+    "tool_version": "6.6.0.0",
+    "binary": "/home/mik/u8t/ai_genome/bc_v1_reference_build/tools/ps01_emboss_6.6.0.0/bin/needle",
+    "algorithm": "Needleman-Wunsch global alignment",
+    "matrix": "EBLOSUM62",
+    "gap_open": 10.0,
+    "gap_extend": 0.5,
+    "terminal_gaps_penalized": true,
+    "end_open": 10.0,
+    "end_extend": 0.5,
+    "fixed_method_prior": "EBLOSUM62 substitution matrix"
+  },
+  "score_semantics": {
+    "pair_similarity": "2*s(x,y)/(s(x,x)+s(y,y))",
+    "contrast": "S(anchor,positive)-S(anchor,negative)",
+    "higher_means": "same-clan different-family positive is ranked above matched different-clan negative",
+    "tie_policy": "exact IEEE-754 float64 equality; F_credit 0 (win 1; loss -1)"
+  },
+  "evaluation": {
+    "score_ledger": "one score_anchor_positive and score_anchor_negative per frozen bundle",
+    "evaluator": "PS02A_F_ONLY_SCORER_v1.0.2",
+    "bootstrap_units": "frozen 158 anchor-clan units",
+    "evaluation_truth_use": "Frozen bundle roles and hierarchy may be used only after pairwise raw-sequence scores are materialized"
+  },
+  "failure_policy": "pre-execution tool and input preflight; any in-scope runtime failure fails the execution and does not shrink the population",
+  "diagnostic_separation": "identity and coverage are matching-variable diagnostics only and are not part of this primary comparator",
+  "frozen_execution_bindings": {
+    "formal_bundle_ledger_sha256": "51156fa6d1b6bf48553d26054e28d6699b0a1c23f6450f0b94a7c0a4d6c30f79",
+    "point_membership_sha256": "a1379ab7307893b636ef0057da3fa8962d7a9a6dbd1cedf02b94093f7abee245",
+    "uncertainty_membership_sha256": "e9190fb8e9cfa39bcbf65060092f4e00d016f026a2afc353d9c19ee7d00e7afe",
+    "endpoint_fasta_sha256": "393ba2b7938d62e5e45f77a8e47cc66e8ad4f13e882908dd1c1b260ab9ae734d",
+    "needle_sha256": "d369c810d4c60532638db7c3c51903cd5f37a75405a3e26174ee2a4f5d380590",
+    "comparator_code_sha256": "0cbdcad1b0fdf2cad3b523dc6b62bf9b578904630ed22f00555323e80d150078",
+    "formal_scorer_sha256": "00fd2a482ac13647b43593ffccfbdd9b82f8b37e20d85d5544a6d0a062841546"
+  }
+}

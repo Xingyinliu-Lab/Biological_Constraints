@@ -1,0 +1,16 @@
+{
+  "constraint_id": "ST02",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "sslm",
+  "public_rescore_output": {
+    "path": "output/public_rescore/SCORE_SUMMARY.json",
+    "sha256": "cd4d7a66c98dd4675f63dd1f1d8be04fc8a7133b9509a03f0f452e58fbb4e7fb"
+  },
+  "public_scorer_sha256": "cb07f116cbc588baa8efc18da1980a4b14068231e7be28174741c351b12cfb8e",
+  "registered_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "1a4c3e55d9edcc95af3ecb31770f5e069d47a2ffd5094260d024821f9d648e67"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "cells_sha256": "a10dae656a995badf0ed4998509e524744fd0f7b707261e22dcd9820b53ad2c3",
+  "contrast_score_ledger_sha256": "d68904e8fa1214f04e0674a6d36ad6e2178ffba7854015ad796c7dd59f4dfd80",
+  "fasta_sha256": "b2e44024bbd2bf35515694ba6d6df341dbc680877e7664ccc363ff6d246fcdc3",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "7867d2ee0e9a6e36929c4e85327b22e9dc3304fcd6ee1bdd6b2a998a69336e07",
+  "individual_scores_sha256": "c938eed8a55c6771ba0477ce08cd573d8a67f36302194516bf06d2baf6f52f36",
+  "losses": 145,
+  "method": "Needleman-Wunsch + EBLOSUM62",
+  "pair_score_cache_sha256": "a10dae656a995badf0ed4998509e524744fd0f7b707261e22dcd9820b53ad2c3",
+  "pair_score_count": 2154,
+  "row_count": 1256,
+  "score_transform_version": "PS01_v2.0.2_F_ONLY",
+  "status": "PASS",
+  "ties": 0,
+  "unique_sequence_count": 2316,
+  "wins": 1111,
+  "workers": 64
+}

@@ -1,0 +1,2418 @@
+{
+  "comparator_id": "CMP-RNA06-VIENNA-PARTITION-PARTNER-PROBABILITY",
+  "input_boundary": "raw RNA sequence only; true partner, nonpartner, truth maps, coordinates, and constraints are not supplied to ViennaRNA",
+  "compatibility_rule": "complete reciprocal edge retained only if its true edge is cWW, canonical/wobble chemistry AU/UA/GC/CG/GU/UG, and noncrossing in the frozen V1 pair map; negative candidates do not determine compatibility",
+  "formal_edges_total": 1588,
+  "compatible_edges": 1274,
+  "oos_edges": 314,
+  "oos": [
+    {
+      "edge_bundle_id": "rna06edge:e23a9c98f30aa22d763f8921",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1f981309a458e09635b80a27",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c357e023509069329815f91d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9a08ec1163c9acc5b4101a6e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:73ad099b01840888f23acbfd",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:bd7e117cd4a167fabd6859bf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:176a69cb9f5d67a8857fe12a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:843ea6f592816f06f5c34ce8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8a0669affbf9ecaf44631b4e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:bd82a7aa58aa984636a32c65",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cc61d7fd0487f9290781b99f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ba51797067d214ee0c24fc4d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:77e46377a60d857eb620a16b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a38e9d174afe69cb36dd23f1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f125738e0aac66c41f2fb664",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:81661c1928f5ed777a4d0289",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b9d07cb29145139ec5e626e0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cd1f302a6f69ec1524bd3ee1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:16ba52d41ad5d73c3412bd72",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:54c92aa70e191e9fedd0bb7d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:eae4e0d2bf06100350411d72",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cf26f77af3f69e59147b5ef0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d2272aefac0902eac3c13ec1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b2e025479d8754cfffa0b399",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6c6ac378d6db1014dc1d08a5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:dd432025c63ce321e6d1b2c9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cbf55c981423584693b33dbf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e31ba211b72cfd2dd0dbbb97",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7a128e7553baf916a4fe2eb0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:accf15162b0d2ec1ae20ba99",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:09752a505dc64588dd1abd0c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1cff20df1e9f97fe09dc7130",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9e2a8e94e31086b814d7bc43",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ed89322e1f6e892fae6eb77a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c06523bba11d7c51be644696",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:205e13da075fb2e5ba0e142e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:787fa9c29ffaf351f47f594f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0fecf5a4bf4a7f6a7b323a79",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b6ca0791eb8d367f895d812b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:77a5f37d93ab094974781016",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f9ada8f725aa9f09e4045890",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:de86dc0486f85e19077de053",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:72dd2d08ad1f3018fb056ece",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9399683aa50e938a8bf583e8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:53437142ebc0de880915337d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:64cfe6dd13e91e51fa7fb894",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9101dbb98ad2f5ad0b94829f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8921838d5f2ff4c98eda2eff",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:215f5f4d26221cfce3ef68a1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1dfedad9e6697a52ddf9d0a8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:dd806cd03c83ab09ac4bd4a9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5df1e0fca93227965fe577b1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:91d41461d43d7f431d15ceb7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2666baa7d7a44efb8e92480f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ea4e8417fb5e36b570759f8d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:04092ef73e2c4b28af3cf737",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d08fb7b1a9980f20ad360b0e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1b436b843abb24910d7a9161",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:758e3eeb9c5ebb8ecd83b66c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:11f3e01174cbc6fcf0e43af4",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ae72d5f424ddaae2ff8c6709",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:50bf0fb74f7f5906c721dcbf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7962eb3d8a9aefa99c831a72",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:28b722bb56f134d95b91cd50",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f364ed485a1cf8510cf5fb7b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e0632965ad5d0f255f19b188",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:12dfa02ad368902b9d5644fb",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6b17733b96b9a13d0e7a6c35",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9054e5351a3169c252fe3cb6",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1a02e544529e9bc1303a2c9c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1373e891ed17e3c27aeea4da",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:304bd04a6d01fdfe4c8955ca",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:59dc80ba628393e17d93b890",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:668ed9590460b2da07fdb476",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:54a913196493824fb9a1ead0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:def8488c36860a1d355fe0d9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6e36dbd701147e6bcf18b718",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a8a602e4e5d4734b3efb00ad",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b02fae4327442d25cd117063",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:14a1f9f9bc468bac0719c88e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0c42540e0ddd169b3b16844d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6c737a40477b230c18c3f43c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:91ee17ab5a4cab075ea47bde",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:70176c51c79635db16c2baee",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4aef5b46620d7209b781cf54",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e868a06bca2147a3a1ef667c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:99d08d06c870fc4c9c9a9258",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:fddf29ccdac09ce740dab873",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8db5ca56b6af881b4461bd80",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d1119a8a8c8ea591290fb9cc",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9cf0b3934f8d8fc25ee6251b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:09809e1893cb676ce0b966f7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9931d4a39e8c057544cca503",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:3b9fbe3a8ebd6515150986f3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5b40395a179fc65ad714b817",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:11fcaaf55e9dc9dc5173a39e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:45666db5cb84ab26cc7efadb",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:682ddd28fd1f17f5e7f985ad",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:92a5a80ee68fe448bcef5f83",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4d07c31b47e2b0b6b4d284f5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1cdffaf18c353ae01ef14fbc",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:3efc178679541215f5d58fc2",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:53a859a2670f3ee17afb8031",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:67aaa9022c36683ad5119829",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b37197c1c3ee49925d26d69d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f343e132167aea63598835b3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2cddc0d1215f155e8ac50a5c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1dd3e1034988b527a6c274a4",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c9a248747bbafaaa30ba6251",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4757dda792defa914a872aab",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b73859e55b83159aaf7bc21b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2ff92e5d3cc9f01fda24a996",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4e89a951df5b23d02b7fd1e6",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b722579b776b0ab6a381affe",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:86888edfe0ab7b30d742613b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2c1f88ee5539c5e749e9fb35",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:569e21be825c86aecf927a06",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1716c3196f6ed5a3762990bf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f6b76283be0c7196fbc15ca7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:495bb87d1fa9c9e431331fcf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a154a9fc65e5ab94a21ca4ea",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:90f7abf5d829ec09d8e18cbe",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:fe6a855cdeefe04d1c507009",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:90654df527cb5796faf52dba",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2604a968b79a2ab4d42b4ef7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:bcde7f3ada8df7aa8664f0c8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c7544a208e3fde67066beb63",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8b0c15c57757538dd759f6d5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:baac11d560831dfe2e497a2a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4fdcb0e14600f97cabd141df",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a8b86c739a27724dafbc2a8a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b9d2b36a2be00c219fc2d673",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:23508be8afaf828235beb12b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0c2b8d78aa21cda7eb563e77",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a638086ce9b43dce5f0ce1cf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:15263b322791df0123952e21",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:33877b06d7205ca3a082d5f6",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:70152456d9d3d2db053417a1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f4fdcac4953d9818ed48adc9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c9ec8d25b9225e50528cad2c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8219e9d9442a040c91cccfaa",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0cd892190952e5b35857d59d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:864247da1a4f566d2ff824c0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a004b2a52fd2b2552f5ea04d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:37fe8023b6605bb35d012145",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9e824c965f45ca929fd9c33a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:690aa6200fec5b8322cade80",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:85b61125de42922a6542a19e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:fd8eb540425086ede8289989",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ffac2f9ffa1d34c5abe106e3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b986d4871c4501670b282288",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:958dc548fa006b2921aaa17c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:98ca3f9f2ac510ec0b40e321",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f3bd4c2831c9b41e3d6db023",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:72b0f732633fb9d2e4aa1339",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:beddfd3e3c80bc0b1dcf618e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:46dffdebc4759a770b873e32",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:65f11149b2c1c0a21dd16fd1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a866c14e9056bc96f954f70b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9bfc92d20726ff6c99bd15b4",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:bf62ced5a4753c58e4d396e5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:380fbfb425ee44ae156c4745",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5a78c3fffa3d8b0b2c0d603f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ad66e9f9de18bbd6ed638d36",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c6608da21faa450246aea48b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f6bb39a4bdcb3d421931eea2",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:594762d981d84b783ba8b8e8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:dda5dbf71f7f338a32fbe227",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6c1b5075663a6cbeb4d1e2a0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:02281dce5ad87de1501f24f0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1a8be00dcbae2a57d264d09b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ba90777b58d3090a6e935776",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6e7e3c0bf3003e4a00b2f344",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4e25bb9185ce2db4bc583592",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:511697c20992a4886744ad2d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e5273c2b577b97c9d603ee30",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:79ce53620bb8dfb8f1a78026",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f8886abd299003f63f1769c0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f6dfb34f809b0c7d2231cb4b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f538e646429486b14dfc698c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:693c35813c843785c646c82f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:443247e60722e16dfb1a4a9e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c43da730b0adc5bdc8b3486f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b4b951880ae4761505a85d77",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:76eff6c65b0572c175beb2aa",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7159ce9bfc23098bbfff6908",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:30a6f6c6dab93ac16b9d92c1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:18e8fff8bae1c9b0a35562b9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a7e33ddebb9c444cf532ec4b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0086566cfc47f2e90cd63d7b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ec4201b507e74635716e544f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2d6370c0e85777b49a73252e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d41dd487748e7dbc8f86365b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9909fadf3c54784a5a88a569",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:19e2f58f8316dc1b260899ec",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:50701fcb1ecaee99554baa9a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:dd5069b1bf5aa88f80094f06",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:3e7a97c9d7d9fb98438e55f8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d63c1dc767b18609b9c0cd9a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6dd7c4e6b9a69631ed462e0e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f7dd8584b229b0a7d55df393",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d481713809867ba190c80cfb",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:90bbdcc53e063ee1ba75b589",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:feade248b289b3b1d1928d70",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2524b117e210eb8188053eaa",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:dc336a7f1f443284a294a6a9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:407711445c7dced39f8ad98b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4d9c78029cf9b2889f66d324",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0719126518e9a368fd4e375c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:6d0d2d100742ad94d99f081f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cf082e8f7a4870df9e00a8c1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cc71210e3b439c6199e90595",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:699196df5518b906f9ae00e2",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d4ce0fcd5a24665aeff00cfa",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:728477a9284f94c6d16bc471",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2a856d8e971d64c5fdbc668c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0a0a92578375fa13058dfd01",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c1a64877607efdca336c51b9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cf5ecbf4f3b917d6f50ef632",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c6292d3a9d899f49cae58aaf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e300b86b6dad3b1fd38348bb",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:63fb2e8bb067429fff149efb",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f5271dc18ec4bd9e53f84c19",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e76f838e53dc93f1b98b31f8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:3bd1c797361e84656ff94e26",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:fd16fce09937fa200e210a82",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0f0a6ecfc89862ecbd1f5123",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:61b7cf897a386307c4d14a23",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:aaec78322353d775aebfb4fa",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a9d632b2f58394fd7311b615",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:4b489294f118066977916846",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c2e44d319130a7374bf240c4",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7ce002aece54f5ec235de2c7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2e2851edb8c03231bfafeda0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:87438448a9449da917040018",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:eb3922dcca07b79bd034e785",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:86e01182ac1062eb91445a35",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:19fcd211fca71d5bcdf108bc",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b04d6327a6d83ccbb42b264b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2f73ad231988df9b970c42c4",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7d12e522b8249e8fe862089f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:34f3de6da328988d93477577",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:063d5bcb004dd73bf8d95d3b",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c04a09232d3442ff8b715886",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0e2a7b89f7df85b02792f5f5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1ba0ebf28aef11901d11cff3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a68198c76929cd179e16f7e9",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9f928961903aecfaa31b3f61",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:75cd070411c5ed1ff9e709e6",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:70d3420ea9c24b9db07e3416",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:826efb85617dcb010fa488c7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:49e3c3e62ebc0e711057cbd5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d0d15c0074816f5cd5ef0d3e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b317a4a86e0d95d4ee3a5c4d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ce5fcc6c864695626f661155",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1513c9d8a7f3bb68486ec757",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7b44d2084b8a4b6a6ce2d42e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:103fb621510eee6833b662a5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f2d305dabdfb6077d80888f5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ada0f18bc5ddab4542f846fc",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e76246c06d0bb41c6a0684c5",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d763f8d61ab72a3800fae1a1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5097edda79713598077a68c2",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:cbc4e9f29e4ac8fed64ddef6",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5b09c407a65dcffd3fe67d9c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b25f943458913ca820d42669",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:29fed6f6dfd3e19d147cd18a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:bb9f08f5357bae090c53fa51",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:38ff267368ee0d9da65fae88",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d19ecd63c8529f7c563354cf",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:79ccb77831c9735f4406f4f3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ea0bc4595f73b1e5ba6a6177",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a3a4001fc1bc9ed38ba5ae33",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:85f995de5c5b9abec7e3b711",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:775c6aad40ab4dbeb0c0613c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ed7a6bb81f0341c5b8ee276c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7a0f4ca4b47b1f8be645ed3d",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ebd05528d5d2afb92b4702de",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:3173627138cf054a04375872",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7ee47190ca2e8f557ae242f3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:bd173db32341a59bb5d487b1",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d6c59da24b969dbd15094cce",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:14544f7c4f7e279ddfde5c3e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:709d2cee150cd94b3255b263",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:f70f4ab63aac0ca998b32d2c",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1dfe859e577f55dfc8ce0e26",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1735a2a3ff174be30da8d999",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:41c3b392763adb814699282a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:af4d5a662a075fdb83e29c95",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:ca77f8d4902809b6a37e6fe0",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:53a1450fef6d12a23cb57417",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:69d08208305038bd7baae43f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a54ca069460d196749ece5db",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:c6fb458be625ac6ecbf59ffd",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8952a36b003e245851d88cbe",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5d0f159f9cb2c9c75ad6238e",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:534ebf651253405973455c08",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a923b069368aaf77bd372369",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0dbec3f78d1a2a2cab905ffe",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:27e33c91413de87660887d3a",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:934cdb6fab68c8718f2cdba3",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:e08bed47eb2dcc3e48fe7820",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:a97add61a19560bd89de2800",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:304f3a20ed97ad768974d9f7",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:b8f4cb7eff6b2ca448727bc8",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:5f3bcf71a5dc2d352cc6b55f",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:8a3fb965453200c350a9b824",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:7e8d7e8622cd0db1561a6741",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:2c6c59c0ed6f069cdf59a633",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:9557c3952b05afa704e76838",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:0b05e8aa4bb685bec3cb1f74",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:60513cd4708d24d86a727220",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:1e17e43d7db0fa17591bd184",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    },
+    {
+      "edge_bundle_id": "rna06edge:d1fb0dd8b4193328cb323ef6",
+      "reasons": [
+        "PSEUDOKNOT_CROSSING_TRUE_EDGE"
+      ]
+    }
+  ],
+  "sequence_audit": [
+    {
+      "record_id": "rna_coord:0008d62c97e1c531a4b6490f",
+      "sequence_sha256": "b63f4ba9bfeb46c6c53c4d6cb8ddeaa292d761aca693029373df896889165f91",
+      "length_nt": 85
+    },
+    {
+      "record_id": "rna_coord:010955d7fa1c34d25bbcbac0",
+      "sequence_sha256": "aa3a7fd94c15224490e18845b7468593fb38d62d9cc470a7260332040ab85c16",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:07a280fef96751d75259031d",
+      "sequence_sha256": "39b1409a23600d703b6d63165345a685852406be2d311ef574c292f4b5a974f1",
+      "length_nt": 81
+    },
+    {
+      "record_id": "rna_coord:0cf20898f0320821bf03a48c",
+      "sequence_sha256": "1edaa32b72e45302d434dafb7f74168e5b70b3760b49a217301d648176ecd5ca",
+      "length_nt": 123
+    },
+    {
+      "record_id": "rna_coord:11addfead4101f7af0345ff1",
+      "sequence_sha256": "fc4102b9e7f3ec562335e6cb16a5d4e19dfa545e31120bf113f8beb92c30452d",
+      "length_nt": 183
+    },
+    {
+      "record_id": "rna_coord:1a16f28b1c34dc3a88e4ab11",
+      "sequence_sha256": "f5c1dc2eeb44f020865f4b286cbbf6574fedc5e981d25b7a1634dc30b78c09b4",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:1cd121413de6ba541e38f3dc",
+      "sequence_sha256": "25a41217dac344bbcf03c586f02d34aeb1d596ac700f078dfe9b32493d846de5",
+      "length_nt": 90
+    },
+    {
+      "record_id": "rna_coord:1ce371384ff581a6d3775b3e",
+      "sequence_sha256": "1cbaee28387f295ed3d3f56ea958967804176e0393509a2e79af1bff7f54f456",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:2291290834a387e3314c438f",
+      "sequence_sha256": "21129f97ac9a40d216c74b49a4e907d1a0464bb9ecf54b1df875e82a42b4623a",
+      "length_nt": 70
+    },
+    {
+      "record_id": "rna_coord:2485fbaac7f3f40702b5ebe0",
+      "sequence_sha256": "28e4401839f830154454f3ae9e5fda9ae3a85615ee8db24351b6ec3eebb502ad",
+      "length_nt": 71
+    },
+    {
+      "record_id": "rna_coord:2ad346789e4deb0c29a6dc3d",
+      "sequence_sha256": "0bba1b4dcd378bb0fa38598f4ea5c341e1a6bb0cfdaa18b2f02ee62bd9b368a0",
+      "length_nt": 120
+    },
+    {
+      "record_id": "rna_coord:2e59aafe64cd0308907ec936",
+      "sequence_sha256": "f6075f391d19420ed377dc54cccda8de45c8461a9c2a45530bbc1a7cc6d15538",
+      "length_nt": 121
+    },
+    {
+      "record_id": "rna_coord:2e743ff489ee5041e5072fb1",
+      "sequence_sha256": "7ea1d910e49d8f55f4c97f563ea2a79dc436a400ec1a4df3ad8618f94a388cd4",
+      "length_nt": 74
+    },
+    {
+      "record_id": "rna_coord:3297b9a8f1124dcaae671ba8",
+      "sequence_sha256": "f015287bc8c65bf2f26bf22f0d380f2710a0e5313b99dc6cfa816a01b59706c0",
+      "length_nt": 277
+    },
+    {
+      "record_id": "rna_coord:378bd387a9d8c701c8d6c77d",
+      "sequence_sha256": "cc475a9b8a945a883c44e3a620f744e2ab42cccbf51640858b77c11c6d8c16f4",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:37b04bb2547f15683038e08c",
+      "sequence_sha256": "4b7e6e9bb5f31d7af6e789e70126dd1ace0737ec8738d3cde8f79526e6e9dd32",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:3b247c23c4d2c5685bc8e32c",
+      "sequence_sha256": "d218848231feef5354e6ddb4c1bfb6a4c42dde76842487badcf52d0ee66853c8",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:3b284bedba574edf6da48bf8",
+      "sequence_sha256": "46f4088b6b26514614357b6527396c5911a47d4c8c1395bf6ba824950fe40005",
+      "length_nt": 70
+    },
+    {
+      "record_id": "rna_coord:40efb2986755a1c1da02b91b",
+      "sequence_sha256": "9c0c2e10c2e400972ae227b3d909d08c5d4a8e721142f87962c1da2bd7011a88",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:42cd6bec04ea4841b287335e",
+      "sequence_sha256": "4b8ec25761389490bb2fb1dc3cc986c966016e043b1eef5556de8c407bdc83e0",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:43ce9e2b8c056da074a30354",
+      "sequence_sha256": "2eb0e737769ee5770e95877fd8194e42fad58503ec72e743d763059d3c561eb9",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:43d818b6850a23c33526da69",
+      "sequence_sha256": "4e87233dbe313110e2dd6d82cfef0412bd46109f7f9af33f752c0449d01246a6",
+      "length_nt": 393
+    },
+    {
+      "record_id": "rna_coord:44f7607007a407b38d42755e",
+      "sequence_sha256": "43127df1b54ab969a648d32f3f4927ab4c70d22e4c6037ecca9aac9fe8ea01a4",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:4e266a800e28c8324b1724a7",
+      "sequence_sha256": "4ee0be19e291a390d50334567f8265f423cf9ebc88329e5d9155a650aaba6c2d",
+      "length_nt": 75
+    },
+    {
+      "record_id": "rna_coord:53a748a46fb691fc7d822c83",
+      "sequence_sha256": "c01d3b526b7019be87c9fa087629adbce3ec7f2f0d62d04ef4b9fc7183b8ea99",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:576d06d3e4db486aff4d0765",
+      "sequence_sha256": "eb3b7b0c79383b6761703320f6c953b25376611e73aee9d0ec7ff2557a296b26",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:5c33aa0e62dbf45e603f7275",
+      "sequence_sha256": "bab7040c2ef778e3d8d6c03f227d17e001f760d0c0d8a4b63e1143587f8a7f54",
+      "length_nt": 75
+    },
+    {
+      "record_id": "rna_coord:5d60d40741e98f71336064c2",
+      "sequence_sha256": "3227cfe2782f324fd5789001ceb883e17ead6fa66eca680a8d801e0e4cffdcc8",
+      "length_nt": 70
+    },
+    {
+      "record_id": "rna_coord:5fc8f7d7f6625b6c578e6602",
+      "sequence_sha256": "8e2cda66303e38193f4f383b82f2f65440ab2917ecf6ab7fb84a12b322b903da",
+      "length_nt": 118
+    },
+    {
+      "record_id": "rna_coord:614a49d472dcf1ff7694d4d1",
+      "sequence_sha256": "2421c21805bd7bcdab8cd13b2fdb2f992256b5547d236f4214e962b59db09fee",
+      "length_nt": 120
+    },
+    {
+      "record_id": "rna_coord:61ddfede0e4e458bf64cfc2b",
+      "sequence_sha256": "ae93f8e4475b196ffff8c0caa174f2b708d1dad82bbd2140a467cda8b3d0dc7f",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:627affdcf0d63805b3b61efc",
+      "sequence_sha256": "6ba7a439cd64ee18cba1ef9c31298def30dc87f53e4ced327ac7c475c1c0d7be",
+      "length_nt": 75
+    },
+    {
+      "record_id": "rna_coord:649be79336e73eaaacbef739",
+      "sequence_sha256": "f74704664e908b02863154483c7ffacaf58ab217c5fd5d788fd152956ef7133c",
+      "length_nt": 95
+    },
+    {
+      "record_id": "rna_coord:654e9ad3f31e436742b3114e",
+      "sequence_sha256": "cd70ca90e441c1fbb85632f5980322e66903f2c92ca5eb06a98f1d502a0cde8a",
+      "length_nt": 72
+    },
+    {
+      "record_id": "rna_coord:674483cac62b4d5add062ee8",
+      "sequence_sha256": "ee165aefe38d1ebdd4f86677a3c63feb9a103430c8bca017f2c920d539bfeb6a",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:6b4a4601670b05ccd0b557b2",
+      "sequence_sha256": "bd23fb6c6539b2d9908410e84872dfd1b69058fdf190fcb7c051cf5badacd379",
+      "length_nt": 50
+    },
+    {
+      "record_id": "rna_coord:7107ce6187dc9580afdada8d",
+      "sequence_sha256": "69a4b3acc1592b4add864e59c106d9f1ed82ac801c34c2cc9bac53eae7f7d31f",
+      "length_nt": 74
+    },
+    {
+      "record_id": "rna_coord:72a41bf6f38602f9f348eaa2",
+      "sequence_sha256": "db6afd57809b243961e8942bc92075bd3d58733ffb9a3103fd38d55ddca18f47",
+      "length_nt": 69
+    },
+    {
+      "record_id": "rna_coord:72ec7502932524545e2b1b81",
+      "sequence_sha256": "5f2a51cb264d772239e9c6f444a8b378ed7a281de6acb0ef1452e3b0de94d4e3",
+      "length_nt": 118
+    },
+    {
+      "record_id": "rna_coord:73b2ee95ae853c2d58e8afdc",
+      "sequence_sha256": "03f5f9df0c6c8386fb85e48cd0f0232307753a2a3fd359b76f1c341d79420ef7",
+      "length_nt": 121
+    },
+    {
+      "record_id": "rna_coord:7435ba24629d942aa0c914a1",
+      "sequence_sha256": "1cb24eda5096a47801e2f9ab075e3abe73d95d656080488231e63eef3a2c9e67",
+      "length_nt": 51
+    },
+    {
+      "record_id": "rna_coord:756991b0ff5b86ba471f735c",
+      "sequence_sha256": "a531778a4504c81807d91f033142f455069f36e92a5865a38bfd884f2f2e4a0f",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:77f6c9d9e1c7afce4d081a36",
+      "sequence_sha256": "83d7f4a5ab46d41ebbc5f21eb9dd9ca03c01b31572ef6b19ad3a7a111f27e540",
+      "length_nt": 74
+    },
+    {
+      "record_id": "rna_coord:78f08ce890d20f4956bbd9a8",
+      "sequence_sha256": "3ad45f7bed06509243666efc1d024abcdd667571c8febcd440940b404741f822",
+      "length_nt": 64
+    },
+    {
+      "record_id": "rna_coord:7a44174b407fd019baa84488",
+      "sequence_sha256": "d87aaaeb7468b93dc1c31e378c6da59fe1665579564c2aa3c021905109cccecc",
+      "length_nt": 161
+    },
+    {
+      "record_id": "rna_coord:7d098d9c7a5b040c9f93bb8f",
+      "sequence_sha256": "70e42ab758cf4ec5e58036c9455bfcc1bdba69d5dfe8e0c7f92a31ff3aa8fd4a",
+      "length_nt": 75
+    },
+    {
+      "record_id": "rna_coord:85d758656425c8be7ab5e61c",
+      "sequence_sha256": "28509653785097abf15905fabdafa43ff9f42ca2281325aa8d291fd7adb41a18",
+      "length_nt": 75
+    },
+    {
+      "record_id": "rna_coord:868ac9926651b6fec4af9515",
+      "sequence_sha256": "9cc82343d121fb63b7ebd540fa3b0d2a995c259d6e31f97d730e077996f26c17",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:88f7b236353c1ded8ffb6a58",
+      "sequence_sha256": "6dc4922a7a56188b5d33a0cde6b3cea2c61c5957df5501e445c7f41b1efa1e96",
+      "length_nt": 52
+    },
+    {
+      "record_id": "rna_coord:89dc25808650828ed7770975",
+      "sequence_sha256": "d93e5339048dae6ba8ee761ea26e6b8bf6917511b12bd552dfb78fe0bd4aa3ca",
+      "length_nt": 19
+    },
+    {
+      "record_id": "rna_coord:8d1c6287be8e1b765e2f6225",
+      "sequence_sha256": "10663ec791efd8368da9b993d1a2f2efe42552c37656957221b883ebaeb11f9e",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:8fcc7ccd31123f6813eb83f7",
+      "sequence_sha256": "eb2c7a9898ac273c8a5afd68b7be4fe78b3cc77054731e61bd73a998de741edb",
+      "length_nt": 72
+    },
+    {
+      "record_id": "rna_coord:946227d0eb7acd541ce549d2",
+      "sequence_sha256": "7668b52a0943f5dfcdc82e77ed25fab6c07bc08b81546a446c09c60996deeae5",
+      "length_nt": 117
+    },
+    {
+      "record_id": "rna_coord:95253b82d46a534b3a00efa5",
+      "sequence_sha256": "0220156db9de808ac264827acbcfdfc3e5f57740b7ea6ac6be5e513af0363b16",
+      "length_nt": 50
+    },
+    {
+      "record_id": "rna_coord:996146e0c72e7277e912e670",
+      "sequence_sha256": "6f17641f9b6a3b21d256a4d2eaab04623cac6660a18c43c929e5f32c33b751eb",
+      "length_nt": 67
+    },
+    {
+      "record_id": "rna_coord:9c2e555d9a9e50ebc277f800",
+      "sequence_sha256": "158b6339a64f52cd3a70932f8f638b97bb507310e7efc970fca5529f81b9b662",
+      "length_nt": 68
+    },
+    {
+      "record_id": "rna_coord:9de937bbd1656b6e0b8f543b",
+      "sequence_sha256": "974f51da94729865209d77ea0328a5f6d9dcd2d165363cd1e56bbc9c795d2214",
+      "length_nt": 89
+    },
+    {
+      "record_id": "rna_coord:9f07d2f3ac5b0f86a79859c0",
+      "sequence_sha256": "6b1f4bc0426d5e9517e57e698b7c1e6e81314fea99726c948adc59c2d8c1a0ee",
+      "length_nt": 75
+    },
+    {
+      "record_id": "rna_coord:9f2e2c3215a4ca1f63b1a24c",
+      "sequence_sha256": "ce84d211b7b383dac494845e07019d580b997b742300039da4c49a9f590c1747",
+      "length_nt": 74
+    },
+    {
+      "record_id": "rna_coord:9f78d5a4585e487be62077b7",
+      "sequence_sha256": "afd6935af972576b2201d0c738882fddeab569aa629eaf854e7580803c9835cb",
+      "length_nt": 69
+    },
+    {
+      "record_id": "rna_coord:a2f0856399170b08b5312c57",
+      "sequence_sha256": "9417ac4a4c7173222469963f6a50fb427db40208a31f4391236ce6023be004ec",
+      "length_nt": 120
+    },
+    {
+      "record_id": "rna_coord:a709c440c8e083279caf2d7b",
+      "sequence_sha256": "fd64d2528621eb4796c1072cac701b514a393b0dc287a1588e074fcf6adc034b",
+      "length_nt": 120
+    },
+    {
+      "record_id": "rna_coord:a887af16f23a09071650bddb",
+      "sequence_sha256": "8f304d38480c65a1254057127092e2f589f114c63a6df70f7c36c6f95255ecad",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:a937d8d47c9550d1f4e892ff",
+      "sequence_sha256": "798f3401ff5e0af5d81978ff9143e447fa64f480184f78679cdf710cfe87abee",
+      "length_nt": 114
+    },
+    {
+      "record_id": "rna_coord:aacffdfdfc5f2fe69eb47bae",
+      "sequence_sha256": "136d941c1dbd03cdb3eaa89ab3b6f52ca0495485c2cc6bc0ef30ba71da52729e",
+      "length_nt": 71
+    },
+    {
+      "record_id": "rna_coord:ac382b0ddc8b3ec78aa1baf7",
+      "sequence_sha256": "ce894a25215d0927d690893945d3cdc9ccb6e783fec35b77fd3c972b4af79450",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:b4191bf1c4e010e33d76fd34",
+      "sequence_sha256": "57495e8f90e7e199d81fce0f2011f6bf464acb59c108f2606c9719ca5e3f7691",
+      "length_nt": 183
+    },
+    {
+      "record_id": "rna_coord:b427ce2ec8115631326a01c6",
+      "sequence_sha256": "92481d382d53b36e5c126d0190945f21c761781a9e0a5ad50d9dfd2f0fe34f8b",
+      "length_nt": 17
+    },
+    {
+      "record_id": "rna_coord:b792a2c8d87d731ec939d084",
+      "sequence_sha256": "5de8dacdb9a51a315fa062b4917ffeaf784b8c25788ffc961f64b21266377fd9",
+      "length_nt": 114
+    },
+    {
+      "record_id": "rna_coord:baf4f390878453c7c0cd96a8",
+      "sequence_sha256": "398840600daef663abd1dc49bb025130ce44bccf93d1da4a2bc00b7c496ec4d6",
+      "length_nt": 115
+    },
+    {
+      "record_id": "rna_coord:bb3e8f2fc4c29c52aa972581",
+      "sequence_sha256": "3fe307bde1da5a930e9d42db069abab9cb6843ebe081016df64f18c5dab96674",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:bb7c7564488e1b7c5e77d98a",
+      "sequence_sha256": "f079ba64a50fcb29fa152a793cc17806e5f6c7b1aad123dc7f761485d39a0cd1",
+      "length_nt": 68
+    },
+    {
+      "record_id": "rna_coord:c069d47f1999168cd5b30d4f",
+      "sequence_sha256": "a28c05ba7edfb9b5428e7d1bd9cfcf8ec65c1316d280d503142ba272287af845",
+      "length_nt": 113
+    },
+    {
+      "record_id": "rna_coord:c208f1f2b5eb7b75691bddfb",
+      "sequence_sha256": "d61146e1d049797c442ce6e9c911bc272ee9b912bbcd734a233692a48ba6b452",
+      "length_nt": 122
+    },
+    {
+      "record_id": "rna_coord:c375a23d6cf10c2053ec6166",
+      "sequence_sha256": "2ce756174dc0cd2b67d5586c3913642551e5e8c4d4193f000e7a9c3d4c9a0a2c",
+      "length_nt": 115
+    },
+    {
+      "record_id": "rna_coord:c376584f213deb7733de2c75",
+      "sequence_sha256": "0c1e1988054f2b143a006b4cdb0309223fa98e3ea0542236440e9e10d8a65519",
+      "length_nt": 112
+    },
+    {
+      "record_id": "rna_coord:c39e3f199726e16e07ddc693",
+      "sequence_sha256": "14f354481b4c0a7411134131b27aa1688c72cc8ccebf82193e0320113eea8749",
+      "length_nt": 80
+    },
+    {
+      "record_id": "rna_coord:c6b4ed1f4b1ec46805d4e133",
+      "sequence_sha256": "042fd305ecbaf0a74135fc082926f9608e8f75b14b84f7aa596e4215678c6eb6",
+      "length_nt": 120
+    },
+    {
+      "record_id": "rna_coord:cae3583a9c6582533d6ed221",
+      "sequence_sha256": "0f843a2d78fdbccfeb19892197fef9bd105c673f1643d16de766174eb0c598e3",
+      "length_nt": 74
+    },
+    {
+      "record_id": "rna_coord:ce23ff226f3c3a949d761e08",
+      "sequence_sha256": "773f1c95d35a438e1698716cd890d73efcfa586a59a6298d3bf7b8d1fbb94877",
+      "length_nt": 120
+    },
+    {
+      "record_id": "rna_coord:d0bf9563737c7bc196299fe5",
+      "sequence_sha256": "0c42b5e033599d470b1bf580d2c74f13541033ce31d43f5c35377d42229aba30",
+      "length_nt": 52
+    },
+    {
+      "record_id": "rna_coord:d0e4d0397f3ce6e0a879c0dc",
+      "sequence_sha256": "c52e1c9c4f279275e3993e87926e2521301899986792046460f93777e4a32d9d",
+      "length_nt": 77
+    },
+    {
+      "record_id": "rna_coord:d1fecf05b415fbf70ef3d3f4",
+      "sequence_sha256": "586e0761e2b2580c2c8b26d2ea88ac54759924d73fecde70fcdada1b1f62bf25",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:d2e134b242a0df55738bbc0a",
+      "sequence_sha256": "b3f9fb685585d3a30f360c8d14827a47fa04e33094247f69ade5314b27807628",
+      "length_nt": 93
+    },
+    {
+      "record_id": "rna_coord:d4d53771caa49f9f0c9d78c6",
+      "sequence_sha256": "335fc919daf1c01bb28f3d1730ab599de836d051c5a9c897b277352dfb611890",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:da5d733e4ed6c7e677f1fdcd",
+      "sequence_sha256": "dc995a2941c3407d12e1b60eee3954fc2af2da66bc395522270563e9bb4dac2b",
+      "length_nt": 129
+    },
+    {
+      "record_id": "rna_coord:db3fc3a13546d014093a6082",
+      "sequence_sha256": "08fa95809fb6f242f65b65d0d33e17685a3b73b76158787fb7a870396fc05026",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:dbe5bd595fa46e3a61476944",
+      "sequence_sha256": "7c23ca9b626f155fbd83d011d719e4d18a1979a3aa059f9196bf13032595155b",
+      "length_nt": 71
+    },
+    {
+      "record_id": "rna_coord:dc31165ecd67c3ab656993f7",
+      "sequence_sha256": "35b64ff13f358c707f3e48d4187499ca6a665dcaada6012e7e316d3b529fbdb4",
+      "length_nt": 118
+    },
+    {
+      "record_id": "rna_coord:defdbde3bd58be27f22e3a5d",
+      "sequence_sha256": "3972c2af68c3ce7f9b69cc95482f30d2fcd72659c858e70c018dcf87cde7459e",
+      "length_nt": 74
+    },
+    {
+      "record_id": "rna_coord:e1896518bb2f0dd2a80df948",
+      "sequence_sha256": "42192733ff3bde0950c5816f40c70722392252dd0bd630da9d69c05fe4ff2ea9",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:e2b5396873e104dea88e594c",
+      "sequence_sha256": "bbc5c08a077ae4bc45289b720bb29333338d9da057d97b0a0a38f3a006313ecf",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:e61ed4b5d389db856ef8408e",
+      "sequence_sha256": "30f1f3b61f1e2a6b99aefbe372e9147f4ee686b7dce3259524c0fa2718578867",
+      "length_nt": 67
+    },
+    {
+      "record_id": "rna_coord:eaf2490d43f072396ad39d10",
+      "sequence_sha256": "e9d84bb6b77c956ba7d753c6398810078d7482ca82caa820b3eb36bfe637c168",
+      "length_nt": 96
+    },
+    {
+      "record_id": "rna_coord:ee933ed82c070f1bd66574d2",
+      "sequence_sha256": "abe8e1ce1e88c2f51c855fdd949fff517f57286c8f4deef7a604aa68a3b1f543",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:f14adcd473545b8cdc0bdb39",
+      "sequence_sha256": "2af42dfab28438539d9cfeb851d53541bc11fdbc2ee87e1b5d97db4f5d1bdf5d",
+      "length_nt": 76
+    },
+    {
+      "record_id": "rna_coord:f45a6960acb2202e0f5ac307",
+      "sequence_sha256": "3aaf700cca34c82c1da7b06cddecc9717017d8a4f93773d19045002f61207f08",
+      "length_nt": 70
+    },
+    {
+      "record_id": "rna_coord:f5d8a77828718f052ab851ae",
+      "sequence_sha256": "6fc065ccaac1fc481819950f7a1aec52f521bceb2400fb3569de930d11a0547e",
+      "length_nt": 71
+    },
+    {
+      "record_id": "rna_coord:f9b37232422f6d33ab7b8f7c",
+      "sequence_sha256": "8ff99f9563376dfe902c75d032ed3b5d05232b7e8e43db09aa4859172e0d93c6",
+      "length_nt": 119
+    },
+    {
+      "record_id": "rna_coord:fbabe3daa188b8045b25cfea",
+      "sequence_sha256": "1fb27fa3bdf57739e6aa5c768b1c6a7a20be02264b47afa04b1e7a9e0899a760",
+      "length_nt": 128
+    },
+    {
+      "record_id": "rna_coord:fc3357476264af55ad695886",
+      "sequence_sha256": "004ffe9d552326dbf77ab08c14d129eca02beca9c592b108138cdccfd5c9031d",
+      "length_nt": 61
+    },
+    {
+      "record_id": "rna_coord:fdc538bb86b424f55f5f6d77",
+      "sequence_sha256": "74f7da87ee4eaf84689864d7063ca5341b9d7474c92671bf6eae5e62e8711e34",
+      "length_nt": 67
+    },
+    {
+      "record_id": "rna_coord:fdec0f2764f3d544bcd35be5",
+      "sequence_sha256": "964d9eec23ca9623d1d3e1f3b3edb3698feae2ed2f2e4f6a58d2d35949c181c4",
+      "length_nt": 72
+    },
+    {
+      "record_id": "rna_coord:ff05699d17c1870e7a09cd43",
+      "sequence_sha256": "8ac45aed671ab696f259c1887c92866e6f1c0ba3f58095703c99acfb6f767fc5",
+      "length_nt": 71
+    }
+  ],
+  "thermodynamic_parameter_set": "RNA_Turner2004",
+  "thermodynamic_parameter_artifact_sha256": "76e480add7df590bf13b69147a63f1db32222bbca0f4d65b5c4ee9fc5fc45f74"
+}

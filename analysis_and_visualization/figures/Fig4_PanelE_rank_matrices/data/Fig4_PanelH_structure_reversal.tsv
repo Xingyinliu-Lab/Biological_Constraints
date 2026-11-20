@@ -1,0 +1,4 @@
+domain	Constraint	label	model_a	model_b	F_a	F_b	delta_F	conservative_lower	conservative_upper
+Protein structure	ST02	Structural neighbourhood	ESM-IF1	SSLM	0.114679	0.15959	-0.044911	-0.068658	-0.021484
+Protein structure	ST04	Long-range contacts	ESM-IF1	SSLM	0.680549	0.336349	0.3442	0.300566	0.38823
+Protein structure	ST05	Rigid-body invariance	ESM-IF1	SSLM	0.436441	0.954979	-0.518538	-0.543962	-0.491525

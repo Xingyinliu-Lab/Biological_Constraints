@@ -1,0 +1,135 @@
+{
+  "artifact": "DNA01_MODEL_SPECIFIC_RUNPLAN",
+  "checkpoint_tokenizer_and_external_assets": [
+    {
+      "bytes": 40690,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/bert_layers.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "317ad7e9667980ac724c07f0174ba265c8446ca5230f6b473068ff1b911edcf9"
+    },
+    {
+      "bytes": 6099,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/bert_padding.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421"
+    },
+    {
+      "bytes": 904,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/config.json",
+      "role": "checkpoint_or_model_file",
+      "sha256": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd"
+    },
+    {
+      "bytes": 1011,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/configuration_bert.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "95fc868641b87bbcd7a32d2cd7b9f4769c27592e129daf167d14b5b8c74ec4c5"
+    },
+    {
+      "bytes": 42737,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/flash_attn_triton.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "568d1ac3beca0b5e1df528a1f136aa19b6489a616fcf3784f33336a50bb1de81"
+    },
+    {
+      "bytes": 468354983,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/pytorch_model.bin",
+      "role": "checkpoint_or_model_file",
+      "sha256": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba"
+    },
+    {
+      "bytes": 167908,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/tokenizer.json",
+      "role": "checkpoint_or_model_file",
+      "sha256": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3"
+    },
+    {
+      "bytes": 158,
+      "path": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0/tokenizer_config.json",
+      "role": "checkpoint_or_model_file",
+      "sha256": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769"
+    }
+  ],
+  "constraint_id": "C-DNA-01",
+  "formal_ledger_sha256": "157a102a98aaa56e1bd440af5e010df879ac4656f5421d96a6054999a83665f8",
+  "formal_numeric": {
+    "alpha": 0.001,
+    "bootstrap": {
+      "draws": 20000,
+      "operator_refit": false,
+      "seed": 20261013,
+      "unit": "dependency_cluster"
+    },
+    "execution_mode": "FORMAL"
+  },
+  "formal_result_sha256": "3ed56dba5c0da066f6dd5c751164ab865f6c55a19bdb8706595944b7fe0d3240",
+  "forward_reexecuted_for_current_release": false,
+  "identity": "dnabert2",
+  "model_or_comparator_interface_sha256": "b969dbd3ad643ce6dff04cc9f45f540f859b398bc18fbfee160f480ea2dcc000",
+  "operator_branch": "EMPIRICAL_SHARED_AFFINE",
+  "operator_refit_for_current_release": false,
+  "result_kind": "FM",
+  "runtime_and_model_identity": {
+    "artifact_files": [
+      {
+        "bytes": 40690,
+        "path": "bert_layers.py",
+        "sha256": "317ad7e9667980ac724c07f0174ba265c8446ca5230f6b473068ff1b911edcf9"
+      },
+      {
+        "bytes": 6099,
+        "path": "bert_padding.py",
+        "sha256": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421"
+      },
+      {
+        "bytes": 904,
+        "path": "config.json",
+        "sha256": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd"
+      },
+      {
+        "bytes": 1011,
+        "path": "configuration_bert.py",
+        "sha256": "95fc868641b87bbcd7a32d2cd7b9f4769c27592e129daf167d14b5b8c74ec4c5"
+      },
+      {
+        "bytes": 42737,
+        "path": "flash_attn_triton.py",
+        "sha256": "568d1ac3beca0b5e1df528a1f136aa19b6489a616fcf3784f33336a50bb1de81"
+      },
+      {
+        "bytes": 468354983,
+        "path": "pytorch_model.bin",
+        "sha256": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba"
+      },
+      {
+        "bytes": 167908,
+        "path": "tokenizer.json",
+        "sha256": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3"
+      },
+      {
+        "bytes": 158,
+        "path": "tokenizer_config.json",
+        "sha256": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769"
+      }
+    ],
+    "executed_model_root": "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--zhihan1996--DNABERT-2-117M/snapshots/7bce263b15377fc15361f52cfab88f8b586abda0",
+    "executed_python": "/home/mik/u8t/ai_genome/dna_models/envs_20261014/dnabert2_direct_hf/bin/python",
+    "model_key": "dnabert2",
+    "runtime": {
+      "numpy": "2.0.1",
+      "python": "3.10.18",
+      "tokenizers": "0.13.3",
+      "torch": "2.5.1",
+      "transformers": "4.29.2"
+    }
+  },
+  "semantic_replay_only": true,
+  "source_hashes": {
+    "anchors": "752bc9309d27bcf5608ea7130ab1797985be2f33b828fae6b30a4df0ce451a8d",
+    "fasta": "5e5edb8cb5700a5a61c2aaa72a1573a0234fee86f39acbe021050cb86daf47fd",
+    "objects": "b2f9a2df0ad97fd0f34acaf30bbabf65529d312d0deca2fb734de1ec3febba3f",
+    "relations": "c9873b73674678c74d2897ae175034c6f8ca5c767700ce724cbfef0813e4a54f"
+  },
+  "status": "FROZEN_CURRENT_RELEASE",
+  "version": "0.5.3"
+}

@@ -1,0 +1,42 @@
+{
+  "decision": "source truth and candidate blocks were materialized before formal construction; the released RNA05 population uses the 8-bin panel specified by the current Numeric Method",
+  "dependency_union_axes": [
+    "curated family",
+    "exact encoded sequence",
+    "exact source parent reuse"
+  ],
+  "encoded_input_conflict_audit_pass": true,
+  "model_derived_selection": false,
+  "nonprimary_accepted_conditions": 9,
+  "primary_dependency_components": 20,
+  "primary_map_selection_rule": "typed-complete evidence/coverage/coordinate validity/source version tied; stable PDB accession, chain, structure-map tie-break",
+  "relation_feasibility_used": false,
+  "relative_position_strata_support": {
+    "16": {
+      "complete_matched_blocks": 1126,
+      "families": 20,
+      "outer_clusters": 20,
+      "parents": 102,
+      "participating_endpoints": 3336
+    },
+    "4": {
+      "complete_matched_blocks": 1257,
+      "families": 20,
+      "outer_clusters": 20,
+      "parents": 103,
+      "participating_endpoints": 8467
+    },
+    "8": {
+      "complete_matched_blocks": 1514,
+      "families": 20,
+      "outer_clusters": 20,
+      "parents": 103,
+      "participating_endpoints": 6206
+    }
+  },
+  "source_manifest_sha256": "6dbdfaeec022985ab90ac6083e34bd25bc24241c48db22c4ae609cdc6669418f",
+  "source_records": 114,
+  "source_release_id": "M2-RNA-C05-C06-v1.0.1",
+  "status": "FORMAL_SOURCE_AND_POPULATION_SUMMARY",
+  "unique_encoded_inputs": 105
+}

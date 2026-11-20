@@ -1,0 +1,6 @@
+{
+  "constraint_id": "PS02A",
+  "status": "FORMAL_RELEASE",
+  "supersedes_embedded_materialization_status": "NOT_EXECUTED_NUMERIC_METHOD_REQUIRED",
+  "note": "The retained validation file records the earlier RefSet-materialization stage. Formal model and comparator scoring was subsequently completed and is published under results/protein_sequence/PS02A/."
+}

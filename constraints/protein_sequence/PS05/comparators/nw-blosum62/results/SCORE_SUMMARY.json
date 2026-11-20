@@ -1,0 +1,56 @@
+{
+  "kind": "PS05_FORMAL_RESULT",
+  "status": "FORMAL_COMPLETE",
+  "formal_result": true,
+  "measurement_ledger_sha256": "a59a5c45e363422204018b690e6a8257215ed64cf74b2efbc5f0855f383f20cc",
+  "planned_scoreable_population_sha256": "d45119edbe70304dc1b33361e2a012360a2e4ad7276b2d0bf7f9dd6142da8489",
+  "scoreable_population_identity_sha256": "6b3502916bfb4cc8c7fd14528d1c2c9c9fd24bcac3a581017a1f8a06a5d42825",
+  "planned_leaf_count": 1628,
+  "delta_num": 0.0,
+  "leaf_count": 1628,
+  "coverage": {
+    "planned": 1628,
+    "scored": 1628,
+    "fraction": 1.0
+  },
+  "level_counts": {
+    "NEGATIVE_ENDPOINT": 1628,
+    "NEGATIVE_HSF": 1408,
+    "POSITIVE_ENDPOINT": 567,
+    "POSITIVE_HSF": 475,
+    "ANCHOR": 172,
+    "SOURCE_PARENT": 170,
+    "ANCHOR_HSF": 120,
+    "ANCHOR_TOPOLOGY": 21,
+    "ANCHOR_ARCHITECTURE": 11,
+    "OVERALL": 1
+  },
+  "F": 0.28805408759920814,
+  "bootstrap": {
+    "rng": "PCG64",
+    "seed": 20261008,
+    "draws": 20000
+  },
+  "reuse_sensitivity": {
+    "rule": "reuse_count > 100",
+    "kept_leaf_count": 1426,
+    "F": 0.28765012995261907
+  },
+  "individual_scores": {
+    "path": "D:\\codex_workspace\\ai_genome\\Biological_Constraints\\git\\constraints\\protein_sequence\\PS05\\comparators\\nw-blosum62\\results\\INDIVIDUAL_SCORES.tsv.gz",
+    "sha256": "befd275a8e9f3732e43215c25353c7657adcc465a55eddc03cffd97e9730bf50"
+  },
+  "contract_binding": {
+    "contract_binding_sha256": "5a69ca0e8c93389472a94ca41d2d760c9856f6f8a1b762d8eac3ca22a7bd158a",
+    "contract_manifest_sha256": null,
+    "metric_registry_sha256": "87234c87015760f8766ac27b8c20f06f4bcc3c04052bb84a698a25d5062fc66d",
+    "aggregation_graph_sha256": "46ec1093d5acefa1f45c548bdbcc0963aae09f857706e0f4cd4015f2129c6bdb",
+    "result_contract_sha256": "eebe8fbb8ec8e16a94ce0ca94085486b5e4fa90da6be004c80ecf0b159ee8cc8"
+  },
+  "F_95_CI": [
+    0.17495112385680178,
+    0.3958767927246787
+  ],
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS05_v1.0.2_F_ONLY"
+}

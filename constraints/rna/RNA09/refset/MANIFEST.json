@@ -1,0 +1,40 @@
+{
+  "package": "RNA09_FORMAL_PANEL_v0.2.1_CAP4_PREMODEL_20261003",
+  "payload": [
+    {
+      "bytes": 13432,
+      "path": "FORMAL_CONTRAST_LEDGER.tsv",
+      "sha256": "1f3d022daf8249a269168baefddfe4447d14a7f7ac5fe18cb8eed4c8ac2f767e"
+    },
+    {
+      "bytes": 5539,
+      "path": "SOURCE_DEPENDENCY_LEDGER.tsv",
+      "sha256": "bfb59eecbac0cca8ffa5f149ca411588e00105c065440926e53a25d8d8efdf0b"
+    },
+    {
+      "bytes": 2938,
+      "path": "REUSE_LEDGER.tsv",
+      "sha256": "457aea066d57a82267024ee3315adf5318604f23df236fba6626623e8c452491"
+    },
+    {
+      "bytes": 2951,
+      "path": "ANCHOR_BUNDLE_LEDGER.tsv",
+      "sha256": "346eb9e7e9c9e75f55dee8d510b75e0cd69a5a4c5b65b73c5a341e18e3cb7389"
+    },
+    {
+      "bytes": 1362,
+      "path": "PLANNED_POPULATION_MANIFEST.json",
+      "sha256": "b42d168646fa8c5f3999dd0f5e49daaa2b5c3ceab83fa56eb80484403845ba2e"
+    },
+    {
+      "bytes": 706,
+      "path": "MATERIALIZATION_SUMMARY.json",
+      "sha256": "1a82ceafd6df9e0b6a4745416eda942f63e15e896e790fd44431b10f693ef772"
+    },
+    {
+      "bytes": 807,
+      "path": "INDEPENDENT_VALIDATION_SUMMARY.json",
+      "sha256": "e2f7df33a85c077c298698c3e2f721cbcb3b73a4f9657b36ebea5c38c7db2c0b"
+    }
+  ]
+}

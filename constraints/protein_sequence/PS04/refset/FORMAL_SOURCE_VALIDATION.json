@@ -1,0 +1,33 @@
+{
+  "anchor_hsfs": 1429,
+  "architectures": 23,
+  "artifact_id": "PS04_L_4K_FORMAL_SOURCE_VALIDATION_v1.0.0_20261007",
+  "candidate_source_panel": "RS_PS04_L_4K_CANDIDATE_v0.1.0_20261001",
+  "complete_bundles": 2790,
+  "endpoint_reuse_summary": {
+    "negative_target": {
+      "endpoints": 3317,
+      "max_anchor_bundle_reuse": 354,
+      "median_anchor_bundle_reuse": 34,
+      "over_10": 2661,
+      "over_100": 677,
+      "p95_anchor_bundle_reuse": 210
+    },
+    "positive_target": {
+      "endpoints": 2710,
+      "max_anchor_bundle_reuse": 323,
+      "median_anchor_bundle_reuse": 18,
+      "over_10": 1643,
+      "over_100": 460,
+      "p95_anchor_bundle_reuse": 263
+    }
+  },
+  "formal_source_membership_validated": true,
+  "leaf_relations": 1750186,
+  "object_count": 4096,
+  "policy": "shared endpoints and relation reuse are recorded as reuse, not transitive biological dependency",
+  "source_dependency_units": 3986,
+  "status": "PASS",
+  "strict_validation_failures": {},
+  "topologies": 169
+}

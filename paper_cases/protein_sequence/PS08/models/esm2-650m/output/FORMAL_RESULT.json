@@ -1,0 +1,29 @@
+{
+  "kind": "EXISTING_FORWARD_REUSE",
+  "formal_result": true,
+  "F": 0.92236328125,
+  "F_95_CI": [
+    0.913330078125,
+    0.931396484375
+  ],
+  "counts": {
+    "leaf": 4096,
+    "first_edit": 4096,
+    "source_parent": 4096,
+    "source_unit": 4096,
+    "overall": 1
+  },
+  "seed": 20261002,
+  "draws": 20000,
+  "delta_num": 0.0,
+  "bootstrap": "source_unit with replacement",
+  "leaf_ledger_sha256": "6d96bc0ff8ee0f960591577f2446b74d8318ca29b21fb39d59da5324358f17f8",
+  "population_identity_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+  "bootstrap_F_float64le_sha256": "99b575d20894925aed391f1b15d051880d35fcd99186cbf0f3cbf3e23578c8d7",
+  "status": "FORMAL_COMPLETE",
+  "method": "esm2",
+  "formal_leaf_sha256": "6d96bc0ff8ee0f960591577f2446b74d8318ca29b21fb39d59da5324358f17f8",
+  "development_leaf_sha256": "4e344902746dfe455ba0b926bcf5600e1031a975b978ceb62fe0b63419030aff",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS08_v0.1.2_F_ONLY"
+}

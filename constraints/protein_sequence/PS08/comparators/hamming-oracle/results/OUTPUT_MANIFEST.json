@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "BOOTSTRAP_F.float64le.bin",
+      "bytes": 160000,
+      "sha256": "c4d6b891e36e9ffc6f27915a86785de503d347aa165ec12b4ec410b5f74928cf"
+    },
+    {
+      "path": "FORMAL_LEAF_SCORES.tsv",
+      "bytes": 833909,
+      "sha256": "61151ccb264a05c648c1e999b3ffd9f6857a80046edc7c7d15798c6cfaf2544f"
+    },
+    {
+      "path": "FORMAL_RESULT.json",
+      "bytes": 2208,
+      "sha256": "3c4d570d1e04735aec377937e4a761238a51ff4c9e92fb132721efff48f106ae"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1955,
+      "sha256": "27c8aaa1ae79d4660f1dc6115bb4407e635ace4dd64e294a1e1688acf6b91b58"
+    }
+  ]
+}

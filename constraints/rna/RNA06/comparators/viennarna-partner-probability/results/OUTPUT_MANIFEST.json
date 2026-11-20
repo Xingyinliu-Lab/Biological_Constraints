@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "bytes": 2811775,
+      "path": "CANDIDATE_SCORES.tsv",
+      "sha256": "75565d1bc20552e844dac4bfe9efaf7f436b1a90e92539b942699ec9703e63d6"
+    },
+    {
+      "bytes": 943,
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "sha256": "47d66a0331a81131a3b749ad82922cb2248c22ed4d3769fc6af52c8e2c9fe5b0"
+    },
+    {
+      "bytes": 117068,
+      "path": "EDGE_SCORE_LEDGER.tsv",
+      "sha256": "6d62528bd0bd0e1f4cff489f388588d9dee330e4afcd52170b5d4ab2f36ea47f"
+    },
+    {
+      "bytes": 1625,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "ae9fc73eac846ddd2f627dcd61e155fbff624c347251e3131491452a26f73b70"
+    },
+    {
+      "bytes": 442892,
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "sha256": "5128b259dbd0f865aa081c244e0f4aa5cd5069b42f68eb4fe67986f288d91c2c"
+    },
+    {
+      "bytes": 6307,
+      "path": "PARENT_SCORE_LEDGER.tsv",
+      "sha256": "bd2878215f8a4d7fda2660a72e7f01d4300ca6a39dbcc1f4caf2b86b5c683b2b"
+    },
+    {
+      "bytes": 64593,
+      "path": "RNA06_VIENNA_COMPATIBILITY_AUDIT.json",
+      "sha256": "13e7e8b1e9662d291c851ae7d797d098d3a654bb400c0bbfd74b44eb2f0f1fc2"
+    }
+  ],
+  "formal_interface": "RNA06_F_ONLY_v0.1.3"
+}

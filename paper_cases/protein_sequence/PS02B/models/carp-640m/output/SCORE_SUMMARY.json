@@ -1,0 +1,36 @@
+{
+  "artifact_type": "PS02B_FORMAL_SCORER_RESULT",
+  "status": "PASS",
+  "formal_result": true,
+  "F": 0.3429131317726617,
+  "n_bundles": 8208,
+  "n_anchors": 2764,
+  "n_bootstrap_units": 351,
+  "coverage": {
+    "planned_bundles": 8208,
+    "scored_bundles": 8208,
+    "fraction": 1.0
+  },
+  "delta_num": 0.0,
+  "bootstrap": {
+    "rng": "PCG64",
+    "seed": 20261006,
+    "draws": 20000,
+    "F_95_CI": [
+      0.20756467621423402,
+      0.47154251699726535
+    ]
+  },
+  "inputs": {
+    "relations_sha256": "a217d9709da4add917c046238baed4b163766d0e5b4bef648c731296175710ce",
+    "objects_sha256": "13426c74b87677826d2ba22461e313d4cb1e76559e55e18a407edf0b4d507489",
+    "point_membership_sha256": "3fdf89737e5267d4bde26f5408c164d1f0806f15bfa3f3ab2afcce72c8a654f5",
+    "uncertainty_membership_sha256": "38f134aae0af11b9c09c8c1c17a4444e1c79a2726971409a53b130f0935f7ef0",
+    "leaf_scores_sha256": "8edb6fdcfef85a83674881413a4e99f656df2288356044375b21e89fc05165e9"
+  },
+  "model_id": "carp-640m",
+  "representation_sha256": "84d2290fd88a58607ba05f183a6a84ba8da8ad7bd12599e850850a6bae0a5928",
+  "representation_index_sha256": "5853af8c25ed7db90147c18f5f417ff1a1017e4dfc01d01fe85a5865624dffcf",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS02B_v1.0.2_F_ONLY"
+}

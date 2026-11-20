@@ -1,0 +1,50 @@
+{
+  "archived_embeddings_sha256": "24c3986d3e883352e75d0946e4e0f27f66a683d665de79aab3baa10659814e45",
+  "artifact": "DNA02_02_PAPER_CASE_SCORING_REGISTRATION",
+  "constraint_release": "DNA02-02_v0.1.5_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "d4ff40b5069c7578bcec40e1bc88eb473d3423fe5fd2418a5b1aed8f1349e99f",
+  "model_forward_rerun": false,
+  "model_id": "nt-v2",
+  "output_directory": "paper_cases/dna/DNA02-02/models/nt-v2/output/DNA02-02_v0.1.5_f_only",
+  "output_files": {
+    "CLUSTER_SCORE_LEDGER.tsv": {
+      "bytes": 10988,
+      "sha256": "d996053a968e790ba0496b38bac23fe4c862ae9f3ae033b3ad45885c65403d42"
+    },
+    "FORMAL_RESULT.json": {
+      "bytes": 1703,
+      "sha256": "d4ff40b5069c7578bcec40e1bc88eb473d3423fe5fd2418a5b1aed8f1349e99f"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "97cb532fbd75ac83b3abe3c9d8cc460f07d90b302dbb43e2c0f471d9719e31b1"
+    },
+    "LOCUS_SCORE_LEDGER.tsv": {
+      "bytes": 19774,
+      "sha256": "c3dd49c32157dc9d54740624401a394e6d86d3729be23d2f2f7ef1d064b5070f"
+    },
+    "OUTPUT_MANIFEST.json": {
+      "bytes": 1158,
+      "sha256": "667be8b173ea5d005f78a61c7e2d03bfa95b5d05080c9a64164d3970f69ae751"
+    },
+    "QUERY_SCORE_LEDGER.tsv": {
+      "bytes": 565592,
+      "sha256": "961fb016a5e0d20dea72048c24658435dfef9fa6465258513a8d68741165591b"
+    },
+    "RUN_COMPLETE": {
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    },
+    "TAU_EVIDENCE.json": {
+      "bytes": 1137,
+      "sha256": "934df90ffffac33572d7d492082f2ab93d5122d1a61396d07f6777d8659b5666"
+    }
+  },
+  "output_manifest_sha256": "667be8b173ea5d005f78a61c7e2d03bfa95b5d05080c9a64164d3970f69ae751",
+  "public_scorer_sha256": "496e64b1ccc86c70be7d036437b5a59424c8005785fbff4cdb35da428f4eba6e",
+  "repeat_embeddings_sha256": "24c3986d3e883352e75d0946e4e0f27f66a683d665de79aab3baa10659814e45",
+  "result_directory": "output/DNA02-02_v0.1.5_f_only",
+  "source_model_key": "nt",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

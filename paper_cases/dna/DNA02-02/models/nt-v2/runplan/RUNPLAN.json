@@ -1,0 +1,40 @@
+{
+  "artifact": "DNA02_02_MODEL_SPECIFIC_RUNPLAN",
+  "constraint_id": "C-DNA-02-02",
+  "environment": {
+    "model_root": "/home/mik/u8t/ai_genome/m1_smoke/models/huggingface/hub/models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species/snapshots/f34324c6fde36a4f635f0f1f06cac5d25acd6798",
+    "provisioning_commands": [],
+    "python": "/home/mik/u8t/ai_genome/m1_smoke/env/bin/python",
+    "required_variables": {
+      "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+    },
+    "reuse_only": true
+  },
+  "formal_execution_authorized": true,
+  "forward": {
+    "arguments": "--model nt --object-table <FORWARD_OBJECT_TABLE.tsv> --fasta <DNA02_02_SEQUENCE_OBJECTS.fasta> --output <NEW_OUTPUT_DIR> --strict-repeat",
+    "code": "encode_dna01_transformer_models.py",
+    "repeat_required_for_tau": true,
+    "requires_fresh_output": true
+  },
+  "method_parameters": {
+    "aggregation": "ladder_to_first_edit_to_locus_to_outer_cluster",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 20261014,
+    "bootstrap_unit": "outer_cluster",
+    "endpoint_combination": "mean_left_right_within_ladder",
+    "failure_fraction_max": 0.0,
+    "operator": "SAFE_COSINE_SIMILARITY",
+    "tie_F_credit": 0
+  },
+  "model_key": "nt",
+  "scope": {
+    "candidate_replacement_allowed": false,
+    "expected_ladders": 46720,
+    "expected_objects": 54020,
+    "expected_outer_clusters": 278,
+    "expected_queries": 5840
+  },
+  "status": "FROZEN",
+  "version": "0.1.1"
+}

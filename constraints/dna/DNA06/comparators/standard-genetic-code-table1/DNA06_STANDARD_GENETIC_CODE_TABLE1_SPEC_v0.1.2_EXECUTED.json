@@ -1,0 +1,19 @@
+{
+  "class": "ANALYTIC_BIOLOGICAL_KNOWLEDGE_REFERENCE",
+  "comparator_id": "DNA06_STANDARD_GENETIC_CODE_TABLE1",
+  "expected": {
+    "CI": [
+      1.0,
+      1.0
+    ],
+    "F": 1.0
+  },
+  "forbidden_inputs_for_prediction": [
+    "stored consequence label",
+    "stored amino-acid label"
+  ],
+  "prediction": "independently locate unique SNV in raw WT/ALT CDS, derive codons at frame 0, translate with NCBI Table 1",
+  "raw_codon_ridge_role": "learning-based F-only companion, not the core comparator",
+  "status": "FROZEN_EXECUTED",
+  "version": "0.1.2"
+}

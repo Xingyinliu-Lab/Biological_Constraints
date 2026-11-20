@@ -1,0 +1,15 @@
+{
+  "constraint": "ST02",
+  "status": "PASS_MINIMAL_COMPLETE_REFSET",
+  "formal_relation_count": 4584,
+  "relation_object_id_count": 509,
+  "released_object_row_count": 509,
+  "released_pdb_count": 509,
+  "extra_object_count": 0,
+  "missing_object_count": 0,
+  "missing_coordinate_count": 0,
+  "coordinate_sha256_mismatch_count": 0,
+  "objects_sha256": "062f25746d4ddb0de2d8651401ff176561e18a86d1256cee549dce7399a16bed",
+  "relations_sha256": "4f62e74e6cf94bfb5fdd4cbae23cc1ac4d5d5bc6113b7cb69bc14aed1b6e47fa",
+  "decision": "The 509 PDB files are the exact dependency closure of the frozen formal relations. The 1,491 source-only materialization structures remain outside the public Constraint package."
+}

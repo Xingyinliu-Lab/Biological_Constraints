@@ -1,0 +1,27 @@
+{
+  "artifact_type": "PS02B_NW_BLOSUM62_COMPARATOR_SCORE_LEDGER",
+  "status": "PASS",
+  "formal_result": false,
+  "bundle_count": 8208,
+  "endpoint_count": 3905,
+  "pair_count": 10735,
+  "worker_count": 128,
+  "wins": 5258,
+  "ties": 1,
+  "losses": 2949,
+  "needle_sha256": "d369c810d4c60532638db7c3c51903cd5f37a75405a3e26174ee2a4f5d380590",
+  "fixed_method_prior": "EBLOSUM62 substitution matrix",
+  "params": {
+    "matrix": "EBLOSUM62",
+    "gapopen": "10.0",
+    "gapextend": "0.5",
+    "endweight": "Y",
+    "endopen": "10.0",
+    "endextend": "0.5"
+  },
+  "bundle_sha256": "a217d9709da4add917c046238baed4b163766d0e5b4bef648c731296175710ce",
+  "fasta_sha256": "de90bfda8d31a50260c38f96c8475ee62130d9fce4b2261ff3053aa210ce18a4",
+  "pair_score_cache_sha256": "5b09c1c30d37c5772be3d362b04aa7d06a095af3ab1af9abbf76843c9f704600",
+  "leaf_ledger_sha256": "e414ae143a80ccc984222a10fe2853a90ac951d18dcc5ce99fd2b6559d0e095f",
+  "detail_ledger_sha256": "472e8443efa47aed1a9eb91febe11b4e3481601c96c632756335f93351ddadc4"
+}

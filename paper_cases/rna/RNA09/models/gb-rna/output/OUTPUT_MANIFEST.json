@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "F_BOOTSTRAP_MEANS.npy",
+      "bytes": 160128,
+      "sha256": "a505768d7f1fa253ee169dc0472b53e294c576360beff9d53807cf44d8024aba"
+    },
+    {
+      "path": "FORMAL_RESULT.json",
+      "bytes": 1397,
+      "sha256": "23157ea12d1390d589f89b90181cea4810a7b183bc1c75d26b701753e8a0570a"
+    },
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 1114,
+      "sha256": "9f37682d9e249fa37918bc0878463862ea4fbeb333134403eb5391bf8bf28132"
+    },
+    {
+      "path": "LEAF_LEDGER.tsv",
+      "bytes": 16473,
+      "sha256": "f5f808d3a81c71ef63ba7a0c8554a6fa09f14e43437e92ea48ebcc098234c23c"
+    },
+    {
+      "path": "SOURCE_PARENT_SCORE_LEDGER.tsv",
+      "bytes": 876,
+      "sha256": "3c79e3671491791e59c101695fd6c226b54fa51c5f489ef7bf054c1d6cfcd41f"
+    },
+    {
+      "path": "SOURCE_UNIT_SCORE_LEDGER.tsv",
+      "bytes": 548,
+      "sha256": "642b49fd5ac4e95feaad6867ed493446b396400dad424f8a234403d208330420"
+    },
+    {
+      "path": "STRUCTURE_RELATION_GROUP_SCORE_LEDGER.tsv",
+      "bytes": 80,
+      "sha256": "7ba59cc3203290446e80c3013f08c5b914581302070b7ec23b19aa6e26e13e82"
+    }
+  ]
+}

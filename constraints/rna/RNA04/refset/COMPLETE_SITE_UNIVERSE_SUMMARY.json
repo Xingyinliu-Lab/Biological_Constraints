@@ -1,0 +1,17 @@
+{
+  "complete_alt_endpoints": 11506,
+  "complete_site_dispositions": {
+    "complete_site": 3920,
+    "non_internal_or_invalid": 560
+  },
+  "complete_sites": 3920,
+  "exact_cross_parent_endpoint_collision_groups": 104,
+  "exact_translated_protein_equivalence_groups": 5,
+  "input_relation_rows": 4480,
+  "model_derived_selection": false,
+  "outer_clusters_after_contract_dependency_union": 554,
+  "relation_feasibility_used": false,
+  "selection_policy": "full complete-site population before formal relation construction",
+  "status": "FORMAL_POPULATION_SUMMARY",
+  "unique_source_positions": 4480
+}

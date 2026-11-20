@@ -1,0 +1,10 @@
+{
+  "constraint_release": "DNA06_v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "6932b8a6aa3db883ce21b7ac64a7e3f69e077192872122701bc8439778dc4e8e",
+  "model_id": "janusdna",
+  "output_manifest_sha256": "e5d4378eb46de588aaab98297d20a16d9d623d4e8afab97942120d02c2c551ee",
+  "public_scorer": "constraints/dna/DNA06/scoring/score_dna06.py",
+  "public_scorer_sha256": "b577f1ee13be791e0aa4b49051ba53041f890c1b4f25a0da617f217e548cbf7e",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

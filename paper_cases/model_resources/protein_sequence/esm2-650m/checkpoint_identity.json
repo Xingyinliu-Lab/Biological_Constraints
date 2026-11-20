@@ -1,0 +1,73 @@
+{
+  "model_id": "esm2-650m",
+  "domain": "protein_sequence",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/facebookresearch/esm",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS01/models/esm2-650m/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS02B/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS04/models/esm2-650m/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS05/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS08/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS09/models/esm2-650m/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS10/models/esm2-650m/provenance/EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+      "source": "results/protein_sequence/PS10/models/esm2-650m/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "ESM-2 alphabet is bundled with the executed fair-esm checkpoint loader; no separate tokenizer file was used.",
+  "download": {
+    "source": "https://github.com/facebookresearch/esm",
+    "method": "fair-esm pretrained checkpoint download/cache; formal runs reused the local esm2_t33_650M_UR50D.pt file"
+  },
+  "loading": "esm.pretrained.load_model_and_alphabet_local(checkpoint); model.eval().half().cuda(); representation layer 33 residue states are mean pooled",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/m3_smoke/models/esm2_t33_650M_UR50D.pt",
+    "/home/mik/u8t/ai_genome/m3_smoke/python_deps"
+  ],
+  "formal_evidence_files": [
+    "results/protein_sequence/PS01/models/esm2-650m/provenance/EXECUTION_BINDING.json",
+    "results/protein_sequence/PS01/models/esm2-650m/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS02A/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS02B/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS04/models/esm2-650m/FORWARD_REPORT.json",
+    "results/protein_sequence/PS05/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS08/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS09/models/esm2-650m/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS09/models/esm2-650m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS10/models/esm2-650m/provenance/EXECUTION_BINDING.json",
+    "results/protein_sequence/PS10/models/esm2-650m/provenance/FORWARD_REPORT.json"
+  ]
+}

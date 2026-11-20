@@ -1,0 +1,61 @@
+{
+  "cases": [
+    {
+      "F": 0.9940691077875192,
+      "F_95_CI": [
+        0.9909747292418775,
+        0.9966477565755544
+      ],
+      "model_id": "caduceus-ps",
+      "result": "paper_cases/dna/DNA06/models/caduceus-ps/output/FORMAL_RESULT.json",
+      "result_sha256": "8433de9a766f1c909a41ca0d635109db795562250e20007f30315e3345bf078d",
+      "status": "PASS"
+    },
+    {
+      "F": 0.9559051057246003,
+      "F_95_CI": [
+        0.9471376998452812,
+        0.9638989169675091
+      ],
+      "model_id": "crossdna-8m",
+      "result": "paper_cases/dna/DNA06/models/crossdna-8m/output/FORMAL_RESULT.json",
+      "result_sha256": "065d29a0f87917257f6d714145fd87d87daeb597f7bc4d604225de3030b764f6",
+      "status": "PASS"
+    },
+    {
+      "F": 0.25348117586384733,
+      "F_95_CI": [
+        0.22795255286230015,
+        0.2790097988653945
+      ],
+      "model_id": "dnabert-2",
+      "result": "paper_cases/dna/DNA06/models/dnabert-2/output/FORMAL_RESULT.json",
+      "result_sha256": "53f2c90f4dabe4322e6e326a18638b071f82e342e1dcc8e648f4e2c1004857fb",
+      "status": "PASS"
+    },
+    {
+      "F": 0.8063434760185663,
+      "F_95_CI": [
+        0.7867457452294997,
+        0.8251676121712223
+      ],
+      "model_id": "janusdna",
+      "result": "paper_cases/dna/DNA06/models/janusdna/output/FORMAL_RESULT.json",
+      "result_sha256": "6932b8a6aa3db883ce21b7ac64a7e3f69e077192872122701bc8439778dc4e8e",
+      "status": "PASS"
+    },
+    {
+      "F": 0.7514182568334192,
+      "F_95_CI": [
+        0.7320719443011862,
+        0.7702423929860753
+      ],
+      "model_id": "nt-v2",
+      "result": "paper_cases/dna/DNA06/models/nt-v2/output/FORMAL_RESULT.json",
+      "result_sha256": "04615b8df3d30fc7c0a642ea6835ce6492998fea30b3350b8a1a8a3f2e5bfb11",
+      "status": "PASS"
+    }
+  ],
+  "constraint_id": "DNA06",
+  "constraint_release": "DNA06_v0.1.3_F_ONLY"
+}

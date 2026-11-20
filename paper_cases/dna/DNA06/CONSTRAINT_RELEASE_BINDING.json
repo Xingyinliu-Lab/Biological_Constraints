@@ -1,0 +1,16 @@
+{
+  "constraint_id": "DNA06",
+  "constraint_release": "DNA06_v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_observable": "codon-local translation-consequence readability",
+  "public_scorer": "constraints/dna/DNA06/scoring/score_dna06.py",
+  "public_scorer_sha256": "b577f1ee13be791e0aa4b49051ba53041f890c1b4f25a0da617f217e548cbf7e",
+  "registered_model_cases": [
+    "caduceus-ps",
+    "crossdna-8m",
+    "dnabert-2",
+    "janusdna",
+    "nt-v2"
+  ],
+  "scoring_status": "F_ONLY_MATERIALIZATION_PASS"
+}

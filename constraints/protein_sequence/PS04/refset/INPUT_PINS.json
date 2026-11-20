@@ -1,0 +1,14 @@
+{
+  "method": {
+    "bilateral_coverage_lower": 0.6,
+    "coverage_common_support_abs_max": 0.05,
+    "identity_common_support": "INACTIVE",
+    "nuisance_pair_filters": "INACTIVE",
+    "remote_seqid_strict_upper": 0.2
+  },
+  "model_derived_inputs": false,
+  "negative_pair_ledger_sha256": "a7e196931a7d5ecf5fad2515de60cdefebe1a3122329bd0e532efdee21adc280",
+  "positive_pair_ledger_sha256": "8cc6b24d75fd166cde8a138d5a481429f783e89e4f88e58ceaa075f61e6d2d91",
+  "source_object_table_sha256": "b7be9ea182e5c400a1d14b114aee9c932afbef054136bfa93ec8059837999fd8",
+  "source_traversal_sha256": "73b8d781cb3410d1a38a7b4428d833908b0e32b79ffcc5ca71082b3d55bca70f"
+}

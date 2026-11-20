@@ -1,0 +1,9 @@
+{
+  "files": {
+    "FORMAL_RESULT.json": {
+      "bytes": 303,
+      "sha256": "f828be548187f39b9aa92e0dd936b3467a27b1b95ace9ebb34503fd35fceb6ab"
+    }
+  },
+  "formal_interface": "F_ONLY"
+}

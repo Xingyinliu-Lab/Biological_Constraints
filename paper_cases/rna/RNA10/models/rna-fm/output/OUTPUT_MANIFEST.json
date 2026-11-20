@@ -1,0 +1,33 @@
+{
+  "constraint_id": "C-RNA-10",
+  "formal_interface": "F_ONLY",
+  "model_id": "rna-fm",
+  "outputs": [
+    {
+      "bytes": 5275,
+      "path": "AGGREGATION_SCORES.json",
+      "sha256": "5b5c854e561f821320fa10f780ae894f4db65b19f841b997ee2afbd2a92737dc"
+    },
+    {
+      "bytes": 435061,
+      "path": "F_BOOTSTRAP_DRAWS.json",
+      "sha256": "a4775ecd27e16c1789aed9f2171b1f6d444d551af7eb3cb0a60f5becfa188145"
+    },
+    {
+      "bytes": 1593,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "6b20431386ebbf92cd6d9b7e190b4d0dfa2685e6d7bb1711b5c509798218d747"
+    },
+    {
+      "bytes": 186956,
+      "path": "INDIVIDUAL_SCORES.json",
+      "sha256": "5ac1ccbd5c9f0039c077e53640fe4fa9564e8fe32c28946d36fc8c4edc2c137b"
+    },
+    {
+      "bytes": 262136,
+      "path": "MEASUREMENT_LEDGER.json",
+      "sha256": "645338e18919c5307188daf2a4a51a271c80325c4481c55791ecb45e80780836"
+    }
+  ],
+  "public_entry": "score_rna10.py"
+}

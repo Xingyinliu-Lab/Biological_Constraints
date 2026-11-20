@@ -1,0 +1,59 @@
+{
+  "archived_embedding_sha256": "c2cd40893223b13d3ae8459146a32f36570f46bb1b47fe5e6235a64bc61dfd1a",
+  "artifact": "DNA01_PUBLIC_SCORER_INPUT_BINDING",
+  "case_id": "dna.DNA01.dnabert-2.primary",
+  "constraint_release": "DNA01_v0.5.4",
+  "deterministic_output_migration": true,
+  "formal_interface": "F_ONLY",
+  "forward_output_contract": {
+    "coverage": "EXACT",
+    "object_ids": [
+      2920
+    ],
+    "vectors": [
+      2920,
+      "d"
+    ]
+  },
+  "model_forward_rerun": false,
+  "output_directory": "paper_cases/dna/DNA01/models/dnabert-2/output/DNA01_v0.5.4",
+  "output_files": {
+    "DEPENDENCY_CLUSTER_F_LEDGER.tsv": {
+      "bytes": 12217,
+      "sha256": "5bd89ab5724ec5522dcc7df37a4131afcc92d51a8841c17a614bba9cb9e561f0"
+    },
+    "FORMAL_RESULT.json": {
+      "bytes": 2576,
+      "sha256": "085f9683cf619ab4b12dc0783135af67b77632a5d60f463f74ab46dcbfe7a73a"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "a527a2dde3213c8e0c8ecd9f6788d96ef2ba546f859574016f71668ebf650e55"
+    },
+    "INDIVIDUAL_SCORES.tsv": {
+      "bytes": 837502,
+      "sha256": "6d2c45a2dd1ab0718d4ffb9856dd5105d6067e69ef35777d84e2c44d9387cadc"
+    },
+    "OUTPUT_MANIFEST.json": {
+      "bytes": 780,
+      "sha256": "404883dac69a2ee58b9b53670fd99089fbede90f194cf8a2870d45e58c630d50"
+    },
+    "PARENT_F_LEDGER.tsv": {
+      "bytes": 21000,
+      "sha256": "f2e315843a460854b869a1c7f34bf1a81b22e37f69c60482ac5e48241528bb2a"
+    },
+    "RUN_COMPLETE": {
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    },
+    "SHA256SUMS": {
+      "bytes": 532,
+      "sha256": "78e541c4b996ab915516c1fa10e3bcd634832929b7fbaa50b69c8dde6fb71f02"
+    }
+  },
+  "public_scorer": "constraints/dna/DNA01/scoring/score_dna01.py",
+  "public_scorer_sha256": "7b530824c8a3c0af925ac92fbf4deed7590144edd0b108533e201c47bd0bf845",
+  "public_scoring_rerun": false,
+  "repeat_evidence": "PRIMARY_AND_REPEAT_CONTENT_IDENTICAL_IN_FINAL_FORWARD_EVIDENCE",
+  "status": "PASS"
+}

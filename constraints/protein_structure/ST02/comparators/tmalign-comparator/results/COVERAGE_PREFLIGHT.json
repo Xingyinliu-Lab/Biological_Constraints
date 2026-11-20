@@ -1,0 +1,10 @@
+{
+  "artifact_id": "ST02_TMALIGN_LABEL_BLIND_COVERAGE_PREFLIGHT_v0.1.2_20261011",
+  "binding_sha256": "adaac3999b2b10229cdfc4a909cda18bb1661e6ad4ff2c1aea95f4f3ab842c12",
+  "finite_pairs": 3735,
+  "method_sha256": "c2e42fd9fe1bd665ed6263c7e85a0681c6f0e979cb6f4df3cd902f1299cc41be",
+  "missing_pairs": 0,
+  "pair_ledger_sha256": "5a6744d7f893dc30d7f489e6b69793831c4eaf6c5b77a9e423b88b5ce5651357",
+  "required_unordered_pairs": 3735,
+  "status": "PASS"
+}

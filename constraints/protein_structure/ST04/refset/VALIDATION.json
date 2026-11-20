@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ST04_MATERIALIZATION_VALIDATION_v0.1.1_20261011",
+  "checks_executed": 1663903,
+  "checks_failed": 0,
+  "materialization_manifest_sha256": "e9e3e4f8030bf2f83af84e8410f1c576ddb75bf158960efd651258633d730972",
+  "source_processing_rule_id": "ST04_SOURCE_PROCESSING_RULE_v0.1.3_FROZEN_20261012",
+  "source_processing_rule_sha256": "ec9092a507c5d0792a3cb955c78a7e075a8bf0350230e169ed93757f0a789249",
+  "status": "PASS",
+  "summary": {
+    "attrition_queries": 42352,
+    "attrition_residues": 4550,
+    "both_direction_edges": 24868,
+    "dependency_clusters_formal": 562,
+    "directed_queries": 73568,
+    "negative_reuse_distinct_residues": 34470,
+    "negative_reuse_max": 43,
+    "objects_formal": 586,
+    "objects_source": 700,
+    "one_direction_only_edges": 23832,
+    "pair_evidence_rows": 240871,
+    "positive_edge_direction_count_distribution": {
+      "1": 23832,
+      "2": 24868
+    },
+    "positive_edges_formal": 48700,
+    "precap_negative_candidates": 182911,
+    "query_k_distribution": {
+      "1": 31892,
+      "2": 18426,
+      "3": 9564,
+      "4": 13686
+    },
+    "relations": 152180,
+    "residues": 98209
+  }
+}

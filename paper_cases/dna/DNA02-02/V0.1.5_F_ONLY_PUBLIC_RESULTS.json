@@ -1,0 +1,50 @@
+{
+  "artifact": "DNA02_02_F_ONLY_RESULT_REGISTRATION",
+  "constraint_release": "DNA02-02_v0.1.5_f_only",
+  "forward_rerun": false,
+  "migration": "deterministic F-only ledger materialization",
+  "models": {
+    "caduceus-ps": {
+      "F": 0.6240557553956834,
+      "F_95_CI": [
+        0.6157860742655876,
+        0.6322392554706233
+      ],
+      "result_sha256": "0e811a2a7ac78e57a4bf456cd1244cb272048e297fd7ab24b6b7609c7cb0febf"
+    },
+    "crossdna-8m": {
+      "F": 0.7189982389088729,
+      "F_95_CI": [
+        0.7109693026828536,
+        0.7268585600269786
+      ],
+      "result_sha256": "a7a2c0bd018c144ebf36f5004b683225e1f6c4d527eeb213797f3fc69cbe4887"
+    },
+    "dnabert-2": {
+      "F": 0.9487391336930455,
+      "F_95_CI": [
+        0.9444675509592326,
+        0.9528646770083933
+      ],
+      "result_sha256": "ca6691571c84ded0c20dd7b8f76758f77b72dae2e82cca505a3aa8b10c8ef44d"
+    },
+    "janusdna": {
+      "F": 0.7336593225419665,
+      "F_95_CI": [
+        0.7278813980065946,
+        0.7394672230965229
+      ],
+      "result_sha256": "941a3c99f31fba409621514104cfd2272be8847162a050c4af80b61d09048b50"
+    },
+    "nt-v2": {
+      "F": 0.8266561750599519,
+      "F_95_CI": [
+        0.820160746402878,
+        0.8330466876498801
+      ],
+      "result_sha256": "d4ff40b5069c7578bcec40e1bc88eb473d3423fe5fd2418a5b1aed8f1349e99f"
+    }
+  },
+  "scoring_refit": false,
+  "status": "PASS"
+}

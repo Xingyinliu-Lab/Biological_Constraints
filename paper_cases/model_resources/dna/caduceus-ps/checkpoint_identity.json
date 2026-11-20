@@ -1,0 +1,80 @@
+{
+  "model_id": "caduceus-ps",
+  "domain": "dna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://huggingface.co/kuleshov-group/caduceus-ps_seqlen-131k_d_model-256_n_layer-16",
+  "upstream_revision": [
+    {
+      "value": "d89eeb853136ea64da7feb3d0c8e909771b17ae6",
+      "source": "results/dna/DNA02-02/models/caduceus-ps/provenance/MODEL_INTERFACE.json",
+      "field": "model_revision"
+    }
+  ],
+  "executed_checkpoint_hashes": [
+    {
+      "value": "a3e6976fe90460ff5d90d371b457d0263dc65e156ea5651b4a452e98228daef2",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.4.sha256",
+      "asset_context": "30937760 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--kuleshov-group--caduceus-ps_seqlen-131k_d_model-256_n_layer-16\\snapshots\\d89eeb853136ea64da7feb3d0c8e909771b17ae6\\model.safetensors checkpoint_or_model_file a3e6976fe90460ff5d90d371b457d0263dc65e156ea5651b4a452e98228daef2"
+    },
+    {
+      "value": "a3e6976fe90460ff5d90d371b457d0263dc65e156ea5651b4a452e98228daef2",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.2.sha256",
+      "asset_context": "30937760 model.safetensors a3e6976fe90460ff5d90d371b457d0263dc65e156ea5651b4a452e98228daef2"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "d0f8eaf9d62370ffae2d41c92d00b9424fae31c823baf21111602dabc35eef45",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.2.sha256",
+      "asset_context": "1375 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--kuleshov-group--caduceus-ps_seqlen-131k_d_model-256_n_layer-16\\snapshots\\d89eeb853136ea64da7feb3d0c8e909771b17ae6\\config.json checkpoint_or_model_file d0f8eaf9d62370ffae2d41c92d00b9424fae31c823baf21111602dabc35eef45"
+    },
+    {
+      "value": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.7.sha256",
+      "asset_context": "173 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--kuleshov-group--caduceus-ps_seqlen-131k_d_model-256_n_layer-16\\snapshots\\d89eeb853136ea64da7feb3d0c8e909771b17ae6\\special_tokens_map.json checkpoint_or_model_file 5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "value": "54b8a214423d01e4cf90fe5751d03d2a7117b4f7286b5727d9ee60fdd0bb7c8a",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.9.sha256",
+      "asset_context": "1485 \\home\\mik\\u8t\\ai_genome\\m1_encoder_audit\\models\\huggingface\\hub\\models--kuleshov-group--caduceus-ps_seqlen-131k_d_model-256_n_layer-16\\snapshots\\d89eeb853136ea64da7feb3d0c8e909771b17ae6\\tokenizer_config.json checkpoint_or_model_file 54b8a214423d01e4cf90fe5751d03d2a7117b4f7286b5727d9ee60fdd0bb7c8a"
+    },
+    {
+      "value": "d0f8eaf9d62370ffae2d41c92d00b9424fae31c823baf21111602dabc35eef45",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.0.sha256",
+      "asset_context": "1375 config.json d0f8eaf9d62370ffae2d41c92d00b9424fae31c823baf21111602dabc35eef45"
+    },
+    {
+      "value": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.5.sha256",
+      "asset_context": "173 special_tokens_map.json 5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "value": "54b8a214423d01e4cf90fe5751d03d2a7117b4f7286b5727d9ee60fdd0bb7c8a",
+      "source": "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.7.sha256",
+      "asset_context": "1485 tokenizer_config.json 54b8a214423d01e4cf90fe5751d03d2a7117b4f7286b5727d9ee60fdd0bb7c8a"
+    }
+  ],
+  "download": {
+    "source": "https://huggingface.co/kuleshov-group/caduceus-ps_seqlen-131k_d_model-256_n_layer-16",
+    "method": "huggingface_hub snapshot download",
+    "pinned_revision": "d89eeb853136ea64da7feb3d0c8e909771b17ae6"
+  },
+  "loading": "AutoTokenizer.from_pretrained(model_path, trust_remote_code=True, local_files_only=True); AutoModel.from_pretrained(model_path, trust_remote_code=True, local_files_only=True).eval()",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/m1_encoder_audit/models/huggingface/hub/models--kuleshov-group--caduceus-ps_seqlen-131k_d_model-256_n_layer-16/snapshots/d89eeb853136ea64da7feb3d0c8e909771b17ae6"
+  ],
+  "formal_evidence_files": [
+    "results/dna/DNA01/models/caduceus-ps/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+    "results/dna/DNA02-02/models/caduceus-ps/provenance/EXECUTION_BINDING.json",
+    "results/dna/DNA02-02/models/caduceus-ps/provenance/MODEL_INTERFACE.json"
+  ]
+}

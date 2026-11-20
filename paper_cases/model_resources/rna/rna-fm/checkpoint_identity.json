@@ -1,0 +1,66 @@
+{
+  "model_id": "rna-fm",
+  "domain": "rna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/ml4bio/RNA-FM",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "5b5d7d87b37c291ef42c140ef9edf7aea29f255fa2a4fd435f776c52e93d5e99",
+      "source": "results/rna/RNA01-02/models/rna-fm/provenance/cal1.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "5b5d7d87b37c291ef42c140ef9edf7aea29f255fa2a4fd435f776c52e93d5e99",
+      "source": "results/rna/RNA01-02/models/rna-fm/provenance/cal2.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "5b5d7d87b37c291ef42c140ef9edf7aea29f255fa2a4fd435f776c52e93d5e99",
+      "source": "results/rna/RNA01-02/models/rna-fm/provenance/EXECUTION_BINDING.json",
+      "field": "rnafm_checkpoint.sha256"
+    },
+    {
+      "value": "5b5d7d87b37c291ef42c140ef9edf7aea29f255fa2a4fd435f776c52e93d5e99",
+      "source": "results/rna/RNA01-02/models/rna-fm/provenance/rnafm_l16k.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "5b5d7d87b37c291ef42c140ef9edf7aea29f255fa2a4fd435f776c52e93d5e99",
+      "source": "results/rna/RNA01-02/models/rna-fm/provenance/rnafm_smoke.npz.metrics.json",
+      "field": "weights_sha256"
+    },
+    {
+      "value": "5b5d7d87b37c291ef42c140ef9edf7aea29f255fa2a4fd435f776c52e93d5e99",
+      "source": "results/rna/RNA09/models/rna-fm/provenance/rnafm.npz.metrics.json",
+      "field": "weights_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "RNA-FM alphabet/tokenization is bundled with the executed repository loader; no separate tokenizer artifact was used.",
+  "download": {
+    "source": "https://github.com/ml4bio/RNA-FM",
+    "method": "formal execution reused RNA-FM_pretrained.pth with the frozen RNA-FM source tree"
+  },
+  "loading": "fm.pretrained.rna_fm_t12(weights); model.eval().to(device); alphabet.get_batch_converter(); exclude BOS/EOS and pool valid nucleotide states",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/fd/m2_rna/models/RNA-FM/RNA-FM_pretrained.pth",
+    "/home/mik/fd/m2_rna/jobs/rna0102_four_model_20261002/rnafm_source",
+    "/home/mik/fd/m2_rna/jobs/rna09_four_model_v021_20261004/rnafm_source"
+  ],
+  "formal_evidence_files": [
+    "results/rna/RNA01-02/models/rna-fm/cal1.npz.metrics.json",
+    "results/rna/RNA01-02/models/rna-fm/cal2.npz.metrics.json",
+    "results/rna/RNA01-02/models/rna-fm/provenance/cal1.npz.metrics.json",
+    "results/rna/RNA01-02/models/rna-fm/provenance/cal2.npz.metrics.json",
+    "results/rna/RNA01-02/models/rna-fm/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA01-02/models/rna-fm/provenance/rnafm_l16k.npz.metrics.json",
+    "results/rna/RNA01-02/models/rna-fm/provenance/rnafm_smoke.npz.metrics.json",
+    "results/rna/RNA04/models/rna-fm/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA05/models/rna-fm/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA06/models/rna-fm/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/rna-fm/provenance/EXECUTION_BINDING.json",
+    "results/rna/RNA09/models/rna-fm/provenance/rnafm.npz.metrics.json",
+    "results/rna/RNA09/models/rna-fm/rnafm.npz.metrics.json"
+  ]
+}

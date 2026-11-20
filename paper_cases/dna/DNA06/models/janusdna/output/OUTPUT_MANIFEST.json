@@ -1,0 +1,30 @@
+{
+  "CLUSTER_SCORE_LEDGER.tsv": {
+    "bytes": 27974,
+    "sha256": "35178c5779cdca8d1d93d717a2bac79a7f50305a3f080cd6e1750a4eab1ab622"
+  },
+  "FORMAL_RESULT.json": {
+    "bytes": 1081,
+    "sha256": "6932b8a6aa3db883ce21b7ac64a7e3f69e077192872122701bc8439778dc4e8e"
+  },
+  "F_BOOTSTRAP.npy": {
+    "bytes": 160128,
+    "sha256": "52566a2ceb6be575166130819e2880df5e45ab7a02e9d31ce1e038ff18c266c6"
+  },
+  "INDIVIDUAL_SCORES.tsv": {
+    "bytes": 2080478,
+    "sha256": "7884e4315134ed96eba377087eb6b5bb9bd30e81390a6e5873d6a90a5758651c"
+  },
+  "PAIR_CREDIT_LEDGER.tsv": {
+    "bytes": 2638750,
+    "sha256": "bbf5258774c6a315597407f5dd6419047d5b0faec056848169b3fea3532bcb2b"
+  },
+  "PARENT_SCORE_LEDGER.tsv": {
+    "bytes": 50120,
+    "sha256": "48e985db369aeeb48d30cca435f41c2f04052c254d88968da826c377decd7805"
+  },
+  "SITE_SCORE_LEDGER.tsv": {
+    "bytes": 447202,
+    "sha256": "d18d297cc014cb8842d0e575f204284bb3315e136e5bc9bed7d10f079d19f243"
+  }
+}

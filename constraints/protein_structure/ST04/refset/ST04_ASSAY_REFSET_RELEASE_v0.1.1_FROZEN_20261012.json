@@ -1,0 +1,23 @@
+{
+  "artifact_id": "ST04_ASSAY_REFSET_RELEASE_v0.1.1_FROZEN_20261012",
+  "artifact_type": "AssayRefSetRelease",
+  "constraint_id": "C-ST-04",
+  "formal_population": {
+    "formal_dependency_clusters": 562,
+    "formal_directed_queries": 73568,
+    "formal_objects": 586,
+    "formal_positive_edges": 48700,
+    "formal_relations": 152180,
+    "source_objects": 700
+  },
+  "release_note": "Public formal ST04 RefSet release.",
+  "scientific_tables": {
+    "attrition.tsv": "c582eafd8eca9c5d8cf0a5c5a64ede6ec17dcebe6bed0c781a9b282eb10d25cd",
+    "dependency.tsv": "f99373e61bcba8275f44573698aef8a91161cef23ffbdbb2936b0b72fe836320",
+    "objects.tsv": "7d77e25cee1e0d0f8e062fab2835658ac7c614426002a1ac876a9069280e4952",
+    "pair_evidence.tsv": "654e9eb10e1bc27a9b3c7ba51293aced33b8131f8f849991b39af8bb8fcd31ea",
+    "relations.tsv": "1e459363ba095315124586860ee17890669c28554cd63ec14522338525dc1321",
+    "residue_evidence.tsv": "e0d1c4fa106959fa4ee1c142f0ec18576b806fcb8c7cf45f4a35df300e653c05"
+  },
+  "status": "FROZEN"
+}

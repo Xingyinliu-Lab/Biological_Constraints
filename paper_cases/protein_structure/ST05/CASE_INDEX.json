@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "F": 0.4364406779661017,
+      "model_id": "esm-if1",
+      "result": "paper_cases/protein_structure/ST05/models/esm-if1/output/EVALUATION_RESULT.json",
+      "result_sha256": "9f3c0166c3fdec4af511a3c111590bf363ef8efa22a11c36b3bdaf7b6a62cea1",
+      "status": "PASS"
+    },
+    {
+      "F": 0.2801906779661017,
+      "model_id": "esm3-struct",
+      "result": "paper_cases/protein_structure/ST05/models/esm3-struct/output/EVALUATION_RESULT.json",
+      "result_sha256": "e91d9891fd8ed94a414f71a0c9418c7fe28234c3537bdbfbc8321a0c2b812cde",
+      "status": "PASS"
+    },
+    {
+      "F": 0.5540254237288136,
+      "model_id": "proteinmpnn-ca",
+      "result": "paper_cases/protein_structure/ST05/models/proteinmpnn-ca/output/EVALUATION_RESULT.json",
+      "result_sha256": "195d26e689cc0ad8d9ec65b01004d87d2ab58868ae6ad00a364059e90fcc5b8f",
+      "status": "PASS"
+    },
+    {
+      "F": 0.11864406779661017,
+      "model_id": "protoken",
+      "result": "paper_cases/protein_structure/ST05/models/protoken/output/EVALUATION_RESULT.json",
+      "result_sha256": "1e44aadcee4fe81ecc3e912a8d97c1633ef501d23d5e9fffae73b817bb2b07a1",
+      "status": "PASS"
+    },
+    {
+      "F": 0.954978813559322,
+      "model_id": "sslm",
+      "result": "paper_cases/protein_structure/ST05/models/sslm/output/EVALUATION_RESULT.json",
+      "result_sha256": "c9326863093a6a7cb33798c6a1d6b6265c4ec68a6b78837b84dbcde15d66ac43",
+      "status": "PASS"
+    }
+  ],
+  "constraint_id": "ST05",
+  "constraint_release": "ST05_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY"
+}

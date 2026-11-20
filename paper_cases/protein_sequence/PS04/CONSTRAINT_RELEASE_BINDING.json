@@ -1,0 +1,14 @@
+{
+  "constraint_id": "PS04",
+  "constraint_release": "PS04_v1.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "public_scorer": "constraints/protein_sequence/PS04/scoring/score_ps04.py",
+  "public_scorer_sha256": "8d8ef0f8c2749d8c80cbcc88c61ccdb5fae198a8f99a0daf28f262c5e9bcae5c",
+  "models": [
+    "carp-640m",
+    "esm2-650m",
+    "esm3-seq",
+    "esmc-600m",
+    "prott5"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "constraint_id": "PS10",
+  "component": "public_scoring",
+  "status": "VALIDATED_CANONICAL_SCORING_ENVIRONMENT",
+  "validated_date": "2026-10-19",
+  "python": "3.10.20",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.7.2"
+  },
+  "scope": "This environment executes the constraint-owned cross-fit and bootstrap after model Forward. Model environments are separate and do not define PS10 scoring behavior.",
+  "reproducibility_note": "All registered paper representations are scored in this canonical environment."
+}

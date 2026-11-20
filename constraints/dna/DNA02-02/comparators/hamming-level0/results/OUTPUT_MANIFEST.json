@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "bytes": 8645,
+      "sha256": "97ccc9c6983f7f6c010d9d581cfc2979cf7a13117ae1ccd3befc33fa0acc6219"
+    },
+    {
+      "path": "FORMAL_RESULT.json",
+      "bytes": 633,
+      "sha256": "1a802f01af0e5fa20685f61792c29ae626685dda96b17d0cb6989daae0500283"
+    },
+    {
+      "path": "F_BOOTSTRAP.npy",
+      "bytes": 160128,
+      "sha256": "4978abf063b2344a8327578a0194c4b784cb6f872901a35cabadfe1e64fe9e94"
+    },
+    {
+      "path": "LOCUS_SCORE_LEDGER.tsv",
+      "bytes": 17401,
+      "sha256": "182418d679d028efbb337af4d9559f29ec88d0d63dff8fd1317cb2c937d90bcb"
+    },
+    {
+      "path": "QUERY_SCORE_LEDGER.tsv",
+      "bytes": 560701,
+      "sha256": "8a75bdcb4311a8b350a18eb912708a9eac8dc80f267278e1137da1a87f584ca2"
+    },
+    {
+      "path": "RUN_COMPLETE",
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    }
+  ]
+}

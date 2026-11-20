@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "F": 0.4159590348847261,
+      "F_95_CI": [
+        0.31887145539219275,
+        0.5105139071757735
+      ],
+      "model_id": "carp-640m",
+      "result": "paper_cases/protein_sequence/PS01/models/carp-640m/output/EVALUATION_RESULT.json",
+      "result_sha256": "29c04f489f72850568ed3cc0357b7c9131075a250ea8f39e5e2afe2c40097ecb",
+      "status": "PASS"
+    },
+    {
+      "F": 0.3446559192775351,
+      "F_95_CI": [
+        0.23925000758490103,
+        0.445963607471744
+      ],
+      "model_id": "esm2-650m",
+      "result": "paper_cases/protein_sequence/PS01/models/esm2-650m/output/EVALUATION_RESULT.json",
+      "result_sha256": "a3fabd2a26513cc0e4a8cb6c95ef6cfb92d4ab3e133aba640cd1c88b03024b2b",
+      "status": "PASS"
+    },
+    {
+      "F": 0.625703640184487,
+      "F_95_CI": [
+        0.5433230168289213,
+        0.7018264964628732
+      ],
+      "model_id": "esm3-seq",
+      "result": "paper_cases/protein_sequence/PS01/models/esm3-seq/output/EVALUATION_RESULT.json",
+      "result_sha256": "4210e6d5ff07660a94b182c1c8bbc0a5b9bd192d9f109112bf851e71b8d56ed0",
+      "status": "PASS"
+    },
+    {
+      "F": 0.25669077799334133,
+      "F_95_CI": [
+        0.15690225473131578,
+        0.35634534116676975
+      ],
+      "model_id": "esmc-600m",
+      "result": "paper_cases/protein_sequence/PS01/models/esmc-600m/output/EVALUATION_RESULT.json",
+      "result_sha256": "360ec1a7aaa42c69bf1ecf3a9070cb8d3c0f4331f09d11569fcc4fc2b578ce16",
+      "status": "PASS"
+    },
+    {
+      "F": 0.6316691748791403,
+      "F_95_CI": [
+        0.5426318920774565,
+        0.7140438806265419
+      ],
+      "model_id": "prott5",
+      "result": "paper_cases/protein_sequence/PS01/models/prott5/output/EVALUATION_RESULT.json",
+      "result_sha256": "63008591135c2d55b6159c421c0cc5550ec86cabe40d93cb448821e01e3b515d",
+      "status": "PASS"
+    }
+  ],
+  "constraint_id": "PS01",
+  "constraint_release": "PS01_v2.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "validation": "DETERMINISTIC_F_ONLY_MATERIALIZATION_FROM_RETAINED_ID_LEVEL_LEDGERS"
+}

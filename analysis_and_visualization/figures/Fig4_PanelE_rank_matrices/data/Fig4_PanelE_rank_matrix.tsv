@@ -1,0 +1,111 @@
+domain	Constraint	Short_name	Model	F	rank	constraint_label	model_label
+DNA	DNA01	Reverse Complement	Caduceus-PS	0.979844	1	Reverse complement	Caduceus-PS
+DNA	DNA01	Reverse Complement	CrossDNA-8M	0.865395	2	Reverse complement	CrossDNA
+DNA	DNA01	Reverse Complement	DNABERT-2	0.564916	5	Reverse complement	DNABERT-2
+DNA	DNA01	Reverse Complement	JanusDNA	0.798362	3	Reverse complement	JanusDNA
+DNA	DNA01	Reverse Complement	NT-v2	0.639591	4	Reverse complement	NT-v2
+DNA	DNA02-02	DNA Edit Adjacency	Caduceus-PS	0.624056	5	Edit adjacency	Caduceus-PS
+DNA	DNA02-02	DNA Edit Adjacency	CrossDNA-8M	0.718998	4	Edit adjacency	CrossDNA
+DNA	DNA02-02	DNA Edit Adjacency	DNABERT-2	0.948739	1	Edit adjacency	DNABERT-2
+DNA	DNA02-02	DNA Edit Adjacency	JanusDNA	0.733659	3	Edit adjacency	JanusDNA
+DNA	DNA02-02	DNA Edit Adjacency	NT-v2	0.826656	2	Edit adjacency	NT-v2
+DNA	DNA03	Context Extension	Caduceus-PS	0.914849	2	Context extension	Caduceus-PS
+DNA	DNA03	Context Extension	CrossDNA-8M	0.9024	3	Context extension	CrossDNA
+DNA	DNA03	Context Extension	DNABERT-2	0.937275	1	Context extension	DNABERT-2
+DNA	DNA03	Context Extension	JanusDNA	0.573657	5	Context extension	JanusDNA
+DNA	DNA03	Context Extension	NT-v2	0.796791	4	Context extension	NT-v2
+DNA	DNA06	Codon Consequence	Caduceus-PS	0.994069	1	Codon consequence	Caduceus-PS
+DNA	DNA06	Codon Consequence	CrossDNA-8M	0.955905	2	Codon consequence	CrossDNA
+DNA	DNA06	Codon Consequence	DNABERT-2	0.253481	5	Codon consequence	DNABERT-2
+DNA	DNA06	Codon Consequence	JanusDNA	0.806343	3	Codon consequence	JanusDNA
+DNA	DNA06	Codon Consequence	NT-v2	0.751418	4	Codon consequence	NT-v2
+RNA	RNA01-02	RNA Edit Adjacency	ERNIE-RNA	0.903333	2	Edit adjacency	ERNIE-RNA
+RNA	RNA01-02	RNA Edit Adjacency	GB-RNA	0.902601	3	Edit adjacency	GB-RNA
+RNA	RNA01-02	RNA Edit Adjacency	Orthrus-4-track	0.880807	5	Edit adjacency	Orthrus
+RNA	RNA01-02	RNA Edit Adjacency	RiNALMo-Giga	0.896374	4	Edit adjacency	RiNALMo
+RNA	RNA01-02	RNA Edit Adjacency	RNA-FM	0.925585	1	Edit adjacency	RNA-FM
+RNA	RNA04	RNA Coding Consequence	ERNIE-RNA	0.502063	3	Coding consequence	ERNIE-RNA
+RNA	RNA04	RNA Coding Consequence	GB-RNA	0.509283	2	Coding consequence	GB-RNA
+RNA	RNA04	RNA Coding Consequence	Orthrus-4-track	0.191078	5	Coding consequence	Orthrus
+RNA	RNA04	RNA Coding Consequence	RiNALMo-Giga	0.52656	1	Coding consequence	RiNALMo
+RNA	RNA04	RNA Coding Consequence	RNA-FM	0.440175	4	Coding consequence	RNA-FM
+RNA	RNA05	Pairing State	ERNIE-RNA	0.576179	2	Pairing state	ERNIE-RNA
+RNA	RNA05	Pairing State	GB-RNA	0.609359	1	Pairing state	GB-RNA
+RNA	RNA05	Pairing State	Orthrus-4-track	0.094356	5	Pairing state	Orthrus
+RNA	RNA05	Pairing State	RiNALMo-Giga	0.570119	3	Pairing state	RiNALMo
+RNA	RNA05	Pairing State	RNA-FM	0.417611	4	Pairing state	RNA-FM
+RNA	RNA06	Partner Specificity	ERNIE-RNA	0.356728	3	Partner specificity	ERNIE-RNA
+RNA	RNA06	Partner Specificity	GB-RNA	0.596871	1	Partner specificity	GB-RNA
+RNA	RNA06	Partner Specificity	Orthrus-4-track	-0.012071	5	Partner specificity	Orthrus
+RNA	RNA06	Partner Specificity	RiNALMo-Giga	0.542399	2	Partner specificity	RiNALMo
+RNA	RNA06	Partner Specificity	RNA-FM	0.152726	4	Partner specificity	RNA-FM
+RNA	RNA09	Remote RNA Structure	ERNIE-RNA	0.424242	3	Remote structure	ERNIE-RNA
+RNA	RNA09	Remote RNA Structure	GB-RNA	0.621212	2	Remote structure	GB-RNA
+RNA	RNA09	Remote RNA Structure	Orthrus-4-track	0.02904	5	Remote structure	Orthrus
+RNA	RNA09	Remote RNA Structure	RiNALMo-Giga	0.969697	1	Remote structure	RiNALMo
+RNA	RNA09	Remote RNA Structure	RNA-FM	0.409091	4	Remote structure	RNA-FM
+RNA	RNA10	Exon Recognition	ERNIE-RNA	-0.029051	4	Exon recognition	ERNIE-RNA
+RNA	RNA10	Exon Recognition	GB-RNA	0.122683	2	Exon recognition	GB-RNA
+RNA	RNA10	Exon Recognition	Orthrus-4-track	0.022162	3	Exon recognition	Orthrus
+RNA	RNA10	Exon Recognition	RiNALMo-Giga	0.380446	1	Exon recognition	RiNALMo
+RNA	RNA10	Exon Recognition	RNA-FM	-0.036952	5	Exon recognition	RNA-FM
+Protein sequence	PS01	Family Identity	CARP-640M	0.415959	3	Family identity	CARP
+Protein sequence	PS01	Family Identity	ESM-2-650M	0.344656	4	Family identity	ESM-2
+Protein sequence	PS01	Family Identity	ESM3-seq	0.625704	2	Family identity	ESM3-seq
+Protein sequence	PS01	Family Identity	ESM-C-600M	0.256691	5	Family identity	ESM-C
+Protein sequence	PS01	Family Identity	ProtT5	0.631669	1	Family identity	ProtT5
+Protein sequence	PS02A	Clan Homology	CARP-640M	0.561201	3	Clan homology	CARP
+Protein sequence	PS02A	Clan Homology	ESM-2-650M	0.387891	4	Clan homology	ESM-2
+Protein sequence	PS02A	Clan Homology	ESM3-seq	0.64575	2	Clan homology	ESM3-seq
+Protein sequence	PS02A	Clan Homology	ESM-C-600M	0.283849	5	Clan homology	ESM-C
+Protein sequence	PS02A	Clan Homology	ProtT5	0.710473	1	Clan homology	ProtT5
+Protein sequence	PS02B	Remote Homology	CARP-640M	0.342913	4	Remote homology	CARP
+Protein sequence	PS02B	Remote Homology	ESM-2-650M	0.368772	3	Remote homology	ESM-2
+Protein sequence	PS02B	Remote Homology	ESM3-seq	0.508282	2	Remote homology	ESM3-seq
+Protein sequence	PS02B	Remote Homology	ESM-C-600M	0.191164	5	Remote homology	ESM-C
+Protein sequence	PS02B	Remote Homology	ProtT5	0.590948	1	Remote homology	ProtT5
+Protein sequence	PS04	Topology Relation	CARP-640M	0.290671	1	Topology	CARP
+Protein sequence	PS04	Topology Relation	ESM-2-650M	0.222386	4	Topology	ESM-2
+Protein sequence	PS04	Topology Relation	ESM3-seq	0.269906	3	Topology	ESM3-seq
+Protein sequence	PS04	Topology Relation	ESM-C-600M	0.098978	5	Topology	ESM-C
+Protein sequence	PS04	Topology Relation	ProtT5	0.282456	2	Topology	ProtT5
+Protein sequence	PS05	Structural Resemblance	CARP-640M	0.25778	5	Structural resemblance	CARP
+Protein sequence	PS05	Structural Resemblance	ESM-2-650M	0.2924	4	Structural resemblance	ESM-2
+Protein sequence	PS05	Structural Resemblance	ESM3-seq	0.374817	2	Structural resemblance	ESM3-seq
+Protein sequence	PS05	Structural Resemblance	ESM-C-600M	0.321687	3	Structural resemblance	ESM-C
+Protein sequence	PS05	Structural Resemblance	ProtT5	0.524299	1	Structural resemblance	ProtT5
+Protein sequence	PS08	Protein Edit Adjacency	CARP-640M	0.877686	4	Edit adjacency	CARP
+Protein sequence	PS08	Protein Edit Adjacency	ESM-2-650M	0.922363	2	Edit adjacency	ESM-2
+Protein sequence	PS08	Protein Edit Adjacency	ESM3-seq	0.867676	5	Edit adjacency	ESM3-seq
+Protein sequence	PS08	Protein Edit Adjacency	ESM-C-600M	0.896729	3	Edit adjacency	ESM-C
+Protein sequence	PS08	Protein Edit Adjacency	ProtT5	0.935059	1	Edit adjacency	ProtT5
+Protein sequence	PS09	Order-Disorder	CARP-640M	0.77059	2	Order– disorder	CARP
+Protein sequence	PS09	Order-Disorder	ESM-2-650M	0.763609	3	Order– disorder	ESM-2
+Protein sequence	PS09	Order-Disorder	ESM3-seq	0.814256	1	Order– disorder	ESM3-seq
+Protein sequence	PS09	Order-Disorder	ESM-C-600M	0.752586	4	Order– disorder	ESM-C
+Protein sequence	PS09	Order-Disorder	ProtT5	0.749712	5	Order– disorder	ProtT5
+Protein sequence	PS10	Amyloid Propensity	CARP-640M	0.381945	5	Amyloid propensity	CARP
+Protein sequence	PS10	Amyloid Propensity	ESM-2-650M	0.503885	3	Amyloid propensity	ESM-2
+Protein sequence	PS10	Amyloid Propensity	ESM3-seq	0.614442	1	Amyloid propensity	ESM3-seq
+Protein sequence	PS10	Amyloid Propensity	ESM-C-600M	0.478059	4	Amyloid propensity	ESM-C
+Protein sequence	PS10	Amyloid Propensity	ProtT5	0.593969	2	Amyloid propensity	ProtT5
+Protein structure	ST01	Global Fold Similarity	ESM-IF1	0.884058	1	Global fold similarity	ESM-IF1
+Protein structure	ST01	Global Fold Similarity	ESM3-struct	0.521739	4	Global fold similarity	ESM3-struct
+Protein structure	ST01	Global Fold Similarity	ProteinMPNN-CA	0.797101	2.5	Global fold similarity	MPNN-CA
+Protein structure	ST01	Global Fold Similarity	ProToken	-0.043478	5	Global fold similarity	ProToken
+Protein structure	ST01	Global Fold Similarity	SSLM	0.797101	2.5	Global fold similarity	SSLM
+Protein structure	ST02	Structural Neighborhood	ESM-IF1	0.114679	4	Structural neighbourhood	ESM-IF1
+Protein structure	ST02	Structural Neighborhood	ESM3-struct	0.23911	1	Structural neighbourhood	ESM3-struct
+Protein structure	ST02	Structural Neighborhood	ProteinMPNN-CA	0.081501	5	Structural neighbourhood	MPNN-CA
+Protein structure	ST02	Structural Neighborhood	ProToken	0.127371	3	Structural neighbourhood	ProToken
+Protein structure	ST02	Structural Neighborhood	SSLM	0.15959	2	Structural neighbourhood	SSLM
+Protein structure	ST04	Long-Range Contacts	ESM-IF1	0.680549	1	Long-range contacts	ESM-IF1
+Protein structure	ST04	Long-Range Contacts	ESM3-struct	0.663321	2	Long-range contacts	ESM3-struct
+Protein structure	ST04	Long-Range Contacts	ProteinMPNN-CA	0.569536	3	Long-range contacts	MPNN-CA
+Protein structure	ST04	Long-Range Contacts	ProToken	0.141608	5	Long-range contacts	ProToken
+Protein structure	ST04	Long-Range Contacts	SSLM	0.336349	4	Long-range contacts	SSLM
+Protein structure	ST05	Rigid-Body Invariance	ESM-IF1	0.436441	3	Rigid-body invariance	ESM-IF1
+Protein structure	ST05	Rigid-Body Invariance	ESM3-struct	0.280191	4	Rigid-body invariance	ESM3-struct
+Protein structure	ST05	Rigid-Body Invariance	ProteinMPNN-CA	0.554025	2	Rigid-body invariance	MPNN-CA
+Protein structure	ST05	Rigid-Body Invariance	ProToken	0.118644	5	Rigid-body invariance	ProToken
+Protein structure	ST05	Rigid-Body Invariance	SSLM	0.954979	1	Rigid-body invariance	SSLM

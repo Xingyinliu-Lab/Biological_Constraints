@@ -1,0 +1,13 @@
+{
+  "assay_id": "C-RNA-04",
+  "model_id": "gb-rna",
+  "constraint_release": "v0.2.1",
+  "public_scorer": "constraints/rna/RNA04/scoring/score_rna04.py",
+  "public_scorer_sha256": "b8fde087574c540243165401f5e90e0a0fe84912d89d58a9a4c47e21a56cc540",
+  "forward_output_not_redistributed": true,
+  "forward_output": {
+    "filename": "EMBEDDINGS.npz",
+    "bytes": 64163090,
+    "sha256": "8958d76d4e30b3e22ef7c87620f0732ea5a4d26337b74c9852a46566cb7bb051"
+  }
+}

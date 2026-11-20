@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "FORMAL_SCORER_LEAF_LEDGER.tsv.gz",
+      "bytes": 486163,
+      "sha256": "ffd4a393e53215f5b8cf98e8e6b97d57d883651f6bc8e4186ad241d318f02c0a"
+    },
+    {
+      "path": "MEASUREMENT_LEAF_LEDGER.tsv.gz",
+      "bytes": 1232649,
+      "sha256": "e3ed326170a71ca29cffcc42c0d2bb3cdeb39a56f78aaded8ad0841378e3ba6d"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 784,
+      "sha256": "539916e94cd9d6f5620ac56f96f2614bab73e77a4a8bad8f10d7940d3561d5ed"
+    }
+  ]
+}

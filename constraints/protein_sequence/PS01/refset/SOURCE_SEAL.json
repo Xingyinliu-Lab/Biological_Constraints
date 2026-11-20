@@ -1,0 +1,8 @@
+{
+  "status": "FORMAL_SOURCE_SEAL_FOR_PS01_BROAD16K",
+  "source_candidate": "canonical_source_candidate_v0.1.1_REVIEW",
+  "historical_membership": "source_only_prefix_16000_v0.1.0_DEVELOPMENT/DEVELOPMENT_ALLOCATED_CELLS_I1_C005.tsv.gz",
+  "membership_changed": false,
+  "formal_relation_build_authorized": true,
+  "formal_assay_refset_release": true
+}

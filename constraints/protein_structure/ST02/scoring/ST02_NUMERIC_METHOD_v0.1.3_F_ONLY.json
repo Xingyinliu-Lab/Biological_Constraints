@@ -1,0 +1,61 @@
+{
+  "aggregation_order": [
+    "negative candidate mean within directed endpoint challenge",
+    "target homologous superfamily mean within anchor",
+    "anchor mean",
+    "anchor mean within source dependency cluster and source-SF/topology stratum",
+    "dependency-cluster weighted mean within source-SF/topology stratum",
+    "unweighted source-SF mean within topology",
+    "unweighted topology macro mean F"
+  ],
+  "artifact_id": "ST02_NUMERIC_METHOD_v0.1.3_F_ONLY",
+  "artifact_type": "NumericMethod",
+  "constraint_id": "C-ST-02",
+  "coverage": {
+    "minimum_distinct_dependency_clusters_per_source_sf_topology_stratum": 1,
+    "missing_duplicate_nonfinite_or_zero_norm": "abort; no runtime pruning or redraw",
+    "required_relation_coverage": 1.0
+  },
+  "credit": {
+    "negative": -1.0,
+    "positive": 1.0,
+    "tie": 0.0,
+    "tie_tolerance": 0.0
+  },
+  "numerical_precision": "embedding input converted to float64; all normalization, cosine, aggregation, and quantiles in float64",
+  "primary_evaluation": {
+    "normalization": "L2 in float64",
+    "representation": "frozen raw global structure representation",
+    "similarity": "cosine dot product after L2 normalization",
+    "train_test_split": "none",
+    "trained_parameters": false
+  },
+  "primary_score": {
+    "field": "F",
+    "range": [
+      -1.0,
+      1.0
+    ],
+    "semantics": "formal F-only relation score: win=1, tie=0, loss=-1; all prescribed hierarchy means and bootstrap draws are in F space"
+  },
+  "scope_note": "Public F-only implementation of the prescribed hierarchy and global dependency-cluster Bayesian bootstrap.",
+  "status": "FROZEN_NUMERIC_METHOD",
+  "uncertainty": {
+    "ci": "two-sided percentile 95%; numpy.quantile(method='linear')",
+    "draws": 20000,
+    "generator": "numpy.random.Generator(PCG64)",
+    "invalid_draw_policy": "any nonfinite or nonpositive generated weight or incomplete hierarchy aborts the run",
+    "minimum_valid_draws": 20000,
+    "reason": "positive global weights preserve the frozen source-SF/topology composition when strata may contain one dependency cluster; no independent within-stratum resampling",
+    "reported_levels": [
+      "source-SF/topology",
+      "topology",
+      "overall"
+    ],
+    "scheme": "GLOBAL_DEPENDENCY_CLUSTER_BAYESIAN_BOOTSTRAP",
+    "seed": 20261011,
+    "shared_weight_rule": "one cluster weight is reused in every source-SF/topology stratum containing that cluster",
+    "unit": "unique source_dependency_cluster_id",
+    "weight_draw": "one iid Exponential(1) positive weight per global dependency cluster per draw; equivalently normalized Dirichlet(1,...,1) weights"
+  }
+}

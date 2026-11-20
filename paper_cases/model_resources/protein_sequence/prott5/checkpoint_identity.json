@@ -1,0 +1,45 @@
+{
+  "model_id": "prott5",
+  "domain": "protein_sequence",
+  "status": "VERIFIED_SINGLE_CHECKPOINT_MULTIPLE_DIGEST_SCHEMES",
+  "official_source": "https://huggingface.co/Rostlab/prot_t5_xl_half_uniref50-enc",
+  "upstream_revision": "94a6abc029ae13029317b140b7424e012bf8dfbf",
+  "executed_checkpoint_files": [
+    {"filename": "pytorch_model.bin", "size_bytes": 2416373051, "sha256": "7f51ba885541c7dc569d46b796af57cc7a2ba7945107dced4f19d1b5ec091157"}
+  ],
+  "historical_digest_interpretation": [
+    {"value": "7f51ba885541c7dc569d46b796af57cc7a2ba7945107dced4f19d1b5ec091157", "meaning": "SHA256 of pytorch_model.bin only", "used_by": ["PS01", "PS02B", "PS04", "PS05"]},
+    {"value": "f2fee72265a41fe3daa79d8ee9accd38d840e66ce2bc3c8df5d78495c6904f8a", "meaning": "directory digest: relative path plus binary file digest, no separator", "used_by": ["PS08"]},
+    {"value": "e9179bfd725a686e3c167004e1041d23937c55e3a9ebe828c1e66c648d4a99e8", "meaning": "directory digest: relative path plus NUL plus binary file digest", "used_by": ["PS09"]},
+    {"value": "92ee471d1ccfcc1040c9932c2636f902f0973ee00303f6c08ec494f623b030ea", "meaning": "directory digest: relative path plus NUL plus ASCII hex file digest plus newline", "used_by": ["PS10"]}
+  ],
+  "tokenizer_config_identity": {
+    "config.json_sha256": "c93cc8c31433fb062cad1825a9c16cde962a2015c8a3b10cfdc5f76a85128db3",
+    "spiece.model_sha256": "74da7b4afcde53faa570114b530c726135bdfcdb813dec3abfb27f9d44db7324",
+    "tokenizer_config.json_sha256": "d3adf2fb21d1242b5c0b72602f02ce5b0c43f767c0f957e3b57a67b2f93bf4f2",
+    "special_tokens_map.json_sha256": "a4b8dfd3d9a75b0f6f9ddbcb52b147c7377f08aa9310e182829cda2a55684334"
+  },
+  "download": {
+    "executed_method": "Files were downloaded directly from the Hugging Face resolve endpoint; pytorch_model.bin used resumable curl -C -.",
+    "executed_base_url": "https://hf-mirror.com/Rostlab/prot_t5_xl_half_uniref50-enc/resolve/main",
+    "pinned_reproduction": "snapshot_download(repo_id='Rostlab/prot_t5_xl_half_uniref50-enc', revision='94a6abc029ae13029317b140b7424e012bf8dfbf', local_dir='<MODEL_DIR>')"
+  },
+  "loading": "T5Tokenizer.from_pretrained(<MODEL_DIR>, do_lower_case=False, legacy=True, local_files_only=True); T5EncoderModel.from_pretrained(<MODEL_DIR>, torch_dtype=torch.float16, local_files_only=True).cuda().eval(); residues are space-separated and U/Z/O/B map to X",
+  "license": {
+    "identifier": "NOT_DECLARED_IN_UPSTREAM_MODEL_REPOSITORY_METADATA",
+    "note": "The upstream model page does not declare a machine-readable license; consult upstream ProtTrans/Rostlab terms before redistribution.",
+    "source": "https://huggingface.co/Rostlab/prot_t5_xl_half_uniref50-enc"
+  },
+  "executed_local_paths_for_filename_context": ["/home/mik/u8t/ai_genome/m3_encoder_audit/models/prott5_direct"],
+  "verification": {
+    "verified_on_host": "kt",
+    "verified_date": "2026-10-16",
+    "conclusion": "All four recorded hashes were reproduced from the same extant directory and same pytorch_model.bin bytes; only digest subject/serialization differed."
+  },
+  "formal_evidence_files": [
+    "results/protein_sequence/PS01/models/prott5/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS08/models/prott5/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS09/models/prott5/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS10/models/prott5/provenance/FORWARD_REPORT.json"
+  ]
+}

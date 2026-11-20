@@ -1,0 +1,47 @@
+{
+  "esm_input_limited_endpoint_count": 48279,
+  "constraint_id": "ST04",
+  "duplicate_token_map_rows": 0,
+  "full_endpoint_count": 48282,
+  "models": {
+    "ESM-IF1": {
+      "expected_endpoint_count": 48279,
+      "extra_endpoint_count": 0,
+      "mapped_endpoint_count": 48279,
+      "missing_endpoint_count": 0,
+      "status": "PASS"
+    },
+    "ESM3-STRUCT": {
+      "expected_endpoint_count": 48279,
+      "extra_endpoint_count": 0,
+      "mapped_endpoint_count": 48279,
+      "missing_endpoint_count": 0,
+      "status": "PASS"
+    },
+    "ProToken": {
+      "expected_endpoint_count": 48282,
+      "extra_endpoint_count": 0,
+      "mapped_endpoint_count": 48282,
+      "missing_endpoint_count": 0,
+      "status": "PASS"
+    },
+    "ProteinMPNN-CA": {
+      "expected_endpoint_count": 48282,
+      "extra_endpoint_count": 0,
+      "mapped_endpoint_count": 48282,
+      "missing_endpoint_count": 0,
+      "status": "PASS"
+    },
+    "SSLM": {
+      "expected_endpoint_count": 48282,
+      "extra_endpoint_count": 0,
+      "mapped_endpoint_count": 48282,
+      "missing_endpoint_count": 0,
+      "status": "PASS"
+    }
+  },
+  "negative_token_indexes": 0,
+  "residue_evidence_count": 98209,
+  "residue_owner_mismatches": 0,
+  "status": "PASS"
+}

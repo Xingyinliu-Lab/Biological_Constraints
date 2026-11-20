@@ -1,0 +1,133 @@
+Constraint	F	Method	method_type	Domain
+DNA01	0.979844	Caduceus-PS	Model	DNA
+DNA01	0.865395	CrossDNA-8M	Model	DNA
+DNA01	0.564916	DNABERT-2	Model	DNA
+DNA01	0.798362	JanusDNA	Model	DNA
+DNA01	0.639591	NT-v2	Model	DNA
+DNA02-02	0.624056	Caduceus-PS	Model	DNA
+DNA02-02	0.718998	CrossDNA-8M	Model	DNA
+DNA02-02	0.948739	DNABERT-2	Model	DNA
+DNA02-02	0.733659	JanusDNA	Model	DNA
+DNA02-02	0.826656	NT-v2	Model	DNA
+DNA03	0.914849	Caduceus-PS	Model	DNA
+DNA03	0.9024	CrossDNA-8M	Model	DNA
+DNA03	0.937275	DNABERT-2	Model	DNA
+DNA03	0.573657	JanusDNA	Model	DNA
+DNA03	0.796791	NT-v2	Model	DNA
+DNA06	0.994069	Caduceus-PS	Model	DNA
+DNA06	0.955905	CrossDNA-8M	Model	DNA
+DNA06	0.253481	DNABERT-2	Model	DNA
+DNA06	0.806343	JanusDNA	Model	DNA
+DNA06	0.751418	NT-v2	Model	DNA
+RNA01-02	0.903333	ERNIE-RNA	Model	RNA
+RNA01-02	0.902601	GB-RNA	Model	RNA
+RNA01-02	0.880807	Orthrus-4-track	Model	RNA
+RNA01-02	0.896374	RiNALMo-Giga	Model	RNA
+RNA01-02	0.925585	RNA-FM	Model	RNA
+RNA04	0.502063	ERNIE-RNA	Model	RNA
+RNA04	0.509283	GB-RNA	Model	RNA
+RNA04	0.191078	Orthrus-4-track	Model	RNA
+RNA04	0.52656	RiNALMo-Giga	Model	RNA
+RNA04	0.440175	RNA-FM	Model	RNA
+RNA05	0.576179	ERNIE-RNA	Model	RNA
+RNA05	0.609359	GB-RNA	Model	RNA
+RNA05	0.094356	Orthrus-4-track	Model	RNA
+RNA05	0.570119	RiNALMo-Giga	Model	RNA
+RNA05	0.417611	RNA-FM	Model	RNA
+RNA06	0.356728	ERNIE-RNA	Model	RNA
+RNA06	0.596871	GB-RNA	Model	RNA
+RNA06	-0.012071	Orthrus-4-track	Model	RNA
+RNA06	0.542399	RiNALMo-Giga	Model	RNA
+RNA06	0.152726	RNA-FM	Model	RNA
+RNA09	0.424242	ERNIE-RNA	Model	RNA
+RNA09	0.621212	GB-RNA	Model	RNA
+RNA09	0.02904	Orthrus-4-track	Model	RNA
+RNA09	0.969697	RiNALMo-Giga	Model	RNA
+RNA09	0.409091	RNA-FM	Model	RNA
+RNA10	-0.029051	ERNIE-RNA	Model	RNA
+RNA10	0.122683	GB-RNA	Model	RNA
+RNA10	0.022162	Orthrus-4-track	Model	RNA
+RNA10	0.380446	RiNALMo-Giga	Model	RNA
+RNA10	-0.036952	RNA-FM	Model	RNA
+PS01	0.415959	CARP-640M	Model	Protein sequence
+PS01	0.344656	ESM-2-650M	Model	Protein sequence
+PS01	0.625704	ESM3-seq	Model	Protein sequence
+PS01	0.256691	ESM-C-600M	Model	Protein sequence
+PS01	0.631669	ProtT5	Model	Protein sequence
+PS02A	0.561201	CARP-640M	Model	Protein sequence
+PS02A	0.387891	ESM-2-650M	Model	Protein sequence
+PS02A	0.64575	ESM3-seq	Model	Protein sequence
+PS02A	0.283849	ESM-C-600M	Model	Protein sequence
+PS02A	0.710473	ProtT5	Model	Protein sequence
+PS02B	0.342913	CARP-640M	Model	Protein sequence
+PS02B	0.368772	ESM-2-650M	Model	Protein sequence
+PS02B	0.508282	ESM3-seq	Model	Protein sequence
+PS02B	0.191164	ESM-C-600M	Model	Protein sequence
+PS02B	0.590948	ProtT5	Model	Protein sequence
+PS04	0.290671	CARP-640M	Model	Protein sequence
+PS04	0.222386	ESM-2-650M	Model	Protein sequence
+PS04	0.269906	ESM3-seq	Model	Protein sequence
+PS04	0.098978	ESM-C-600M	Model	Protein sequence
+PS04	0.282456	ProtT5	Model	Protein sequence
+PS05	0.25778	CARP-640M	Model	Protein sequence
+PS05	0.2924	ESM-2-650M	Model	Protein sequence
+PS05	0.374817	ESM3-seq	Model	Protein sequence
+PS05	0.321687	ESM-C-600M	Model	Protein sequence
+PS05	0.524299	ProtT5	Model	Protein sequence
+PS08	0.877686	CARP-640M	Model	Protein sequence
+PS08	0.922363	ESM-2-650M	Model	Protein sequence
+PS08	0.867676	ESM3-seq	Model	Protein sequence
+PS08	0.896729	ESM-C-600M	Model	Protein sequence
+PS08	0.935059	ProtT5	Model	Protein sequence
+PS09	0.77059	CARP-640M	Model	Protein sequence
+PS09	0.763609	ESM-2-650M	Model	Protein sequence
+PS09	0.814256	ESM3-seq	Model	Protein sequence
+PS09	0.752586	ESM-C-600M	Model	Protein sequence
+PS09	0.749712	ProtT5	Model	Protein sequence
+PS10	0.381945	CARP-640M	Model	Protein sequence
+PS10	0.503885	ESM-2-650M	Model	Protein sequence
+PS10	0.614442	ESM3-seq	Model	Protein sequence
+PS10	0.478059	ESM-C-600M	Model	Protein sequence
+PS10	0.593969	ProtT5	Model	Protein sequence
+ST01	0.884058	ESM-IF1	Model	Protein structure
+ST01	0.521739	ESM3-struct	Model	Protein structure
+ST01	0.797101	ProteinMPNN-CA	Model	Protein structure
+ST01	-0.043478	ProToken	Model	Protein structure
+ST01	0.797101	SSLM	Model	Protein structure
+ST02	0.114679	ESM-IF1	Model	Protein structure
+ST02	0.23911	ESM3-struct	Model	Protein structure
+ST02	0.081501	ProteinMPNN-CA	Model	Protein structure
+ST02	0.127371	ProToken	Model	Protein structure
+ST02	0.15959	SSLM	Model	Protein structure
+ST04	0.680549	ESM-IF1	Model	Protein structure
+ST04	0.663321	ESM3-struct	Model	Protein structure
+ST04	0.569536	ProteinMPNN-CA	Model	Protein structure
+ST04	0.141608	ProToken	Model	Protein structure
+ST04	0.336349	SSLM	Model	Protein structure
+ST05	0.436441	ESM-IF1	Model	Protein structure
+ST05	0.280191	ESM3-struct	Model	Protein structure
+ST05	0.554025	ProteinMPNN-CA	Model	Protein structure
+ST05	0.118644	ProToken	Model	Protein structure
+ST05	0.954979	SSLM	Model	Protein structure
+DNA01	1	Comparator	Comparator	DNA
+DNA02-02	1	Comparator	Comparator	DNA
+DNA03	1	Comparator	Comparator	DNA
+DNA06	1	Comparator	Comparator	DNA
+RNA01-02	1	Comparator	Comparator	RNA
+RNA04	1	Comparator	Comparator	RNA
+RNA05	0.702226	Comparator	Comparator	RNA
+RNA06	0.94734	Comparator	Comparator	RNA
+RNA09	0.78788	Comparator	Comparator	RNA
+RNA10	0.3312	Comparator	Comparator	RNA
+PS01	0.81295	Comparator	Comparator	Protein sequence
+PS02A	0.349632	Comparator	Comparator	Protein sequence
+PS02B	0.37973	Comparator	Comparator	Protein sequence
+PS04	0.23772	Comparator	Comparator	Protein sequence
+PS05	0.288054	Comparator	Comparator	Protein sequence
+PS08	1	Comparator	Comparator	Protein sequence
+PS09	0.59143	Comparator	Comparator	Protein sequence
+PS10	0.630843	Comparator	Comparator	Protein sequence
+ST01	1	Comparator	Comparator	Protein structure
+ST02	0.61797	Comparator	Comparator	Protein structure
+ST04	1	Comparator	Comparator	Protein structure
+ST05	1	Comparator	Comparator	Protein structure

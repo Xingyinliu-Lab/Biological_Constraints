@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "forward_input_status": "UNVERIFIABLE_NOT_RELEASED",
+      "manifest_sha256": "82306fe194b752383e7a871616f772c1b09086f713acef4243a1e06267324d63",
+      "model_id": "esm-if1",
+      "output": "models/esm-if1/output/SCORE_SUMMARY.json",
+      "output_sha256": "ee519d92dc2c9beaea74c9e1fea49618d4b84df07fa8295792f0e36492313003",
+      "status": "PASS"
+    },
+    {
+      "forward_input_status": "UNVERIFIABLE_NOT_RELEASED",
+      "manifest_sha256": "6179cf8f8aee13f5e9e80fad5277a85a6925e6a0c90555553484f289ac41c4db",
+      "model_id": "esm3-struct",
+      "output": "models/esm3-struct/output/SCORE_SUMMARY.json",
+      "output_sha256": "3f12a22c577c61fe78c93dd8aae008e443c1369b90467ea2272127b9a305f637",
+      "status": "PASS"
+    },
+    {
+      "forward_input_status": "UNVERIFIABLE_NOT_RELEASED",
+      "manifest_sha256": "484a0a505730430a682525ba25f33b0c4d5d6fa087ced9e30a4212889e972692",
+      "model_id": "proteinmpnn-ca",
+      "output": "models/proteinmpnn-ca/output/SCORE_SUMMARY.json",
+      "output_sha256": "f4d195a9c20067cc4c337bf33ccdd02e30d008a3011db1527f1fa7836716d2a0",
+      "status": "PASS"
+    },
+    {
+      "forward_input_status": "UNVERIFIABLE_NOT_RELEASED",
+      "manifest_sha256": "df033fdf2570eb93aab6790bcca7e4a7c1eef97f6b9593402d624a0962ef568c",
+      "model_id": "protoken",
+      "output": "models/protoken/output/SCORE_SUMMARY.json",
+      "output_sha256": "b812e0596718a9c3a40d1ecb2c5e036bede57298310f1273431c28e21b31dcfb",
+      "status": "PASS"
+    },
+    {
+      "forward_input_status": "UNVERIFIABLE_NOT_RELEASED",
+      "manifest_sha256": "08de0255f7e2f51d1e9f7cf255d8abee57258206dbd085b91a023024d8d83e2e",
+      "model_id": "sslm",
+      "output": "models/sslm/output/SCORE_SUMMARY.json",
+      "output_sha256": "8c2fcb78904c0e392efa9138f611c6c72908189377603749e72ce05eb0094399",
+      "status": "PASS"
+    }
+  ],
+  "constraint": "ST01",
+  "constraint_release": "v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "forward_input_policy": "Formal embedding identities are explicitly marked unverifiable when the non-public artifact and trusted digest are unavailable.",
+  "status": "PASS"
+}

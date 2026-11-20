@@ -1,0 +1,40 @@
+{
+  "artifact_id": "ST05_REFSET_MANIFEST_v0.1.2_F_ONLY",
+  "status": "FROZEN",
+  "counts": {
+    "candidate_bases": 60,
+    "admitted_bases": 60,
+    "transform_count_per_base": 16,
+    "formal_relations": 960,
+    "dependency_clusters": 59,
+    "source_parents": 59,
+    "attrition_rows": 0
+  },
+  "payloads": [
+    {
+      "path": "objects.tsv",
+      "bytes": 21293,
+      "sha256": "80080ce3bbb9c4835ca879fc92d36183244bf7429e2b12575c767eef533355c5"
+    },
+    {
+      "path": "transforms.tsv",
+      "bytes": 4181,
+      "sha256": "03c5baac161c120b7f9cc62c45c8b375511302f24f5f57c64ad2383fa5feaf17"
+    },
+    {
+      "path": "relations.tsv",
+      "bytes": 687579,
+      "sha256": "568a9fa695c5c76a3dc3d14401ef80d36181ed8484670a47e090b554c2c6b54e"
+    },
+    {
+      "path": "dependency.tsv",
+      "bytes": 2717,
+      "sha256": "b04c60aeab5f79bf46c05a0c911055e1bd71e061a48a4962c858e3e69ae5c11d"
+    },
+    {
+      "path": "attrition.tsv",
+      "bytes": 23,
+      "sha256": "3ea40e4f087e13c3163cebb5ee61fdd6af4d7d2f54c08d1a878982aa14e71d85"
+    }
+  ]
+}

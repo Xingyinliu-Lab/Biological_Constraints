@@ -1,0 +1,17 @@
+{
+  "F": 0.7878787878787876,
+  "F_95_CI": [
+    0.5151515151515149,
+    1.0
+  ],
+  "anchor_bundles": 25,
+  "contrasts": 48,
+  "formal_interface": "F_ONLY",
+  "leaf_ledger_sha256": "8ee28eb22e394428e1ce8dd7bf8f7fab80396deedd76b46240f9e0a5a290c76b",
+  "raw_score_sha256": "56656f69df6d7f52e6caefab70df193d9f04de4435fc8d98f8d176732776cad2",
+  "score_transform_version": "RNA09_F_ONLY_v1",
+  "source_dependency_units": 22,
+  "source_parents": 25,
+  "status": "PASS",
+  "structure_relation_groups": 1
+}

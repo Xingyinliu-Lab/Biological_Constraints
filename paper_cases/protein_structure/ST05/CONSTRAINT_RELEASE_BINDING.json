@@ -1,0 +1,20 @@
+{
+  "branch": "INVARIANT",
+  "comparator_location": "constraints/protein_structure/ST05/comparators/geometry-whitebox",
+  "constraint_id": "ST05",
+  "constraint_release": "ST05_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "models": [
+    "esm-if1",
+    "esm3-struct",
+    "proteinmpnn-ca",
+    "protoken",
+    "sslm"
+  ],
+  "output_dtype": "float32",
+  "public_numeric_core": "constraints/protein_structure/ST05/scoring/st05_f_only_core.py",
+  "public_numeric_core_sha256": "77d6b0ee4f97415a58f49d3effa463b22f84d5b6e6f251eac38a918d096c0021",
+  "public_scorer": "constraints/protein_structure/ST05/scoring/score_st05.py",
+  "public_scorer_sha256": "6c953e66a7eb490cbf1c97d8c946468ed2d2aa6a62da847cf25ee33c3c3a4b48",
+  "refset_release": "ST05_ASSAY_REFSET_RELEASE_v0.1.0_FROZEN_20261012"
+}

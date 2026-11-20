@@ -1,0 +1,28 @@
+{
+  "constraint_id": "PS10",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "model_id": "prott5",
+  "outputs": [
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 128245,
+      "sha256": "cd960d83837719dd1173cb3984a1d251759eec865f71900090550fbbf8fbd211"
+    },
+    {
+      "path": "FOLD_SCORES.tsv",
+      "bytes": 994,
+      "sha256": "0a6381f26a9ba3f79918b21f92127d8a67b7ecccde63676949b4cdd3828511cb"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1080,
+      "sha256": "f3814eee0559f898dbe02371292b0c805f54047b3f4a4f785fe6d3e397069f21"
+    },
+    {
+      "path": "BOOTSTRAP_DRAWS.float64le.bin",
+      "bytes": 160000,
+      "sha256": "3d76909de8dce91372ffd33c220577789f32db752a5fd382d5720d553d4088ba"
+    }
+  ]
+}

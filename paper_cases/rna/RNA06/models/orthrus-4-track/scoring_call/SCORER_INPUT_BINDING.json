@@ -1,0 +1,25 @@
+{
+  "assay_id": "C-RNA-06",
+  "constraint_release": "RNA06_v0.1.3_F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "1b1f20ac75c9b869a75e9c2306d6e944fb42da49d36c8f07a4d678d8f5386766"
+  },
+  "forward_output": {
+    "bytes": 18690660,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "fadd8cb1f764bbc2b85d3f4ca10bcd3376db894a57e8441b2512e325619cf30b"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "orthrus-4-track",
+  "public_scorer": "constraints/rna/RNA06/scoring/score_rna06.py",
+  "public_scorer_sha256": "d7adcdd9d9aa0c459eacb1573faaadec233ab4062cd89b01274f713f4a49741d",
+  "result_metadata_schema": "inputs.refset plus vectors_sha256",
+  "scoring_environment": {
+    "execution_site": "mixed_local_and_kt",
+    "numpy": "1.26.4",
+    "python": "3.10",
+    "scipy": "1.11.4"
+  },
+  "status": "PASS_PUBLIC_SCORER"
+}

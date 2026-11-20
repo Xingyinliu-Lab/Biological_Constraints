@@ -1,0 +1,25 @@
+{
+  "files": {
+    "DEPENDENCY_CLUSTER_F_LEDGER.tsv": {
+      "bytes": 8083,
+      "sha256": "d4a4e5c748ef65886196706b2a3eb014b1646d0581d7626ff4554235d0565b47"
+    },
+    "FORMAL_RESULT.json": {
+      "bytes": 1658,
+      "sha256": "1e0e65c14b16568be6e864640e1f5f90a254cdee520222a08c668c212033d172"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "4978abf063b2344a8327578a0194c4b784cb6f872901a35cabadfe1e64fe9e94"
+    },
+    "INDIVIDUAL_SCORES.tsv": {
+      "bytes": 780150,
+      "sha256": "6881a61ec125ac006af5f6fe920933a97a2388b2aca1456cf00b1752930a055d"
+    },
+    "PARENT_F_LEDGER.tsv": {
+      "bytes": 16836,
+      "sha256": "9e6f22936279cc31c6c983dc6210de48c1b366b2e6f2882c5c0379812a0c3898"
+    }
+  },
+  "status": "PASS"
+}

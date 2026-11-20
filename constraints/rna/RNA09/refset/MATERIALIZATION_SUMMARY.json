@@ -1,0 +1,22 @@
+{
+  "artifact_type": "RNA09_V021_FORMAL_PANEL_MATERIALIZATION_SUMMARY",
+  "cap": 4,
+  "counts": {
+    "anchor_bundles": 25,
+    "anchors": 25,
+    "contrasts": 48,
+    "negative_targets": 21,
+    "positive_targets": 23,
+    "source_dependency_units": 22,
+    "source_parents": 25
+  },
+  "independent_validation": "PASS",
+  "note": "No model embedding, score, probe fit, runtime feasibility, or outcome was used in relation truth or allocation.",
+  "planned_population_identity_sha256": "5d7b4584f47aa3dc3f4589380bc0d5ec41ed0ccbdd1f0c4d5a7fe98f139c9c33",
+  "reuse": {
+    "max_negative_target_reuse": 4,
+    "max_positive_target_reuse": 4
+  },
+  "scientific_contract_version": "0.2.1",
+  "status": "PASS"
+}

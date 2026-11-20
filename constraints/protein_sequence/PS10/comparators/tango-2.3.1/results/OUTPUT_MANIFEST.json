@@ -1,0 +1,28 @@
+{
+  "constraint_id": "PS10",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "comparator_id": "tango-2.3.1",
+  "outputs": [
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 63307,
+      "sha256": "0e026f301469068f2b590d90da4a495535269799215dd8a57228bbd30a1faa90"
+    },
+    {
+      "path": "FOLD_SCORES.tsv",
+      "bytes": 778,
+      "sha256": "a56630dbcbc74e4a867b70006624ca837f3b3461343ba6cd54f43e72f4f30b16"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 3876,
+      "sha256": "70f4e98520bf42ebef0775dc98f65d2b6b5937f94c7fa91d8175ec03ffd04ea9"
+    },
+    {
+      "path": "BOOTSTRAP_DRAWS.float64le.bin",
+      "bytes": 160000,
+      "sha256": "59bcf2cdb21076b233fb568d1342fc3052e859598f22c4a53a9bc459b6221578"
+    }
+  ]
+}

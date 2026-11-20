@@ -1,0 +1,2 @@
+constraints	formal_F_cells	domains	permutation_replicates	seed	observed_constraint_mean_SS	null_median	null_q025	null_q975	exceedances	p_value
+22	110	4	1000000	20261025	0.7987257247622433	0.22250720831852328	0.11035977092827533	0.37923193117496334	0	9.99999000001e-07

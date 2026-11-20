@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FORMAL_BROAD16K_RELEASE_MATERIALIZED",
+  "release_id": "PS01_ASSAY_REFSET_RELEASE_v2.0.0_BROAD_16K_20261006",
+  "counts": {
+    "formal_contrasts": 1256,
+    "formal_unique_objects": 2316,
+    "formal_object_rows": 2316,
+    "dependency_units": 2316,
+    "clans": 124,
+    "anchor_families": 420,
+    "anchors": 941
+  },
+  "validation": {
+    "all_relations_satisfy_same_family_positive": true,
+    "all_relations_satisfy_same_clan_different_family_negative": true,
+    "all_relations_satisfy_identity_and_bilateral_coverage": true,
+    "all_triples_have_distinct_parents": true,
+    "all_objects_are_source_eligible": true,
+    "all_objects_lie_within_frozen_source_prefix": true,
+    "model_outputs_read": false
+  }
+}

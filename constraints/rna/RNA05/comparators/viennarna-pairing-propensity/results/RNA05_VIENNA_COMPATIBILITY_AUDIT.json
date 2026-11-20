@@ -1,0 +1,1627 @@
+{
+  "comparator_id": "CMP-RNA05-VIENNA-PARTITION-PROPENSITY",
+  "input_boundary": "raw RNA sequence only; no map, coordinates, labels, constraints, or chemical reactivity supplied to ViennaRNA",
+  "compatibility_rule": "complete block retained only when every paired truth position occurs in frozen v1 eligible secondary-pair universe; otherwise whole block OOS",
+  "formal_blocks_total": 1514,
+  "compatible_blocks": 1359,
+  "oos_blocks": 155,
+  "formal_endpoints_total": 6206,
+  "compatible_sequences": 103,
+  "oos": [
+    {
+      "block_id": "rna05block:00a4d11be1ab0db515775ac0",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:017f218c4af04302c8b4e161",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:01926afe67bf87f0cbecd001",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        18,
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:0532e62372b588d2c42d134c",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        62
+      ]
+    },
+    {
+      "block_id": "rna05block:0b0dcedb22ebacd2513d9f30",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        53
+      ]
+    },
+    {
+      "block_id": "rna05block:0cb8a8461c29f8eb525480dc",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:0d961909ce6c8a7ab1cd45b8",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:109a9c792ee86d0dcc12e8ee",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        262
+      ]
+    },
+    {
+      "block_id": "rna05block:10fc1b31b761eea5b81dcc5d",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        94
+      ]
+    },
+    {
+      "block_id": "rna05block:11cd78fdc2f01ea5e7b8498b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:1424d9329844b5ed35499cfe",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:158542ee8abb3bf58c443679",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        28
+      ]
+    },
+    {
+      "block_id": "rna05block:15fab9ca373d94747b1a40c0",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        41
+      ]
+    },
+    {
+      "block_id": "rna05block:16bd21a6252fe4da89d662fd",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:1777b06f9a43f4083127a9dc",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:18164506e086bc6c0ec9c6d1",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        18
+      ]
+    },
+    {
+      "block_id": "rna05block:18266bc1dc3358ef9e9c4077",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        53
+      ]
+    },
+    {
+      "block_id": "rna05block:1bdbac7ad4140ba4c563ff32",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        53
+      ]
+    },
+    {
+      "block_id": "rna05block:1cfed4d4386e71b317e002b5",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:1d0bc41ff44d6f1868d79d21",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        32
+      ]
+    },
+    {
+      "block_id": "rna05block:1d9ffa86fd4bbd381ffd0e6c",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:1da62c36211c12d26f7ef432",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:211b74706b013f8b3924f27b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        154
+      ]
+    },
+    {
+      "block_id": "rna05block:211eec62e97fa088549f551b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:2287dfddca0073f1a01be0e5",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:228d39956831b81d300eba0a",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        90
+      ]
+    },
+    {
+      "block_id": "rna05block:2537b79293b27b23f2567c2b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        7
+      ]
+    },
+    {
+      "block_id": "rna05block:28768cb91820c775f9e35b20",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:28a0eb8407b99abc4e195d13",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        300
+      ]
+    },
+    {
+      "block_id": "rna05block:2a15ad3d07feebed76e471d3",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:2d94c5fae3fa70d34953ad83",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:2de8c73366e664a3addc30f5",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:3001aab3fdca7be42460a2e8",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:30b972466031c3ef792b55ea",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        69
+      ]
+    },
+    {
+      "block_id": "rna05block:33190c792585abb4476be471",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        84
+      ]
+    },
+    {
+      "block_id": "rna05block:354a3abb6d3a1ccc83bc50a0",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        95
+      ]
+    },
+    {
+      "block_id": "rna05block:35a93721b7f55e18b315f1e7",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:37a77ff29b3a6d4d9148dc84",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:383ec7b23cb4a1b83c9d9f71",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        24
+      ]
+    },
+    {
+      "block_id": "rna05block:3845f3626c60e7f8ba30dba0",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:38b6b9a6592eb0f49714b53a",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:3d42aaa5b6c3bb13aea2318e",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        79
+      ]
+    },
+    {
+      "block_id": "rna05block:40da1496c7ef4c9c69486ff6",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        73
+      ]
+    },
+    {
+      "block_id": "rna05block:427ccea7fabf597494a848dc",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        67,
+        68
+      ]
+    },
+    {
+      "block_id": "rna05block:4527f1b875ef821e56f6d9da",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        41
+      ]
+    },
+    {
+      "block_id": "rna05block:45713c8ac1511aa8b2794fe5",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        14
+      ]
+    },
+    {
+      "block_id": "rna05block:47633199115b14163f3f659b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        110
+      ]
+    },
+    {
+      "block_id": "rna05block:47fbb5c09c0d9cfdff983587",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        47
+      ]
+    },
+    {
+      "block_id": "rna05block:4a4c001f8484260b030ab5ab",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        38
+      ]
+    },
+    {
+      "block_id": "rna05block:4a7919964de25d3809eeb718",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        28
+      ]
+    },
+    {
+      "block_id": "rna05block:4c103998d4cd6447c3887cf5",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:4d0b36ac288f279d722bfe0b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        67
+      ]
+    },
+    {
+      "block_id": "rna05block:4e5b9128a07afe6842dc16c1",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        107
+      ]
+    },
+    {
+      "block_id": "rna05block:565c59d3bdd36dfd9d725ebf",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        103
+      ]
+    },
+    {
+      "block_id": "rna05block:57c08265b7e0d1294050fdbf",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:57cc68e7912cd889fd5e3ebc",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        70
+      ]
+    },
+    {
+      "block_id": "rna05block:57e7db72724812762f06340a",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        7
+      ]
+    },
+    {
+      "block_id": "rna05block:5899d9f0add99b57049c4e34",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        54
+      ]
+    },
+    {
+      "block_id": "rna05block:59c60e16759931c71717ed5c",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:5a46482547fcf20d38e6afe2",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        221
+      ]
+    },
+    {
+      "block_id": "rna05block:5adc03b3319584584cbd59a8",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:5c1ee4defd9dee8d09f19193",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        42
+      ]
+    },
+    {
+      "block_id": "rna05block:5d036263577b41a399648b47",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        205
+      ]
+    },
+    {
+      "block_id": "rna05block:5ff007cbbf8a7913bfdcaa36",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        74,
+        78
+      ]
+    },
+    {
+      "block_id": "rna05block:6283f8405cc53f17ce01b481",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:6300f62c6059bded7d06ba01",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        71
+      ]
+    },
+    {
+      "block_id": "rna05block:660bc1daf7c7592c3fdfbb5f",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:67922afaec3a87b61e53ec73",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        79
+      ]
+    },
+    {
+      "block_id": "rna05block:679d263ea3275f1381af6e5c",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        131
+      ]
+    },
+    {
+      "block_id": "rna05block:69dfffb55e07222c4f6380c8",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        72
+      ]
+    },
+    {
+      "block_id": "rna05block:6ab7e56ffa2c94fe8b1597d4",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        322
+      ]
+    },
+    {
+      "block_id": "rna05block:6c3eb6d17522b9ecf6e56571",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        95
+      ]
+    },
+    {
+      "block_id": "rna05block:6dc3dd9772cbcfad04d16e63",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:6fc116481de791211a787f25",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:714e5fab64902cb96127a751",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        83
+      ]
+    },
+    {
+      "block_id": "rna05block:72e65534a7ea61963ed1c642",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:735c5d7d775caa7a6a65c446",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        32
+      ]
+    },
+    {
+      "block_id": "rna05block:74cbb10631d4539ba9004159",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        95
+      ]
+    },
+    {
+      "block_id": "rna05block:756efa7e911bf47182c01fe3",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        53
+      ]
+    },
+    {
+      "block_id": "rna05block:772ece09b2db6135d84a299b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        70,
+        74,
+        75
+      ]
+    },
+    {
+      "block_id": "rna05block:7c6f7bbbdb5702924fbae214",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:7cdac5f010c4b235e89af9b1",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:7e1ccbcb5aec2aca7069cd98",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:7ec5e82c2dacb311fa86c250",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        179
+      ]
+    },
+    {
+      "block_id": "rna05block:7fd40f2af7e0e37089b7369b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        38
+      ]
+    },
+    {
+      "block_id": "rna05block:81cf57569c6e91de07e9cb6f",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:81cfb4c2b4f3f33421a537ed",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:832e53a14a53e5112ef5f750",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:87cc1e92dfb4ca8e1b14b1d2",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:88a94406f68155f9a5c20151",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:89129775d2c66edd33a8788f",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        79
+      ]
+    },
+    {
+      "block_id": "rna05block:8bcca692b194a822bea3719b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        4
+      ]
+    },
+    {
+      "block_id": "rna05block:8e95bbcf3c945aeee5bff9bf",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        9
+      ]
+    },
+    {
+      "block_id": "rna05block:902efad082b6730304055eb8",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        0
+      ]
+    },
+    {
+      "block_id": "rna05block:91a70b8934ed868c368aaf84",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        109
+      ]
+    },
+    {
+      "block_id": "rna05block:91f527b4fa35a254085ad4c1",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:92bc31fd4811774ff0f68b46",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        108
+      ]
+    },
+    {
+      "block_id": "rna05block:9b4aeec64d1c8a7ed2b55b88",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        30
+      ]
+    },
+    {
+      "block_id": "rna05block:9b83265830a7891fb86a8848",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        45
+      ]
+    },
+    {
+      "block_id": "rna05block:9f3117e7af91e418f60dfad9",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        109
+      ]
+    },
+    {
+      "block_id": "rna05block:9f3b099cc7a724ddeda3d324",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        51
+      ]
+    },
+    {
+      "block_id": "rna05block:9f57a36b69ed16f5013b1604",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        79
+      ]
+    },
+    {
+      "block_id": "rna05block:9fe7ecc86113a13861c9a97b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        386,
+        387
+      ]
+    },
+    {
+      "block_id": "rna05block:a219cc5efc077265e5dd7502",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        256
+      ]
+    },
+    {
+      "block_id": "rna05block:a4ec45ec54a3d9a1fa694f89",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:a68b8e7918aa5b0d29699f81",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        134
+      ]
+    },
+    {
+      "block_id": "rna05block:a6d29987f053ce3c44346637",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        343
+      ]
+    },
+    {
+      "block_id": "rna05block:a6e9188030cc15f86e724abc",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:a79086f4ad9bebf24910e640",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        135
+      ]
+    },
+    {
+      "block_id": "rna05block:a8803c388461ea550fae15ef",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        67
+      ]
+    },
+    {
+      "block_id": "rna05block:a922814b8c8f925ff0f215a1",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        73
+      ]
+    },
+    {
+      "block_id": "rna05block:aa56ba5fce39d1ec3c121ba2",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        66
+      ]
+    },
+    {
+      "block_id": "rna05block:adad8e9d03a53258645bab44",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        4
+      ]
+    },
+    {
+      "block_id": "rna05block:ae679f0c0be4fa6f5ab09a24",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        145,
+        158,
+        159
+      ]
+    },
+    {
+      "block_id": "rna05block:af63c77ebcfcf802010bcd8a",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:af8d326613c9bb4f72be99e0",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:b18203475e75621a4f308903",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        63
+      ]
+    },
+    {
+      "block_id": "rna05block:b2e5c5ef6a0896ffd2af0305",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:b50ca3d457b4c8adeedcd32e",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        27
+      ]
+    },
+    {
+      "block_id": "rna05block:b93f2e6672ac74b1ba00331c",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        23
+      ]
+    },
+    {
+      "block_id": "rna05block:bc64accf7faac3a04aed1f02",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        42
+      ]
+    },
+    {
+      "block_id": "rna05block:be248ad437a5a503577ed2b8",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        18,
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:bfe01d697d39b36e398a5f03",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        70
+      ]
+    },
+    {
+      "block_id": "rna05block:c11f3d272d77446006517dcf",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:c2b21b965671039063e0e897",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        95
+      ]
+    },
+    {
+      "block_id": "rna05block:c48929add418070fe8973e64",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        117
+      ]
+    },
+    {
+      "block_id": "rna05block:c5065b15e30f3a46709aad16",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        5
+      ]
+    },
+    {
+      "block_id": "rna05block:c6a0ef09c43a005e1a8b5e5d",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        59
+      ]
+    },
+    {
+      "block_id": "rna05block:c7aefc03954cd6b5f50d4938",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:d18e0b6729f93fdcc92b4dd9",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        84
+      ]
+    },
+    {
+      "block_id": "rna05block:d40579231dbd1d26091be288",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        44
+      ]
+    },
+    {
+      "block_id": "rna05block:d446a4f3816fa409fd3ffb34",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        103
+      ]
+    },
+    {
+      "block_id": "rna05block:d4fae856093a1770428495bf",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        41
+      ]
+    },
+    {
+      "block_id": "rna05block:da23270d36446f2948e4983e",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        84
+      ]
+    },
+    {
+      "block_id": "rna05block:db0e55c9525560098651e05d",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        18,
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:de371e15a68f69a262b7852d",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        24
+      ]
+    },
+    {
+      "block_id": "rna05block:df4408b1968dbc0333a33271",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        282
+      ]
+    },
+    {
+      "block_id": "rna05block:e0111caf7c8400f218100939",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        43
+      ]
+    },
+    {
+      "block_id": "rna05block:e071dc37bb3e081563fb5030",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:e0adace0246c0442ae76acef",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        79
+      ]
+    },
+    {
+      "block_id": "rna05block:e0ba33a0fb3dd165ee231f7b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:e12e06531dd8a327ac3d39d5",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        82
+      ]
+    },
+    {
+      "block_id": "rna05block:e38a72a2e27ec323fda2388c",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        54,
+        56
+      ]
+    },
+    {
+      "block_id": "rna05block:e46286fd3e6752bf886040fa",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        95
+      ]
+    },
+    {
+      "block_id": "rna05block:edd4b43add14e3d0efdef97b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        23
+      ]
+    },
+    {
+      "block_id": "rna05block:eee249e1df857a2bb2a6f82b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        93
+      ]
+    },
+    {
+      "block_id": "rna05block:f04df73c2b2d870d48d651c6",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        37,
+        38
+      ]
+    },
+    {
+      "block_id": "rna05block:f0dad0b4fde1e9d76098273b",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        94
+      ]
+    },
+    {
+      "block_id": "rna05block:f286184c8ad57e783e9651a4",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        92
+      ]
+    },
+    {
+      "block_id": "rna05block:f30f06f8e5fe096bf52e9ddf",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        29
+      ]
+    },
+    {
+      "block_id": "rna05block:f441b9f93c5938b286e3f63a",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:f4e84a6776b4d4860e2c43a6",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:f867f3ca28b0ab74e3f595df",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        18,
+        26
+      ]
+    },
+    {
+      "block_id": "rna05block:fc731b810426dd89734baa73",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        25
+      ]
+    },
+    {
+      "block_id": "rna05block:ffaaf73955248ec27aff627d",
+      "reason": "PAIRED_TRUTH_OUTSIDE_VIENNA_SUPPORTED_SECONDARY_PAIR_UNIVERSE",
+      "unsupported_paired_position0": [
+        31
+      ]
+    }
+  ],
+  "sequence_audit": [
+    {
+      "sequence_sha256": "004ffe9d552326dbf77ab08c14d129eca02beca9c592b108138cdccfd5c9031d",
+      "length_nt": 61,
+      "pairing_propensity_sha256": "9073f0e76a2dc0410053aa0e9213a9fe4f40d799d23620741b6b5b4dc6da9c25"
+    },
+    {
+      "sequence_sha256": "0220156db9de808ac264827acbcfdfc3e5f57740b7ea6ac6be5e513af0363b16",
+      "length_nt": 50,
+      "pairing_propensity_sha256": "ed6947d859791cd9672c17c0c3dec584be90abf20bac4c13ceaf3a1d4a894c56"
+    },
+    {
+      "sequence_sha256": "03f5f9df0c6c8386fb85e48cd0f0232307753a2a3fd359b76f1c341d79420ef7",
+      "length_nt": 121,
+      "pairing_propensity_sha256": "52ad12357c9b91245e54a02f21c786da52adca9132e709b73da518f3d2c8ae85"
+    },
+    {
+      "sequence_sha256": "042fd305ecbaf0a74135fc082926f9608e8f75b14b84f7aa596e4215678c6eb6",
+      "length_nt": 120,
+      "pairing_propensity_sha256": "1ad1f861397b2fa246a7e152d698991ad2fb3645e06d1d6e69f36d24c34cecd4"
+    },
+    {
+      "sequence_sha256": "08fa95809fb6f242f65b65d0d33e17685a3b73b76158787fb7a870396fc05026",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "dac879e87cf67ef3a69f3aa167d35d8582f7989f97b84626e18d93b13a507d27"
+    },
+    {
+      "sequence_sha256": "0bba1b4dcd378bb0fa38598f4ea5c341e1a6bb0cfdaa18b2f02ee62bd9b368a0",
+      "length_nt": 120,
+      "pairing_propensity_sha256": "3afc63ccf51299e97b5c8428a8f5948903502ee8ea8831b90c67901b83e24a40"
+    },
+    {
+      "sequence_sha256": "0c1e1988054f2b143a006b4cdb0309223fa98e3ea0542236440e9e10d8a65519",
+      "length_nt": 112,
+      "pairing_propensity_sha256": "ca43bcd8b6633b722c10e369d69243d72cd18eccbc1ad87d4c25a446e7bfabe3"
+    },
+    {
+      "sequence_sha256": "0c42b5e033599d470b1bf580d2c74f13541033ce31d43f5c35377d42229aba30",
+      "length_nt": 52,
+      "pairing_propensity_sha256": "7346a3e6c0826dfb5535ab6a5c7dd09adb0eb1922abf89833087b38bc5040ad0"
+    },
+    {
+      "sequence_sha256": "0f843a2d78fdbccfeb19892197fef9bd105c673f1643d16de766174eb0c598e3",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "a6dd23bf0d5a2b3747ed75889f1f0880a3e8239587d6bcece7e1da1af3b78690"
+    },
+    {
+      "sequence_sha256": "10663ec791efd8368da9b993d1a2f2efe42552c37656957221b883ebaeb11f9e",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "f2ae4c691008248987c3770aa893bff5be2081aeb6dfe35bc7ee88126975affb"
+    },
+    {
+      "sequence_sha256": "136d941c1dbd03cdb3eaa89ab3b6f52ca0495485c2cc6bc0ef30ba71da52729e",
+      "length_nt": 71,
+      "pairing_propensity_sha256": "d619152d5b1225e963693d89845cc6d702594df282ff17f61492b4c4eacc5965"
+    },
+    {
+      "sequence_sha256": "14f354481b4c0a7411134131b27aa1688c72cc8ccebf82193e0320113eea8749",
+      "length_nt": 80,
+      "pairing_propensity_sha256": "a75a2e322824541e38d70d2c8d5e3808d456fe62f8b1f6281ab50e17ebce9963"
+    },
+    {
+      "sequence_sha256": "158b6339a64f52cd3a70932f8f638b97bb507310e7efc970fca5529f81b9b662",
+      "length_nt": 68,
+      "pairing_propensity_sha256": "727c598ebc97a30786b311c90cd07a8f99ebd78573b2560e4229b3128c9caafe"
+    },
+    {
+      "sequence_sha256": "1cb24eda5096a47801e2f9ab075e3abe73d95d656080488231e63eef3a2c9e67",
+      "length_nt": 51,
+      "pairing_propensity_sha256": "0a32dc416503b116906d0c6ff931b75cfcf79ef5d3c601cf80df78a0614f1758"
+    },
+    {
+      "sequence_sha256": "1cbaee28387f295ed3d3f56ea958967804176e0393509a2e79af1bff7f54f456",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "2aa3bb7cef51cb9e2a4f8fef27439aa1a4191c81e2184602fad0b8c12ce1d557"
+    },
+    {
+      "sequence_sha256": "1edaa32b72e45302d434dafb7f74168e5b70b3760b49a217301d648176ecd5ca",
+      "length_nt": 123,
+      "pairing_propensity_sha256": "dba9c94bd2bb4381a80de0be1307c7aff76c5b4fcbd5a0f85847b0fe84b72cb1"
+    },
+    {
+      "sequence_sha256": "1fb27fa3bdf57739e6aa5c768b1c6a7a20be02264b47afa04b1e7a9e0899a760",
+      "length_nt": 128,
+      "pairing_propensity_sha256": "b2908cef31022b0b5ec01067bdbc8827af67a552a91a76abc53b5ad98f51cdb5"
+    },
+    {
+      "sequence_sha256": "21129f97ac9a40d216c74b49a4e907d1a0464bb9ecf54b1df875e82a42b4623a",
+      "length_nt": 70,
+      "pairing_propensity_sha256": "152f55f783a84d15090abb6012ca996a1c14e297bb8995a4809f941ec09e3f09"
+    },
+    {
+      "sequence_sha256": "2421c21805bd7bcdab8cd13b2fdb2f992256b5547d236f4214e962b59db09fee",
+      "length_nt": 120,
+      "pairing_propensity_sha256": "b120f6684b47a7780880867a57250255fe0c51417ffaf72a11aa8b9114d23b55"
+    },
+    {
+      "sequence_sha256": "25a41217dac344bbcf03c586f02d34aeb1d596ac700f078dfe9b32493d846de5",
+      "length_nt": 90,
+      "pairing_propensity_sha256": "f531d84717213effe865f65fc2d8bb3d88be6ade2d203ff9e5bdcfca4cdc4b26"
+    },
+    {
+      "sequence_sha256": "28509653785097abf15905fabdafa43ff9f42ca2281325aa8d291fd7adb41a18",
+      "length_nt": 75,
+      "pairing_propensity_sha256": "d8c4a63445f460281012da2ca3bb755c7d3bb4d7b0cc4b6f32ce6f52ab3831d0"
+    },
+    {
+      "sequence_sha256": "28e4401839f830154454f3ae9e5fda9ae3a85615ee8db24351b6ec3eebb502ad",
+      "length_nt": 71,
+      "pairing_propensity_sha256": "1c9b62b0b2a4a177088e38cb697fb6b87b1944fb766bb2fb51d4644acc456dbc"
+    },
+    {
+      "sequence_sha256": "2af42dfab28438539d9cfeb851d53541bc11fdbc2ee87e1b5d97db4f5d1bdf5d",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "1f9115bc52b8940669d87808b37c20cce1895c566af041e51672cbadbc05bc89"
+    },
+    {
+      "sequence_sha256": "2ce756174dc0cd2b67d5586c3913642551e5e8c4d4193f000e7a9c3d4c9a0a2c",
+      "length_nt": 115,
+      "pairing_propensity_sha256": "742e9074b82f86be6cae4617b724471ecc58a515b22ad9e2319c5e2566111fe5"
+    },
+    {
+      "sequence_sha256": "2eb0e737769ee5770e95877fd8194e42fad58503ec72e743d763059d3c561eb9",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "d17d32d669503d3c1850bd52d8369af9050480d482ccf7c103151a1eb2adcdaf"
+    },
+    {
+      "sequence_sha256": "30f1f3b61f1e2a6b99aefbe372e9147f4ee686b7dce3259524c0fa2718578867",
+      "length_nt": 67,
+      "pairing_propensity_sha256": "689ed2566fa91df3c95d1eb2ce7f357e56dcbe169b730e4d1092dd5c7b443eee"
+    },
+    {
+      "sequence_sha256": "3227cfe2782f324fd5789001ceb883e17ead6fa66eca680a8d801e0e4cffdcc8",
+      "length_nt": 70,
+      "pairing_propensity_sha256": "2f07819ce138b91bfd21565d7675656c800fa8ba7b9201955faeb85ad4011566"
+    },
+    {
+      "sequence_sha256": "335fc919daf1c01bb28f3d1730ab599de836d051c5a9c897b277352dfb611890",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "e5a938dfba6c401eae0709ad24fb07f62088ee1b50aba10f6f2c935a68beb4bb"
+    },
+    {
+      "sequence_sha256": "35b64ff13f358c707f3e48d4187499ca6a665dcaada6012e7e316d3b529fbdb4",
+      "length_nt": 118,
+      "pairing_propensity_sha256": "32068d591f522d8e9c297c92aeefa72c40d4eb5145c120976ef20772229d38f3"
+    },
+    {
+      "sequence_sha256": "3972c2af68c3ce7f9b69cc95482f30d2fcd72659c858e70c018dcf87cde7459e",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "9b198ec76c9f50f326ab11bb480f4ce81f9b921e1659d8291b3b51367f1b76e4"
+    },
+    {
+      "sequence_sha256": "398840600daef663abd1dc49bb025130ce44bccf93d1da4a2bc00b7c496ec4d6",
+      "length_nt": 115,
+      "pairing_propensity_sha256": "8417941cbea9f90b1d5f0faf64ffa00b2be52232dc04bb4ca77cc7248d766339"
+    },
+    {
+      "sequence_sha256": "39b1409a23600d703b6d63165345a685852406be2d311ef574c292f4b5a974f1",
+      "length_nt": 81,
+      "pairing_propensity_sha256": "73d0bc8e0b1399443ca71f2703bd1ffd6c65567125114185372dcf398a19f95f"
+    },
+    {
+      "sequence_sha256": "3aaf700cca34c82c1da7b06cddecc9717017d8a4f93773d19045002f61207f08",
+      "length_nt": 70,
+      "pairing_propensity_sha256": "c928e82d02522f0bf4a7d0c00b634d9d513a817f5dffd215fc50b8f0b5afd2ad"
+    },
+    {
+      "sequence_sha256": "3ad45f7bed06509243666efc1d024abcdd667571c8febcd440940b404741f822",
+      "length_nt": 64,
+      "pairing_propensity_sha256": "3978b94cce925d71ebbf71d02fcdab041bbd792d48a97ea7d99a6d8ab7399cf7"
+    },
+    {
+      "sequence_sha256": "3fe307bde1da5a930e9d42db069abab9cb6843ebe081016df64f18c5dab96674",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "ef5934174e3b85f68e2441d0c5e70a959c0fd0b7078ecd00ba273dccbec9a2be"
+    },
+    {
+      "sequence_sha256": "42192733ff3bde0950c5816f40c70722392252dd0bd630da9d69c05fe4ff2ea9",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "3eb5eb530334ef341021f687b026042da437df4b61e82970a6fb01fcb54fd0f7"
+    },
+    {
+      "sequence_sha256": "43127df1b54ab969a648d32f3f4927ab4c70d22e4c6037ecca9aac9fe8ea01a4",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "b235dfb85a620f2f6111858df12812eb631b8e3047631094c63902fd50675de9"
+    },
+    {
+      "sequence_sha256": "46f4088b6b26514614357b6527396c5911a47d4c8c1395bf6ba824950fe40005",
+      "length_nt": 70,
+      "pairing_propensity_sha256": "67f4231cc8e34317566bef2f210768b533ed09982d9db916ef520bf68f4fcff8"
+    },
+    {
+      "sequence_sha256": "4b7e6e9bb5f31d7af6e789e70126dd1ace0737ec8738d3cde8f79526e6e9dd32",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "307b325e9bc89fea66f0500bdd5d752043e8d83e874e44a02d207bea8e3d73b1"
+    },
+    {
+      "sequence_sha256": "4b8ec25761389490bb2fb1dc3cc986c966016e043b1eef5556de8c407bdc83e0",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "acf1647c85f8b1977e0bf72d0c7ee67ea25faca9ff168f64f82f9a04801ad969"
+    },
+    {
+      "sequence_sha256": "4e87233dbe313110e2dd6d82cfef0412bd46109f7f9af33f752c0449d01246a6",
+      "length_nt": 393,
+      "pairing_propensity_sha256": "c467e2eb13df589996dcab6f849c96a2efdbf38d699e95a64a63227714cd3383"
+    },
+    {
+      "sequence_sha256": "4ee0be19e291a390d50334567f8265f423cf9ebc88329e5d9155a650aaba6c2d",
+      "length_nt": 75,
+      "pairing_propensity_sha256": "726973dd04c7acc9e15cdc7fe0bc93eab85c91f02f883a3d50e2efff86d81685"
+    },
+    {
+      "sequence_sha256": "57495e8f90e7e199d81fce0f2011f6bf464acb59c108f2606c9719ca5e3f7691",
+      "length_nt": 183,
+      "pairing_propensity_sha256": "66cf4e5c47ad9f15a6dcc9588f85d904c62abd6a0803515bc392c0b49a575582"
+    },
+    {
+      "sequence_sha256": "586e0761e2b2580c2c8b26d2ea88ac54759924d73fecde70fcdada1b1f62bf25",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "56b34a0c794c23991410f9cd7565a7a863334ffcac75af41da67e1443ae4e079"
+    },
+    {
+      "sequence_sha256": "5de8dacdb9a51a315fa062b4917ffeaf784b8c25788ffc961f64b21266377fd9",
+      "length_nt": 114,
+      "pairing_propensity_sha256": "2d0092796725f4f303a7593474de2833cb5c7cd4c04b37f1b41c5c49b7b9a316"
+    },
+    {
+      "sequence_sha256": "5f2a51cb264d772239e9c6f444a8b378ed7a281de6acb0ef1452e3b0de94d4e3",
+      "length_nt": 118,
+      "pairing_propensity_sha256": "6652bcf6b21b4478bcf45a9ee34f12ad3823d0387552c0d7db6d44fc5044c2c0"
+    },
+    {
+      "sequence_sha256": "69a4b3acc1592b4add864e59c106d9f1ed82ac801c34c2cc9bac53eae7f7d31f",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "b34be2a57d998866b6b64b0d1e14c16f4aead80e2be3afa3b348fe52b4a23270"
+    },
+    {
+      "sequence_sha256": "6b1f4bc0426d5e9517e57e698b7c1e6e81314fea99726c948adc59c2d8c1a0ee",
+      "length_nt": 75,
+      "pairing_propensity_sha256": "0245ca5f9a885f8815783c0db5dab9a22ada90233bfdcbc3ed0c7c935dd60bcc"
+    },
+    {
+      "sequence_sha256": "6ba7a439cd64ee18cba1ef9c31298def30dc87f53e4ced327ac7c475c1c0d7be",
+      "length_nt": 75,
+      "pairing_propensity_sha256": "5c3d3a153514dce1ff11dc9511b55e650470d05d20ba87eb30b43e67d2c19364"
+    },
+    {
+      "sequence_sha256": "6dc4922a7a56188b5d33a0cde6b3cea2c61c5957df5501e445c7f41b1efa1e96",
+      "length_nt": 52,
+      "pairing_propensity_sha256": "fcdaf13dd2f9a3fedb97b1c3dfd86138fd2efab4d470aedd699bd95a76dd8fb9"
+    },
+    {
+      "sequence_sha256": "6f17641f9b6a3b21d256a4d2eaab04623cac6660a18c43c929e5f32c33b751eb",
+      "length_nt": 67,
+      "pairing_propensity_sha256": "c12d9b6ac79dc121a1e09dc14fc8ac5db39cef1631b56a134899d3bdcb70a351"
+    },
+    {
+      "sequence_sha256": "6fc065ccaac1fc481819950f7a1aec52f521bceb2400fb3569de930d11a0547e",
+      "length_nt": 71,
+      "pairing_propensity_sha256": "df1cc5774ac73be0200d7b59e5720df6cd7d16bcd750e77dddf1950c1d1e293d"
+    },
+    {
+      "sequence_sha256": "70e42ab758cf4ec5e58036c9455bfcc1bdba69d5dfe8e0c7f92a31ff3aa8fd4a",
+      "length_nt": 75,
+      "pairing_propensity_sha256": "0bf5efbe78398a4750c0e5cc4e5c8599d4ade3307a852160b8ef5d5a02f4b428"
+    },
+    {
+      "sequence_sha256": "74f7da87ee4eaf84689864d7063ca5341b9d7474c92671bf6eae5e62e8711e34",
+      "length_nt": 67,
+      "pairing_propensity_sha256": "9d1f859a3ee6e9f82ce8078f72e9c63778d816d081914cb9e9cacd5ece7c08f1"
+    },
+    {
+      "sequence_sha256": "7668b52a0943f5dfcdc82e77ed25fab6c07bc08b81546a446c09c60996deeae5",
+      "length_nt": 117,
+      "pairing_propensity_sha256": "694d2f1b21750eec92892ade180a96760928337b5fb3573e494edefcb1119d75"
+    },
+    {
+      "sequence_sha256": "773f1c95d35a438e1698716cd890d73efcfa586a59a6298d3bf7b8d1fbb94877",
+      "length_nt": 120,
+      "pairing_propensity_sha256": "447582b380d21e84c04297c82da1a5b77cb7276c5e9f469402eae9a9e2e61d25"
+    },
+    {
+      "sequence_sha256": "798f3401ff5e0af5d81978ff9143e447fa64f480184f78679cdf710cfe87abee",
+      "length_nt": 114,
+      "pairing_propensity_sha256": "0a939c14e58cd27c0bcc20798786fd3dfa66ea85d3b70de7457f28aad9822bdc"
+    },
+    {
+      "sequence_sha256": "7c23ca9b626f155fbd83d011d719e4d18a1979a3aa059f9196bf13032595155b",
+      "length_nt": 71,
+      "pairing_propensity_sha256": "4b568e4cdbf6a2472185ec131d28c68522a27511b66cc4b669c9af2edff79970"
+    },
+    {
+      "sequence_sha256": "7ea1d910e49d8f55f4c97f563ea2a79dc436a400ec1a4df3ad8618f94a388cd4",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "de842437a4a9a3dd54f6180a6a883e102e57a4daa0a3e27910d1d014848de8d6"
+    },
+    {
+      "sequence_sha256": "83d7f4a5ab46d41ebbc5f21eb9dd9ca03c01b31572ef6b19ad3a7a111f27e540",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "bd1342a8c2f5ccba90f7ad0c07df58e436c28015e67e968bb81a368965f6540c"
+    },
+    {
+      "sequence_sha256": "8ac45aed671ab696f259c1887c92866e6f1c0ba3f58095703c99acfb6f767fc5",
+      "length_nt": 71,
+      "pairing_propensity_sha256": "1e8493f32941ae60803ffa561ef01833fcc1a4cdd7ed0dfb7e61715e9c77168c"
+    },
+    {
+      "sequence_sha256": "8e2cda66303e38193f4f383b82f2f65440ab2917ecf6ab7fb84a12b322b903da",
+      "length_nt": 118,
+      "pairing_propensity_sha256": "3ad56b8ae05363a775edb80db597eeabb0fe642fb10fe0f3a8ac3516fa07c995"
+    },
+    {
+      "sequence_sha256": "8f304d38480c65a1254057127092e2f589f114c63a6df70f7c36c6f95255ecad",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "3279b3d860b8b969582f0b73bee3c6158d149b45de3c85b5acb756dc3915951a"
+    },
+    {
+      "sequence_sha256": "8ff99f9563376dfe902c75d032ed3b5d05232b7e8e43db09aa4859172e0d93c6",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "18cc4dcb2f8f5501c4f11ea4d753706429d1788fefbfc3908e4edca3e76ac3a4"
+    },
+    {
+      "sequence_sha256": "9417ac4a4c7173222469963f6a50fb427db40208a31f4391236ce6023be004ec",
+      "length_nt": 120,
+      "pairing_propensity_sha256": "b6a285ea0b5c79f954d7c3191e1f9e86d874b7684cddf976b16d90b8bd76333a"
+    },
+    {
+      "sequence_sha256": "964d9eec23ca9623d1d3e1f3b3edb3698feae2ed2f2e4f6a58d2d35949c181c4",
+      "length_nt": 72,
+      "pairing_propensity_sha256": "c2367d5ee7957397511c915a4022e60c11753b07d576e04e1fe953310df8efce"
+    },
+    {
+      "sequence_sha256": "974f51da94729865209d77ea0328a5f6d9dcd2d165363cd1e56bbc9c795d2214",
+      "length_nt": 89,
+      "pairing_propensity_sha256": "e186370cc314a0888a1fab6e41b62a8de2fa8fd1a9c32cf367796ae838a160ae"
+    },
+    {
+      "sequence_sha256": "9c0c2e10c2e400972ae227b3d909d08c5d4a8e721142f87962c1da2bd7011a88",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "1583e1b677361671a002f0b83642e04c40d095575dbc63d987a72fc26e5d4184"
+    },
+    {
+      "sequence_sha256": "9cc82343d121fb63b7ebd540fa3b0d2a995c259d6e31f97d730e077996f26c17",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "6b718a483d45558c58665552dcbb96dc6ca4caea80e2bf2b5b2b32bd6872ebd4"
+    },
+    {
+      "sequence_sha256": "9d7f0d5d3e93d44e40c35c69467b6ae2325ef46c579ef4579372c02d835774e3",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "b6f80edd71a7a3e1e167d7e03ffd6828c3e258466fc90ddd1e671311caeea483"
+    },
+    {
+      "sequence_sha256": "a28c05ba7edfb9b5428e7d1bd9cfcf8ec65c1316d280d503142ba272287af845",
+      "length_nt": 113,
+      "pairing_propensity_sha256": "c7e06e4ca2959dd771c2606d4893e5cd479d4f3b9eba889000fa1317c4ef0001"
+    },
+    {
+      "sequence_sha256": "a531778a4504c81807d91f033142f455069f36e92a5865a38bfd884f2f2e4a0f",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "2c272cf0736532c25cfaf7d82405077024b23c767a0e01086f71eef0a24e6fd6"
+    },
+    {
+      "sequence_sha256": "aa3a7fd94c15224490e18845b7468593fb38d62d9cc470a7260332040ab85c16",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "3b7aa789acf51ce40aeb10e5a0821301e3575fb792713c947ca6228ce99506b9"
+    },
+    {
+      "sequence_sha256": "abe8e1ce1e88c2f51c855fdd949fff517f57286c8f4deef7a604aa68a3b1f543",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "61b8627c26e7c8abd71ee3424dfc8aaf71cc809371bbd7cd148dd650591878b6"
+    },
+    {
+      "sequence_sha256": "ae93f8e4475b196ffff8c0caa174f2b708d1dad82bbd2140a467cda8b3d0dc7f",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "ea03492fc0d83d2dff3ddacdf4d78fcaaec1ad8216b4d53f2fd728965c2c4a9f"
+    },
+    {
+      "sequence_sha256": "afd6935af972576b2201d0c738882fddeab569aa629eaf854e7580803c9835cb",
+      "length_nt": 69,
+      "pairing_propensity_sha256": "011370213bcaa69fadf85204262a51fdde6d556faa1690cf39ecbfe52d7da786"
+    },
+    {
+      "sequence_sha256": "b3f9fb685585d3a30f360c8d14827a47fa04e33094247f69ade5314b27807628",
+      "length_nt": 93,
+      "pairing_propensity_sha256": "a54f3397fdcb6ca8d5fadddbf11d0f4746ca918be416ec60efa1897b33ec31dd"
+    },
+    {
+      "sequence_sha256": "b63f4ba9bfeb46c6c53c4d6cb8ddeaa292d761aca693029373df896889165f91",
+      "length_nt": 85,
+      "pairing_propensity_sha256": "b0fe3b429429c5cbf6af56ae852ec395329770624db0ccad9f6d952709a9236a"
+    },
+    {
+      "sequence_sha256": "bab7040c2ef778e3d8d6c03f227d17e001f760d0c0d8a4b63e1143587f8a7f54",
+      "length_nt": 75,
+      "pairing_propensity_sha256": "6b88dc9f9826294e41b18046d4ec487735e711f987de4efd40fb12181d71c171"
+    },
+    {
+      "sequence_sha256": "bbc5c08a077ae4bc45289b720bb29333338d9da057d97b0a0a38f3a006313ecf",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "b3ab1a04600be5f29bbf7b3f740947eb103a20708a5a4c7ae60d6b4b3f83ed7b"
+    },
+    {
+      "sequence_sha256": "bd23fb6c6539b2d9908410e84872dfd1b69058fdf190fcb7c051cf5badacd379",
+      "length_nt": 50,
+      "pairing_propensity_sha256": "97028eb9ffad16e32b318896d510978884524a1f2368ad71372288725ef1a682"
+    },
+    {
+      "sequence_sha256": "c01d3b526b7019be87c9fa087629adbce3ec7f2f0d62d04ef4b9fc7183b8ea99",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "36482f60d2d7060ed00753ce172a7d77ba43f078bedf0108c0d64d3602f1269b"
+    },
+    {
+      "sequence_sha256": "c52e1c9c4f279275e3993e87926e2521301899986792046460f93777e4a32d9d",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "caa46a3ad3a9a8ed47d622f0dcb8fba23cf12bff48a371e7dd9b86661ae524a1"
+    },
+    {
+      "sequence_sha256": "cc475a9b8a945a883c44e3a620f744e2ab42cccbf51640858b77c11c6d8c16f4",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "ff04cd9e802cdcf3851c33c9da009f7e8c82a93f4e646e4f28657a1c33209437"
+    },
+    {
+      "sequence_sha256": "cd70ca90e441c1fbb85632f5980322e66903f2c92ca5eb06a98f1d502a0cde8a",
+      "length_nt": 72,
+      "pairing_propensity_sha256": "26120287a76d18c5b1e39a3c392b33135f4689e448f59d61b2c80d93191552a7"
+    },
+    {
+      "sequence_sha256": "ce84d211b7b383dac494845e07019d580b997b742300039da4c49a9f590c1747",
+      "length_nt": 74,
+      "pairing_propensity_sha256": "46eb0c50700a3358146d39821cdbb298672ea7e370f8895333be678a7bbab643"
+    },
+    {
+      "sequence_sha256": "ce894a25215d0927d690893945d3cdc9ccb6e783fec35b77fd3c972b4af79450",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "2122f85653b539a44ed601fd3270e285502fd6e60581629aa3bbc81b8402e987"
+    },
+    {
+      "sequence_sha256": "d218848231feef5354e6ddb4c1bfb6a4c42dde76842487badcf52d0ee66853c8",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "214e0af91fde091d27f00f5523b2e644e98e26fcb108f68fea43004a94f3796a"
+    },
+    {
+      "sequence_sha256": "d61146e1d049797c442ce6e9c911bc272ee9b912bbcd734a233692a48ba6b452",
+      "length_nt": 122,
+      "pairing_propensity_sha256": "4b62fa3976253a67e2f4de7ad4c74ada52df414c0f017f45bce396d80101b283"
+    },
+    {
+      "sequence_sha256": "d87aaaeb7468b93dc1c31e378c6da59fe1665579564c2aa3c021905109cccecc",
+      "length_nt": 161,
+      "pairing_propensity_sha256": "5b01ef65c22e804affc6b21a48f7c1a3bea8dcf7f1889052dc2c6af78e86369d"
+    },
+    {
+      "sequence_sha256": "db6afd57809b243961e8942bc92075bd3d58733ffb9a3103fd38d55ddca18f47",
+      "length_nt": 69,
+      "pairing_propensity_sha256": "aea5f5f5acd7186445e10c668a665ea80b9d557490160d5623887df99a392cb3"
+    },
+    {
+      "sequence_sha256": "dc995a2941c3407d12e1b60eee3954fc2af2da66bc395522270563e9bb4dac2b",
+      "length_nt": 129,
+      "pairing_propensity_sha256": "a6c1e9673df8aab22ab3df69b8be68ae47753065de7fbf598a0334ec309df42b"
+    },
+    {
+      "sequence_sha256": "e9d84bb6b77c956ba7d753c6398810078d7482ca82caa820b3eb36bfe637c168",
+      "length_nt": 96,
+      "pairing_propensity_sha256": "2d9810fe7379af7aaf4f3f4f5aabe6e1f8d8a8ad8bab7b93fec14a70e8604d90"
+    },
+    {
+      "sequence_sha256": "eb2c7a9898ac273c8a5afd68b7be4fe78b3cc77054731e61bd73a998de741edb",
+      "length_nt": 72,
+      "pairing_propensity_sha256": "a5b196c33970224a24d48a8018409b54834f5092f6ebc50c68cb6b4c54afc4c4"
+    },
+    {
+      "sequence_sha256": "eb3b7b0c79383b6761703320f6c953b25376611e73aee9d0ec7ff2557a296b26",
+      "length_nt": 77,
+      "pairing_propensity_sha256": "ee0bb6163763a22e6ee5ea26d2b4f3bbabb1779bec1ba6d08ccef196c3e8cfeb"
+    },
+    {
+      "sequence_sha256": "ee165aefe38d1ebdd4f86677a3c63feb9a103430c8bca017f2c920d539bfeb6a",
+      "length_nt": 76,
+      "pairing_propensity_sha256": "67c5764ba1d7c67b77e7e4946f5bc41a9e47082df85a0693fb0592d17054819a"
+    },
+    {
+      "sequence_sha256": "f015287bc8c65bf2f26bf22f0d380f2710a0e5313b99dc6cfa816a01b59706c0",
+      "length_nt": 277,
+      "pairing_propensity_sha256": "9b382999399895ce5a24d3f0c9871b48e872b4307da155013f0ec70bf7b628cc"
+    },
+    {
+      "sequence_sha256": "f079ba64a50fcb29fa152a793cc17806e5f6c7b1aad123dc7f761485d39a0cd1",
+      "length_nt": 68,
+      "pairing_propensity_sha256": "99065c96b063326813d4c843f9799113c2092332501da0c7c861da35459d1054"
+    },
+    {
+      "sequence_sha256": "f5c1dc2eeb44f020865f4b286cbbf6574fedc5e981d25b7a1634dc30b78c09b4",
+      "length_nt": 119,
+      "pairing_propensity_sha256": "c76b37f4cb291fa1975c39a4821821826863bfc033ed1dbd994c5fdac1b93d44"
+    },
+    {
+      "sequence_sha256": "f6075f391d19420ed377dc54cccda8de45c8461a9c2a45530bbc1a7cc6d15538",
+      "length_nt": 121,
+      "pairing_propensity_sha256": "b5ae5ed8ccd2eff709e15ab3c8c3ead636d2e5021ecc9b4c709ff8fa297c32eb"
+    },
+    {
+      "sequence_sha256": "f74704664e908b02863154483c7ffacaf58ab217c5fd5d788fd152956ef7133c",
+      "length_nt": 95,
+      "pairing_propensity_sha256": "6a6cbb2190e8ea2e6e0b83e139ec4e3609f583350aea944667770c0e01506db9"
+    },
+    {
+      "sequence_sha256": "fc4102b9e7f3ec562335e6cb16a5d4e19dfa545e31120bf113f8beb92c30452d",
+      "length_nt": 183,
+      "pairing_propensity_sha256": "2f401748b8e22575086a1b5169cccaad19594b478afbc1ba2976ab806cde4382"
+    },
+    {
+      "sequence_sha256": "fd64d2528621eb4796c1072cac701b514a393b0dc287a1588e074fcf6adc034b",
+      "length_nt": 120,
+      "pairing_propensity_sha256": "55f3150cde082b0d3b4dac46fcf31ef824325fffe96a16ae638b89c89d972e4e"
+    }
+  ]
+}

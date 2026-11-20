@@ -1,0 +1,25 @@
+{
+  "kind": "PS08_FORMAL_SCORER_RESULT",
+  "formal_result": true,
+  "F": 0.86767578125,
+  "F_95_CI": [
+    0.85595703125,
+    0.879150390625
+  ],
+  "counts": {
+    "leaf": 4096,
+    "first_edit": 4096,
+    "source_parent": 4096,
+    "source_unit": 4096,
+    "overall": 1
+  },
+  "seed": 20261002,
+  "draws": 20000,
+  "delta_num": 0.0,
+  "bootstrap": "source_unit with replacement",
+  "leaf_ledger_sha256": "ffd4a393e53215f5b8cf98e8e6b97d57d883651f6bc8e4186ad241d318f02c0a",
+  "population_identity_sha256": "2ee0bbde63d2ed1bcec5b0c12c00b8a10385cc98523a9aa8966ae1a4fd5a9fb3",
+  "bootstrap_F_float64le_sha256": "c8a61e30a550da464b48a707152ef288e9a2577a8b824f8ace5b259f5fcc7da7",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS08_v0.1.2_F_ONLY"
+}

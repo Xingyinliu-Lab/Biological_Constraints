@@ -1,0 +1,53 @@
+{
+  "constraint_id": "PS10",
+  "constraint_release": "v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "models": [
+    {
+      "F": 0.38194475386874127,
+      "F_95_CI": [
+        0.12939572004657207,
+        0.6026903235026588
+      ],
+      "model_id": "carp-640m",
+      "status": "PASS_CANONICAL_SCORING_ENVIRONMENT"
+    },
+    {
+      "F": 0.5038850237950667,
+      "F_95_CI": [
+        0.2521313974410959,
+        0.7162679801666507
+      ],
+      "model_id": "esm2-650m",
+      "status": "PASS_CANONICAL_SCORING_ENVIRONMENT"
+    },
+    {
+      "F": 0.6144419416305196,
+      "F_95_CI": [
+        0.48111562730090496,
+        0.7418338659230488
+      ],
+      "model_id": "esm3-seq",
+      "status": "PASS_CANONICAL_SCORING_ENVIRONMENT"
+    },
+    {
+      "F": 0.47805881267956485,
+      "F_95_CI": [
+        0.2964517525895056,
+        0.635938281089941
+      ],
+      "model_id": "esmc-600m",
+      "status": "PASS_CANONICAL_SCORING_ENVIRONMENT"
+    },
+    {
+      "F": 0.5939686451443813,
+      "F_95_CI": [
+        0.44780790839057416,
+        0.730630289130711
+      ],
+      "model_id": "prott5",
+      "status": "PASS_CANONICAL_SCORING_ENVIRONMENT"
+    }
+  ],
+  "status": "PASS_CANONICAL_SCORING_ENVIRONMENT"
+}

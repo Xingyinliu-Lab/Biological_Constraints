@@ -1,0 +1,10 @@
+{
+  "constraint_release": "DNA06_v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "04615b8df3d30fc7c0a642ea6835ce6492998fea30b3350b8a1a8a3f2e5bfb11",
+  "model_id": "nt-v2",
+  "output_manifest_sha256": "fbf1501b46e3f469421016eb8816d37d53c0b519aa8054f2b07fad176d1b5601",
+  "public_scorer": "constraints/dna/DNA06/scoring/score_dna06.py",
+  "public_scorer_sha256": "b577f1ee13be791e0aa4b49051ba53041f890c1b4f25a0da617f217e548cbf7e",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

@@ -1,0 +1,158 @@
+{
+  "F": 0.5968713378888446,
+  "F_95_CI": [
+    0.4954210927718923,
+    0.6922956874237645
+  ],
+  "bootstrap": {
+    "draws": 20000,
+    "method": "PCG64 percentile linear",
+    "seed": 20261003,
+    "unit": "outer_dependency_cluster_F"
+  },
+  "constraint": "RNA06",
+  "coverage": {
+    "candidate_rows": 14948,
+    "clusters": 20,
+    "directed_endpoints": 3176,
+    "edges": 1588,
+    "parents": 104,
+    "prediction_rows": 18124
+  },
+  "feature": "sum_plus_hadamard_linear_ridge",
+  "formal_interface": "RNA06_F_ONLY_v0.1.3",
+  "formal_result": true,
+  "inputs": {
+    "refset": {
+      "candidates_sha256": "f5fd44c358556fe5099330ab3d78c581e3d98021acef9a35622a866590301de1",
+      "directed_endpoint_challenges": 3176,
+      "directed_sha256": "c80f7d301b952d6655a7aca09a70255f9a65466acb9670cceac5b4d5cd4d5757",
+      "edge_bundles": 1588,
+      "edges_sha256": "6e9beae75bb4bf6ed4ce1c273b0b8dd90f70b7effcd720d37f45db5d90e63663",
+      "fasta_sha256": "ba2f6517a37935aaf61942c96f7dd2bc8ba2f544771e216b8f089a64820e10e7",
+      "manifest_sha256": "dbb61cf618ee7ac856dbbc87e6b9c3fd95761191f00454752a9ad36cb21175da",
+      "objects_sha256": "b50e0fb419fe2c1bc00ae8ca5215946bd2fe14bd1bfca6d6c181a43b3dd7ed1e",
+      "outer_dependency_clusters": 20,
+      "pair_states_sha256": "f5531a5b0c93d9cf75f1b8398a0f84c4bb99ba42a9bc4c3b3af8588825ed78f7",
+      "paired_nonpartner_candidates_after_cap": 14948,
+      "parents": 104,
+      "records": 114,
+      "unique_sequences": 105
+    },
+    "vectors_sha256": "928ef85f94e75f80405b5fb360105dba2c0fd9b63c862540c0b218377a8d6d2b"
+  },
+  "lambda_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "model": "gb-rna",
+  "outer_LOO": [
+    {
+      "held_out_cluster": "rna05_outer:09cf32f113e04f3fcfb5fdd6",
+      "inner_F": 0.5574229136517861,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:117293f1562039140e7d9e21",
+      "inner_F": 0.5441792164881907,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:1282f63d132b55e295d264c4",
+      "inner_F": 0.5439598555778209,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:15ea04f67e818f8d997506a6",
+      "inner_F": 0.5617275727496003,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:190a4039336cfb3d32e2ba62",
+      "inner_F": 0.5259504947021716,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:2c13c4caf2c94eb4e6c1fde1",
+      "inner_F": 0.564691644872283,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:2cde7ac81e67819adb2faeb2",
+      "inner_F": 0.5716027272973518,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:38fe18373bc037d39867872a",
+      "inner_F": 0.5773657808711976,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:3f008394aaa2cfc02141a08b",
+      "inner_F": 0.5520156703057886,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:4331319ac4e27d63676b5f4b",
+      "inner_F": 0.5321095412649031,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:646c6020695d29a459d2ce00",
+      "inner_F": 0.57143649212848,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:74bca1a0f51fbd43df79c8f7",
+      "inner_F": 0.5506358477417883,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:751b5312dd98b853a5d7e079",
+      "inner_F": 0.5435170839039625,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:88f9e4b239557f77b73710e8",
+      "inner_F": 0.5606289862437455,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:9826c7b41479b562413cb47e",
+      "inner_F": 0.5630028339187219,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:b920f913202d7534bc8ed5cf",
+      "inner_F": 0.5694621321507003,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:c2ef779e7df041eb5214fd85",
+      "inner_F": 0.6100970983644141,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:d302292c466a5b5e6ed648f9",
+      "inner_F": 0.5773354707675289,
+      "lambda": 0.1
+    },
+    {
+      "held_out_cluster": "rna05_outer:e72ef02041060015704187ef",
+      "inner_F": 0.5438831522393535,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_outer:ff8d97ec70441cadfc9d1255",
+      "inner_F": 0.5680307805668199,
+      "lambda": 1.0
+    }
+  ],
+  "release": "RNA06_v0.1.3_F_ONLY",
+  "score_transform_version": "direct_F_credit_v1"
+}

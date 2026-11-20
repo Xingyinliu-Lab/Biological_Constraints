@@ -1,0 +1,20 @@
+{
+  "constraint_id": "ST01",
+  "comparator": "geometry-level0",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "ST01_v0.1.2_F_ONLY",
+  "files": {
+    "FORMAL_RESULT.json": {
+      "bytes": 1616,
+      "sha256": "ae1b36f8a3e0347daac3363be17a0b33dcc1d592c4cf26f05e73d25d20c3e872"
+    },
+    "INDIVIDUAL_SCORES.tsv": {
+      "bytes": 4809,
+      "sha256": "dc058152d12dec94a35727052ea32a7cfe2c158559fdf11be5a059211af3b4cf"
+    },
+    "VALIDATION.json": {
+      "bytes": 755,
+      "sha256": "eb49311f6d1c24ce4f944240783d4d0a843fc61221b0c3f6d50f04435f6b64e8"
+    }
+  }
+}

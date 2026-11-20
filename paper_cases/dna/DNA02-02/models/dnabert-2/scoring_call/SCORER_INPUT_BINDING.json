@@ -1,0 +1,50 @@
+{
+  "archived_embeddings_sha256": "03f62a6b489c5f1b371914264538df3d06df2655a768bcff7afa80540c0a59cc",
+  "artifact": "DNA02_02_PAPER_CASE_SCORING_REGISTRATION",
+  "constraint_release": "DNA02-02_v0.1.5_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "ca6691571c84ded0c20dd7b8f76758f77b72dae2e82cca505a3aa8b10c8ef44d",
+  "model_forward_rerun": false,
+  "model_id": "dnabert-2",
+  "output_directory": "paper_cases/dna/DNA02-02/models/dnabert-2/output/DNA02-02_v0.1.5_f_only",
+  "output_files": {
+    "CLUSTER_SCORE_LEDGER.tsv": {
+      "bytes": 11030,
+      "sha256": "d7c383fc6ba6ff63466001f7a05c2b7b99406093d1454a48c273ed155c1f75c0"
+    },
+    "FORMAL_RESULT.json": {
+      "bytes": 1708,
+      "sha256": "ca6691571c84ded0c20dd7b8f76758f77b72dae2e82cca505a3aa8b10c8ef44d"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "0fe6d02d570a810e731bd70f8280eecdcd9d61ae18d969f8d49ae01b178d6d29"
+    },
+    "LOCUS_SCORE_LEDGER.tsv": {
+      "bytes": 19794,
+      "sha256": "e0b1d120240699effd6870319bb9e2005f96a92c91a65e86040210275a12ed34"
+    },
+    "OUTPUT_MANIFEST.json": {
+      "bytes": 1158,
+      "sha256": "ce928b1d9ea7edbebcc44ccd9f642f227f86511aa15ac306eecb8676cd1ac17f"
+    },
+    "QUERY_SCORE_LEDGER.tsv": {
+      "bytes": 562867,
+      "sha256": "bc7bdea2ad427657fe7fb5f1ee0825a7852317d4a518128959e832a94fd00ae0"
+    },
+    "RUN_COMPLETE": {
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    },
+    "TAU_EVIDENCE.json": {
+      "bytes": 1137,
+      "sha256": "934df90ffffac33572d7d492082f2ab93d5122d1a61396d07f6777d8659b5666"
+    }
+  },
+  "output_manifest_sha256": "ce928b1d9ea7edbebcc44ccd9f642f227f86511aa15ac306eecb8676cd1ac17f",
+  "public_scorer_sha256": "496e64b1ccc86c70be7d036437b5a59424c8005785fbff4cdb35da428f4eba6e",
+  "repeat_embeddings_sha256": "03f62a6b489c5f1b371914264538df3d06df2655a768bcff7afa80540c0a59cc",
+  "result_directory": "output/DNA02-02_v0.1.5_f_only",
+  "source_model_key": "dnabert2",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

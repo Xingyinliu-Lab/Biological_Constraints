@@ -1,0 +1,127 @@
+{
+  "F": 0.41761079474164564,
+  "F_95_CI": [
+    0.272983025320622,
+    0.5404862476222148
+  ],
+  "assay_id": "C-RNA-05",
+  "blocks": 1514,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20261003,
+  "bootstrap_unit": "outer_cluster_F",
+  "clusters": 20,
+  "endpoints": 6206,
+  "fasta_sha256": "7d88b5487434eb4d9b5511daddb18b7219f0eb38762c5383db597747ec07527d",
+  "formal_interface": "RNA05_F_ONLY_v0.1.3",
+  "formal_result": true,
+  "ledger_sha256": "7bf92f7b95fd8f4d394ed1593f847d3b0b3cd502de04369064094097ba1ee2b1",
+  "model_id": "rna-fm",
+  "outer_LOO": [
+    {
+      "held_out_cluster": "rna05_cluster:09cf32f113e04f3fcfb5fdd6",
+      "inner_F": 0.3929985137257246,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:117293f1562039140e7d9e21",
+      "inner_F": 0.44833651236585403,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:1282f63d132b55e295d264c4",
+      "inner_F": 0.4258476066908905,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:15ea04f67e818f8d997506a6",
+      "inner_F": 0.4674536230175448,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:190a4039336cfb3d32e2ba62",
+      "inner_F": 0.42027621266468906,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:2c13c4caf2c94eb4e6c1fde1",
+      "inner_F": 0.473985659735048,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:2cde7ac81e67819adb2faeb2",
+      "inner_F": 0.4725890522533729,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:38fe18373bc037d39867872a",
+      "inner_F": 0.47019657614931276,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:3f008394aaa2cfc02141a08b",
+      "inner_F": 0.4340816446679894,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:4331319ac4e27d63676b5f4b",
+      "inner_F": 0.430272132394212,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:646c6020695d29a459d2ce00",
+      "inner_F": 0.4477146381607653,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:74bca1a0f51fbd43df79c8f7",
+      "inner_F": 0.4169882563521159,
+      "lambda": 1.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:751b5312dd98b853a5d7e079",
+      "inner_F": 0.4312621752153234,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:88f9e4b239557f77b73710e8",
+      "inner_F": 0.43969593173090793,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:9826c7b41479b562413cb47e",
+      "inner_F": 0.4667037106383931,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:b920f913202d7534bc8ed5cf",
+      "inner_F": 0.46348832142261576,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:c2ef779e7df041eb5214fd85",
+      "inner_F": 0.4629482363362436,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:d302292c466a5b5e6ed648f9",
+      "inner_F": 0.3993627422503694,
+      "lambda": 100.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:e72ef02041060015704187ef",
+      "inner_F": 0.47364218482696563,
+      "lambda": 10.0
+    },
+    {
+      "held_out_cluster": "rna05_cluster:ff8d97ec70441cadfc9d1255",
+      "inner_F": 0.39146052572742773,
+      "lambda": 1.0
+    }
+  ],
+  "parents": 103,
+  "readout": "outer-cluster leave-one-out L2 ridge logistic regression with frozen inner selection",
+  "representation_schema": "sequence_keyed_npz",
+  "score_transform_version": "direct_F_credit_v1",
+  "status": "PASS",
+  "vectors_sha256": "16ae8598e8bf999c02d22d15cfd69a979c27ceafc310491ddd0e7ddf758a4e81"
+}

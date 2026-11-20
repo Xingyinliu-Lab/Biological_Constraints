@@ -1,0 +1,72 @@
+{
+  "model_id": "carp-640m",
+  "domain": "protein_sequence",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/microsoft/protein-sequence-models",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS01/models/carp-640m/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS02B/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS04/models/carp-640m/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS05/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS08/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS09/models/carp-640m/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS10/models/carp-640m/provenance/EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "ae1d7e0cbe713c731cfde7ace213f2a73372c31d8df543089e6b6d371228c4f7",
+      "source": "results/protein_sequence/PS10/models/carp-640m/provenance/FORWARD_REPORT.json",
+      "field": "checkpoint_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "CARP alphabet and tokenization are defined by the executed protein-sequence-models code; no separate tokenizer artifact was used.",
+  "download": {
+    "source": "https://github.com/microsoft/protein-sequence-models",
+    "method": "sequence_models.pretrained.load_model_and_alphabet('carp_640M') populated the Torch checkpoint cache; later formal runs reused that file"
+  },
+  "loading": "from sequence_models.pretrained import load_model_and_alphabet; model, collater = load_model_and_alphabet('carp_640M'); model.eval().cuda(); final ByteNet layer residue states are mean pooled",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/third_models_20261001/carp_640m_v0.1.0/torch_cache/hub/checkpoints/carp_640M.pt"
+  ],
+  "formal_evidence_files": [
+    "results/protein_sequence/PS01/models/carp-640m/provenance/EXECUTION_BINDING.json",
+    "results/protein_sequence/PS01/models/carp-640m/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS02A/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS02B/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS04/models/carp-640m/FORWARD_REPORT.json",
+    "results/protein_sequence/PS05/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS08/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS09/models/carp-640m/provenance/FORWARD_REPORT.json",
+    "results/protein_sequence/PS09/models/carp-640m/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_sequence/PS10/models/carp-640m/provenance/EXECUTION_BINDING.json",
+    "results/protein_sequence/PS10/models/carp-640m/provenance/FORWARD_REPORT.json"
+  ]
+}

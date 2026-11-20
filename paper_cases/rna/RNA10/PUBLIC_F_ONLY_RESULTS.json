@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "F": -0.0290506253006253,
+      "F_95_CI": [
+        -0.21230820105820114,
+        0.15967051467051485
+      ],
+      "case_path": "models/ernie-rna",
+      "model_id": "ernie-rna",
+      "status": "PASS"
+    },
+    {
+      "F": 0.12268338143338142,
+      "F_95_CI": [
+        -0.05304834054834051,
+        0.30173881673881664
+      ],
+      "case_path": "models/gb-rna",
+      "model_id": "gb-rna",
+      "status": "PASS"
+    },
+    {
+      "F": 0.022162097162097272,
+      "F_95_CI": [
+        -0.1738401875901876,
+        0.21710437710437702
+      ],
+      "case_path": "models/orthrus-4-track",
+      "model_id": "orthrus-4-track",
+      "status": "PASS"
+    },
+    {
+      "F": 0.380446127946128,
+      "F_95_CI": [
+        0.2115608465608465,
+        0.5441522366522367
+      ],
+      "case_path": "models/rinalmo-giga",
+      "model_id": "rinalmo-giga",
+      "status": "PASS"
+    },
+    {
+      "F": -0.036952260702260764,
+      "F_95_CI": [
+        -0.23535533910533912,
+        0.15988455988455996
+      ],
+      "case_path": "models/rna-fm",
+      "model_id": "rna-fm",
+      "status": "PASS"
+    }
+  ],
+  "comparator_F": 0.33119648869648866,
+  "comparator_F_95_CI": [
+    0.15502284752284745,
+    0.5034084896584896
+  ],
+  "constraint": "RNA10",
+  "formal_interface": "F_ONLY",
+  "release": "v0.1.3_F_ONLY"
+}

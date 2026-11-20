@@ -1,0 +1,54 @@
+{
+  "constraint_id": "PS09",
+  "model_id": "carp-640m",
+  "public_entry": "score_ps09.py",
+  "representations": {
+    "bytes": 82113504,
+    "sha256": "54209c6107b156fb485d1d43ab2041807bc9e0a686a1670f50156aa63888dcbb"
+  },
+  "outputs": [
+    {
+      "path": "HELDOUT_ENDPOINT_SCORES.tsv",
+      "bytes": 988890,
+      "sha256": "d16117b3537130d60e1ee272e94ef749c58152f746bd6112d9c61ff40dcf8f02"
+    },
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 1785547,
+      "sha256": "836488a5487ce9b69deda746792d0a40a7376ee543372a3605d647e57c3ba00d"
+    },
+    {
+      "path": "PAIR_CREDIT_LEDGER.tsv.gz",
+      "bytes": 973305,
+      "sha256": "2806606ce95d2202944a4dd678c52fed24528726816e621833cd06392141925b"
+    },
+    {
+      "path": "BLOCK_SCORES.tsv",
+      "bytes": 46138,
+      "sha256": "c7e9ad719946ba84818cecb84e4b14a755cfcdd7d2c485689156b5c91126a11f"
+    },
+    {
+      "path": "CLUSTER_SCORES.tsv",
+      "bytes": 2516,
+      "sha256": "d3f790b3b595d981475328efac01fe0828fac7fb8729ac21345cc65aa5ef4015"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1315,
+      "sha256": "68425c1309f767783a78ea962cade218f930731ed1ead86cea3abcd1e615860d"
+    },
+    {
+      "path": "SCORE_SUMMARY.json.bootstrap.float64le.bin",
+      "bytes": 160000,
+      "sha256": "2f5986dc497c48759407a0c271ed1edb591757373ebe095f17694075e6957f6d"
+    }
+  ],
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS09_v0.1.2_F_ONLY",
+  "refset_closure": {
+    "proteins": 81,
+    "endpoints": 15708,
+    "blocks": 1030,
+    "homology_clusters": 78
+  }
+}

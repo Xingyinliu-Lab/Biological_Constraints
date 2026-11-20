@@ -1,0 +1,19 @@
+{
+  "assay_id": "C-RNA-10",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "2d055e508f257e136f044d872143fab244542caba8a80cbb14b14e1bcb319b42"
+  },
+  "forward_output": {
+    "bytes": 875994,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "85cfc1551c9169a63be3e91aba4363d144bae7f0231ef4f9ddd9c520adbb4e05"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "orthrus-4-track",
+  "public_scorer": "constraints/rna/RNA10/scoring/score_rna10.py",
+  "public_scorer_sha256": "667c0f4c5aec2a679fc334d43e262443a024446c8cecfb1518836448b35561e2",
+  "status": "PASS"
+}

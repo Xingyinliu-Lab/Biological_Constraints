@@ -1,0 +1,26 @@
+{
+  "artifact": "RNA10_PUBLIC_REFSET_v0.1.2",
+  "status": "CURRENT_RELEASE",
+  "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+  "coverage": {
+    "matched_blocks": 60,
+    "formal_relations": 391,
+    "comparison_leaves": 472,
+    "source_dependency_units": 60
+  },
+  "payloads": [
+    {"path": "block_members.jsonl", "bytes": 66861, "sha256": "5b2eab17d76c51693b22b6b47bf0758b4c851343101f96fa06b3e9c352dafb53"},
+    {"path": "blocks.jsonl", "bytes": 36965, "sha256": "0be61761f21a948431cf5af92e5840adf51a89d4189160ea3b0052658ad9fa2d"},
+    {"path": "C_RNA10_ASSAY_REFSET_CONTRACT_SCHEMA_v1.0.4_20261009.json", "bytes": 13624, "sha256": "8bbfdd0f0bfcc7fd6dbeb67aadc00264c39f03e54f452efa1aaf849f91ada50e"},
+    {"path": "objects_mutant.jsonl", "bytes": 216321, "sha256": "f83abe38a9e786cf4bdf3d8bf9b896aedba8190e9562d7d5093897c70706bd0a"},
+    {"path": "objects_wt.jsonl", "bytes": 25317, "sha256": "b6802f6b751ecdf1f34913a237d1b53024f1c23c46704e9873cfdbfc26da30b8"},
+    {"path": "RNA10_ASSAY_REFSET_CONTRACT_v1.0.4_FROZEN_20261009.json", "bytes": 19394, "sha256": "9cc1fc24a68241488ead86b89d74fc7c586a9f34419f9c319b273f02fc006ad0"},
+    {"path": "RNA10_ASSAY_REFSET_RELEASE_v1.0.2_RETROACTIVE_20261009.json", "bytes": 13036, "sha256": "fb1a9f630909b515b376ba04fd8b70ddccad405b293963bbb0dd54721bc89692"},
+    {"path": "RNA10_UNIQUE_INPUTS.fasta", "bytes": 106887, "sha256": "0f14b05777707161bb1fb5d6755ae1dc224e9af94618e2545d4105fb403575e5"},
+    {"path": "source_dependency_units.jsonl", "bytes": 7380, "sha256": "a3021aa38ababca06cb84bd8e067ca59c411c0f8b149a70281e14c5e23f1981b"},
+    {"path": "truth_relations.jsonl", "bytes": 153755, "sha256": "8185a0905179d0fabab867236fa7deb499c9292bfdb1440d0d72a9dcea3b59c5"},
+    {"path": "uncertainty_dependency_clusters.jsonl", "bytes": 7860, "sha256": "17205ad3b93ea898f9806076a453e71ed10df2030e65d8704965e7a25751e597"},
+    {"path": "VALIDATION.json", "bytes": 631, "sha256": "76151f0855c0a8c331eae93a0c8c239ecdb4f29ad1a23fd790d4ea4065d8c7dc"}
+  ],
+  "note": "This manifest inventories the current public RefSet."
+}

@@ -1,0 +1,59 @@
+{
+  "archived_embedding_sha256": "cb9be00841f674c1ae805f57cf563bfbcce900e25c7406fe131fa53c0143519a",
+  "artifact": "DNA01_PUBLIC_SCORER_INPUT_BINDING",
+  "case_id": "dna.DNA01.crossdna-8m.primary",
+  "constraint_release": "DNA01_v0.5.4",
+  "deterministic_output_migration": true,
+  "formal_interface": "F_ONLY",
+  "forward_output_contract": {
+    "coverage": "EXACT",
+    "object_ids": [
+      2920
+    ],
+    "vectors": [
+      2920,
+      "d"
+    ]
+  },
+  "model_forward_rerun": false,
+  "output_directory": "paper_cases/dna/DNA01/models/crossdna-8m/output/DNA01_v0.5.4",
+  "output_files": {
+    "DEPENDENCY_CLUSTER_F_LEDGER.tsv": {
+      "bytes": 12219,
+      "sha256": "638ca4cdd69698afe7885606896e69cba369eb551e1e5d2a878be1ae4f558aaf"
+    },
+    "FORMAL_RESULT.json": {
+      "bytes": 2578,
+      "sha256": "f87bc63de4a317864c340e714cd3abbf62eef170ca445bf2ad81cf47c12f2c56"
+    },
+    "F_BOOTSTRAP.npy": {
+      "bytes": 160128,
+      "sha256": "eb1ac68add88d81dc11c2c46e901eafc5e8eed182060f90d50e133477fff81e3"
+    },
+    "INDIVIDUAL_SCORES.tsv": {
+      "bytes": 829824,
+      "sha256": "b75f9a0aaeeb1fbfd3b999d05cf845793a97e7a3d608dc8b097a3fb592c39f5e"
+    },
+    "OUTPUT_MANIFEST.json": {
+      "bytes": 780,
+      "sha256": "7270615878dc96b9ac5f2af55b84f4d0154657741cc2d5015932fd4077fdd18a"
+    },
+    "PARENT_F_LEDGER.tsv": {
+      "bytes": 21002,
+      "sha256": "c710fb57379f3541346707b11348b2c3dad7e51b0c4fec2bc57412f9155804f2"
+    },
+    "RUN_COMPLETE": {
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    },
+    "SHA256SUMS": {
+      "bytes": 532,
+      "sha256": "c31371693a975ae8990843c1afe0f79b9c1c7b2afb597c9207f2beb73e478a8a"
+    }
+  },
+  "public_scorer": "constraints/dna/DNA01/scoring/score_dna01.py",
+  "public_scorer_sha256": "7b530824c8a3c0af925ac92fbf4deed7590144edd0b108533e201c47bd0bf845",
+  "public_scoring_rerun": false,
+  "repeat_evidence": "PRIMARY_AND_REPEAT_CONTENT_IDENTICAL_IN_FINAL_FORWARD_EVIDENCE",
+  "status": "PASS"
+}

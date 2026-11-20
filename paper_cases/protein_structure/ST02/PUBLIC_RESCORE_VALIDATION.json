@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "formal_result_sha256": "0a5bb54e8e44535a2f02b80d9d98248488e4ae97df4fb1a33464d54a23e26056",
+      "model_id": "esm-if1"
+    },
+    {
+      "formal_result_sha256": "7c6f2c8f4568aea8df29669d9e1b4c77f2829e0239a2de8bbf4b2862846454d3",
+      "model_id": "esm3-struct"
+    },
+    {
+      "formal_result_sha256": "6415e32dc4b60d89e95c36bdbb460d054fd505bbf147ad8fc0cad6820e1c6272",
+      "model_id": "proteinmpnn-ca"
+    },
+    {
+      "formal_result_sha256": "033b65e1cf618baf0c704b9fecfe701fdb848f45cc30275ee5377456dca68d5e",
+      "model_id": "protoken"
+    },
+    {
+      "formal_result_sha256": "1a4c3e55d9edcc95af3ecb31770f5e069d47a2ffd5094260d024821f9d648e67",
+      "model_id": "sslm"
+    }
+  ],
+  "constraint_id": "ST02",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "status": "PASS"
+}

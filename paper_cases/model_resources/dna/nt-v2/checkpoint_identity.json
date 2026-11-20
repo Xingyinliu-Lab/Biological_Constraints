@@ -1,0 +1,92 @@
+{
+  "model_id": "nt-v2",
+  "domain": "dna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-100m-multi-species",
+  "upstream_revision": [
+    {
+      "value": "f34324c6fde36a4f635f0f1f06cac5d25acd6798",
+      "source": "results/dna/DNA02-02/models/nt-v2/provenance/MODEL_INTERFACE.json",
+      "field": "model_revision"
+    }
+  ],
+  "executed_checkpoint_hashes": [
+    {
+      "value": "60d5fe10281f7bf0436e990a55a3cf635eeabaf63b0e3ca4dc73838264d329b8",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.4.sha256",
+      "asset_context": "391597600 \\home\\mik\\u8t\\ai_genome\\m1_smoke\\models\\huggingface\\hub\\models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species\\snapshots\\f34324c6fde36a4f635f0f1f06cac5d25acd6798\\model.safetensors checkpoint_or_model_file 60d5fe10281f7bf0436e990a55a3cf635eeabaf63b0e3ca4dc73838264d329b8"
+    },
+    {
+      "value": "60d5fe10281f7bf0436e990a55a3cf635eeabaf63b0e3ca4dc73838264d329b8",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.2.sha256",
+      "asset_context": "391597600 model.safetensors 60d5fe10281f7bf0436e990a55a3cf635eeabaf63b0e3ca4dc73838264d329b8"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "82399c099aaacdc69e1a3dcdb95e62ff5523a0f9b46cfc5bd960f4c7dc390b29",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.2.sha256",
+      "asset_context": "1064 \\home\\mik\\u8t\\ai_genome\\m1_smoke\\models\\huggingface\\hub\\models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species\\snapshots\\f34324c6fde36a4f635f0f1f06cac5d25acd6798\\config.json checkpoint_or_model_file 82399c099aaacdc69e1a3dcdb95e62ff5523a0f9b46cfc5bd960f4c7dc390b29"
+    },
+    {
+      "value": "d6dc30bf018166daab248b0abf7efda6fd1b1e0a2d1bee5b31b23db2ebdaee77",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.6.sha256",
+      "asset_context": "101 \\home\\mik\\u8t\\ai_genome\\m1_smoke\\models\\huggingface\\hub\\models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species\\snapshots\\f34324c6fde36a4f635f0f1f06cac5d25acd6798\\special_tokens_map.json checkpoint_or_model_file d6dc30bf018166daab248b0abf7efda6fd1b1e0a2d1bee5b31b23db2ebdaee77"
+    },
+    {
+      "value": "253d338919eba938e50b776f3243cc739462c207fe64e3d2e81cc5e681bee45b",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.7.sha256",
+      "asset_context": "129 \\home\\mik\\u8t\\ai_genome\\m1_smoke\\models\\huggingface\\hub\\models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species\\snapshots\\f34324c6fde36a4f635f0f1f06cac5d25acd6798\\tokenizer_config.json checkpoint_or_model_file 253d338919eba938e50b776f3243cc739462c207fe64e3d2e81cc5e681bee45b"
+    },
+    {
+      "value": "c00e0ad166d6ab3f7540ebc92270392e581bb3106763412f29034b49323e1052",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "external_assets.8.sha256",
+      "asset_context": "28718 \\home\\mik\\u8t\\ai_genome\\m1_smoke\\models\\huggingface\\hub\\models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species\\snapshots\\f34324c6fde36a4f635f0f1f06cac5d25acd6798\\vocab.txt checkpoint_or_model_file c00e0ad166d6ab3f7540ebc92270392e581bb3106763412f29034b49323e1052"
+    },
+    {
+      "value": "82399c099aaacdc69e1a3dcdb95e62ff5523a0f9b46cfc5bd960f4c7dc390b29",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.0.sha256",
+      "asset_context": "1064 config.json 82399c099aaacdc69e1a3dcdb95e62ff5523a0f9b46cfc5bd960f4c7dc390b29"
+    },
+    {
+      "value": "d6dc30bf018166daab248b0abf7efda6fd1b1e0a2d1bee5b31b23db2ebdaee77",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.4.sha256",
+      "asset_context": "101 special_tokens_map.json d6dc30bf018166daab248b0abf7efda6fd1b1e0a2d1bee5b31b23db2ebdaee77"
+    },
+    {
+      "value": "253d338919eba938e50b776f3243cc739462c207fe64e3d2e81cc5e681bee45b",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.5.sha256",
+      "asset_context": "129 tokenizer_config.json 253d338919eba938e50b776f3243cc739462c207fe64e3d2e81cc5e681bee45b"
+    },
+    {
+      "value": "c00e0ad166d6ab3f7540ebc92270392e581bb3106763412f29034b49323e1052",
+      "source": "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+      "field": "runtime_and_model_identity.artifact_files.6.sha256",
+      "asset_context": "28718 vocab.txt c00e0ad166d6ab3f7540ebc92270392e581bb3106763412f29034b49323e1052"
+    }
+  ],
+  "download": {
+    "source": "https://huggingface.co/InstaDeepAI/nucleotide-transformer-v2-100m-multi-species",
+    "method": "huggingface_hub snapshot download",
+    "pinned_revision": "f34324c6fde36a4f635f0f1f06cac5d25acd6798"
+  },
+  "loading": "AutoTokenizer.from_pretrained(model_path, local_files_only=True); AutoModel.from_pretrained(model_path, local_files_only=True).eval()",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/m1_smoke/models/huggingface/hub/models--InstaDeepAI--nucleotide-transformer-v2-100m-multi-species/snapshots/f34324c6fde36a4f635f0f1f06cac5d25acd6798"
+  ],
+  "formal_evidence_files": [
+    "results/dna/DNA01/models/nt-v2/provenance/bound_inputs/identity_evidence/01_RUN_MANIFEST.json",
+    "results/dna/DNA02-02/models/nt-v2/provenance/EXECUTION_BINDING.json",
+    "results/dna/DNA02-02/models/nt-v2/provenance/MODEL_INTERFACE.json"
+  ]
+}

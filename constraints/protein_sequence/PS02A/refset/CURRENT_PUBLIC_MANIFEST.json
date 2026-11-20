@@ -1,0 +1,11 @@
+{
+  "release_kind": "ASSAY_REFSET_RELEASE",
+  "formal_status": "FROZEN",
+  "files": [
+    {"path":"CURRENT_RELEASE_STATUS.json","bytes":360,"sha256":"ac290bd676803d2da1b26ba91178fe3f72655f249fa209192c7aa761b904c648"},
+    {"path":"endpoint_sequences.faa","bytes":2051001,"sha256":"393ba2b7938d62e5e45f77a8e47cc66e8ad4f13e882908dd1c1b260ab9ae734d"},
+    {"path":"FORMAL_BUNDLE_LEDGER.tsv.gz","bytes":1268553,"sha256":"51156fa6d1b6bf48553d26054e28d6699b0a1c23f6450f0b94a7c0a4d6c30f79"},
+    {"path":"POINT_DEPENDENCY_MEMBERSHIP.tsv.gz","bytes":48966,"sha256":"a1379ab7307893b636ef0057da3fa8962d7a9a6dbd1cedf02b94093f7abee245"},
+    {"path":"UNCERTAINTY_ANCHOR_CLAN_MEMBERSHIP.tsv.gz","bytes":40599,"sha256":"e9190fb8e9cfa39bcbf65060092f4e00d016f026a2afc353d9c19ee7d00e7afe"}
+  ]
+}

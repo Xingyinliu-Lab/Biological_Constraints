@@ -1,0 +1,8 @@
+{
+  "membership_reconstructed_identically": true,
+  "source_rows": 8208,
+  "formal_rows": 8208,
+  "model_forward_required": false,
+  "formal_scoring_status": "REQUIRES_NUMERIC_METHOD_AND_SCORER_CLOSURE",
+  "reason": "Development embeddings and leaf scores may be rebound after the formal Numeric Method and scorer are issued; development summary is not promoted directly."
+}

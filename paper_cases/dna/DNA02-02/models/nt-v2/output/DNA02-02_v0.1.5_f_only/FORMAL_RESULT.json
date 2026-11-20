@@ -1,0 +1,49 @@
+{
+  "F": 0.8266561750599519,
+  "F_95_CI": [
+    0.820160746402878,
+    0.8330466876498801
+  ],
+  "constraint_id": "C-DNA-02-02",
+  "counts": {
+    "first_edit_queries": 5840,
+    "ladders": 46720,
+    "objects": 54020,
+    "outer_clusters": 278
+  },
+  "coverage": {
+    "expected_ladders": 46720,
+    "expected_objects": 54020,
+    "scored_ladders": 46720,
+    "scored_objects": 54020,
+    "unscored_ladders": 0
+  },
+  "evaluation_class": "FORMAL_PROTOCOL_EVALUATION",
+  "formal_interface": "F_ONLY",
+  "formal_scoring_protocol": true,
+  "input_sha256": {
+    "controls": "63f55245d463b1ed57960b5c56d20292bfc454600614701f8228e820e2e9ab74",
+    "embeddings": "24c3986d3e883352e75d0946e4e0f27f66a683d665de79aab3baa10659814e45",
+    "fasta": "25fa18aed50409ba0c923ebcb0415edd2f2c93d4832263f8a6fba6c01bb3bd62",
+    "folds": "b01e0111f70742d322d03a4624ca8c3e4fa29dbe61ccfc22aa62c08d954cc8a6",
+    "ladders": "f27a6d40284997146631ed39414cae05e4872114ac347ba69f8ed9819d8386f9",
+    "repeat_embeddings": "24c3986d3e883352e75d0946e4e0f27f66a683d665de79aab3baa10659814e45",
+    "sequence_objects": "0072bbe010852baee02f5e8e3dfb5b97a7ccf3c2413f1b69e498cd16ecbb382a"
+  },
+  "model_id": "nt-v2",
+  "numeric_method": {
+    "aggregation": "ladder_to_first_edit_to_locus_to_outer_cluster",
+    "bootstrap": {
+      "draws": 20000,
+      "interval": "percentile_95",
+      "seed": 20261014,
+      "unit": "outer_cluster"
+    },
+    "operator": "SAFE_COSINE_SIMILARITY",
+    "tau_rule": "frozen_stratified_repeat_calibration_v0.1.1"
+  },
+  "registered_paper_result": false,
+  "score_transform_version": "DNA02-02_v0.1.5_F_ONLY",
+  "status": "PASS",
+  "tau_delta": 1e-08
+}

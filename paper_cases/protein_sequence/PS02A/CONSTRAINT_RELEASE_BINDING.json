@@ -1,0 +1,16 @@
+{
+  "comparator_location": "constraints/protein_sequence/PS02A/comparators/nw-blosum62-primary-comparator",
+  "constraint_id": "PS02A",
+  "constraint_release": "PS02A_v1.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "models": [
+    "carp-640m",
+    "esm2-650m",
+    "esm3-seq",
+    "esmc-600m",
+    "prott5"
+  ],
+  "public_scorer": "constraints/protein_sequence/PS02A/scoring/score_ps02a.py",
+  "public_scorer_sha256": "8be206b3e7e89eb5c5de10cc6939f7fd95d1dd3ad8ea3839e0681008ad431125",
+  "status": "PASS"
+}

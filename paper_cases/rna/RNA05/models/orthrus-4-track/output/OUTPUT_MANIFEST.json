@@ -1,0 +1,35 @@
+{
+  "files": [
+    {
+      "bytes": 1197726,
+      "path": "HELDOUT_PREDICTIONS.tsv",
+      "sha256": "45989cdca8f90ee886c465f5a5074c8425cf153462f8867293ce443e688ff44f"
+    },
+    {
+      "bytes": 241477,
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "sha256": "581712f722e3f7a75069960e960227389d3c9497ea040ccfa361ad2568caa559"
+    },
+    {
+      "bytes": 3644,
+      "path": "PARENT_SCORE_LEDGER.tsv",
+      "sha256": "ea3f4425449505c78b1c5e6d18b39b69fd339ecd22682e7396428d5d2f3752ba"
+    },
+    {
+      "bytes": 1128,
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "sha256": "fc864d2e877f878e8b4869bc917b0a78c06a45c7ecf25d9fce5ff68602029f6b"
+    },
+    {
+      "bytes": 3828,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "fb31492285edfaa0383746fe4a3cbe79ba483e697ea4a46e55b7310af64845c2"
+    },
+    {
+      "bytes": 160128,
+      "path": "BOOTSTRAP_MEANS.npy",
+      "sha256": "7d019f5214ea17e280c1a5c03a04f8b0c8c45ce26061c05df9239559ba88bb64"
+    }
+  ],
+  "formal_interface": "RNA05_F_ONLY_v0.1.3"
+}

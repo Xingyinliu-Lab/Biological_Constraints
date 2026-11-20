@@ -1,0 +1,8 @@
+{
+  "source_membership_status": "VALIDATED",
+  "formal_status": "FROZEN",
+  "selection": "unchanged 16K source-only selected bundle ledger",
+  "matching": "identity <= 0.40 and bilateral coverage >= 0.80; other named axes are diagnostics",
+  "uncertainty": "anchor-clan bootstrap blocks; negative reuse diagnostic/sensitivity only",
+  "model_output_consumed": false
+}

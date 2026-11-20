@@ -1,0 +1,16 @@
+{
+  "constraint_id": "ST02",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "esm3-struct",
+  "public_rescore_output": {
+    "path": "output/public_rescore/SCORE_SUMMARY.json",
+    "sha256": "69ac6e6982005c879e420c6c889ff4d08b73ee27aca720e24bd22b0e92fa24d9"
+  },
+  "public_scorer_sha256": "cb07f116cbc588baa8efc18da1980a4b14068231e7be28174741c351b12cfb8e",
+  "registered_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "7c6f2c8f4568aea8df29669d9e1b4c77f2829e0239a2de8bbf4b2862846454d3"
+  },
+  "status": "PASS"
+}

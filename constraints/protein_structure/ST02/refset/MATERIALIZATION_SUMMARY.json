@@ -1,0 +1,31 @@
+{
+  "artifact_id": "ST02_MATERIALIZED_REFSET_2K_v0.2.2_FROZEN_20261011",
+  "edge_attrition_counts": {
+    "INSUFFICIENT_SAME_ARCHITECTURE_DIFFERENT_TOPOLOGY_CANDIDATES": 278,
+    "NEGATIVE_REUSE_CAP": 1155,
+    "TRUE_TARGET_REUSE_CAP": 1542
+  },
+  "formal_architecture_count": 11,
+  "formal_dependency_cluster_count": 494,
+  "formal_directed_endpoint_count": 1146,
+  "formal_object_count": 509,
+  "formal_relation_count": 4584,
+  "formal_strict_positive_edge_count": 573,
+  "maximum_negative_reuse": 20,
+  "maximum_true_target_reuse": 4,
+  "minimum_distinct_dependency_clusters_per_source_hsf_topology_stratum": 1,
+  "necessary_same_architecture_pair_evidence_reused_count": 17216,
+  "parent_resolved_admitted_object_count": 572,
+  "parent_unresolved_or_ambiguous_excluded_count": 1428,
+  "positive_candidate_edge_count": 3548,
+  "primary_hsf_count": 293,
+  "primary_positive_topology_count": 60,
+  "source_attrition_counts": {
+    "MULTIPLE_SIFTS_UNIPROT_OVERLAPS": 7,
+    "NO_SIFTS_ROW_FOR_PDB_CHAIN": 1417,
+    "SIFTS_CHAIN_PRESENT_NO_DOMAIN_COORDINATE_OVERLAP": 4
+  },
+  "source_hsf_topology_stratum_count": 293,
+  "source_prefix_object_count": 2000,
+  "status": "FROZEN_REFSET"
+}

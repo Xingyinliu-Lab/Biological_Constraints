@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "bytes": 68110,
+      "path": "INDIVIDUAL_SCORES.tsv.gz",
+      "sha256": "616b4ef9b399ffd8b4c90347d1ebc9bb447edde1322271eb68fc9a23bb683f78"
+    },
+    {
+      "bytes": 160128,
+      "path": "F_BOOTSTRAP.npy",
+      "sha256": "78dc8e65a5a5b19913036517cf26209df9b16e6469441e83d83b40a92f5368e8"
+    },
+    {
+      "bytes": 4711,
+      "path": "EVALUATION_RESULT.json",
+      "sha256": "a3fabd2a26513cc0e4a8cb6c95ef6cfb92d4ab3e133aba640cd1c88b03024b2b"
+    }
+  ],
+  "status": "PASS"
+}

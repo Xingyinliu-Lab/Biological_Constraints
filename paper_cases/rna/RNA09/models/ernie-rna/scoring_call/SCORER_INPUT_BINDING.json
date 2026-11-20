@@ -1,0 +1,30 @@
+{
+  "assay_id": "C-RNA-09",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "current_release_binding_basis": "saved F-only leaf, hierarchy and bootstrap outputs",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "b50d3ed5a6f9dcc822763d7321cd98e580416d41477adaeba136fbff1b3741f5"
+  },
+  "forward_output": {
+    "bytes": 120338,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "18c9b955e9448d8e269ed21451bf490d8a908eaad51ae3b17dcb90f9a1a83366"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "ernie-rna",
+  "planned_population_identity_sha256": "5d7b4584f47aa3dc3f4589380bc0d5ec41ed0ccbdd1f0c4d5a7fe98f139c9c33",
+  "public_scorer": "constraints/rna/RNA09/scoring/score_official.py",
+  "public_scorer_sha256": "b6b6b9c35bc378d4684fb95c193ed0f6e4556a96f643d110b6c23033be745bd7",
+  "refset_input_sha256": {
+    "anchor_bundles": "346eb9e7e9c9e75f55dee8d510b75e0cd69a5a4c5b65b73c5a341e18e3cb7389",
+    "object_map": "c6e13decd749c00854d5a75eb843695191efcec65e4aa494d763e4f618c6db6d",
+    "population_manifest": "b42d168646fa8c5f3999dd0f5e49daaa2b5c3ceab83fa56eb80484403845ba2e",
+    "relations": "1f3d022daf8249a269168baefddfe4447d14a7f7ac5fe18cb8eed4c8ac2f767e",
+    "reuse": "457aea066d57a82267024ee3315adf5318604f23df236fba6626623e8c452491",
+    "sequences": "a04deb9620da1f749bd9075098423686fdae3a5976164f665dbffb98287fb208",
+    "source_dependencies": "bfb59eecbac0cca8ffa5f149ca411588e00105c065440926e53a25d8d8efdf0b"
+  },
+  "status": "PASS"
+}

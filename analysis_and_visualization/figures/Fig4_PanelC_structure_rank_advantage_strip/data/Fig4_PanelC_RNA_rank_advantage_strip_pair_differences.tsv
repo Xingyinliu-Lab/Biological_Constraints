@@ -1,0 +1,4 @@
+Constraint	relation	row	F_model_A	F_model_B	delta_F	delta_label	direction
+RNA01-02	RNA01-02  Edit adjacency	1	0.925585	0.896374	0.029211	+0.03	A higher
+RNA06	RNA06  Partner specificity	2	0.152726	0.542399	-0.389673	-0.39	B higher
+RNA09	RNA09  Remote structure	3	0.409091	0.969697	-0.560606	-0.56	B higher

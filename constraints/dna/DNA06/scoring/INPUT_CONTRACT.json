@@ -1,0 +1,21 @@
+{
+  "contract_id": "DNA06_CODON_LOCAL_FORWARD_OUTPUT_v1.0.0",
+  "constraint_id": "DNA06",
+  "forward_targets": {
+    "path": "../refset/FORWARD_TARGETS.tsv",
+    "sha256": "754e96a85ed644232be84b1208a53c4259fda22ca795bea518b21827aadfde6c",
+    "row_count": 15426,
+    "coordinate_system": "canonical CDS nucleotide, 0-based half-open [codon_start_0based, codon_end_exclusive)"
+  },
+  "representation_npz": {
+    "required_keys": ["row_ids", "embeddings"],
+    "row_ids": {"dtype": "string", "unique": true, "coverage": "exactly the released target row IDs"},
+    "embeddings": {"shape": "(15426, d)", "d": "> 0", "numeric": "finite real integer or floating-point; complex, boolean, string and object arrays are rejected"}
+  },
+  "mapping_evidence": {
+    "required_for_reported_evaluations": true,
+    "scope": "model-token to released biological-coordinate mapping and readout/pooling procedure",
+    "minimum_content": ["model identity", "tokenizer or tokenization version", "windowing rule", "target-coordinate to token-span rule", "pooling or readout rule", "handling of tokens crossing codon boundaries"],
+    "scorer_role": "The scorer validates released row identity and numerical inputs. It does not load or independently validate third-party model tokenization."
+  }
+}

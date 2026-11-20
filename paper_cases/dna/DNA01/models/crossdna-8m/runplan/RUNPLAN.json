@@ -1,0 +1,135 @@
+{
+  "artifact": "DNA01_MODEL_SPECIFIC_RUNPLAN",
+  "checkpoint_tokenizer_and_external_assets": [
+    {
+      "bytes": 1587,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/config.json",
+      "role": "checkpoint_or_model_file",
+      "sha256": "7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778"
+    },
+    {
+      "bytes": 3006,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/configuration_crossdna.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "b58a6bb472d6cfa27bab976c0146b317f149612e1744f02ea709f1395b6fff7a"
+    },
+    {
+      "bytes": 64417904,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/model.safetensors",
+      "role": "checkpoint_or_model_file",
+      "sha256": "886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63"
+    },
+    {
+      "bytes": 33047,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/modeling_crossdna.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "3c6451e0f50b6f9e0533d6c6269c6991293718e4fb7c81f3493769cfddfc7dd3"
+    },
+    {
+      "bytes": 64629522,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/pytorch_model.bin",
+      "role": "checkpoint_or_model_file",
+      "sha256": "9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250"
+    },
+    {
+      "bytes": 173,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/special_tokens_map.json",
+      "role": "checkpoint_or_model_file",
+      "sha256": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+    },
+    {
+      "bytes": 5613,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/tokenization_crossdna.py",
+      "role": "checkpoint_or_model_file",
+      "sha256": "cac0bcf46a8756f62e8e22414548b6f9d381556a68ab4b95c8a7ce6a39e8edf4"
+    },
+    {
+      "bytes": 1251,
+      "path": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference/tokenizer_config.json",
+      "role": "checkpoint_or_model_file",
+      "sha256": "19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71"
+    }
+  ],
+  "constraint_id": "C-DNA-01",
+  "formal_ledger_sha256": "3e3b8dbb018a5e5ae8515d9cbbbec57fab8bb8f77bc11bb1896c9decc06ed5e2",
+  "formal_numeric": {
+    "alpha": 0.001,
+    "bootstrap": {
+      "draws": 20000,
+      "operator_refit": false,
+      "seed": 20261013,
+      "unit": "dependency_cluster"
+    },
+    "execution_mode": "FORMAL"
+  },
+  "formal_result_sha256": "ba608f644185206e0563a22a2585a067e412309caf42ef10cfd60aa7172aa98a",
+  "forward_reexecuted_for_current_release": false,
+  "identity": "crossdna_8m",
+  "model_or_comparator_interface_sha256": "8771650d6f2f625c52793769c8ec576a1bb28bc1184eabf7f7a5d5aa1d5b21e8",
+  "operator_branch": "EMPIRICAL_SHARED_AFFINE",
+  "operator_refit_for_current_release": false,
+  "result_kind": "FM",
+  "runtime_and_model_identity": {
+    "artifact_files": [
+      {
+        "bytes": 1587,
+        "path": "config.json",
+        "sha256": "7fcb9f4e07aab1ec8b52c9ebebd0648fad6cfd3c669c975dd9ea296efa46b778"
+      },
+      {
+        "bytes": 3006,
+        "path": "configuration_crossdna.py",
+        "sha256": "b58a6bb472d6cfa27bab976c0146b317f149612e1744f02ea709f1395b6fff7a"
+      },
+      {
+        "bytes": 64417904,
+        "path": "model.safetensors",
+        "sha256": "886fc527a7103aa27d4f7f41626a9a283f400983e91d5e09247243d79b1dac63"
+      },
+      {
+        "bytes": 33047,
+        "path": "modeling_crossdna.py",
+        "sha256": "3c6451e0f50b6f9e0533d6c6269c6991293718e4fb7c81f3493769cfddfc7dd3"
+      },
+      {
+        "bytes": 64629522,
+        "path": "pytorch_model.bin",
+        "sha256": "9fb0669559f4aff27b88a26fcd52f048b4d3ee36a7c3ea35ef07e049c355d250"
+      },
+      {
+        "bytes": 173,
+        "path": "special_tokens_map.json",
+        "sha256": "5a7f632604e110003e8003e3b2eada8740c0069f98e13728be4b883c520cc71d"
+      },
+      {
+        "bytes": 5613,
+        "path": "tokenization_crossdna.py",
+        "sha256": "cac0bcf46a8756f62e8e22414548b6f9d381556a68ab4b95c8a7ce6a39e8edf4"
+      },
+      {
+        "bytes": 1251,
+        "path": "tokenizer_config.json",
+        "sha256": "19b11b715f1f1c87c807d8fdf1b0cd0d6c3af2f35e670b044cf73f8a9ab86b71"
+      }
+    ],
+    "executed_model_root": "/home/mik/u8t/ai_genome/crossdna_8m/CrossDNA/crossdna_inference",
+    "executed_python": "/home/mik/u8t/ai_genome/crossdna_8m/env/bin/python",
+    "model_key": "crossdna_8m",
+    "runtime": {
+      "numpy": "2.4.6",
+      "python": "3.11.17",
+      "tokenizers": "0.21.4",
+      "torch": "2.5.0+cu121",
+      "transformers": "4.53.0"
+    }
+  },
+  "semantic_replay_only": true,
+  "source_hashes": {
+    "anchors": "752bc9309d27bcf5608ea7130ab1797985be2f33b828fae6b30a4df0ce451a8d",
+    "fasta": "5e5edb8cb5700a5a61c2aaa72a1573a0234fee86f39acbe021050cb86daf47fd",
+    "objects": "b2f9a2df0ad97fd0f34acaf30bbabf65529d312d0deca2fb734de1ec3febba3f",
+    "relations": "c9873b73674678c74d2897ae175034c6f8ca5c767700ce724cbfef0813e4a54f"
+  },
+  "status": "FROZEN_CURRENT_RELEASE",
+  "version": "0.5.3"
+}

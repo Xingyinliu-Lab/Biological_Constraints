@@ -1,0 +1,27 @@
+{
+  "aggregation": "contrast F-credit mean -> endpoint challenge F mean -> anchor F mean -> source dependency cluster F mean -> unweighted cluster macro F",
+  "artifact_id": "ST01_NUMERIC_METHOD_v0.1.1_FROZEN_20261010",
+  "bootstrap": {
+    "ci": "two-sided percentile 95%; numpy.quantile(method=linear)",
+    "draws": 20000,
+    "generator": "PCG64",
+    "seed": 20261010,
+    "unit": "source_dependency_cluster"
+  },
+  "constraint_id": "C-ST-01",
+  "credit": {
+    "negative": -1.0,
+    "positive": 1.0,
+    "tie": 0.0
+  },
+  "formal_reporting_score": "F = unweighted macro mean of dependency-cluster F values",
+  "failure_policy": "missing formal score, nonfinite score, or zero-norm embedding aborts the run; no contrast pruning",
+  "primary_evaluation": {
+    "mode": "direct_intrinsic_ranking",
+    "representation_geometry": "Word-frozen raw global representation -> L2 normalization -> cosine",
+    "train_test_split": "none",
+    "trained_parameters": false
+  },
+  "status": "FROZEN_NUMERIC_METHOD",
+  "tie_tolerance": 0.0
+}

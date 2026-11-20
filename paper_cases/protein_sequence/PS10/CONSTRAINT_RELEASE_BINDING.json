@@ -1,0 +1,15 @@
+{
+  "constraint_id": "PS10",
+  "constraint_release": "PS10_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "public_scorer": "constraints/protein_sequence/PS10/scoring/score_ps10.py",
+  "public_scorer_sha256": "786052815015214bd8add2e5cd9198a80315c5f5cfe2d5945f269ee3a25fdf7d",
+  "registered_model_cases": [
+    "esm2-650m",
+    "prott5",
+    "esmc-600m",
+    "carp-640m",
+    "esm3-seq"
+  ],
+  "scoring_status": "PASS_CANONICAL_SCORING_ENVIRONMENT_5_OF_5"
+}

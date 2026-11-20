@@ -1,0 +1,4 @@
+Constraint	relation	row	F_model_A	F_model_B	delta_F	delta_label	direction
+ST02	ST02  Structural neighborhood	1	0.114679	0.15959	-0.044911	-0.04	B higher
+ST04	ST04  Long-range contacts	2	0.680549	0.336349	0.3442	+0.34	A higher
+ST05	ST05  Rigid-body invariance	3	0.436441	0.954979	-0.518538	-0.52	B higher

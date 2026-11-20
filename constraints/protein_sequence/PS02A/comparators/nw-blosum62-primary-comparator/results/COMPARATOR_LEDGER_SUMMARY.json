@@ -1,0 +1,27 @@
+{
+  "artifact_type": "PS02A_NW_BLOSUM62_COMPARATOR_SCORE_LEDGER",
+  "bundle_count": 10072,
+  "bundle_sha256": "51156fa6d1b6bf48553d26054e28d6699b0a1c23f6450f0b94a7c0a4d6c30f79",
+  "detail_ledger_sha256": "de86cee8542fb2b982041c4419d90eaf9ea5f3d5a30403b981acb93975d73df2",
+  "endpoint_count": 13573,
+  "fasta_sha256": "393ba2b7938d62e5e45f77a8e47cc66e8ad4f13e882908dd1c1b260ab9ae734d",
+  "fixed_method_prior": "EBLOSUM62 substitution matrix",
+  "formal_result": false,
+  "leaf_ledger_sha256": "e26ec1a86ad70d68d95f82338d3ab97437b802456bd82346409524844da553f0",
+  "losses": 3290,
+  "needle_sha256": "d369c810d4c60532638db7c3c51903cd5f37a75405a3e26174ee2a4f5d380590",
+  "pair_count": 20134,
+  "pair_score_cache_sha256": "83b13ab7fd1982640619173b9dced6e408a4cf56c0ee27c0331caed9d62c4f60",
+  "params": {
+    "endextend": "0.5",
+    "endopen": "10.0",
+    "endweight": "Y",
+    "gapextend": "0.5",
+    "gapopen": "10.0",
+    "matrix": "EBLOSUM62"
+  },
+  "status": "PASS",
+  "ties": 1,
+  "wins": 6781,
+  "worker_count": 64
+}

@@ -1,0 +1,33 @@
+{
+  "constraint_id": "C-RNA-10",
+  "formal_interface": "F_ONLY",
+  "model_id": "raw_positional_kmer_weighted_ridge",
+  "outputs": [
+    {
+      "bytes": 5157,
+      "path": "AGGREGATION_SCORES.json",
+      "sha256": "e2cd38afb5e19c2e113675ab1c75efd3f42f3efed7ca6c6930c1795824af579f"
+    },
+    {
+      "bytes": 408427,
+      "path": "F_BOOTSTRAP_DRAWS.json",
+      "sha256": "1fd6dea52dacde8800a98889535bac929de59dab336d29d53e8e1d373629ce0f"
+    },
+    {
+      "bytes": 1617,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "6ec91d999f4439854ee8dd0c11d284e7683a1e80e50173d8701b4b2f6e1e8f57"
+    },
+    {
+      "bytes": 187033,
+      "path": "INDIVIDUAL_SCORES.json",
+      "sha256": "b5ba0fea887466fa638269336a942e17123e21713fe6a30005aef0a429d67975"
+    },
+    {
+      "bytes": 262775,
+      "path": "MEASUREMENT_LEDGER.json",
+      "sha256": "1feff47f3d046b3511310cc43d0555b2cdd0826e66329c6b45b8e6d72244866c"
+    }
+  ],
+  "public_entry": "score_rna10.py"
+}

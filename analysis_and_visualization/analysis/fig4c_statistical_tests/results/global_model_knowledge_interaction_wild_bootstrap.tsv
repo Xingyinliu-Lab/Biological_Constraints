@@ -1,0 +1,2 @@
+constraints	formal_F_cells	domains	bootstrap_replicates	observed_interaction_SS	null_median_interaction_SS	null_q025_interaction_SS	null_q975_interaction_SS	exceedances	p_value
+22	110	4	200000	1.71359376089937	1.35939913718441	0.981364126858266	1.62914691566618	2	1.4999925000375e-05

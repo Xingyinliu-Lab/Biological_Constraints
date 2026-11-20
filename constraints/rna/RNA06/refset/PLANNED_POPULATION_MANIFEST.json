@@ -1,0 +1,33 @@
+{
+  "K_max": 8,
+  "K_min": 2,
+  "assay_id": "C-RNA-06",
+  "candidate_universe_identity_comparison_sha256": "3c1ead313cb9ce0f74919dfd08f59ca239680b7e77a697215995c4729af5c33e",
+  "candidate_universe_manifest_sha256": "e4d1ca545c4ff751692ec4f54940e5f8155f951e227f87cb6c728efb82c000db",
+  "cap_lexicographic_key": [
+    "abs(abs(anchor-candidate)-abs(anchor-true_partner))",
+    "abs(relative_position_candidate-relative_position_true_partner)",
+    "candidate_record_id"
+  ],
+  "cap_selection_contract_id": "RNA06_LEXICOGRAPHIC_MATCHING_CAP_v1",
+  "directed_endpoint_challenges": 3176,
+  "edge_bundles": 1588,
+  "inherited_rna05_truth_dependency_ledger_sha256": "85a1ae874beed0bd3933383ebac7bcd75ced12c75246b3fb03e7f4e3b1bc7790",
+  "outer_dependency_clusters": 20,
+  "paired_nonpartner_candidates_after_cap": 14948,
+  "panel_id": "RNA06_FORMAL_RECIPROCAL_EDGE_PANEL_v0.1.1_20261002",
+  "parents": 104,
+  "planned_population_identity_sha256": "9d843d69008bff567df752fff5fc8e70a6ee88b021f9f570c4b529ff525a8408",
+  "runtime_shrink_forbidden": true,
+  "selection_unit": "complete reciprocal undirected edge bundle",
+  "separation_bins": [
+    "1-4",
+    "5-8",
+    "9-16",
+    "17-32",
+    "33-64",
+    "65-128",
+    "129+"
+  ],
+  "source_only": true
+}

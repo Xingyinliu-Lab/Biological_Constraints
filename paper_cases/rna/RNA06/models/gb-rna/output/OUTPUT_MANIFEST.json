@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "bytes": 160128,
+      "path": "BOOTSTRAP_MEANS.npy",
+      "sha256": "610fb9d8eaaab04abd8f57f1e4ab323c202a5969c8e5921398206f7972ce54c9"
+    },
+    {
+      "bytes": 3575030,
+      "path": "CANDIDATE_SCORES.tsv",
+      "sha256": "8a2de5a94a37567f183f86c7f4dd388a4f86b2d75116ef89dd23fa731c33c392"
+    },
+    {
+      "bytes": 1142,
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "sha256": "eb3f61457ae789919a76f8682a40edb6488413397477315ed783016962643c87"
+    },
+    {
+      "bytes": 155777,
+      "path": "EDGE_SCORE_LEDGER.tsv",
+      "sha256": "54dca2e2849875f07eed0566a51426a97d8ecc6fc0c6a7dc5ee0687911d8ae8c"
+    },
+    {
+      "bytes": 4674,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "5a254edc2a1142ed9a23be0e0cee99031ced512d730eb5f11c98e88f706a0a50"
+    },
+    {
+      "bytes": 4520369,
+      "path": "HELDOUT_PREDICTIONS.tsv",
+      "sha256": "d4dbaed05714b7044416746312a8218dbe0b4fb5e8fc02827e059145c1693c6a"
+    },
+    {
+      "bytes": 560931,
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "sha256": "6499a0483578ed16b2138c9edd9117d50e1def8b524eb468f48a80f0920414b4"
+    },
+    {
+      "bytes": 7643,
+      "path": "PARENT_SCORE_LEDGER.tsv",
+      "sha256": "3644898a46bf18f6e077e2a5878006d222e6fa7192961cc4c454e5661b084e8f"
+    }
+  ],
+  "formal_interface": "RNA06_F_ONLY_v0.1.3"
+}

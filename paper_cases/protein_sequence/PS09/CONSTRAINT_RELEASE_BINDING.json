@@ -1,0 +1,19 @@
+{
+  "constraint_id": "PS09",
+  "constraint_release": "PS09_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "refset_release": "PS09_ASSAY_REFSET_RELEASE_v1.0.0_20261008",
+  "numeric_method_release": "PS09_NUMERIC_METHOD_AND_FORMAL_SCORER_v0.1.2_F_ONLY",
+  "public_entry": "constraints/protein_sequence/PS09/scoring/score_ps09.py",
+  "public_entry_sha256": "60fe37c9109d80796c3ccac65a95ca672367f296699034e28bcb438509a75f3d",
+  "representation_module_sha256": "e123ea189f9eb303386afa6c1302e92b2824c72524d5aa130f5a79f69acbfe87",
+  "aggregation_module_sha256": "89b92cc77e2cd00e7a5af426854aaa01196cb9c8a67e4f93575eab17f1fcb2c2",
+  "models": [
+    "esm2-650m",
+    "prott5",
+    "esmc-600m",
+    "carp-640m",
+    "esm3-seq"
+  ],
+  "scoring_policy": "All cases use the same public F-only PS09 scorer."
+}

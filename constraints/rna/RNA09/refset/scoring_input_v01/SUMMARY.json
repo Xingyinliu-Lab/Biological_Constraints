@@ -1,0 +1,10 @@
+{
+  "artifact_type": "RNA09_SCORING_INPUT_FASTA",
+  "endpoint_objects": 40,
+  "fasta_bytes": 5079,
+  "fasta_header": "sequence_sha256 only",
+  "fasta_sha256": "a04deb9620da1f749bd9075098423686fdae3a5976164f665dbffb98287fb208",
+  "object_map_sha256": "c6e13decd749c00854d5a75eb843695191efcec65e4aa494d763e4f618c6db6d",
+  "status": "PASS",
+  "unique_sequence_hashes": 36
+}

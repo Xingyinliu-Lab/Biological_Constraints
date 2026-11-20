@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "bytes": 5034224,
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "sha256": "f08b6959494d581ec898e827393deeed2063678df48a19f62154a274106e5733"
+    },
+    {
+      "bytes": 704687,
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "sha256": "cb1231e0580971045e69c31aaa64af924a3d453a44b114d7aac50471782479c8"
+    },
+    {
+      "bytes": 280,
+      "path": "CALIBRATION.json",
+      "sha256": "c0e52e4d5ab661a2dc1f1959f73ab2f81043623f3c76e1fe683e30b4458509be"
+    },
+    {
+      "bytes": 1374,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "d30dd71dc5eda6b543f8b9db999de51c8d09db4283c5722b0d3d413f18028d24"
+    },
+    {
+      "bytes": 160128,
+      "path": "BOOTSTRAP_MEANS.npy",
+      "sha256": "7783b4342c4f04e203d9d6e9fb6f1ac77ee54822baf30c31be2afec094fb9262"
+    }
+  ],
+  "formal_interface": "F_ONLY"
+}

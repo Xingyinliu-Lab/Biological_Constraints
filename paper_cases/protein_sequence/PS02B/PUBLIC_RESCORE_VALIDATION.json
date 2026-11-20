@@ -1,0 +1,44 @@
+{
+  "constraint_id": "PS02B",
+  "release": "PS02B_v1.0.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "status": "PASS",
+  "public_scorer": "constraints/protein_sequence/PS02B/scoring/score_ps02b.py",
+  "cases": [
+    {
+      "model_id": "carp-640m",
+      "status": "PASS",
+      "F": 0.3429131317726617,
+      "result": "paper_cases/protein_sequence/PS02B/models/carp-640m/output/SCORE_SUMMARY.json",
+      "result_sha256": "c39cbf7d56c922e86ca22652dfb13936501874fbfbab810e3a4fd912a9ac7807"
+    },
+    {
+      "model_id": "esm2-650m",
+      "status": "PASS",
+      "F": 0.3687717901540284,
+      "result": "paper_cases/protein_sequence/PS02B/models/esm2-650m/output/SCORE_SUMMARY.json",
+      "result_sha256": "a2790654808cafdf3589d46d3c5a7335cf4a09003997047a29599f4a91063117"
+    },
+    {
+      "model_id": "esm3-seq",
+      "status": "PASS",
+      "F": 0.5082819960654097,
+      "result": "paper_cases/protein_sequence/PS02B/models/esm3-seq/output/SCORE_SUMMARY.json",
+      "result_sha256": "ad841e7cac7ade861c43345bab36a92e5adb4603234dc304d140a1ac98f1f41a"
+    },
+    {
+      "model_id": "esmc-600m",
+      "status": "PASS",
+      "F": 0.19116354876198094,
+      "result": "paper_cases/protein_sequence/PS02B/models/esmc-600m/output/SCORE_SUMMARY.json",
+      "result_sha256": "a47413ce71e31d1b333d2ea97c1d72933e267c03764db3a3c85369271e81060d"
+    },
+    {
+      "model_id": "prott5",
+      "status": "PASS",
+      "F": 0.5909484287654221,
+      "result": "paper_cases/protein_sequence/PS02B/models/prott5/output/SCORE_SUMMARY.json",
+      "result_sha256": "d808d5b339e1aec5dc5f8e9a81b62a9147b4c4e7a257afaf77c5ebbe8e16d65d"
+    }
+  ]
+}

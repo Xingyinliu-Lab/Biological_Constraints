@@ -1,0 +1,69 @@
+{
+  "assay_id": "C-RNA-04",
+  "cases": [
+    {
+      "F": 0.502062919030428,
+      "F_95_CI": [
+        0.4780814853017019,
+        0.5263022176379577
+      ],
+      "constraint_release": "RNA04_v0.2.2_F_ONLY",
+      "model_id": "ernie-rna",
+      "result_path": "paper_cases/rna/RNA04/models/ernie-rna/output/RNA04_v0.2.2_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "284093f4d6ec427dc2c76761d4df1d2388eabe7b8259e7b42bd4fdc62b7e436e",
+      "status": "FORMAL_F_ONLY_RESULT"
+    },
+    {
+      "F": 0.5092831356369263,
+      "F_95_CI": [
+        0.4845281072717893,
+        0.5335224342444558
+      ],
+      "constraint_release": "RNA04_v0.2.2_F_ONLY",
+      "model_id": "gb-rna",
+      "result_path": "paper_cases/rna/RNA04/models/gb-rna/output/RNA04_v0.2.2_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "ee01120366722361021db71fcd40f8b670f0f937b79385b8afcdc79bcc60327e",
+      "status": "FORMAL_F_ONLY_RESULT"
+    },
+    {
+      "F": 0.1910778751933988,
+      "F_95_CI": [
+        0.1650335224342443,
+        0.2173800928313565
+      ],
+      "constraint_release": "RNA04_v0.2.2_F_ONLY",
+      "model_id": "orthrus-4-track",
+      "result_path": "paper_cases/rna/RNA04/models/orthrus-4-track/output/RNA04_v0.2.2_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "16251aeee72b1a8bcd5bf5ed39cacf8f985be50ffa5bb6d67086c8d29c6e3aa9",
+      "status": "FORMAL_F_ONLY_RESULT"
+    },
+    {
+      "F": 0.5265600825167613,
+      "F_95_CI": [
+        0.5010314595152141,
+        0.5518308406395049
+      ],
+      "constraint_release": "RNA04_v0.2.2_F_ONLY",
+      "model_id": "rinalmo-giga",
+      "result_path": "paper_cases/rna/RNA04/models/rinalmo-giga/output/RNA04_v0.2.2_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "5018e4ec54b719857361d07c9cf4a28e031a3af8e73b6cd61276ba3a6e6740d9",
+      "status": "FORMAL_F_ONLY_RESULT"
+    },
+    {
+      "F": 0.4401753481175865,
+      "F_95_CI": [
+        0.4149045899948427,
+        0.4651882413615265
+      ],
+      "constraint_release": "RNA04_v0.2.2_F_ONLY",
+      "model_id": "rna-fm",
+      "result_path": "paper_cases/rna/RNA04/models/rna-fm/output/RNA04_v0.2.2_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "5fd907e39a6131040b3fc2475cfe6eee4a7389d4505504d5445a25f66e649031",
+      "status": "FORMAL_F_ONLY_RESULT"
+    }
+  ],
+  "constraint_release": "RNA04_v0.2.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "materialization": "deterministic F-only conversion from existing pair, hierarchy and bootstrap outputs; no Forward, readout fitting, scoring or bootstrap resampling",
+  "registered_models": 5
+}

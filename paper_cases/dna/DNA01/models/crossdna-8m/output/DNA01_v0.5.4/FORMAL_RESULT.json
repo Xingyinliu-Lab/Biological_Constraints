@@ -1,0 +1,73 @@
+{
+  "F": 0.8653950700880412,
+  "F_95_CI": [
+    0.8611484042481197,
+    0.8695417331739937
+  ],
+  "Q_spec": 0.9980365707434052,
+  "constraint_id": "C-DNA-01",
+  "counts": {
+    "anchors": 11680,
+    "clusters": 278,
+    "objects": 2920,
+    "relations": 1460
+  },
+  "coverage": {
+    "eligible_outer_clusters": 278,
+    "eligible_views": 1460,
+    "informative_outer_clusters": 278,
+    "informative_views": 1460,
+    "outer_unit_informative_fraction": 1.0,
+    "target_scale_floor": 0.0,
+    "threshold": 0.8,
+    "undefined_relation_count": 0,
+    "view_informative_fraction": 1.0
+  },
+  "cycle": {
+    "maximum_normalized_residual": 0.47934988118609356,
+    "median_normalized_residual": 0.11519897980168531
+  },
+  "equivariance_validity": "UNDETERMINED",
+  "input_sha256": {
+    "anchors": "752bc9309d27bcf5608ea7130ab1797985be2f33b828fae6b30a4df0ce451a8d",
+    "dependency_clusters": "ab73aeaefaea343e1b5126f315cf9ba5c09d37218d8e2edce3a01069433d3086",
+    "embeddings": "cb9be00841f674c1ae805f57cf563bfbcce900e25c7406fe131fa53c0143519a",
+    "fold_assignment": "b2b989feb7827eceef3c37023db51728ce526b71d8b99dfb84fac9ce8fbd8d9c",
+    "objects": "b2f9a2df0ad97fd0f34acaf30bbabf65529d312d0deca2fb734de1ec3febba3f",
+    "relations": "c9873b73674678c74d2897ae175034c6f8ca5c767700ce724cbfef0813e4a54f",
+    "repeat_control_panel": "6c9e131d8683a01e89c0536615340be5227819fade084376cc3fdff816b27b4d",
+    "repeat_embeddings": "cb9be00841f674c1ae805f57cf563bfbcce900e25c7406fe131fa53c0143519a"
+  },
+  "model_key": "crossdna-8m",
+  "numeric_method": {
+    "alpha": 0.001,
+    "alpha_scaling": "alpha * weighted_centered_input_energy_per_dimension",
+    "bootstrap": {
+      "draws": 20000,
+      "operator_refit": false,
+      "seed": 20261013,
+      "unit": "dependency_cluster"
+    },
+    "execution_mode": "FORMAL",
+    "fit_population": "four outer folds; held-out fold excluded",
+    "outer_folds": 5
+  },
+  "operator_branch": "EMPIRICAL_SHARED_AFFINE",
+  "repeat_forward": {
+    "bitwise_identical": true,
+    "nonidentical_object_count": 0
+  },
+  "representation_status": "EMPIRICAL_AFFINE_CHARACTERIZATION",
+  "result_kind": "MODEL_REPRESENTATION",
+  "ridge_by_outer_fold": {
+    "0": 8.947090315109473e-05,
+    "1": 9.11073438028982e-05,
+    "2": 9.004827473635118e-05,
+    "3": 9.479078080150566e-05,
+    "4": 9.175926810218715e-05
+  },
+  "score_status": "REPORTED",
+  "score_transform": "F_credit = a_i/(a_i+e_i)",
+  "score_transform_version": "DNA01_v0.5.4_F_ONLY_FULL_CHAIN",
+  "status": "PASS"
+}

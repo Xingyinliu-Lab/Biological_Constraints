@@ -1,0 +1,28 @@
+{
+  "constraint_id": "PS10",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "model_id": "esmc-600m",
+  "outputs": [
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 128204,
+      "sha256": "2e6fec62e9422b699ef3819281efdc192211b175eb5afdf98025710a4caa1b78"
+    },
+    {
+      "path": "FOLD_SCORES.tsv",
+      "bytes": 1058,
+      "sha256": "9c791f41b24a18fe1fdcb2898af49748c9c55b943765da85dd851420d7239dd8"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1083,
+      "sha256": "c26f3fb4492398c235f91af98271d1d4a26c846a578b813bff7dab0c0039ecc4"
+    },
+    {
+      "path": "BOOTSTRAP_DRAWS.float64le.bin",
+      "bytes": 160000,
+      "sha256": "d91bbf984bb999daa712ac0f207561ba180f82dd52e84cc937c76ae48275267f"
+    }
+  ]
+}

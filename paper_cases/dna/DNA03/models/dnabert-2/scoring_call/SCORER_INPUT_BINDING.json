@@ -1,0 +1,10 @@
+{
+  "constraint_release": "DNA03_v0.2.6_f_only",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "ccf30e28c1b383a6d2c23f5ab52a52c3ca1e96c054d51eb473bbb8660cb5151e",
+  "model_id": "dnabert-2",
+  "output_manifest_sha256": "1786a4bc89198c6abaca499e646247582c136909e39b3e3a6d91e4ef74f2894f",
+  "public_scorer": "constraints/dna/DNA03/scoring/score_dna03.py",
+  "public_scorer_sha256": "bef92ff2753f89bccb17d029af762af0043a1e3c6a09a33cfae4633ee141dcc9",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

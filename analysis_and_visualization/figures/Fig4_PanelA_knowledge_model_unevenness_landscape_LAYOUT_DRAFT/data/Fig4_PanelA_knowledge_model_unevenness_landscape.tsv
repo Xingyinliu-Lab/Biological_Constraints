@@ -1,0 +1,23 @@
+constraint	short_name	domain	model_dispersion_F	mean_F	minimum_F	maximum_F	minimum_model	maximum_model	label
+DNA01	Reverse Complement	DNA	0.414928	0.7696216	0.564916	0.979844	DNABERT-2	Caduceus-PS	
+DNA02-02	DNA Edit Adjacency	DNA	0.324683	0.7704216	0.624056	0.948739	Caduceus-PS	DNABERT-2	
+DNA03	Context Extension	DNA	0.363618	0.8249944	0.573657	0.937275	JanusDNA	DNABERT-2	
+DNA06	Codon Consequence	DNA	0.740588	0.7522432	0.253481	0.994069	DNABERT-2	Caduceus-PS	Codon Consequence
+RNA01-02	RNA Edit Adjacency	RNA	0.044778	0.90174	0.880807	0.925585	Orthrus-4-track	RNA-FM	RNA Edit Adjacency
+RNA04	RNA Coding Consequence	RNA	0.335482	0.4338318	0.191078	0.52656	Orthrus-4-track	RiNALMo-Giga	
+RNA05	Pairing State	RNA	0.515003	0.4535248	0.094356	0.609359	Orthrus-4-track	GB-RNA	
+RNA06	Partner Specificity	RNA	0.608942	0.3273306	-0.012071	0.596871	Orthrus-4-track	GB-RNA	
+RNA09	Remote RNA Structure	RNA	0.940657	0.4906564	0.02904	0.969697	Orthrus-4-track	RiNALMo-Giga	Remote RNA Structure
+RNA10	Exon Recognition	RNA	0.417398	0.0918576	-0.036952	0.380446	RNA-FM	RiNALMo-Giga	Exon Recognition
+PS01	Family Identity	Protein sequence	0.374978	0.4549358	0.256691	0.631669	ESM-C-600M	ProtT5	
+PS02A	Clan Homology	Protein sequence	0.426624	0.5178328	0.283849	0.710473	ESM-C-600M	ProtT5	
+PS02B	Remote Homology	Protein sequence	0.399784	0.4004158	0.191164	0.590948	ESM-C-600M	ProtT5	
+PS04	Topology Relation	Protein sequence	0.191693	0.2328794	0.098978	0.290671	ESM-C-600M	CARP-640M	
+PS05	Structural Resemblance	Protein sequence	0.266519	0.3541966	0.25778	0.524299	CARP-640M	ProtT5	
+PS08	Protein Edit Adjacency	Protein sequence	0.067383	0.8999026	0.867676	0.935059	ESM3-seq	ProtT5	
+PS09	Order-Disorder	Protein sequence	0.0645439999999999	0.7701506	0.749712	0.814256	ProtT5	ESM3-seq	
+PS10	Amyloid Propensity	Protein sequence	0.232497	0.51446	0.381945	0.614442	CARP-640M	ESM3-seq	
+ST01	Global Fold Similarity	Protein structure	0.927536	0.5913042	-0.043478	0.884058	ProToken	ESM-IF1	Global Fold Similarity
+ST02	Structural Neighborhood	Protein structure	0.157609	0.1444502	0.081501	0.23911	ProteinMPNN-CA	ESM3-struct	Structural Neighborhood
+ST04	Long-Range Contacts	Protein structure	0.538941	0.4782726	0.141608	0.680549	ProToken	ESM-IF1	
+ST05	Rigid-Body Invariance	Protein structure	0.836335	0.468856	0.118644	0.954979	ProToken	SSLM	Rigid-Body Invariance

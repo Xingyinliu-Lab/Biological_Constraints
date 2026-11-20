@@ -1,0 +1,57 @@
+[
+  {
+    "F": 0.9033331298455527,
+    "F_95_CI": [
+      0.8982662841096392,
+      0.9085525914168855
+    ],
+    "constraint_release": "RNA01-02_v0.2.6_F_ONLY",
+    "model_id": "ernie-rna",
+    "output": "paper_cases/rna/RNA01-02/models/ernie-rna/output/RNA01-02_v0.2.6_F_ONLY",
+    "status": "PASS"
+  },
+  {
+    "F": 0.9026005738355412,
+    "F_95_CI": [
+      0.8972590195958732,
+      0.9079421280752091
+    ],
+    "constraint_release": "RNA01-02_v0.2.6_F_ONLY",
+    "model_id": "gb-rna",
+    "output": "paper_cases/rna/RNA01-02/models/gb-rna/output/RNA01-02_v0.2.6_F_ONLY",
+    "status": "PASS"
+  },
+  {
+    "F": 0.8808070325376962,
+    "F_95_CI": [
+      0.8752823392955253,
+      0.8862706794456994
+    ],
+    "constraint_release": "RNA01-02_v0.2.6_F_ONLY",
+    "model_id": "orthrus-4-track",
+    "output": "paper_cases/rna/RNA01-02/models/orthrus-4-track/output/RNA01-02_v0.2.6_F_ONLY",
+    "status": "PASS"
+  },
+  {
+    "F": 0.8963738477504426,
+    "F_95_CI": [
+      0.8908789145961784,
+      0.9017459251571942
+    ],
+    "constraint_release": "RNA01-02_v0.2.6_F_ONLY",
+    "model_id": "rinalmo-giga",
+    "output": "paper_cases/rna/RNA01-02/models/rinalmo-giga/output/RNA01-02_v0.2.6_F_ONLY",
+    "status": "PASS"
+  },
+  {
+    "F": 0.9255845186496552,
+    "F_95_CI": [
+      0.9210060435870826,
+      0.9301629937122275
+    ],
+    "constraint_release": "RNA01-02_v0.2.6_F_ONLY",
+    "model_id": "rna-fm",
+    "output": "paper_cases/rna/RNA01-02/models/rna-fm/output/RNA01-02_v0.2.6_F_ONLY",
+    "status": "PASS"
+  }
+]

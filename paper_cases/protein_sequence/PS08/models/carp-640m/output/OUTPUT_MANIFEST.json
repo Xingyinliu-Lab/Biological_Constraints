@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "FORMAL_LEAF_SCORES.tsv",
+      "bytes": 1093967,
+      "sha256": "be5598847df96178decad6453a7b3cff2aa0ca1c0094fa56b36d68dec27abea7"
+    },
+    {
+      "path": "FORMAL_RESULT.json",
+      "bytes": 1028,
+      "sha256": "4533de0cfe315e6e68deb101ccf3f0de1a2f63ba8cb572615239c222393e8286"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 787,
+      "sha256": "7e60fbbf4bb8cab2102c5ec3b021e9878cba95c917514dd113ae93f94cc024a9"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "bytes": 11030,
+      "sha256": "d7c383fc6ba6ff63466001f7a05c2b7b99406093d1454a48c273ed155c1f75c0"
+    },
+    {
+      "path": "FORMAL_RESULT.json",
+      "bytes": 1708,
+      "sha256": "ca6691571c84ded0c20dd7b8f76758f77b72dae2e82cca505a3aa8b10c8ef44d"
+    },
+    {
+      "path": "F_BOOTSTRAP.npy",
+      "bytes": 160128,
+      "sha256": "0fe6d02d570a810e731bd70f8280eecdcd9d61ae18d969f8d49ae01b178d6d29"
+    },
+    {
+      "path": "LOCUS_SCORE_LEDGER.tsv",
+      "bytes": 19794,
+      "sha256": "e0b1d120240699effd6870319bb9e2005f96a92c91a65e86040210275a12ed34"
+    },
+    {
+      "path": "QUERY_SCORE_LEDGER.tsv",
+      "bytes": 562867,
+      "sha256": "bc7bdea2ad427657fe7fb5f1ee0825a7852317d4a518128959e832a94fd00ae0"
+    },
+    {
+      "path": "RUN_COMPLETE",
+      "bytes": 6,
+      "sha256": "d938fa189912f8776c3deb31a6bec42f403f57b9c8e3ed936bdb076caf6bd61c"
+    },
+    {
+      "path": "TAU_EVIDENCE.json",
+      "bytes": 1137,
+      "sha256": "934df90ffffac33572d7d492082f2ab93d5122d1a61396d07f6777d8659b5666"
+    }
+  ]
+}

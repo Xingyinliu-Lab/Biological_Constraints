@@ -1,0 +1,17 @@
+{
+  "constraint": "ST04",
+  "status": "PASS_MINIMAL_COMPLETE_REFSET",
+  "formal_relation_count": 152180,
+  "relation_structure_object_count": 586,
+  "released_object_row_count": 586,
+  "released_pdb_count": 586,
+  "released_pdb_bytes": 50548954,
+  "residue_evidence_data_rows": 98209,
+  "residue_evidence_bytes": 7012192,
+  "residue_evidence_sha256": "e0d1c4fa106959fa4ee1c142f0ec18576b806fcb8c7cf45f4a35df300e653c05",
+  "extra_object_count": 0,
+  "missing_object_count": 0,
+  "missing_coordinate_count": 0,
+  "coordinate_sha256_mismatch_count": 0,
+  "decision": "The 586 PDB files are the exact structure-object closure of the frozen FULL relation population. Source-only materialization structures remain outside the public Constraint package."
+}

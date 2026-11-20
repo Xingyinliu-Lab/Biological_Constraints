@@ -1,0 +1,61 @@
+{
+  "constraint_id": "PS09",
+  "formal_interface": "F_ONLY",
+  "cases": [
+    {
+      "model_id": "carp-640m",
+      "F": 0.7705898407640079,
+      "F_95_CI": [
+        0.6850580456826603,
+        0.8450044506870829
+      ],
+      "output": "models/carp-640m/output/SCORE_SUMMARY.json",
+      "output_sha256": "68425c1309f767783a78ea962cade218f930731ed1ead86cea3abcd1e615860d",
+      "manifest_sha256": "e0068f8935e6c794395f4c584a38818c3b02fd385788cf7754599560385081b8"
+    },
+    {
+      "model_id": "esm2-650m",
+      "F": 0.7636086459811333,
+      "F_95_CI": [
+        0.6884646976070463,
+        0.8323100288718135
+      ],
+      "output": "models/esm2-650m/output/SCORE_SUMMARY.json",
+      "output_sha256": "900670183d6c957a231e7b35f97faa4d8fa819bbf8b347ef304cacb40f7c6f18",
+      "manifest_sha256": "c667d2e928690ff1886723d073a1a9b76b405b87b7f5d93262ecf7de41d3448c"
+    },
+    {
+      "model_id": "esm3-seq",
+      "F": 0.8142563058571544,
+      "F_95_CI": [
+        0.7449245748248328,
+        0.8761797809357645
+      ],
+      "output": "models/esm3-seq/output/SCORE_SUMMARY.json",
+      "output_sha256": "77754f8aee7a7532bc8521bd602fe7d91cf0fdc718ffc1ddcc52110042186b06",
+      "manifest_sha256": "e2bc505af48121bbf231116844562c0186b329bcfebd576fa100d6e6dcca93fa"
+    },
+    {
+      "model_id": "esmc-600m",
+      "F": 0.7525855404347597,
+      "F_95_CI": [
+        0.6772562013222116,
+        0.821465969538193
+      ],
+      "output": "models/esmc-600m/output/SCORE_SUMMARY.json",
+      "output_sha256": "8bf1dc7fa93ca644d3080cec3794616ae77201f06eb41607d66d53b6b1b5c47b",
+      "manifest_sha256": "74f412fc6023c50807b2e7364b62181481f3a2b047f1c87aeaf78d5bbb8f41dc"
+    },
+    {
+      "model_id": "prott5",
+      "F": 0.7497120663486565,
+      "F_95_CI": [
+        0.6612969123178538,
+        0.8298884483536937
+      ],
+      "output": "models/prott5/output/SCORE_SUMMARY.json",
+      "output_sha256": "8c660c401d24f63a6c0bfd07c7ac8cde38a7df379ebce887eba3ce6db74fd627",
+      "manifest_sha256": "2966049cd81e6de30127562079dcc88b377f1bed729caf25a811c106989918ab"
+    }
+  ]
+}

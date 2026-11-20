@@ -1,0 +1,33 @@
+{
+  "F": 0.5939686451443813,
+  "F_95_CI": [
+    0.44780790839057416,
+    0.730630289130711
+  ],
+  "bootstrap": {
+    "bit_generator": "PCG64",
+    "draws": 20000,
+    "quantile_method": "linear",
+    "seed": 20261008,
+    "unit": "heldout_study_fold_F"
+  },
+  "constraint_id": "PS10",
+  "coverage": {
+    "folds": 22,
+    "heldout_prediction_rows": 1609,
+    "records": 2031
+  },
+  "evaluation_class": "FORMAL_PRIMARY_PROTOCOL_EVALUATION",
+  "formal_interface": "F_ONLY",
+  "formal_scoring_protocol": true,
+  "input_identity": {
+    "embeddings_sha256": "a9887281318e294574b5408c2fef380ed4679f50834da915da2b91166dae54a0",
+    "numeric_method_sha256": "bf48dfb30f09ecacb43a42aa1262d4629267dd57a874ca8b7f494ded92e08adc",
+    "primary_assignments_sha256": "540761134a24c122533438ec68a77bb934085acbbb60be634b518c197518f4c7",
+    "records_sha256": "c988e89f50d92ecdda8805ba82ae7f9f95483eea5bd342bdcedfd7e41c9a0dff"
+  },
+  "model_id": "prott5",
+  "registered_paper_result": false,
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "status": "PASS"
+}

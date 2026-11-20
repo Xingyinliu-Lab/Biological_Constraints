@@ -1,0 +1,4 @@
+Constraint	relation	row	delta_F	delta_label	direction
+DNA01	DNA01  Reverse complement	1	0.414928	+0.41	Caduceus-PS higher
+DNA02-02	DNA02-02  Edit adjacency	2	-0.324683	-0.32	DNABERT-2 higher
+DNA06	DNA06  Codon consequence	3	0.740588	+0.74	Caduceus-PS higher

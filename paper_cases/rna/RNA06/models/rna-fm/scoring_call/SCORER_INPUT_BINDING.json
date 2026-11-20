@@ -1,0 +1,25 @@
+{
+  "assay_id": "C-RNA-06",
+  "constraint_release": "RNA06_v0.1.3_F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "96f8452199a9c78420d2f81dbbbb213eca65c0adb3f92c1959ae2d9a1eb4f8eb"
+  },
+  "forward_output": {
+    "bytes": 23406631,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "16ae8598e8bf999c02d22d15cfd69a979c27ceafc310491ddd0e7ddf758a4e81"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "rna-fm",
+  "public_scorer": "constraints/rna/RNA06/scoring/score_rna06.py",
+  "public_scorer_sha256": "d7adcdd9d9aa0c459eacb1573faaadec233ab4062cd89b01274f713f4a49741d",
+  "result_metadata_schema": "inputs.refset plus vectors_sha256",
+  "scoring_environment": {
+    "execution_site": "mixed_local_and_kt",
+    "numpy": "1.26.4",
+    "python": "3.10",
+    "scipy": "1.11.4"
+  },
+  "status": "PASS_PUBLIC_SCORER"
+}

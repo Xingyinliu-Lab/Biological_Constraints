@@ -1,0 +1,58 @@
+{
+  "model_id": "esm-if1",
+  "domain": "protein_structure",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/facebookresearch/esm",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+      "source": "results/protein_structure/ST01/models/esm-if1/provenance/EXECUTION_BINDING.json",
+      "field": "checkpoint.sha256"
+    },
+    {
+      "value": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+      "source": "results/protein_structure/ST02/models/esm-if1/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+      "source": "results/protein_structure/ST02/models/esm-if1/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+      "source": "results/protein_structure/ST04/models/esm-if1/provenance/MODEL_EXECUTION_BINDING.json",
+      "field": "checkpoint_sha256"
+    },
+    {
+      "value": "be4ba36edec22a9bfaa4946ff6b2815f1f19d8a3d7e0eada8b796d5a0eae9fd4",
+      "source": "results/protein_structure/ST04/models/esm-if1/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    }
+  ],
+  "tokenizer_config_identity": "ESM-IF1 alphabet and structure encoder configuration are bundled with the executed fair-esm checkpoint loader.",
+  "download": {
+    "source": "https://github.com/facebookresearch/esm",
+    "method": "esm.pretrained.esm_if1_gvp4_t16_142M_UR50() downloaded/cached the official checkpoint; formal runs reused the cached file"
+  },
+  "loading": "esm.pretrained.esm_if1_gvp4_t16_142M_UR50(); frozen IF1 GVP encoder residue representations extracted from PDB coordinates and mean pooled as specified by each constraint",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/.cache/torch/hub/checkpoints/esm_if1_gvp4_t16_142M_UR50.pt",
+    "/home/mik/u8t/ai_genome/m4_encoder_audit/repos/esm"
+  ],
+  "formal_evidence_files": [
+    "results/protein_structure/ST01/models/esm-if1/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/esm-if1/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST02/models/esm-if1/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST04/models/esm-if1/provenance/EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/esm-if1/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST04/models/esm-if1/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST04/models/esm-if1/provenance/MODEL_INTERFACE.json",
+    "results/protein_structure/ST05/models/esm-if1/provenance/FORWARD_LINEAGE.json",
+    "results/protein_structure/ST05/models/esm-if1/provenance/FORWARD_REPORT.json",
+    "results/protein_structure/ST05/models/esm-if1/provenance/MODEL_EXECUTION_BINDING.json",
+    "results/protein_structure/ST05/models/esm-if1/provenance/MODEL_INTERFACE.json"
+  ]
+}

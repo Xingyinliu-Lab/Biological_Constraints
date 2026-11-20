@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "F",
+    "F_95_CI"
+  ],
+  "comparison_tolerance": 1e-12,
+  "constraint_id": "DNA06",
+  "constraint_release": "DNA06_v0.1.3_F_ONLY",
+  "models": {
+    "caduceus-ps": "PASS",
+    "crossdna-8m": "PASS",
+    "dnabert-2": "PASS",
+    "janusdna": "PASS",
+    "nt-v2": "PASS"
+  },
+  "models_checked": 5,
+  "scope": "The single formal codon-local representation using the released row_ids plus embeddings contract.",
+  "status": "PASS"
+}

@@ -1,0 +1,38 @@
+{
+  "artifact": "RNA01-02_PUBLIC_F_ONLY_RESULT_INDEX",
+  "cases": [
+    {
+      "model_id": "ernie-rna",
+      "result": "paper_cases/rna/RNA01-02/models/ernie-rna/output/RNA01-02_v0.2.6_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "41cc0a6ea295ddbdc69cb0b505b6cb91e2c5b08d7772f5f44afa2f04e0acc63f",
+      "status": "PASS"
+    },
+    {
+      "model_id": "gb-rna",
+      "result": "paper_cases/rna/RNA01-02/models/gb-rna/output/RNA01-02_v0.2.6_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "0478fec4db334c07a73270598c071fa007597de5b7343d17521a2e26be95a1dc",
+      "status": "PASS"
+    },
+    {
+      "model_id": "orthrus-4-track",
+      "result": "paper_cases/rna/RNA01-02/models/orthrus-4-track/output/RNA01-02_v0.2.6_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "94b3ccf95958316e85cb1c0533faa6ec3f0300409870588a3e3d38bbac6128a6",
+      "status": "PASS"
+    },
+    {
+      "model_id": "rinalmo-giga",
+      "result": "paper_cases/rna/RNA01-02/models/rinalmo-giga/output/RNA01-02_v0.2.6_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "d30dd71dc5eda6b543f8b9db999de51c8d09db4283c5722b0d3d413f18028d24",
+      "status": "PASS"
+    },
+    {
+      "model_id": "rna-fm",
+      "result": "paper_cases/rna/RNA01-02/models/rna-fm/output/RNA01-02_v0.2.6_F_ONLY/FORMAL_RESULT.json",
+      "result_sha256": "ca5b23dfd5ff8393b42403eef3873c301cbb336f61fda8f1f7ea3a1612524a2e",
+      "status": "PASS"
+    }
+  ],
+  "constraint_id": "RNA01-02",
+  "release": "RNA01-02_v0.2.6_F_ONLY",
+  "status": "PASS"
+}

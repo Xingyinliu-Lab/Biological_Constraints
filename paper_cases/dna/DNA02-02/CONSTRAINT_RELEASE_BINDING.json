@@ -1,0 +1,9 @@
+{
+  "artifact": "DNA02_02_PAPER_CASE_CONSTRAINT_RELEASE_BINDING",
+  "constraint_id": "C-DNA-02-02",
+  "constraint_release": "DNA02-02_v0.1.5_f_only",
+  "formal_interface": "F_ONLY",
+  "public_scorer": "constraints/dna/DNA02-02/scoring/score_dna0202.py",
+  "public_scorer_sha256": "496e64b1ccc86c70be7d036437b5a59424c8005785fbff4cdb35da428f4eba6e",
+  "status": "CLOSED_RELEASE_READY"
+}

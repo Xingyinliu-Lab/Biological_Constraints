@@ -1,0 +1,34 @@
+{
+  "release_id": "PS01_ASSAY_REFSET_RELEASE_v2.0.0_BROAD_16K_20261006",
+  "scope": "CURRENT_MINIMAL_PUBLIC_REFSET",
+  "files": {
+    "CONFORMANCE_REPORT.json": {
+      "bytes": 740,
+      "sha256": "b041f50bd5c344890952f34f9dd33d404e09e052dc5375d3d51cb76254b2f523"
+    },
+    "FORMAL_CELL_ALLOCATION_LEDGER.tsv.gz": {
+      "bytes": 52985,
+      "sha256": "7de40125f0f11cdae936eec753d44d778de307dd4fb7614cc72162c4eaa72e3e"
+    },
+    "FORMAL_CONTRAST_LEDGER.tsv.gz": {
+      "bytes": 86348,
+      "sha256": "d68904e8fa1214f04e0674a6d36ad6e2178ffba7854015ad796c7dd59f4dfd80"
+    },
+    "FORMAL_OBJECT_LEDGER.tsv.gz": {
+      "bytes": 253853,
+      "sha256": "1f14bca8de4bd3afccb80c73a15f9a46596bd59fd4b2132aa803fcad0051d671"
+    },
+    "FORMAL_SEQUENCES.faa.gz": {
+      "bytes": 187932,
+      "sha256": "b2e44024bbd2bf35515694ba6d6df341dbc680877e7664ccc363ff6d246fcdc3"
+    },
+    "README.md": {
+      "bytes": 2554,
+      "sha256": "779c15f49538094df2e96dd284a8c3004fee12640e1b473b03c76cb4c72e466e"
+    },
+    "SOURCE_SEAL.json": {
+      "bytes": 352,
+      "sha256": "f2b4f5db4c359d16b860b68c056f7839d04591d9ed23863ad1e4b9ad91b414e1"
+    }
+  }
+}

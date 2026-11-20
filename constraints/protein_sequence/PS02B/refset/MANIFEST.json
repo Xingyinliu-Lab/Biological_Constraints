@@ -1,0 +1,41 @@
+{
+  "release_kind": "ASSAY_REFSET_RELEASE",
+  "formal_status": "FROZEN",
+  "files": [
+    {
+      "path": "FORMAL_OBJECT_LEDGER.tsv.gz",
+      "bytes": 230946,
+      "sha256": "13426c74b87677826d2ba22461e313d4cb1e76559e55e18a407edf0b4d507489"
+    },
+    {
+      "path": "FORMAL_RELATION_LEDGER.tsv.gz",
+      "bytes": 328217,
+      "sha256": "a217d9709da4add917c046238baed4b163766d0e5b4bef648c731296175710ce"
+    },
+    {
+      "path": "FORMAL_SCORING_PRECHECK.json",
+      "bytes": 375,
+      "sha256": "d2024bacfd235ab795649ef2ed7b21f1da0b8596633af1f473290bd6d2e58518"
+    },
+    {
+      "path": "FORMAL_SOURCE_VALIDATION.json",
+      "bytes": 674,
+      "sha256": "65b4edc9f8e4206a68a9ed630a2476e7f2ad90ae39092ca36f021833c71dcf2f"
+    },
+    {
+      "path": "POINT_DEPENDENCY_MEMBERSHIP.tsv.gz",
+      "bytes": 23036,
+      "sha256": "3fdf89737e5267d4bde26f5408c164d1f0806f15bfa3f3ab2afcce72c8a654f5"
+    },
+    {
+      "path": "RELEASE_VALIDATION.json",
+      "bytes": 571,
+      "sha256": "89c9d04f41af63daa22de8310fa46701437848162fb60f3cd7afc65343ab6a48"
+    },
+    {
+      "path": "UNCERTAINTY_GROUP_MEMBERSHIP.tsv.gz",
+      "bytes": 23037,
+      "sha256": "38f134aae0af11b9c09c8c1c17a4444e1c79a2726971409a53b130f0935f7ef0"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "constraint_id": "PS10",
+  "formal_interface": "F_ONLY",
+  "score_transform_version": "PS10_v0.1.2_F_ONLY",
+  "model_id": "carp-640m",
+  "outputs": [
+    {
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "bytes": 128386,
+      "sha256": "6fcb018490e81599d368276548f9e9b0471c64b7965b98d3637a75f073d4aee1"
+    },
+    {
+      "path": "FOLD_SCORES.tsv",
+      "bytes": 979,
+      "sha256": "9909a59ff18e5f99b6d0b6ddce14f115ede8944293c9314dbba135ae17d97cc5"
+    },
+    {
+      "path": "SCORE_SUMMARY.json",
+      "bytes": 1085,
+      "sha256": "adf20469993503bca06bc81e62a8dde78782625fb5047fa9b96e1827c4c2baef"
+    },
+    {
+      "path": "BOOTSTRAP_DRAWS.float64le.bin",
+      "bytes": 160000,
+      "sha256": "88c42fe5ac29278f42db7db95034475a38ceefdbc1b475f5c7a9d663d733c992"
+    }
+  ]
+}

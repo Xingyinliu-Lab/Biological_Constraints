@@ -1,0 +1,19 @@
+{
+  "F": 1.0,
+  "F_95_CI": [
+    1.0,
+    1.0
+  ],
+  "bootstrap_draws": 20000,
+  "bootstrap_unit": "outer_cluster",
+  "comparator_id": "CMP-RNA01-02-EXACT-HAMMING",
+  "evaluation_leaves": 16384,
+  "formal_interface": "F_ONLY",
+  "formal_result": true,
+  "identity": "LEVEL_0_WHITE_BOX_REFERENCE_AND_DETERMINISTIC_CEILING",
+  "outer_clusters": 16381,
+  "population": "L16K",
+  "score_transform_version": "RNA01-02_v0.2.6_F_ONLY_DIRECT_CREDITS",
+  "status": "PASS",
+  "tau_delta": 0
+}

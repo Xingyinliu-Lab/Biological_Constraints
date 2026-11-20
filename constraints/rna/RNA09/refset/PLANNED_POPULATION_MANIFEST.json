@@ -1,0 +1,31 @@
+{
+  "allocation_contract_id": "RNA09_ROLE_SPECIFIC_REUSE_CAP4_V021",
+  "artifact_type": "RNA09_FORMAL_PANEL_V021",
+  "authority_model": "source_dependency_unit primary bootstrap; assay-induced reuse controlled by allocation",
+  "contract_id": "RS-RNA09",
+  "formal_bundle": "all released selected high-low contrast leaves for one anchor",
+  "input_hashes": {
+    "bundle_support_sha256": "889fbfad7ff14413ec2d86a1d462a39b9a13ba0e8e97c4ea8dcbb3a4f01152d0",
+    "relation_ledger_sha256": "3982d4e514ec03ea1f7ed04276405ab058e9b2f624464146b80f2573a3591fd4"
+  },
+  "planned_counts": {
+    "anchor_bundles": 25,
+    "anchors": 25,
+    "contrasts": 48,
+    "negative_targets": 21,
+    "positive_targets": 23,
+    "source_dependency_units": 22,
+    "source_parents": 25
+  },
+  "planned_population_identity_sha256": "5d7b4584f47aa3dc3f4589380bc0d5ec41ed0ccbdd1f0c4d5a7fe98f139c9c33",
+  "prohibited_dependency_edges": [
+    "shared endpoint",
+    "reused pair score",
+    "shared candidate pool",
+    "relation overlap"
+  ],
+  "relation_truth": "unchanged: NW identity <0.60 with bidirectional coverage >=0.90; US-align RNA TM_min >=0.45 HIGH and <=0.30 LOW",
+  "scientific_contract_version": "0.2.1",
+  "selection_rule": "source-only deterministic greedy allocation by candidate_rank_sha256; positive-target cap=4; negative-target cap=4",
+  "status": "FROZEN_PREMODEL"
+}

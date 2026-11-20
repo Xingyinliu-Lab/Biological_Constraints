@@ -1,0 +1,26 @@
+{
+  "model_id": "protoken",
+  "domain": "protein_structure",
+  "evidence_status": "READ_ONLY_VERIFIED_ON_EXECUTION_HOST",
+  "verified_on": "kt",
+  "verified_date": "2026-10-16",
+  "executed_python": "/home/mik/u8t/ai_genome/m4_encoder_audit/env_protoken/bin/python3.10",
+  "python_version": "3.10.21",
+  "cuda_runtime_reported_by_torch": null,
+  "installed_packages_used_or_relevant_to_the_forward": {
+    "numpy": "2.2.1",
+    "scipy": "1.15.1",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.5.1",
+    "jax": "0.4.28",
+    "jaxlib": "0.4.28",
+    "dm-haiku": "0.0.12",
+    "biopython": "1.84"
+  },
+  "imports_observed_in_public_execution_assets": [
+    "jax",
+    "numpy"
+  ],
+  "checkpoint_identity": "checkpoint_identity.json",
+  "scope_note": "This records the extant environment used by the published forward. It is not a newly solved cross-model environment."
+}

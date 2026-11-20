@@ -1,0 +1,10 @@
+{
+  "constraint_release": "DNA03_v0.2.6_f_only",
+  "formal_interface": "F_ONLY",
+  "formal_result_sha256": "c59bd862dbf85693084e5b716c2124976b4c971ca1f64467bccb11a251f25e5d",
+  "model_id": "caduceus-ps",
+  "output_manifest_sha256": "c1f8d7b3182b0765f638c2e4a713c69b0c91b2bdbe6cc2ceb4a2f44e36629c80",
+  "public_scorer": "constraints/dna/DNA03/scoring/score_dna03.py",
+  "public_scorer_sha256": "bef92ff2753f89bccb17d029af762af0043a1e3c6a09a33cfae4633ee141dcc9",
+  "status": "PUBLIC_SCORER_F_ONLY_MATERIALIZATION_PASS"
+}

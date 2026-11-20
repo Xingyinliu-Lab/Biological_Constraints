@@ -1,0 +1,14 @@
+{
+  "artifact_id": "PS10_TANGO_COMPARATOR_SPECIFICATION_v1.0.1_20261008",
+  "status": "FROZEN_COMPARATOR_SPECIFICATION",
+  "comparator": "TANGO_2.3.1_LICENSED",
+  "score": "TANGO Aggregation column; higher scores favor AMYLOID",
+  "configuration": {
+    "ct": "N",
+    "nt": "N",
+    "ph": 7.0,
+    "temperature_kelvin": 298,
+    "ionic_strength_molar": 0.1
+  },
+  "evaluation": "Transform each of 22 held-out study AUCs as fold_F = 2 × AUC − 1; formal F is the unweighted macro mean of the 22 fold_F values, with a 20,000-draw PCG64 bootstrap of those fold-level values via the released Numeric Method"
+}

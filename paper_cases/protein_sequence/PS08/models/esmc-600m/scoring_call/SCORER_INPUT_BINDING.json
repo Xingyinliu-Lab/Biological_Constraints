@@ -1,0 +1,9 @@
+{
+  "constraint_id": "PS08",
+  "constraint_release": "PS08_v0.1.2_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "model_id": "esmc-600m",
+  "formal_result": "paper_cases/protein_sequence/PS08/models/esmc-600m/output/FORMAL_RESULT.json",
+  "formal_result_sha256": "bdfa06bd60ef1f15d5ed1b369ecbfd8bb4035563f1f1562e62b957cdb77235e1",
+  "status": "PASS"
+}

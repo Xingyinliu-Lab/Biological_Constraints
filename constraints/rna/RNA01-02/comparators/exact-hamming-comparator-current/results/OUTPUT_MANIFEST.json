@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "bytes": 3326070,
+      "path": "INDIVIDUAL_SCORES.tsv",
+      "sha256": "2058a9d419ace762c007bc02b6c4e08fee6b4b3445124a5a72163ceee20c865c"
+    },
+    {
+      "bytes": 704421,
+      "path": "CLUSTER_SCORE_LEDGER.tsv",
+      "sha256": "05d9d056cee8221a6918c256f98597a188ed145b96fe7e756ca33b6752823928"
+    },
+    {
+      "bytes": 502,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "02bf2d7eab668542ed7928b728d24fd562b9638419ae485352f417d7afcc5872"
+    }
+  ],
+  "formal_interface": "F_ONLY"
+}

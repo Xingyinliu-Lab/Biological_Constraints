@@ -1,0 +1,33 @@
+{
+  "constraint_id": "C-RNA-10",
+  "formal_interface": "F_ONLY",
+  "model_id": "rinalmo-giga",
+  "outputs": [
+    {
+      "bytes": 5213,
+      "path": "AGGREGATION_SCORES.json",
+      "sha256": "dc293f228a68c397aa58040a9e8844453eb9a3efcf7762a717c8b1ed415145b0"
+    },
+    {
+      "bytes": 406850,
+      "path": "F_BOOTSTRAP_DRAWS.json",
+      "sha256": "9ae94a8f66b2216f30cd78f324b8d0dcc42f89a943d5f7e045302476d7156645"
+    },
+    {
+      "bytes": 1592,
+      "path": "FORMAL_RESULT.json",
+      "sha256": "66cf8dfc2bd0a86e66758cb35a5c72c973b0ace34b476d242925ed66fb7d5622"
+    },
+    {
+      "bytes": 187254,
+      "path": "INDIVIDUAL_SCORES.json",
+      "sha256": "ca50dc97d45a52d086d988cbbf094c0d8f7f706b046335cee17ba886bfeb75f5"
+    },
+    {
+      "bytes": 262388,
+      "path": "MEASUREMENT_LEDGER.json",
+      "sha256": "97464c9d1461bf3edf1e91b471083df73d24e6fe67e54e951ef4bf6bd2415dbe"
+    }
+  ],
+  "public_entry": "score_rna10.py"
+}

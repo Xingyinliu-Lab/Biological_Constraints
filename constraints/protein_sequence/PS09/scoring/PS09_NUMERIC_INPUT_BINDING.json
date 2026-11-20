@@ -1,0 +1,13 @@
+{
+  "artifact_id": "PS09_NUMERIC_METHOD_AND_FORMAL_SCORER_v0.1.2_F_ONLY",
+  "status": "FROZEN",
+  "formal_interface": "F_ONLY",
+  "refset_release": "PS09_ASSAY_REFSET_RELEASE_v1.0.0_20261008",
+  "input_sha256": {
+    "membership": "9eb6a7fe56ad68d12242ed92d6b9ccbc804224383856395840c8b04fdf32b9a2",
+    "blocks": "f219f881652540907069d40a3f3823f685129c32735d0f9fc7511211303b9e6e",
+    "clusters": "292531efc681502fb615554f183501cf7f4036acce3a096303f50f8fc0790645",
+    "fasta": "a5a27d56a50827f7142031694f831448a08010eed83276251e6940307d2292f2",
+    "fold_assignment": "036256641aadc69aa42a164418d928b4404d72b8880640ed7ac8bdac970235b6"
+  }
+}

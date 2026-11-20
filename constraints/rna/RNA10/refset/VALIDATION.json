@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "all_selected_blocks_resolved_gene": true,
+    "exact_one_SNV_reconstruction": 1886,
+    "external_sequence_store_binding_present": true,
+    "materializer_provenance_bound": true,
+    "near_neutral_audit_status": "PASS",
+    "near_neutral_resolution_audit": "PASS",
+    "population_identity_sha256": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58",
+    "selected_block_complete_DP": true,
+    "source_and_uncertainty_units_separate_objects_same_V1_membership": true,
+    "source_attrition_exactly_one_terminal_status": true,
+    "source_attrition_exhaustive": true
+  },
+  "status": "PASS"
+}

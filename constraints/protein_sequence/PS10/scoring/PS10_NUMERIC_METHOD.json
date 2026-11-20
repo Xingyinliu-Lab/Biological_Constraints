@@ -1,0 +1,9 @@
+{
+  "status":"FROZEN_NUMERIC_METHOD",
+  "readout":{"model":"logistic_regression","C":1.0,"solver":"lbfgs","max_iter":1000,"fit_intercept":true,"class_weight":null,"convergence_failure":"abort"},
+  "scaling":{"method":"unweighted_train_record_mean_sd","fit_scope":"train_only","zero_sd":"abort"},
+  "training_weighting":"w_i = sum_{s in S_i_train}(1/n_s), where n_s is the training-side unique-record count of study s; the raw weights are used without fold-wise normalization because C=1.0 is fixed",
+  "estimand":"unweighted macro mean of 22 held-out study fold_F values, where fold_F = 2 × AUC − 1",
+  "formal_reporting_score":{"name":"F","definition":"unweighted macro mean of the 22 held-out study fold_F values","range":"[-1, 1]"},
+  "uncertainty":{"unit":"held-out study fold_F","draws":20000,"bit_generator":"PCG64","seed":20261008,"ci":"percentile 95%","quantile_method":"linear"}
+}

@@ -1,0 +1,91 @@
+{
+  "aggregation": [
+    "negative contrasts -> directed query mean",
+    "directed queries -> anchor mean",
+    "anchors -> structure mean",
+    "structures -> dependency-cluster F mean",
+    "dependency clusters -> overall F"
+  ],
+  "artifact_id": "ST04_NUMERIC_METHOD_v0.1.4_F_ONLY",
+  "artifact_type": "NumericMethod",
+  "assay_refset_release_id": "ST04_ASSAY_REFSET_RELEASE_v0.1.1_FROZEN_20261012",
+  "constraint_id": "C-ST-04",
+  "cross_fitting": {
+    "inner_folds": 4,
+    "inner_folds_rebuilt_within_each_outer_training_population": true,
+    "outer_folds": 5,
+    "outer_test_blind_to_fitting_and_lambda_selection": true,
+    "split_unit": "source_dependency_cluster_id"
+  },
+  "failure_policy": {
+    "fold_failure": "abort; no successful-fold selection",
+    "in_scope_query_failure_tolerance": 0,
+    "missing_duplicate_nonfinite_endpoint": "abort",
+    "formal_refset": {
+      "relations": 152180,
+      "directed_queries": 73568,
+      "residue_endpoints": 48282
+    },
+    "model_input_limitation": "A model may use a documented, identity-checked subset only when an immutable scope record specifies its relation-table hash, population counts, affected model identities, and excluded queries/relations. The same scoring, cross-fitting, aggregation, and bootstrap rules apply; this is not a second RefSet or scoring method.",
+    "runtime_pruning_or_candidate_replacement": false
+  },
+  "held_out_credit": {
+    "credit": "1 if delta>0; 0 if delta=0; -1 if delta<0",
+    "delta": "h(anchor,true_target)-h(anchor,negative)",
+    "tie_tolerance": 0.0
+  },
+  "outputs": {
+    "F": "formal F-only score in [-1,1]",
+    "interval": "F 95% interval from the F bootstrap distribution"
+  },
+  "pair_feature": {
+    "dimension": "3 * embedding_dimension",
+    "dtype": "float64",
+    "ordered_components": [
+      "z_a + z_b",
+      "abs(z_a - z_b)",
+      "z_a elementwise-multiplied by z_b"
+    ],
+    "symmetric": true
+  },
+  "release_note": "Public F-only scoring interface; the biological relationship, nested cross-fit design and RefSet are unchanged.",
+  "representation_input": "One frozen finite residue-addressable vector per required residue ID. Finite zero vectors remain valid.",
+  "status": "FROZEN",
+  "training": {
+    "class_weight": null,
+    "intercept_penalized": false,
+    "lambda_grid": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "lambda_selection": "Maximize the complete formal hierarchy F on inner out-of-fold queries pooled across the outer-training population; exact ties select the largest lambda.",
+    "objective": "sum_u w_u*log(1+exp(-y_u*(beta^T*x_u+b))) + lambda*||beta||_2^2",
+    "readout": "L2-regularized binary logistic regression",
+    "relation_score": "unthresholded decision_function/logit",
+    "sample_weight": "equal dependency-cluster mass; equal structure mass within cluster; equal anchor mass within structure; equal query mass within anchor; positive row gets half query mass and K negatives share the other half; final training-row weights normalized to mean 1",
+    "solver": {
+      "convergence_failure": "READOUT_FOLD_FAILURE",
+      "family": "SciPy L-BFGS-B",
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "initialization": "all coefficients and intercept zero",
+      "max_iter": 2000,
+      "max_line_search": 50
+    },
+    "standardization": "training-fold weighted mean and weighted population SD for each pair-feature coordinate; zero SD maps to scale 1; never fit on held-out data"
+  },
+  "uncertainty": {
+    "draws": 20000,
+    "interpretation": "conditional on the frozen RefSet, split and fitted OOF readouts; does not include readout retraining variance",
+    "interval": "2.5th and 97.5th percentiles",
+    "method": "ordinary with-replacement cluster bootstrap over frozen OOF cluster scores",
+    "rng": "NumPy PCG64",
+    "seed": 40404,
+    "unit": "dependency cluster"
+  }
+}

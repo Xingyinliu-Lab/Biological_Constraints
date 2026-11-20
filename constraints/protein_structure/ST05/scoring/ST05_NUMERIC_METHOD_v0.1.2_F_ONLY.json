@@ -1,0 +1,71 @@
+{
+  "artifact_id": "ST05_NUMERIC_METHOD_v0.1.2_F_ONLY",
+  "status": "FROZEN",
+  "constraint_id": "C-ST-05",
+  "formal_branches": {
+    "INVARIANT": "A_g=I",
+    "DECLARED_EXECUTABLE_EQUIVARIANT": "preregistered sample-independent linear/affine A_g after identity/composition/inverse gates",
+    "UNSPECIFIED": "no formal F"
+  },
+  "residual": {
+    "formula": "e_ig=norm_Z(E(gX_i)-A_g(E(X_i)))",
+    "default_fixed_vector_norm": "L2",
+    "allowed_norms": [
+      "L2",
+      "FROBENIUS_FLATTENED",
+      "WEIGHTED_L2"
+    ],
+    "cosine_equality": "PROHIBITED unless separately frozen projective interface; not implemented by this scorer"
+  },
+  "tolerance": {
+    "formula": "tau_ig=tau_abs+tau_rel*max(norm_Z(z_ig),norm_Z(A_g(z_i)))",
+    "coefficients": "tau_abs=256*sqrt(D)*epsilon(dtype); tau_rel=tau_abs, where D is the submitted representation dimension and epsilon(dtype) is the IEEE machine epsilon of the declared output dtype",
+    "dtype_policy": "The declared output dtype is the dtype of the four-array representation submitted to the scorer. It is the formal precision basis for tolerance. Internal model arithmetic, including BF16 or FP16 autocast during Forward, does not alter epsilon unless it changes the declared submitted representation dtype.",
+    "accepted_output_dtypes": ["float32", "float64"],
+    "uses_st05_test_residuals": false,
+    "credit": "1[e_ig<=tau_ig]",
+    "ratio": "descriptive only"
+  },
+  "point_estimator": {
+    "hierarchy": [
+      "transform",
+      "base",
+      "source_parent",
+      "dependency_cluster",
+      "overall"
+    ],
+    "weights": "equal at each stated macro level",
+    "range": [
+      0,
+      1
+    ],
+    "formal_score": "F equals the invariant satisfaction fraction; no chance-centered transform is defined"
+  },
+  "uncertainty": {
+    "unit": "dependency_cluster",
+    "method": "nonparametric cluster bootstrap carrying complete parent/base/panel bundles",
+    "draws": 20000,
+    "seed": 15005,
+    "interval": "two-sided percentile 95%",
+    "cross_model": "paired cluster draws"
+  },
+  "precision": {
+    "calculation": "float64",
+    "random_generator": "numpy PCG64"
+  },
+  "required_release_qc": [
+    "identity transform satisfaction",
+    "finite representation/action-output/residual/scale/tolerance/ratio with overflow-safe norm",
+    "complete transform bundle",
+    "hash-bound behavioral identity/composition/inverse operator evidence for equivariant branch",
+    "zero and nonzero constant invariant representations execute through the real evaluator and yield F=1"
+  ],
+  "reporting": [
+    "F",
+    "F 95% cluster-bootstrap interval",
+    "raw residual summary",
+    "residual/tolerance ratio summary",
+    "transform-stratum satisfaction",
+    "coverage/failure provenance"
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "C_RNA10_ASSAY_REFSET_CONTRACT_SCHEMA_v1.0.4_20261009",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "release_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "release_id",
+        "artifact_id",
+        "semantic_content_hash",
+        "schema_id",
+        "schema_version"
+      ],
+      "properties": {
+        "release_id": {
+          "type": "string"
+        },
+        "artifact_id": {
+          "type": "string"
+        },
+        "semantic_content_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "schema_id": {
+          "type": "string"
+        },
+        "schema_version": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        }
+      }
+    },
+    "artifact_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact_id",
+        "semantic_hash",
+        "byte_hash",
+        "payload_key",
+        "media_type",
+        "serialization_contract_ref"
+      ],
+      "properties": {
+        "artifact_id": {
+          "type": "string"
+        },
+        "semantic_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "byte_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "payload_key": {
+          "type": "string"
+        },
+        "media_type": {
+          "type": "string"
+        },
+        "serialization_contract_ref": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "ContractRelease"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "required": [
+    "artifact_type",
+    "schema_version",
+    "status",
+    "publication_status",
+    "constraint_id",
+    "parent_bindings",
+    "truth_semantics",
+    "reference_population",
+    "source_dependency_ledger",
+    "source_qc_gate",
+    "lifecycle_bindings",
+    "comparator_boundary",
+    "deferred_to_numeric_method",
+    "release_gate",
+    "prohibitions"
+  ],
+  "properties": {
+    "artifact_type": {
+      "const": "AssayRefSetContract"
+    },
+    "schema_version": {
+      "const": "v1.0.4"
+    },
+    "status": {
+      "const": "FROZEN"
+    },
+    "publication_status": {
+      "const": "RELEASED"
+    },
+    "constraint_id": {
+      "const": "C-RNA-10"
+    },
+    "parent_bindings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scientific_word",
+        "interface_contract",
+        "assay_spec"
+      ],
+      "properties": {
+        "scientific_word": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "ScientificWord"
+                }
+              }
+            }
+          ]
+        },
+        "interface_contract": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "InterfaceContract"
+                }
+              }
+            }
+          ]
+        },
+        "assay_spec": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "AssaySpecRelease"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "truth_semantics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_only_before_model_execution",
+        "disrupting_delta_inclusion_lte",
+        "preserving_absolute_delta_inclusion_lte",
+        "gray_or_out_of_primary",
+        "source_qc_or_reconstruction_failure",
+        "non_single_snv"
+      ],
+      "properties": {
+        "source_only_before_model_execution": {
+          "const": true
+        },
+        "disrupting_delta_inclusion_lte": {
+          "const": -0.5
+        },
+        "preserving_absolute_delta_inclusion_lte": {
+          "const": 0.1
+        },
+        "gray_or_out_of_primary": {
+          "const": "all remaining quantitatively valid outcomes among source-QC-admitted, successfully reconstructed single-SNV relations"
+        },
+        "source_qc_or_reconstruction_failure": {
+          "const": "INELIGIBLE_ATTRITION"
+        },
+        "non_single_snv": {
+          "const": "INELIGIBLE_ATTRITION"
+        }
+      }
+    },
+    "reference_population": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary_source",
+        "input_object",
+        "eligibility",
+        "complete_block",
+        "canonical_site_policy",
+        "external_validation",
+        "unresolved_gene_policy"
+      ],
+      "properties": {
+        "primary_source": {
+          "const": "MFASS natural-SNV reporter experiment"
+        },
+        "input_object": {
+          "const": "exact assayed WT insert and exact single-SNV mutant"
+        },
+        "eligibility": {
+          "type": "string"
+        },
+        "complete_block": {
+          "const": "same exact WT insert, construct, source condition and truth-rule version; both DISRUPTING and PRESERVING classes nonempty; retain all admitted DISRUPTING and PRESERVING relations"
+        },
+        "canonical_site_policy": {
+          "const": "retained in primary"
+        },
+        "external_validation": {
+          "const": "Vex-seq is separate and never merged into MFASS primary"
+        },
+        "unresolved_gene_policy": {
+          "type": "string"
+        }
+      }
+    },
+    "source_dependency_ledger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "node",
+        "edge_if_any",
+        "no_family_homology_or_genomic_neighborhood_closure",
+        "unit",
+        "purpose"
+      ],
+      "properties": {
+        "node": {
+          "type": "string"
+        },
+        "edge_if_any": {
+          "const": [
+            "same resolved canonical gene",
+            "exact WT insert duplicate",
+            "duplicate or repeated construct or source instance"
+          ]
+        },
+        "no_family_homology_or_genomic_neighborhood_closure": {
+          "const": true
+        },
+        "unit": {
+          "type": "string"
+        },
+        "purpose": {
+          "type": "string"
+        }
+      }
+    },
+    "source_qc_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authority_release",
+        "near_neutral_resolution_evidence",
+        "source_qc_precondition",
+        "binding"
+      ],
+      "properties": {
+        "authority_release": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "MaterializationRelease"
+                }
+              }
+            }
+          ]
+        },
+        "near_neutral_resolution_evidence": {
+          "$ref": "#/$defs/artifact_ref"
+        },
+        "source_qc_precondition": {
+          "const": "abs(V1_delta_I_MFASS-V2_delta_I_MFASS)<=0.20"
+        },
+        "binding": {
+          "type": "string"
+        }
+      }
+    },
+    "lifecycle_bindings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reference_design_release_ref",
+        "assay_refset_candidate_ref",
+        "candidate_semantic_content_hash",
+        "reference_eligibility_payload_artifact_ref",
+        "eligibility_ledger_hash",
+        "reference_audit_report_release_ref",
+        "assay_refset_release_ref",
+        "assay_spec_release_ref",
+        "assay_spec_compatibility_hash",
+        "eligible_bundle_ids_hash",
+        "release_outputs",
+        "execution_parity"
+      ],
+      "properties": {
+        "reference_design_release_ref": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "ReferenceDesignRelease"
+                }
+              }
+            }
+          ]
+        },
+        "assay_refset_candidate_ref": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "AssayRefSetCandidate"
+                }
+              }
+            }
+          ]
+        },
+        "candidate_semantic_content_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "reference_eligibility_payload_artifact_ref": {
+          "$ref": "#/$defs/artifact_ref"
+        },
+        "eligibility_ledger_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "reference_audit_report_release_ref": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "ReferenceAuditReport"
+                }
+              }
+            }
+          ]
+        },
+        "assay_refset_release_ref": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "AssayRefSetRelease"
+                }
+              }
+            }
+          ]
+        },
+        "assay_spec_release_ref": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/release_ref"
+            },
+            {
+              "properties": {
+                "schema_id": {
+                  "const": "AssaySpecRelease"
+                }
+              }
+            }
+          ]
+        },
+        "assay_spec_compatibility_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "eligible_bundle_ids_hash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "release_outputs": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "accepted_objects",
+            "complete_bundle_ledger",
+            "contrast_definition_ledger",
+            "dependency_unit_ledger",
+            "uncertainty_cluster_ledger",
+            "attrition_ledger",
+            "reference_coverage_manifest"
+          ],
+          "properties": {
+            "accepted_objects": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/artifact_ref"
+              }
+            },
+            "complete_bundle_ledger": {
+              "$ref": "#/$defs/artifact_ref"
+            },
+            "contrast_definition_ledger": {
+              "$ref": "#/$defs/artifact_ref"
+            },
+            "dependency_unit_ledger": {
+              "$ref": "#/$defs/artifact_ref"
+            },
+            "uncertainty_cluster_ledger": {
+              "$ref": "#/$defs/artifact_ref"
+            },
+            "attrition_ledger": {
+              "$ref": "#/$defs/artifact_ref"
+            },
+            "reference_coverage_manifest": {
+              "$ref": "#/$defs/artifact_ref"
+            }
+          }
+        },
+        "execution_parity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "population_identity_sha256",
+            "gene_mapping_audit"
+          ],
+          "properties": {
+            "population_identity_sha256": {
+              "const": "27c3d6c570925ac65eed0441be8fc2dba775212476be258119965104bbb12a58"
+            },
+            "gene_mapping_audit": {
+              "$ref": "#/$defs/artifact_ref"
+            }
+          }
+        }
+      }
+    },
+    "comparator_boundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "intrinsic_primary_comparator",
+        "predictor_outputs"
+      ],
+      "properties": {
+        "intrinsic_primary_comparator": {
+          "type": "string"
+        },
+        "predictor_outputs": {
+          "type": "string"
+        }
+      }
+    },
+    "deferred_to_numeric_method": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "release_gate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "requires",
+        "invariant"
+      ],
+      "properties": {
+        "requires": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "invariant": {
+          "type": "string"
+        }
+      }
+    },
+    "prohibitions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

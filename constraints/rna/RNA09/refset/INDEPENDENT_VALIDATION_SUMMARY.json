@@ -1,0 +1,29 @@
+{
+  "allocation_independently_recomputed": true,
+  "artifact_type": "RNA09_V021_INDEPENDENT_PANEL_VALIDATION",
+  "assay_induced_reuse_excluded_from_source_dependency": [
+    "shared endpoint",
+    "reused pair score",
+    "shared candidate pool",
+    "relation overlap"
+  ],
+  "cap_respected": true,
+  "counts": {
+    "anchor_bundles": 25,
+    "anchors": 25,
+    "contrasts": 48,
+    "negative_targets": 21,
+    "positive_targets": 23,
+    "source_dependency_units": 22,
+    "source_parents": 25
+  },
+  "exact_selected_contrast_membership_match": true,
+  "planned_population_identity_reconstructed": true,
+  "role_specific_cap": 4,
+  "source_dependency_reconstructed_from": [
+    "RNA3DHub equivalence class",
+    "exact sequence duplicate"
+  ],
+  "source_unit_membership_match": true,
+  "status": "PASS"
+}

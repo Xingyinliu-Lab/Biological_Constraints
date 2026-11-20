@@ -1,0 +1,33 @@
+{
+  "model_id": "prott5",
+  "domain": "protein_sequence",
+  "evidence_status": "READ_ONLY_VERIFIED_ON_EXECUTION_HOST",
+  "verified_on": "kt",
+  "verified_date": "2026-10-16",
+  "executed_python": "/home/mik/u8t/ai_genome/third_models_20260914/env_esmc_py312/bin/python",
+  "python_version": "3.12.13",
+  "cuda_runtime_reported_by_torch": "13.0",
+  "installed_packages_used_or_relevant_to_the_forward": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "safetensors": "0.8.0",
+    "torch": "2.11.0",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2",
+    "biopython": "1.88",
+    "biotite": "1.7.1"
+  },
+  "imports_observed_in_public_execution_assets": [
+    "esm",
+    "numpy",
+    "safetensors",
+    "sequence_models",
+    "sklearn",
+    "torch",
+    "transformers"
+  ],
+  "checkpoint_identity": "checkpoint_identity.json",
+  "scope_note": "This records the extant environment used by the published forward. It is not a newly solved cross-model environment."
+}

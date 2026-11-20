@@ -1,0 +1,19 @@
+{
+  "assay_id": "C-RNA-10",
+  "constraint_release": "v0.1.3_F_ONLY",
+  "formal_interface": "F_ONLY",
+  "formal_output": {
+    "path": "output/FORMAL_RESULT.json",
+    "sha256": "8fb537a7707e9b10c1bcf890aaf9ade476aab5069bf797f49cc7093f9fd909f2"
+  },
+  "forward_output": {
+    "bytes": 1501458,
+    "filename": "REPRESENTATIONS.npz",
+    "sha256": "25bd880a3824ab9e3b56436748f32f7d9c8896ddfaf18a51d82dc3a9f0b9f693"
+  },
+  "forward_output_not_redistributed": true,
+  "model_id": "ernie-rna",
+  "public_scorer": "constraints/rna/RNA10/scoring/score_rna10.py",
+  "public_scorer_sha256": "667c0f4c5aec2a679fc334d43e262443a024446c8cecfb1518836448b35561e2",
+  "status": "PASS"
+}

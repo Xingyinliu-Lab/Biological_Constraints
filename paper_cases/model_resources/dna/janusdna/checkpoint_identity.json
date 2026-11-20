@@ -1,0 +1,37 @@
+{
+  "model_id": "janusdna",
+  "domain": "dna",
+  "status": "EXECUTED_CHECKPOINT_HASH_RECORDED",
+  "identity_policy": "Evidence is copied from formal execution records; missing source, download, revision, tokenizer/config or license fields are not inferred.",
+  "official_source": "https://github.com/Qihao-Duan/JanusDNA",
+  "upstream_revision": "NOT_RECORDED_IN_FORMAL_EXECUTION",
+  "executed_checkpoint_hashes": [
+    {
+      "value": "c1dc802dc88c298672f9c1ceb2fda009dab6a2eef2c0551d046fcda3b1b628e2",
+      "source": "results/dna/DNA02-02/models/janusdna/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256"
+    }
+  ],
+  "tokenizer_config_identity": [
+    {
+      "value": "c1dc802dc88c298672f9c1ceb2fda009dab6a2eef2c0551d046fcda3b1b628e2",
+      "source": "results/dna/DNA02-02/models/janusdna/provenance/MODEL_INTERFACE.json",
+      "field": "checkpoint_sha256",
+      "asset_context": "DNA01_MODEL_INTERFACE c1dc802dc88c298672f9c1ceb2fda009dab6a2eef2c0551d046fcda3b1b628e2 primary and repeat passes executed concurrently on separate GPUs with identical frozen inputs and seed JanusDNA_len1k_dmodel32_interdim128_8layers 1024 janusdna EMPIRICAL_SHARED_AFFINE model float16; pooling and released vectors float32 native JanusDNA final bidirectional-fusion hidden state; mean over real bases within each nonoverlapping 1000-bp window; bp-weighted window mean EXECUTED_FROZEN_INTERFACE official CharacterTokenizer ids: A/C/G/T/N=7/8/9/10/11; PAD=4; no added special tokens 1000"
+    }
+  ],
+  "download": {
+    "method": "formal execution reused the frozen JanusDNA source, config, and checkpoint assets recorded by DNA01",
+    "note": "The checkpoint was not redownloaded for later constraints."
+  },
+  "loading": "Import JanusDNA classes from the frozen source tree; construct the model from config.yaml; torch.load(last.ckpt, map_location='cpu')['state_dict']; apply the recorded output-projection compatibility remap; load_state_dict(..., strict=False) with fail-closed missing/unexpected-key checks; eval().cuda()",
+  "executed_local_paths_for_filename_context": [
+    "/home/mik/u8t/ai_genome/bc_v1_reference_build/model_interfaces_v0.1.0_20261002/JanusDNA",
+    "/home/mik/u8t/ai_genome/results/DNA01_FORMAL_SCORING_v0.1.1_20261013/janus_runtime/config.yaml",
+    "/home/mik/u8t/ai_genome/results/DNA01_FORMAL_SCORING_v0.1.1_20261013/janus_runtime/last.ckpt"
+  ],
+  "formal_evidence_files": [
+    "results/dna/DNA02-02/models/janusdna/provenance/EXECUTION_BINDING.json",
+    "results/dna/DNA02-02/models/janusdna/provenance/MODEL_INTERFACE.json"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "contract": {
+    "entries": [
+      {
+        "metric_id": "F_PS05",
+        "neutral": 0,
+        "range": [
+          -1,
+          1
+        ],
+        "role": "PRIMARY"
+      }
+    ]
+  },
+  "schema_id": "ps05.MetricRegistry",
+  "schema_version": "1.0.0",
+  "status": "FROZEN"
+}

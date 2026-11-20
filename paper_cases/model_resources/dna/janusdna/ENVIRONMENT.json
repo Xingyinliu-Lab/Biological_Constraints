@@ -1,0 +1,26 @@
+{
+  "model_id": "janusdna",
+  "domain": "dna",
+  "evidence_status": "READ_ONLY_VERIFIED_ON_EXECUTION_HOST",
+  "verified_on": "kt",
+  "verified_date": "2026-10-16",
+  "executed_python": "/home/mik/u8t/ai_genome/dna_models/envs_20261014/janusdna/bin/python",
+  "python_version": "3.11.9",
+  "cuda_runtime_reported_by_torch": "12.1",
+  "installed_packages_used_or_relevant_to_the_forward": {
+    "numpy": "2.4.6",
+    "safetensors": "0.5.2",
+    "torch": "2.5.0",
+    "transformers": "4.49.0",
+    "huggingface-hub": "0.36.2"
+  },
+  "imports_observed_in_public_execution_assets": [
+    "janusdna",
+    "numpy",
+    "torch",
+    "transformers",
+    "yaml"
+  ],
+  "checkpoint_identity": "checkpoint_identity.json",
+  "scope_note": "This records the extant environment used by the published forward. It is not a newly solved cross-model environment."
+}

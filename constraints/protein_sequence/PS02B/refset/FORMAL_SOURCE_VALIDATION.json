@@ -1,0 +1,17 @@
+{
+  "release_id": "PS02B_ASSAY_REFSET_RELEASE_v1.0.0_L_20261006",
+  "formal_status": "FROZEN",
+  "source_selected_relation_ledger": {
+    "path": "/home/mik/u8t/ai_genome/biological_constraints/rs_ps02b_l_development_refset_candidate_v0.1.0_20260930/SELECTED_CORE_RELATIONS.tsv.gz",
+    "sha256": "bb33626e19f284a28ab4f32f4a8a66f92566f5c305e437fe9f9dcb60c60d32ad",
+    "rows": 8208
+  },
+  "validation": {
+    "relations": 8208,
+    "unique_objects": 3905,
+    "topology_hsf_violations": 0,
+    "point_units": 351,
+    "uncertainty_groups": 351
+  },
+  "note": "Formal release reconstructed from source-only selected relations; no model score or model output was consumed."
+}

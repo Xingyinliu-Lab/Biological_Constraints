@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "bytes": 3254840,
+      "path": "DEPENDENCY_AGGREGATION_LEDGER.tsv.gz",
+      "sha256": "fc8602bc873bba1a027710cf7b894067053e968648d0245ed3b366489fd552a9"
+    },
+    {
+      "bytes": 1042297,
+      "path": "INDIVIDUAL_SCORES.tsv.gz",
+      "sha256": "89859d622e551790dbe317e4afd2e94fa2c775eabc875e208a56323ca9d06dc4"
+    },
+    {
+      "bytes": 195035,
+      "path": "RAW_MEASUREMENTS.tsv.gz",
+      "sha256": "9553e3ed808b0ade3a250014bf2ab5d0f649439a079ddcb3c63cf56fe6ff5ea4"
+    },
+    {
+      "bytes": 624827,
+      "path": "SCORE_SUMMARY.json",
+      "sha256": "80b77043fd6ebc894fa938b192f549b1cfa33bab28645414c7f39ab0935222ab"
+    }
+  ],
+  "status": "PASS"
+}

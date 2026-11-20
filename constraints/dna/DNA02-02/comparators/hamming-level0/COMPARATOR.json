@@ -1,0 +1,10 @@
+{
+  "constraint_id": "C-DNA-02-02",
+  "model_key": "hamming_level0",
+  "status": "FROZEN_ANALYTIC_COMPARATOR",
+  "class": "LEVEL_0_GEOMETRIC_TRUTH",
+  "distance": "HAMMING_DISTANCE",
+  "truth": "d(x0,x1)=1, d(x1,x2)=1, d(x0,x2)=2",
+  "training": false,
+  "tau": "NOT_APPLICABLE"
+}

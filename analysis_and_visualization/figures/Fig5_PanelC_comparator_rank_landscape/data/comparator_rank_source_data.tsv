@@ -1,0 +1,23 @@
+Constraint	Model	F	source	within_constraint_rank	panel_size	Comparator	Comparator_F	Level	Domain	x	Short_name
+DNA01	Comparator	1	Comparator	1	6	4-mer RC permutation	1	Level 0	DNA	1	Reverse Complement
+DNA02-02	Comparator	1	Comparator	1	6	Hamming	1	Level 0	DNA	2	DNA Edit Adjacency
+DNA03	Comparator	1	Comparator	1	6	Exact core containment	1	Level 0	DNA	3	Context Extension
+DNA06	Comparator	1	Comparator	1	6	Genetic code	1	Level 0	DNA	4	Codon Consequence
+RNA01-02	Comparator	1	Comparator	1	6	Exact Hamming	1	Level 0	RNA	6	RNA Edit Adjacency
+RNA04	Comparator	1	Comparator	1	6	CDS genetic code	1	Level 0	RNA	7	RNA Coding Consequence
+RNA05	Comparator	0.702226	Comparator	1	6	ViennaRNA pairing	0.702226	Level 1	RNA	8	Pairing State
+RNA06	Comparator	0.94734	Comparator	1	6	ViennaRNA partner probability	0.94734	Level 1	RNA	9	Partner Specificity
+RNA09	Comparator	0.78788	Comparator	2	6	RNApaln	0.78788	Level 1	RNA	10	Remote RNA Structure
+RNA10	Comparator	0.3312	Comparator	2	6	Positional k-mer ridge	0.3312	Level 1	RNA	11	Exon Recognition
+PS01	Comparator	0.81295	Comparator	1	6	NW+BLOSUM62	0.81295	Level 1	Protein sequence	13	Family Identity
+PS02A	Comparator	0.349632	Comparator	5	6	NW+BLOSUM62	0.349632	Level 1	Protein sequence	14	Clan Homology
+PS02B	Comparator	0.37973	Comparator	3	6	NW+BLOSUM62	0.37973	Level 1	Protein sequence	15	Remote Homology
+PS04	Comparator	0.23772	Comparator	4	6	NW+BLOSUM62	0.23772	Level 1	Protein sequence	16	Topology Relation
+PS05	Comparator	0.288054	Comparator	5	6	NW+BLOSUM62	0.288054	Level 1	Protein sequence	17	Structural Resemblance
+PS08	Comparator	1	Comparator	1	6	Hamming	1	Level 0	Protein sequence	18	Protein Edit Adjacency
+PS09	Comparator	0.59143	Comparator	6	6	IUPred2A	0.59143	Level 1	Protein sequence	19	Order-Disorder
+PS10	Comparator	0.630843	Comparator	1	6	TANGO	0.630843	Level 1	Protein sequence	20	Amyloid Propensity
+ST01	Comparator	1	Comparator	1	6	Geometry white-box	1	Level 0	Protein structure	22	Global Fold Similarity
+ST02	Comparator	0.61797	Comparator	1	6	TM-align	0.61797	Level 1	Protein structure	23	Structural Neighborhood
+ST04	Comparator	1	Comparator	1	6	Geometry white-box	1	Level 0	Protein structure	24	Long-Range Contacts
+ST05	Comparator	1	Comparator	1	6	Geometry white-box	1	Level 0	Protein structure	25	Rigid-Body Invariance

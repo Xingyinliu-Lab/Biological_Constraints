@@ -1,0 +1,11 @@
+{
+  "assay_id": "C-RNA-06",
+  "method_id": "RNA06-Numeric-Method-v0.1.3-F-Only",
+  "formal_reporting_score": "F",
+  "evaluation_credit": {"win": 1, "tie": 0, "loss": -1},
+  "aggregation": "equal paired nonpartner -> directed endpoint -> reciprocal edge -> parent -> outer dependency cluster macro",
+  "readout": "L2 ridge logistic regression on concatenated vector sum and Hadamard product, with fixed leave-one-cluster-out evaluation and four-fold inner lambda selection",
+  "uncertainty": {"unit": "outer dependency cluster", "bootstrap_replicates": 20000, "bootstrap_seed": 20261003, "reported_interval": "F_95_CI"},
+  "formal_population": {"directed_endpoints": 3176, "paired_nonpartner_candidates": 14948, "reciprocal_edges": 1588, "parents": 104, "outer_dependency_clusters": 20},
+  "status": "CURRENT_F_ONLY"
+}
